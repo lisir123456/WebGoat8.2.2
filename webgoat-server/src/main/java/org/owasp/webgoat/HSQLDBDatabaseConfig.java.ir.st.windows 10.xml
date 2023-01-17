@@ -1,0 +1,946 @@
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+#source-type java
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 28
+ #14# :public::class: org.owasp.webgoat.HSQLDBDatabaseConfig :extends: java.lang.Object :"org.owasp.webgoat":"HSQLDBDatabaseConfig"
+	:[[: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 25
+ #1# {
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #1# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #1# < org.springframework.context.annotation.Configuration :*: > -~> ~annotation ( ):]]:
+
+	:[[: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 26
+ #1# {
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #1# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #1# < lombok.extern.slf4j.Slf4j :*: > -~> ~annotation ( ):]]:
+
+	:[[: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 27
+ #1# {
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #1# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #1# < org.springframework.boot.autoconfigure.condition.ConditionalOnProperty :*: > -~> ~annotation ( prefix:  "webgoat.start" , name:  "hsqldb" , havingValue:  "true" ):]]:
+{
+	
+ 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 31
+ #17# :private: :int: hsqldbPort
+	:[[: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 30
+ #5# {
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #5# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #5# < org.springframework.beans.factory.annotation.Value :*: > -~> ~annotation ( value:  "${hsqldb.port:9001}" ):]]:
+;
+ 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 26
+ #1# :private: :final: :static: org.slf4j.Logger :*: log;
+ 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 32
+ #20# :private: org.hsqldb.server.Server :*: server;
+ 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 35
+ #19# :public: org.hsqldb.server.Server :*: org~owasp~webgoat~HSQLDBDatabaseConfig~~hsqlStandalone~Lorg~owasp~webgoat~HSQLDBDatabaseConfig^Ljava~lang~String^Z^Z^Ljava~lang~String^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #19# org.owasp.webgoat.HSQLDBDatabaseConfig :*: this~ , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #79# java.lang.String :*: directory
+	:[[: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# {
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# < org.springframework.beans.factory.annotation.Value :*: > -~> ~annotation ( value:  "${webgoat.server.directory}" ):]]:
+ , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 36
+ #74# :boolean: silent
+	:[[: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# {
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# < org.springframework.beans.factory.annotation.Value :*: > -~> ~annotation ( value:  "${hsqldb.silent:true}" ):]]:
+ , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 37
+ #74# :boolean: trace
+	:[[: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# {
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# < org.springframework.beans.factory.annotation.Value :*: > -~> ~annotation ( value:  "${hsqldb.trace:false}" ):]]:
+ , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 38
+ #69# java.lang.String :*: address
+	:[[: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# {
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# < org.springframework.beans.factory.annotation.Value :*: > -~> ~annotation ( value:  "${server.address}" ):]]:
+ ) :  "hsqlStandalone"
+	:[[: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 34
+ #5# {
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #5# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #5# < org.springframework.context.annotation.Bean :*: > -~> ~annotation ( initMethod:  "start" , destroyMethod:  "stop" ):]]:
+ 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 38
+ #78# {
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 39
+ #18# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #18# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #18# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #18# 	~t0 :=: "Starting internal database on port {} ..." ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	-~> org~slf4j~Logger~~info~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	[ org.owasp.webgoat.HSQLDBDatabaseConfig ] log , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #18# 	~t0 , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #63# 	[ org.owasp.webgoat.HSQLDBDatabaseConfig ] ( this~ ) :.: hsqldbPort ) ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 40
+ #18# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #18# 	org.hsqldb.server.Server :*: ~t1 ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #18# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #18# 	~t1 :=: :new: org.hsqldb.server.Server ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #18# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #18# 	-~> org~hsqldb~server~Server~~init^~Lorg~hsqldb~server~Server^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #18# 	~t1 ) ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	[ org.owasp.webgoat.HSQLDBDatabaseConfig ] ( this~ ) :.: server :=: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #18# 	~t1 ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 41
+ #32# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #32# 	:int: ~t2 ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #32# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #32# 	~t2 :=: < :int: >0 ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #35# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #35# 	java.lang.String :*: ~t3 ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #35# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #35# 	~t3 :=: "webgoat" ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	-~> org~hsqldb~server~Server~~setDatabaseName~Lorg~hsqldb~server~Server^I^Ljava~lang~String^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	[ org.owasp.webgoat.HSQLDBDatabaseConfig ] ( this~ ) :.: server , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #32# 	~t2 , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #35# 	~t3 ) ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 42
+ #32# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #32# 	:int: ~t4 ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #32# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #32# 	~t4 :=: < :int: >0 ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #35# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #35# 	java.lang.String :*: ~t5 ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #35# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #35# 	~t5 :=: ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #35# 	directory :+: "/data/webgoat" ) ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	-~> org~hsqldb~server~Server~~setDatabasePath~Lorg~hsqldb~server~Server^I^Ljava~lang~String^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	[ org.owasp.webgoat.HSQLDBDatabaseConfig ] ( this~ ) :.: server , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #32# 	~t4 , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #35# 	~t5 ) ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 43
+ #26# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #26# 	:boolean: ~t6 ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #26# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #26# 	~t6 :=: :true: ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	-~> org~hsqldb~server~Server~~setDaemon~Lorg~hsqldb~server~Server^Z^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	[ org.owasp.webgoat.HSQLDBDatabaseConfig ] ( this~ ) :.: server , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #26# 	~t6 ) ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 44
+ #9# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	-~> org~hsqldb~server~Server~~setAddress~Lorg~hsqldb~server~Server^Ljava~lang~String^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	[ org.owasp.webgoat.HSQLDBDatabaseConfig ] ( this~ ) :.: server , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #27# 	address ) ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 45
+ #9# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	-~> org~hsqldb~server~Server~~setTrace~Lorg~hsqldb~server~Server^Z^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	[ org.owasp.webgoat.HSQLDBDatabaseConfig ] ( this~ ) :.: server , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #25# 	trace ) ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 46
+ #9# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	-~> org~hsqldb~server~Server~~setSilent~Lorg~hsqldb~server~Server^Z^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	[ org.owasp.webgoat.HSQLDBDatabaseConfig ] ( this~ ) :.: server , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #26# 	silent ) ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 47
+ #9# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	-~> org~hsqldb~server~Server~~setPort~Lorg~hsqldb~server~Server^I^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	[ org.owasp.webgoat.HSQLDBDatabaseConfig ] ( this~ ) :.: server , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #24# 	[ org.owasp.webgoat.HSQLDBDatabaseConfig ] ( this~ ) :.: hsqldbPort ) ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 48
+ #9# 	:return: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #16# 	[ org.owasp.webgoat.HSQLDBDatabaseConfig ] ( this~ ) :.: server ;
+
+#source-line 49
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 52
+ #17# :public: :void: org~owasp~webgoat~HSQLDBDatabaseConfig~~shutdown~Lorg~owasp~webgoat~HSQLDBDatabaseConfig^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #17# org.owasp.webgoat.HSQLDBDatabaseConfig :*: this~ ) :  "shutdown"
+	:[[: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 51
+ #5# {
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #5# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #5# < javax.annotation.PreDestroy :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 52
+ #28# {
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 53
+ #33# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #33# 	:int: ~t0 ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #33# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #33# 	~t0 :=: < :int: >1 ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	-~> org~hsqldb~server~Server~~shutdownCatalogs~Lorg~hsqldb~server~Server^I^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	[ org.owasp.webgoat.HSQLDBDatabaseConfig ] ( this~ ) :.: server , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #33# 	~t0 ) ;
+
+#source-line 54
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 59
+ #23# :public: javax.sql.DataSource :*: org~owasp~webgoat~HSQLDBDatabaseConfig~~dataSource~Lorg~owasp~webgoat~HSQLDBDatabaseConfig^Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #23# org.owasp.webgoat.HSQLDBDatabaseConfig :*: this~ , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #76# java.lang.String :*: url
+	:[[: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# {
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# < org.springframework.beans.factory.annotation.Value :*: > -~> ~annotation ( value:  "${spring.datasource.url}" ):]]:
+ , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 60
+ #90# java.lang.String :*: driverClassName
+	:[[: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# {
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #34# < org.springframework.beans.factory.annotation.Value :*: > -~> ~annotation ( value:  "${spring.datasource.driver-class-name}" ):]]:
+ ) :  "dataSource"
+	:[[: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 56
+ #5# {
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #5# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #5# < org.springframework.context.annotation.Bean :*: > -~> ~annotation ( ):]]:
+
+	:[[: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 57
+ #5# {
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #5# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #5# < org.springframework.context.annotation.DependsOn :*: > -~> ~annotation ( value:  "hsqlStandalone" ):]]:
+
+	:[[: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 58
+ #5# {
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #5# 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #5# < org.springframework.context.annotation.Primary :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 60
+ #107# {
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 61
+ #33# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #33# 	org.springframework.jdbc.datasource.DriverManagerDataSource :*: driverManagerDataSource ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #59# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #59# 	org.springframework.jdbc.datasource.DriverManagerDataSource :*: ~t0 ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #59# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #59# 	~t0 :=: :new: org.springframework.jdbc.datasource.DriverManagerDataSource ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #59# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #59# 	-~> org~springframework~jdbc~datasource~DriverManagerDataSource~~init^~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~lang~String^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #59# 	~t0 , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #87# 	url ) ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #33# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #33# 	driverManagerDataSource :=: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #59# 	~t0 ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 62
+ #9# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	-~> org~springframework~jdbc~datasource~DriverManagerDataSource~~setDriverClassName~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~lang~String^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #9# 	driverManagerDataSource , 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #52# 	driverClassName ) ;
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 63
+ #9# 	:return: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #16# 	driverManagerDataSource ;
+
+#source-line 64
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 28
+ #14# :public: :void: org~owasp~webgoat~HSQLDBDatabaseConfig~~init^~Lorg~owasp~webgoat~HSQLDBDatabaseConfig^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #14# org.owasp.webgoat.HSQLDBDatabaseConfig :*: this~ ) :  "init^" 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #14# {
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #14# 	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #14# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+}
+
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #14# :public: :static: :void: org~owasp~webgoat~HSQLDBDatabaseConfig~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #14# {
+	
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+
+#source-line 26
+ #1# 	{
+		
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #1# 		
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #1# 		java.lang.Class :*: ~t0 ;
+		
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #1# 		
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #1# 		~t0 :=: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #1# 		< java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.HSQLDBDatabaseConfig :*: > :null: ) ;
+		
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #1# 		
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #1# 		[ org.owasp.webgoat.HSQLDBDatabaseConfig ] log :=: 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #1# 		-~> org~slf4j~LoggerFactory~~getLogger~S~Ljava~lang~Class^ ( 
+#source-file webgoat-server\src\main\java\org\owasp\webgoat\HSQLDBDatabaseConfig.java
+ #1# 		~t0 ) ;
+	}
+
+#source-line 28
+}
+#source-line 28
+}
+	
+:public: :interface::class: org.slf4j.Logger :extends: java.lang.Object :"org.slf4j":"Logger"{
+	
+ :public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Ljava~lang~String^ ( org.slf4j.Logger :*: , java.lang.String :*: ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Ljava~lang~String^?Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Throwable^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^?Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Throwable^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "info" ;
+}
+	
+:public::class: org.hsqldb.server.Server :extends: java.lang.Object org.hsqldb.server.HsqlSocketRequestHandler org.hsqldb.lib.Notified :"org.hsqldb.server":"Server"{
+	
+ :public: :static: java.lang.Throwable :*: org~hsqldb~server~Server~~openServerSocket~Lorg~hsqldb~server~Server^~throws;
+ :public: :static: java.lang.Throwable :*: org~hsqldb~server~Server~~setProperties~Lorg~hsqldb~server~Server^Ljava~util~Properties^~throws;
+ :public: :static: java.lang.Throwable :*: org~hsqldb~server~Server~~setProperties~Lorg~hsqldb~server~Server^Lorg~hsqldb~persist~HsqlProperties^~throws;
+ :public: :void: org~hsqldb~server~Server~~init^~Lorg~hsqldb~server~Server^ ( org.hsqldb.server.Server :*: ) :  "Server" ;
+:protected: :void: org~hsqldb~server~Server~~init^~Lorg~hsqldb~server~Server^I^ ( org.hsqldb.server.Server :*: , :int: ) :  "Server" ;
+:public: :void: org~hsqldb~server~Server~~setAddress~Lorg~hsqldb~server~Server^Ljava~lang~String^ ( org.hsqldb.server.Server :*: , java.lang.String :*: ) :  "setAddress" ;
+:public: :void: org~hsqldb~server~Server~~setDaemon~Lorg~hsqldb~server~Server^Z^ ( org.hsqldb.server.Server :*: , :boolean: ) :  "setDaemon" ;
+:public: :void: org~hsqldb~server~Server~~setDatabaseName~Lorg~hsqldb~server~Server^I^Ljava~lang~String^ ( org.hsqldb.server.Server :*: , :int: , java.lang.String :*: ) :  "setDatabaseName" ;
+:public: :void: org~hsqldb~server~Server~~setDatabasePath~Lorg~hsqldb~server~Server^I^Ljava~lang~String^ ( org.hsqldb.server.Server :*: , :int: , java.lang.String :*: ) :  "setDatabasePath" ;
+:public: :void: org~hsqldb~server~Server~~setPort~Lorg~hsqldb~server~Server^I^ ( org.hsqldb.server.Server :*: , :int: ) :  "setPort" ;
+:public: :void: org~hsqldb~server~Server~~setSilent~Lorg~hsqldb~server~Server^Z^ ( org.hsqldb.server.Server :*: , :boolean: ) :  "setSilent" ;
+:public: :void: org~hsqldb~server~Server~~setTrace~Lorg~hsqldb~server~Server^Z^ ( org.hsqldb.server.Server :*: , :boolean: ) :  "setTrace" ;
+:public: :void: org~hsqldb~server~Server~~shutdown~Lorg~hsqldb~server~Server^ ( org.hsqldb.server.Server :*: ) :  "shutdown" ;
+:protected: :synchronized: :void: org~hsqldb~server~Server~~shutdown~Lorg~hsqldb~server~Server^Z^ ( org.hsqldb.server.Server :*: , :boolean: ) :  "shutdown" ;
+:public: :void: org~hsqldb~server~Server~~shutdownCatalogs~Lorg~hsqldb~server~Server^I^ ( org.hsqldb.server.Server :*: , :int: ) :  "shutdownCatalogs" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+}
+	
+:public: :annotation::class: org.springframework.context.annotation.Configuration :extends: java.lang.annotation.Annotation :"org.springframework.context.annotation":"Configuration"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~context~annotation~Configuration~~value~Lorg~springframework~context~annotation~Configuration^ ( org.springframework.context.annotation.Configuration :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: lombok.extern.slf4j.Slf4j :extends: java.lang.annotation.Annotation :"lombok.extern.slf4j":"Slf4j"{
+	
+}
+	
+ :public: :annotation::class: org.springframework.boot.autoconfigure.condition.ConditionalOnProperty :extends: java.lang.annotation.Annotation :"org.springframework.boot.autoconfigure.condition":"ConditionalOnProperty"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~boot~autoconfigure~condition~ConditionalOnProperty~~havingValue~Lorg~springframework~boot~autoconfigure~condition~ConditionalOnProperty^ ( org.springframework.boot.autoconfigure.condition.ConditionalOnProperty :*: ) :  "havingValue" ;
+:public: :abstract: java.lang.String :*: [] org~springframework~boot~autoconfigure~condition~ConditionalOnProperty~~name~Lorg~springframework~boot~autoconfigure~condition~ConditionalOnProperty^ ( org.springframework.boot.autoconfigure.condition.ConditionalOnProperty :*: ) :  "name" ;
+:public: :abstract: java.lang.String :*: org~springframework~boot~autoconfigure~condition~ConditionalOnProperty~~prefix~Lorg~springframework~boot~autoconfigure~condition~ConditionalOnProperty^ ( org.springframework.boot.autoconfigure.condition.ConditionalOnProperty :*: ) :  "prefix" ;
+:public: :abstract: java.lang.String :*: [] org~springframework~boot~autoconfigure~condition~ConditionalOnProperty~~value~Lorg~springframework~boot~autoconfigure~condition~ConditionalOnProperty^ ( org.springframework.boot.autoconfigure.condition.ConditionalOnProperty :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: org.springframework.beans.factory.annotation.Value :extends: java.lang.annotation.Annotation :"org.springframework.beans.factory.annotation":"Value"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~beans~factory~annotation~Value~~value~Lorg~springframework~beans~factory~annotation~Value^ ( org.springframework.beans.factory.annotation.Value :*: ) :  "value" ;
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+}
+	
+:public: :annotation::class: org.springframework.context.annotation.Bean :extends: java.lang.annotation.Annotation :"org.springframework.context.annotation":"Bean"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~context~annotation~Bean~~destroyMethod~Lorg~springframework~context~annotation~Bean^ ( org.springframework.context.annotation.Bean :*: ) :  "destroyMethod" ;
+:public: :abstract: java.lang.String :*: org~springframework~context~annotation~Bean~~initMethod~Lorg~springframework~context~annotation~Bean^ ( org.springframework.context.annotation.Bean :*: ) :  "initMethod" ;
+:public: :abstract: java.lang.String :*: [] org~springframework~context~annotation~Bean~~name~Lorg~springframework~context~annotation~Bean^ ( org.springframework.context.annotation.Bean :*: ) :  "name" ;
+:public: :abstract: java.lang.String :*: [] org~springframework~context~annotation~Bean~~value~Lorg~springframework~context~annotation~Bean^ ( org.springframework.context.annotation.Bean :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: javax.annotation.PreDestroy :extends: java.lang.annotation.Annotation :"javax.annotation":"PreDestroy"{
+	
+}
+	
+ :public: :interface::class: javax.sql.DataSource :extends: javax.sql.CommonDataSource java.sql.Wrapper :"javax.sql":"DataSource"{
+	
+ :public: :static: java.lang.Throwable :*: javax~sql~DataSource~~getConnection~Ljavax~sql~DataSource^~throws;
+ :public: :static: java.lang.Throwable :*: javax~sql~DataSource~~getConnection~Ljavax~sql~DataSource^Ljava~lang~String^Ljava~lang~String^~throws;
+}
+	
+ :public: :annotation::class: org.springframework.context.annotation.DependsOn :extends: java.lang.annotation.Annotation :"org.springframework.context.annotation":"DependsOn"{
+	
+ :public: :abstract: java.lang.String :*: [] org~springframework~context~annotation~DependsOn~~value~Lorg~springframework~context~annotation~DependsOn^ ( org.springframework.context.annotation.DependsOn :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: org.springframework.context.annotation.Primary :extends: java.lang.annotation.Annotation :"org.springframework.context.annotation":"Primary"{
+	
+}
+	
+ :public::class: org.springframework.jdbc.datasource.DriverManagerDataSource :extends: org.springframework.jdbc.datasource.AbstractDriverBasedDataSource :"org.springframework.jdbc.datasource":"DriverManagerDataSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~DriverManagerDataSource~~getConnectionFromDriver~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~util~Properties^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~DriverManagerDataSource~~getConnectionFromDriverManager~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~lang~String^Ljava~util~Properties^~throws;
+ :public: :void: org~springframework~jdbc~datasource~DriverManagerDataSource~~init^~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^ ( org.springframework.jdbc.datasource.DriverManagerDataSource :*: ) :  "DriverManagerDataSource" ;
+:public: :void: org~springframework~jdbc~datasource~DriverManagerDataSource~~init^~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~lang~String^ ( org.springframework.jdbc.datasource.DriverManagerDataSource :*: , java.lang.String :*: ) :  "DriverManagerDataSource" ;
+:public: :void: org~springframework~jdbc~datasource~DriverManagerDataSource~~init^~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~lang~String^Ljava~util~Properties^ ( org.springframework.jdbc.datasource.DriverManagerDataSource :*: , java.lang.String :*: , java.util.Properties :*: ) :  "DriverManagerDataSource" ;
+:public: :void: org~springframework~jdbc~datasource~DriverManagerDataSource~~init^~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( org.springframework.jdbc.datasource.DriverManagerDataSource :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "DriverManagerDataSource" ;
+:public: :void: org~springframework~jdbc~datasource~DriverManagerDataSource~~setDriverClassName~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~lang~String^ ( org.springframework.jdbc.datasource.DriverManagerDataSource :*: , java.lang.String :*: ) :  "setDriverClassName" ;
+}
+	
+:public: :final::class: java.lang.Class :extends: java.lang.Object java.io.Serializable java.lang.reflect.GenericDeclaration java.lang.reflect.Type java.lang.reflect.AnnotatedElement :"java.lang":"Class"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName0~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor0~Ljava~lang~Class^?Ljava~lang~Class^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredClasses~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaringClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingConstructor~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingMethod~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField0~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~newInstance~Ljava~lang~Class^~throws;
+ :private: :void: java~lang~Class~~init^~Ljava~lang~Class^Ljava~lang~ClassLoader^ ( java.lang.Class :*: , java.lang.ClassLoader :*: ) :  "Class" ;
+}
+	
+:public: :final::class: org.slf4j.LoggerFactory :extends: java.lang.Object :"org.slf4j":"LoggerFactory"{
+	
+ :private: :void: org~slf4j~LoggerFactory~~init^~Lorg~slf4j~LoggerFactory^ ( org.slf4j.LoggerFactory :*: ) :  "LoggerFactory" ;
+:public: :static: org.slf4j.Logger :*: org~slf4j~LoggerFactory~~getLogger~S~Ljava~lang~String^ ( java.lang.String :*: ) :  "getLogger" ;
+:public: :static: org.slf4j.Logger :*: org~slf4j~LoggerFactory~~getLogger~S~Ljava~lang~Class^ ( java.lang.Class :*: ) :  "getLogger" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+}
+	
+:public: :interface::class: org.slf4j.Marker :extends: java.io.Serializable :"org.slf4j":"Marker"{
+	
+}
+	
+ :public: :interface::class: org.hsqldb.server.HsqlSocketRequestHandler :extends: java.lang.Object :"org.hsqldb.server":"HsqlSocketRequestHandler"{
+	
+}
+	
+ :public: :interface::class: org.hsqldb.lib.Notified :extends: java.lang.Object :"org.hsqldb.lib":"Notified"{
+	
+}
+	
+ :public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+}
+	
+ :public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+}
+	
+ :public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: java.lang.String :*: java~nio~charset~Charset~~name~Ljava~nio~charset~Charset^ ( java.nio.charset.Charset :*: ) :  "name" ;
+}
+	
+:public: :interface::class: javax.sql.CommonDataSource :extends: java.lang.Object :"javax.sql":"CommonDataSource"{
+	
+ :public: :static: java.lang.Throwable :*: javax~sql~CommonDataSource~~getLogWriter~Ljavax~sql~CommonDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: javax~sql~CommonDataSource~~getLoginTimeout~Ljavax~sql~CommonDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: javax~sql~CommonDataSource~~getParentLogger~Ljavax~sql~CommonDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: javax~sql~CommonDataSource~~setLogWriter~Ljavax~sql~CommonDataSource^Ljava~io~PrintWriter^~throws;
+ :public: :static: java.lang.Throwable :*: javax~sql~CommonDataSource~~setLoginTimeout~Ljavax~sql~CommonDataSource^I^~throws;
+}
+	
+ :public: :interface::class: java.sql.Wrapper :extends: java.lang.Object :"java.sql":"Wrapper"{
+	
+ :public: :static: java.lang.Throwable :*: java~sql~Wrapper~~isWrapperFor~Ljava~sql~Wrapper^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Wrapper~~unwrap~Ljava~sql~Wrapper^Ljava~lang~Class^~throws;
+}
+	
+ :public: :abstract::class: org.springframework.jdbc.datasource.AbstractDriverBasedDataSource :extends: org.springframework.jdbc.datasource.AbstractDataSource :"org.springframework.jdbc.datasource":"AbstractDriverBasedDataSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDriverBasedDataSource~~getConnection~Lorg~springframework~jdbc~datasource~AbstractDriverBasedDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDriverBasedDataSource~~getConnection~Lorg~springframework~jdbc~datasource~AbstractDriverBasedDataSource^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDriverBasedDataSource~~getConnectionFromDriver~Lorg~springframework~jdbc~datasource~AbstractDriverBasedDataSource^Ljava~util~Properties^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDriverBasedDataSource~~getConnectionFromDriver~Lorg~springframework~jdbc~datasource~AbstractDriverBasedDataSource^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: org~springframework~jdbc~datasource~AbstractDriverBasedDataSource~~init^~Lorg~springframework~jdbc~datasource~AbstractDriverBasedDataSource^ ( org.springframework.jdbc.datasource.AbstractDriverBasedDataSource :*: ) :  "AbstractDriverBasedDataSource" ;
+}
+	
+:public::class: java.util.Properties :extends: java.util.Hashtable :"java.util":"Properties"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~load~Ljava~util~Properties^Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~load~Ljava~util~Properties^Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~load0~Ljava~util~Properties^Ljava~util~Properties$LineReader^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~loadFromXML~Ljava~util~Properties^Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~store~Ljava~util~Properties^Ljava~io~Writer^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~store~Ljava~util~Properties^Ljava~io~OutputStream^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~store0~Ljava~util~Properties^Ljava~io~BufferedWriter^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~storeToXML~Ljava~util~Properties^Ljava~io~OutputStream^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~storeToXML~Ljava~util~Properties^Ljava~io~OutputStream^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~writeComments~S~Ljava~io~BufferedWriter^Ljava~lang~String^~throws;
+ :public: :void: java~util~Properties~~init^~Ljava~util~Properties^ ( java.util.Properties :*: ) :  "Properties" ;
+:public: :void: java~util~Properties~~init^~Ljava~util~Properties^Ljava~util~Properties^ ( java.util.Properties :*: , java.util.Properties :*: ) :  "Properties" ;
+}
+	
+:public: :interface::class: java.lang.reflect.GenericDeclaration :extends: java.lang.reflect.AnnotatedElement :"java.lang.reflect":"GenericDeclaration"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.Type :extends: java.lang.Object :"java.lang.reflect":"Type"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.AnnotatedElement :extends: java.lang.Object :"java.lang.reflect":"AnnotatedElement"{
+	
+}
+	
+ :public: :abstract::class: java.lang.ClassLoader :extends: java.lang.Object :"java.lang":"ClassLoader"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~nio~ByteBuffer^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~definePackage~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findSystemClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getBootstrapResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getSystemResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClassInternal~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:private: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~Void^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.Void :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :char: [] value;
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :abstract::class: org.springframework.jdbc.datasource.AbstractDataSource :extends: java.lang.Object javax.sql.DataSource :"org.springframework.jdbc.datasource":"AbstractDataSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDataSource~~getLoginTimeout~Lorg~springframework~jdbc~datasource~AbstractDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDataSource~~isWrapperFor~Lorg~springframework~jdbc~datasource~AbstractDataSource^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDataSource~~setLogWriter~Lorg~springframework~jdbc~datasource~AbstractDataSource^Ljava~io~PrintWriter^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDataSource~~setLoginTimeout~Lorg~springframework~jdbc~datasource~AbstractDataSource^I^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDataSource~~unwrap~Lorg~springframework~jdbc~datasource~AbstractDataSource^Ljava~lang~Class^~throws;
+ :public: :void: org~springframework~jdbc~datasource~AbstractDataSource~~init^~Lorg~springframework~jdbc~datasource~AbstractDataSource^ ( org.springframework.jdbc.datasource.AbstractDataSource :*: ) :  "AbstractDataSource" ;
+}
+	
+:public::class: java.util.Hashtable :extends: java.util.Dictionary java.util.Map java.lang.Cloneable java.io.Serializable :"java.util":"Hashtable"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~Hashtable~~readObject~Ljava~util~Hashtable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Hashtable~~reconstitutionPut~Ljava~util~Hashtable^?Ljava~util~Hashtable$Entry^Ljava~lang~Object^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Hashtable~~writeObject~Ljava~util~Hashtable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~util~Hashtable~~init^~Ljava~util~Hashtable^ ( java.util.Hashtable :*: ) :  "Hashtable" ;
+:public: :void: java~util~Hashtable~~init^~Ljava~util~Hashtable^I^ ( java.util.Hashtable :*: , :int: ) :  "Hashtable" ;
+:public: :void: java~util~Hashtable~~init^~Ljava~util~Hashtable^Ljava~util~Map^ ( java.util.Hashtable :*: , java.util.Map :*: ) :  "Hashtable" ;
+:public: :void: java~util~Hashtable~~init^~Ljava~util~Hashtable^I^F^ ( java.util.Hashtable :*: , :int: , :float: ) :  "Hashtable" ;
+}
+	
+:public: :final::class: java.lang.Void :extends: java.lang.Object :"java.lang":"Void"{
+	
+ :private: :void: java~lang~Void~~init^~Ljava~lang~Void^ ( java.lang.Void :*: ) :  "Void" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public: :abstract::class: java.util.Dictionary :extends: java.lang.Object :"java.util":"Dictionary"{
+	
+ :public: :void: java~util~Dictionary~~init^~Ljava~util~Dictionary^ ( java.util.Dictionary :*: ) :  "Dictionary" ;
+}
+	
+:public: :interface::class: java.util.Map :extends: java.lang.Object :"java.util":"Map"{
+	
+}
+	
+ :public: :interface::class: java.lang.Cloneable :extends: java.lang.Object :"java.lang":"Cloneable"{
+	
+}
+	

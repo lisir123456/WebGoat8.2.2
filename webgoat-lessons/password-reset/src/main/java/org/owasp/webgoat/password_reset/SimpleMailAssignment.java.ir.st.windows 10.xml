@@ -1,0 +1,2007 @@
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+#source-type java
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 46
+ #14# :public::class: org.owasp.webgoat.password_reset.SimpleMailAssignment :extends: org.owasp.webgoat.assignments.AssignmentEndpoint :"org.owasp.webgoat.password_reset":"SimpleMailAssignment"
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 45
+ #1# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #1# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #1# < org.springframework.web.bind.annotation.RestController :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 49
+ #26# :private: org.springframework.web.client.RestTemplate :*: restTemplate;
+ 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 48
+ #26# :private: :final: java.lang.String :*: webWolfURL;
+ 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 58
+ #25# :public: org.owasp.webgoat.assignments.AttackResult :*: org~owasp~webgoat~password_reset~SimpleMailAssignment~~login~Lorg~owasp~webgoat~password_reset~SimpleMailAssignment^Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #25# org.owasp.webgoat.password_reset.SimpleMailAssignment :*: this~ , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #52# java.lang.String :*: email
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #31# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #31# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #31# < org.springframework.web.bind.annotation.RequestParam :*: > -~> ~annotation ( ):]]:
+ , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #80# java.lang.String :*: password
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #59# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #59# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #59# < org.springframework.web.bind.annotation.RequestParam :*: > -~> ~annotation ( ):]]:
+ ) :  "login"
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 56
+ #5# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #5# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #5# < org.springframework.web.bind.annotation.PostMapping :*: > -~> ~annotation ( path:  "/PasswordReset/simple-mail" , consumes:  
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #66# [ org.springframework.http.MediaType ] APPLICATION_FORM_URLENCODED_VALUE ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 57
+ #5# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #5# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #5# < org.springframework.web.bind.annotation.ResponseBody :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 58
+ #90# {
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 59
+ #16# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #16# 	java.lang.String :*: emailAddress ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #31# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #31# 	java.util.Optional :*: ~t0 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #31# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #31# 	~t0 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #31# 	-~> java~util~Optional~~ofNullable~S~Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #42# 	email ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #56# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #56# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #56# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #56# 	~t1 :=: "unknown@webgoat.org" ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #16# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #16# 	emailAddress :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #31# 	-~> java~util~Optional~~orElse~Ljava~util~Optional^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #31# 	~t0 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #56# 	~t1 ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 60
+ #16# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #16# 	java.lang.String :*: username ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #16# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #16# 	username :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #27# 	-~> org~owasp~webgoat~password_reset~SimpleMailAssignment~~extractUsername~Lorg~owasp~webgoat~password_reset~SimpleMailAssignment^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #43# 	emailAddress ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 62
+ #13# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 	:boolean: ~t2 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 	~t2 :=: :false: ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	org.owasp.webgoat.session.WebSession :*: ~t3 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	~t3 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~getWebSession~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	java.lang.String :*: ~t4 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	~t4 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	-~> org~owasp~webgoat~session~WebSession~~getUserName~Lorg~owasp~webgoat~session~WebSession^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	~t3 ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 	:if: ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 	-~> java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 	username , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	~t4 ) ) {
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #63# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #63# 		java.lang.String :*: ~t5 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #63# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #63# 		~t5 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #63# 		-~> org~apache~commons~lang3~StringUtils~~reverse~S~Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #83# 		username ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #63# 		:if: ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #63# 		-~> java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #63# 		~t5 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #100# 		password ) ) {
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 			~t2 :=: :true: ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 			:goto: S~~__L__~t2 ;
+		}
+	}
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 	:goto: F~~__L__~t2 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	F~~__L__~t2 :
+	:if: ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 	~t2 ) 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #111# 	{
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 63
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t6 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t6 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~success~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		org.owasp.webgoat.assignments.AttackResult :*: ~t7 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		~t7 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t6 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		:return: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		~t7 ;
+
+#source-line 64
+	}
+	:else: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #16# 	{
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 65
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t8 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t8 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~failed~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #46# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #46# 		java.lang.String :*: ~t9 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #46# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #46# 		~t9 :=: "password-reset-simple.password_incorrect" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t10 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t10 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedbackArgs~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^?Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t8 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #46# 		~t9 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		org.owasp.webgoat.assignments.AttackResult :*: ~t11 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		~t11 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t10 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		:return: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		~t11 ;
+
+#source-line 66
+	}
+
+#source-line 67
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 71
+ #25# :public: org.owasp.webgoat.assignments.AttackResult :*: org~owasp~webgoat~password_reset~SimpleMailAssignment~~resetPassword~Lorg~owasp~webgoat~password_reset~SimpleMailAssignment^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #25# org.owasp.webgoat.password_reset.SimpleMailAssignment :*: this~ , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #60# java.lang.String :*: emailReset
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #39# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #39# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #39# < org.springframework.web.bind.annotation.RequestParam :*: > -~> ~annotation ( ):]]:
+ ) :  "resetPassword"
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 69
+ #5# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #5# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #5# < org.springframework.web.bind.annotation.PostMapping :*: > -~> ~annotation ( consumes:  
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# [ org.springframework.http.MediaType ] APPLICATION_FORM_URLENCODED_VALUE , value:  "/PasswordReset/simple-mail/reset" ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 70
+ #5# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #5# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #5# < org.springframework.web.bind.annotation.ResponseBody :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 71
+ #72# {
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 72
+ #16# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #16# 	java.lang.String :*: email ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 	java.util.Optional :*: ~t0 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 	~t0 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 	-~> java~util~Optional~~ofNullable~S~Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 	emailReset ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #54# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #54# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #54# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #54# 	~t1 :=: "unknown@webgoat.org" ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #16# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #16# 	email :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 	-~> java~util~Optional~~orElse~Ljava~util~Optional^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 	~t0 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #54# 	~t1 ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 73
+ #26# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #26# 	java.lang.String :*: ~t2 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #26# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #26# 	~t2 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #26# 	-~> org~owasp~webgoat~password_reset~SimpleMailAssignment~~extractUsername~Lorg~owasp~webgoat~password_reset~SimpleMailAssignment^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #42# 	email ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	org.owasp.webgoat.assignments.AttackResult :*: ~t3 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	~t3 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #16# 	-~> org~owasp~webgoat~password_reset~SimpleMailAssignment~~sendEmail~Lorg~owasp~webgoat~password_reset~SimpleMailAssignment^Ljava~lang~String^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #26# 	~t2 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #50# 	email ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	:return: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	~t3 ;
+
+#source-line 74
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 76
+ #20# :private: java.lang.String :*: org~owasp~webgoat~password_reset~SimpleMailAssignment~~extractUsername~Lorg~owasp~webgoat~password_reset~SimpleMailAssignment^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# org.owasp.webgoat.password_reset.SimpleMailAssignment :*: this~ , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #43# java.lang.String :*: email ) :  "extractUsername" 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #50# {
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 77
+ #13# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 	:int: index ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 	~t0 :=: "@" ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 	index :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #21# 	-~> java~lang~String~~indexOf~Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #21# 	email , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 	~t0 ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 78
+ #32# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #32# 	:int: ~t1 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #32# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #32# 	~t1 :=: < :int: >0 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 	:int: ~t2 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 	:if: ( ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 	index :==: ( < :int: >0 :-: < :int: >1 ) ) ) 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 	{
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 		~t2 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #49# 		-~> java~lang~String~~length~Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #49# 		email ) ;
+	}
+	:else: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 	{
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 		~t2 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #66# 		index ;
+	}
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	java.lang.String :*: ~t3 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	~t3 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #16# 	-~> java~lang~String~~substring~Ljava~lang~String^I^I^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #16# 	email , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #32# 	~t1 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #35# 	~t2 ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	:return: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	~t3 ;
+
+#source-line 79
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 81
+ #26# :private: org.owasp.webgoat.assignments.AttackResult :*: org~owasp~webgoat~password_reset~SimpleMailAssignment~~sendEmail~Lorg~owasp~webgoat~password_reset~SimpleMailAssignment^Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #26# org.owasp.webgoat.password_reset.SimpleMailAssignment :*: this~ , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #43# java.lang.String :*: username , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #60# java.lang.String :*: email ) :  "sendEmail" 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #67# {
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 82
+ #29# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	org.owasp.webgoat.session.WebSession :*: ~t0 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	~t0 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~getWebSession~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	~t1 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	-~> org~owasp~webgoat~session~WebSession~~getUserName~Lorg~owasp~webgoat~session~WebSession^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	~t0 ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	:if: ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 	-~> java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 	username , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	~t1 ) ) 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #61# 	{
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 83
+ #32# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #32# 		org.owasp.webgoat.password_reset.PasswordResetEmail :*: mailEvent ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: ~t2 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		~t2 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		-~> org~owasp~webgoat~password_reset~PasswordResetEmail~~builder~S~ ( ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: ~t3 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		~t3 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		-~> org~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder~~recipient~Lorg~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		~t2 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 84
+ #32# 		username ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 85
+ #28# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #28# 		java.lang.String :*: ~t4 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #28# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #28# 		~t4 :=: "Simple e-mail assignment" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 83
+ #44# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: ~t5 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		~t5 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		-~> org~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder~~title~Lorg~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		~t3 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 85
+ #28# 		~t4 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 86
+ #27# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #27# 		java.time.LocalDateTime :*: ~t6 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #27# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #27# 		~t6 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #27# 		-~> java~time~LocalDateTime~~now~S~ ( ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 83
+ #44# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: ~t7 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		~t7 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		-~> org~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder~~time~Lorg~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder^Ljava~time~LocalDateTime^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		~t5 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 86
+ #27# 		~t6 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 87
+ #31# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #31# 		java.lang.String :*: ~t8 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #31# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #31# 		~t8 :=: ( "Thanks for resetting your password, your new password is: " :+: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #94# 		-~> org~apache~commons~lang3~StringUtils~~reverse~S~Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #114# 		username ) ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 83
+ #44# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: ~t9 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		~t9 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		-~> org~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder~~contents~Lorg~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		~t7 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 87
+ #31# 		~t8 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 88
+ #29# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 		java.lang.String :*: ~t10 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 		~t10 :=: "webgoat@owasp.org" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 83
+ #44# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: ~t11 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		~t11 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		-~> org~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder~~sender~Lorg~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		~t9 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 88
+ #29# 		~t10 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 83
+ #32# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #32# 		mailEvent :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		-~> org~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder~~build~Lorg~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 		~t11 ) ;
+		java.lang.Throwable ~t~try~1 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 90
+ #17# 		__try____L__1~5143c60a :
+		{
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #17# 			{
+				
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #17# 				:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #17# 				{
+					__caught__throwingcall_1 :
+					:goto: __catch____L__2~5143c60a ;
+
+#source-line 92
+				}
+			}
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 91
+ #67# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #67# 			java.lang.Class :*: ~t12 ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #67# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #67# 			~t12 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #67# 			< java.lang.Class :*: > -~> ~classliteral ( < java.lang.Object :*: > :null: ) ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #17# 			__throwingcall_2 :
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #17# 			-~> org~springframework~web~client~RestTemplate~~postForEntity~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^?Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #17# 			[ org.owasp.webgoat.password_reset.SimpleMailAssignment ] ( this~ ) :.: restTemplate , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #44# 			[ org.owasp.webgoat.password_reset.SimpleMailAssignment ] ( this~ ) :.: webWolfURL , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #56# 			mailEvent , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #67# 			~t12 ) ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #17# 			{
+				
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #17# 				:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #17# 				{
+					~t~try~1 :=: [ org.springframework.web.client.RestTemplate ] org~springframework~web~client~RestTemplate~~postForEntity~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^?Ljava~lang~Object^~throws ;
+					__caught__throwingcall_2 :
+					:goto: __catch____L__2~5143c60a ;
+				}
+			}
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 90
+ #17# 			:goto: __finally____L__0~5143c60a ;
+
+#source-line 92
+		}
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #15# 		__catch____L__2~5143c60a :
+		{
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #22# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #22# 			org.springframework.web.client.RestClientException :*: e ;
+			e :=: ~t~try~1 ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 93
+ #24# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t13 ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			~t13 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~informationMessage~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #58# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #58# 			java.lang.String :*: ~t14 ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #58# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #58# 			~t14 :=: "password-reset-simple.email_failed" ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t15 ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			~t15 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			~t13 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #58# 			~t14 ) ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #103# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #103# 			java.lang.String :*: ~t16 ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #103# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #103# 			~t16 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #103# 			-~> org~springframework~core~NestedRuntimeException~~getMessage~Lorg~springframework~core~NestedRuntimeException^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #103# 			e ) ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t17 ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			~t17 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~output~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			~t15 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #103# 			~t16 ) ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #17# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #17# 			org.owasp.webgoat.assignments.AttackResult :*: ~t18 ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #17# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #17# 			~t18 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #24# 			~t17 ) ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #17# 			:return: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #17# 			~t18 ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 92
+ #15# 			:goto: __finally____L__0~5143c60a ;
+
+#source-line 94
+		}
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 90
+ #13# 		__finally____L__0~5143c60a :
+		{
+
+#source-line 94
+		}
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 95
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t19 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t19 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~informationMessage~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #54# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #54# 		java.lang.String :*: ~t20 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #54# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #54# 		~t20 :=: "password-reset-simple.email_send" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t21 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t21 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t19 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #54# 		~t20 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t22 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t22 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedbackArgs~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^?Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t21 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #103# 		email ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		org.owasp.webgoat.assignments.AttackResult :*: ~t23 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		~t23 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t22 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		:return: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		~t23 ;
+
+#source-line 96
+	}
+	:else: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #16# 	{
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 97
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t24 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t24 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~informationMessage~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #54# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #54# 		java.lang.String :*: ~t25 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #54# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #54# 		~t25 :=: "password-reset-simple.email_mismatch" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t26 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t26 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t24 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #54# 		~t25 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t27 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t27 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedbackArgs~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^?Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t26 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #107# 		username ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		org.owasp.webgoat.assignments.AttackResult :*: ~t28 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		~t28 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #20# 		~t27 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		:return: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #13# 		~t28 ;
+
+#source-line 98
+	}
+
+#source-line 99
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 51
+ #12# :public: :void: org~owasp~webgoat~password_reset~SimpleMailAssignment~~init^~Lorg~owasp~webgoat~password_reset~SimpleMailAssignment^Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #12# org.owasp.webgoat.password_reset.SimpleMailAssignment :*: this~ , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #46# org.springframework.web.client.RestTemplate :*: restTemplate , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #97# java.lang.String :*: webWolfURL
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #60# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #60# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #60# < org.springframework.beans.factory.annotation.Value :*: > -~> ~annotation ( value:  "${webwolf.url.mail}" ):]]:
+ ) :  "init^" 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #12# {
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #12# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #12# 	-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~init^~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 52
+ #9# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	[ org.owasp.webgoat.password_reset.SimpleMailAssignment ] ( this~ ) :.: restTemplate :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #29# 	restTemplate ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 53
+ #9# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #9# 	[ org.owasp.webgoat.password_reset.SimpleMailAssignment ] ( this~ ) :.: webWolfURL :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #27# 	webWolfURL ;
+
+#source-line 51
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+
+#source-line 46
+ #14# :public: :static: :void: org~owasp~webgoat~password_reset~SimpleMailAssignment~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SimpleMailAssignment.java
+ #14# {
+}
+#source-line 46
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: :boolean: java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( java.lang.String :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :int: java~lang~String~~indexOf~Ljava~lang~String^I^ ( java.lang.String :*: , :int: ) :  "indexOf" ;
+:public: :int: java~lang~String~~indexOf~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "indexOf" ;
+:public: :int: java~lang~String~~indexOf~Ljava~lang~String^I^I^ ( java.lang.String :*: , :int: , :int: ) :  "indexOf" ;
+:public: :int: java~lang~String~~indexOf~Ljava~lang~String^Ljava~lang~String^I^ ( java.lang.String :*: , java.lang.String :*: , :int: ) :  "indexOf" ;
+:static: :int: java~lang~String~~indexOf~S~?C^I^I^Ljava~lang~String^I^ ( :char: [] , :int: , :int: , java.lang.String :*: , :int: ) :  "indexOf" ;
+:static: :int: java~lang~String~~indexOf~S~?C^I^I^?C^I^I^I^ ( :char: [] , :int: , :int: , :char: [] , :int: , :int: , :int: ) :  "indexOf" ;
+:public: :int: java~lang~String~~length~Ljava~lang~String^ ( java.lang.String :*: ) :  "length" ;
+:public: java.lang.String :*: java~lang~String~~substring~Ljava~lang~String^I^ ( java.lang.String :*: , :int: ) :  "substring" ;
+:public: java.lang.String :*: java~lang~String~~substring~Ljava~lang~String^I^I^ ( java.lang.String :*: , :int: , :int: ) :  "substring" ;
+}
+	
+:public::class: org.springframework.web.client.RestTemplate :extends: org.springframework.http.client.support.InterceptingHttpAccessor org.springframework.web.client.RestOperations :"org.springframework.web.client":"RestTemplate"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~delete~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~delete~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~delete~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~doExecute~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^Lorg~springframework~http~HttpMethod^Lorg~springframework~web~client~RequestCallback^Lorg~springframework~web~client~ResponseExtractor^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~exchange~Lorg~springframework~web~client~RestTemplate^Lorg~springframework~http~RequestEntity^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~exchange~Lorg~springframework~web~client~RestTemplate^Lorg~springframework~http~RequestEntity^Lorg~springframework~core~ParameterizedTypeReference^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~exchange~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^Lorg~springframework~http~HttpMethod^Lorg~springframework~http~HttpEntity^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~exchange~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^Lorg~springframework~http~HttpMethod^Lorg~springframework~http~HttpEntity^Lorg~springframework~core~ParameterizedTypeReference^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~exchange~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Lorg~springframework~http~HttpMethod^Lorg~springframework~http~HttpEntity^Ljava~lang~Class^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~exchange~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Lorg~springframework~http~HttpMethod^Lorg~springframework~http~HttpEntity^Ljava~lang~Class^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~exchange~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Lorg~springframework~http~HttpMethod^Lorg~springframework~http~HttpEntity^Lorg~springframework~core~ParameterizedTypeReference^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~exchange~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Lorg~springframework~http~HttpMethod^Lorg~springframework~http~HttpEntity^Lorg~springframework~core~ParameterizedTypeReference^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~execute~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^Lorg~springframework~http~HttpMethod^Lorg~springframework~web~client~RequestCallback^Lorg~springframework~web~client~ResponseExtractor^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~execute~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Lorg~springframework~http~HttpMethod^Lorg~springframework~web~client~RequestCallback^Lorg~springframework~web~client~ResponseExtractor^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~execute~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Lorg~springframework~http~HttpMethod^Lorg~springframework~web~client~RequestCallback^Lorg~springframework~web~client~ResponseExtractor^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~getForEntity~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~getForEntity~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Class^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~getForEntity~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Class^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~getForObject~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~getForObject~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Class^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~getForObject~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Class^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~handleResponse~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^Lorg~springframework~http~HttpMethod^Lorg~springframework~http~client~ClientHttpResponse^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~headForHeaders~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~headForHeaders~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~headForHeaders~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~optionsForAllow~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~optionsForAllow~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~optionsForAllow~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~patchForObject~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^Ljava~lang~Object^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~patchForObject~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~patchForObject~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~postForEntity~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^Ljava~lang~Object^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~postForEntity~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~postForEntity~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~postForLocation~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~postForLocation~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Object^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~postForLocation~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Object^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~postForObject~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^Ljava~lang~Object^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~postForObject~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~postForObject~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~put~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~put~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Object^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestTemplate~~put~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Object^Ljava~util~Map^~throws;
+ :public: :void: org~springframework~web~client~RestTemplate~~init^~Lorg~springframework~web~client~RestTemplate^ ( org.springframework.web.client.RestTemplate :*: ) :  "RestTemplate" ;
+:public: :void: org~springframework~web~client~RestTemplate~~init^~Lorg~springframework~web~client~RestTemplate^Lorg~springframework~http~client~ClientHttpRequestFactory^ ( org.springframework.web.client.RestTemplate :*: , org.springframework.http.client.ClientHttpRequestFactory :*: ) :  "RestTemplate" ;
+:public: :void: org~springframework~web~client~RestTemplate~~init^~Lorg~springframework~web~client~RestTemplate^Ljava~util~List^ ( org.springframework.web.client.RestTemplate :*: , java.util.List :*: ) :  "RestTemplate" ;
+:public: org.springframework.http.ResponseEntity :*: org~springframework~web~client~RestTemplate~~postForEntity~Lorg~springframework~web~client~RestTemplate^Ljava~net~URI^Ljava~lang~Object^Ljava~lang~Class^ ( org.springframework.web.client.RestTemplate :*: , java.net.URI :*: , java.lang.Object :*: , java.lang.Class :*: ) :  "postForEntity"  :exceptions:  org.springframework.web.client.RestClientException :*: ;
+:public: org.springframework.http.ResponseEntity :*: org~springframework~web~client~RestTemplate~~postForEntity~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^?Ljava~lang~Object^ ( org.springframework.web.client.RestTemplate :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Class :*: , java.lang.Object :*: [] , ... ) :  "postForEntity"  :exceptions:  org.springframework.web.client.RestClientException :*: ;
+:public: org.springframework.http.ResponseEntity :*: org~springframework~web~client~RestTemplate~~postForEntity~Lorg~springframework~web~client~RestTemplate^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^Ljava~util~Map^ ( org.springframework.web.client.RestTemplate :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Class :*: , java.util.Map :*: ) :  "postForEntity"  :exceptions:  org.springframework.web.client.RestClientException :*: ;
+}
+	
+:public: :abstract::class: org.owasp.webgoat.assignments.AssignmentEndpoint :extends: java.lang.Object :"org.owasp.webgoat.assignments":"AssignmentEndpoint"{
+	
+ :public: :void: org~owasp~webgoat~assignments~AssignmentEndpoint~~init^~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "AssignmentEndpoint" ;
+:protected: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AssignmentEndpoint~~failed~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: , org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "failed" ;
+:protected: org.owasp.webgoat.session.WebSession :*: org~owasp~webgoat~assignments~AssignmentEndpoint~~getWebSession~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "getWebSession" ;
+:protected: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AssignmentEndpoint~~informationMessage~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: , org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "informationMessage" ;
+:protected: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AssignmentEndpoint~~success~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: , org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "success" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.RestController :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"RestController"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~web~bind~annotation~RestController~~value~Lorg~springframework~web~bind~annotation~RestController^ ( org.springframework.web.bind.annotation.RestController :*: ) :  "value" ;
+}
+	
+:public::class: org.owasp.webgoat.assignments.AttackResult :extends: java.lang.Object :"org.owasp.webgoat.assignments":"AttackResult"{
+	
+ :public: :void: org~owasp~webgoat~assignments~AttackResult~~init^~Lorg~owasp~webgoat~assignments~AttackResult^Z^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Z^ ( org.owasp.webgoat.assignments.AttackResult :*: , :boolean: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , :boolean: ) :  "AttackResult" ;
+:public: :static: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AttackResult~~builder~S~Lorg~owasp~webgoat~i18n~PluginMessages^ ( org.owasp.webgoat.i18n.PluginMessages :*: ) :  "builder" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.RequestParam :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"RequestParam"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~web~bind~annotation~RequestParam~~value~Lorg~springframework~web~bind~annotation~RequestParam^ ( org.springframework.web.bind.annotation.RequestParam :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.PostMapping :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"PostMapping"{
+	
+ :public: :abstract: java.lang.String :*: [] org~springframework~web~bind~annotation~PostMapping~~consumes~Lorg~springframework~web~bind~annotation~PostMapping^ ( org.springframework.web.bind.annotation.PostMapping :*: ) :  "consumes" ;
+:public: :abstract: java.lang.String :*: [] org~springframework~web~bind~annotation~PostMapping~~path~Lorg~springframework~web~bind~annotation~PostMapping^ ( org.springframework.web.bind.annotation.PostMapping :*: ) :  "path" ;
+:public: :abstract: java.lang.String :*: [] org~springframework~web~bind~annotation~PostMapping~~value~Lorg~springframework~web~bind~annotation~PostMapping^ ( org.springframework.web.bind.annotation.PostMapping :*: ) :  "value" ;
+}
+	
+:public::class: org.springframework.http.MediaType :extends: org.springframework.util.MimeType java.io.Serializable :"org.springframework.http":"MediaType"{
+	
+ :public: :final: :static: java.lang.String :*: APPLICATION_FORM_URLENCODED_VALUE :=:  "application/x-www-form-urlencoded";
+ :public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Ljava~lang~String^ ( org.springframework.http.MediaType :*: , java.lang.String :*: ) :  "MediaType" ;
+:public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Lorg~springframework~util~MimeType^ ( org.springframework.http.MediaType :*: , org.springframework.util.MimeType :*: ) :  "MediaType" ;
+:public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Ljava~lang~String^Ljava~lang~String^ ( org.springframework.http.MediaType :*: , java.lang.String :*: , java.lang.String :*: ) :  "MediaType" ;
+:public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Lorg~springframework~http~MediaType^Ljava~nio~charset~Charset^ ( org.springframework.http.MediaType :*: , org.springframework.http.MediaType :*: , java.nio.charset.Charset :*: ) :  "MediaType" ;
+:public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Lorg~springframework~http~MediaType^Ljava~util~Map^ ( org.springframework.http.MediaType :*: , org.springframework.http.MediaType :*: , java.util.Map :*: ) :  "MediaType" ;
+:public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Ljava~lang~String^Ljava~lang~String^Ljava~nio~charset~Charset^ ( org.springframework.http.MediaType :*: , java.lang.String :*: , java.lang.String :*: , java.nio.charset.Charset :*: ) :  "MediaType" ;
+:public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Ljava~lang~String^Ljava~lang~String^D^ ( org.springframework.http.MediaType :*: , java.lang.String :*: , java.lang.String :*: , :double: ) :  "MediaType" ;
+:public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Ljava~lang~String^Ljava~lang~String^Ljava~util~Map^ ( org.springframework.http.MediaType :*: , java.lang.String :*: , java.lang.String :*: , java.util.Map :*: ) :  "MediaType" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.ResponseBody :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"ResponseBody"{
+	
+}
+	
+ :public: :final::class: java.util.Optional :extends: java.lang.Object :"java.util":"Optional"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~Optional~~orElseThrow~Ljava~util~Optional^Ljava~util~function~Supplier^~throws;
+ :private: :void: java~util~Optional~~init^~Ljava~util~Optional^ ( java.util.Optional :*: ) :  "Optional" ;
+:private: :void: java~util~Optional~~init^~Ljava~util~Optional^Ljava~lang~Object^ ( java.util.Optional :*: , java.lang.Object :*: ) :  "Optional" ;
+:public: :boolean: java~util~Optional~~equals~Ljava~util~Optional^Ljava~lang~Object^ ( java.util.Optional :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :static: java.util.Optional :*: java~util~Optional~~ofNullable~S~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "ofNullable" ;
+:public: java.lang.Object :*: java~util~Optional~~orElse~Ljava~util~Optional^Ljava~lang~Object^ ( java.util.Optional :*: , java.lang.Object :*: ) :  "orElse" ;
+}
+	
+:public::class: org.owasp.webgoat.session.WebSession :extends: java.lang.Object java.io.Serializable :"org.owasp.webgoat.session":"WebSession"{
+	
+ :public: :void: org~owasp~webgoat~session~WebSession~~init^~Lorg~owasp~webgoat~session~WebSession^ ( org.owasp.webgoat.session.WebSession :*: ) :  "WebSession" ;
+:public: java.lang.String :*: org~owasp~webgoat~session~WebSession~~getUserName~Lorg~owasp~webgoat~session~WebSession^ ( org.owasp.webgoat.session.WebSession :*: ) :  "getUserName" ;
+}
+	
+:public::class: org.apache.commons.lang3.StringUtils :extends: java.lang.Object :"org.apache.commons.lang3":"StringUtils"{
+	
+ :public: :static: java.lang.Throwable :*: org~apache~commons~lang3~StringUtils~~toString~S~?B^Ljava~lang~String^~throws;
+ :public: :void: org~apache~commons~lang3~StringUtils~~init^~Lorg~apache~commons~lang3~StringUtils^ ( org.apache.commons.lang3.StringUtils :*: ) :  "StringUtils" ;
+:public: :static: :boolean: org~apache~commons~lang3~StringUtils~~equals~S~Ljava~lang~CharSequence^Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: , java.lang.CharSequence :*: ) :  "equals" ;
+:public: :static: :int: org~apache~commons~lang3~StringUtils~~indexOf~S~Ljava~lang~CharSequence^I^ ( java.lang.CharSequence :*: , :int: ) :  "indexOf" ;
+:public: :static: :int: org~apache~commons~lang3~StringUtils~~indexOf~S~Ljava~lang~CharSequence^Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: , java.lang.CharSequence :*: ) :  "indexOf" ;
+:public: :static: :int: org~apache~commons~lang3~StringUtils~~indexOf~S~Ljava~lang~CharSequence^I^I^ ( java.lang.CharSequence :*: , :int: , :int: ) :  "indexOf" ;
+:public: :static: :int: org~apache~commons~lang3~StringUtils~~indexOf~S~Ljava~lang~CharSequence^Ljava~lang~CharSequence^I^ ( java.lang.CharSequence :*: , java.lang.CharSequence :*: , :int: ) :  "indexOf" ;
+:public: :static: :int: org~apache~commons~lang3~StringUtils~~length~S~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "length" ;
+:public: :static: java.lang.String :*: org~apache~commons~lang3~StringUtils~~reverse~S~Ljava~lang~String^ ( java.lang.String :*: ) :  "reverse" ;
+:public: :static: java.lang.String :*: org~apache~commons~lang3~StringUtils~~substring~S~Ljava~lang~String^I^ ( java.lang.String :*: , :int: ) :  "substring" ;
+:public: :static: java.lang.String :*: org~apache~commons~lang3~StringUtils~~substring~S~Ljava~lang~String^I^I^ ( java.lang.String :*: , :int: , :int: ) :  "substring" ;
+}
+	
+:public: :static::class: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :extends: java.lang.Object :"org.owasp.webgoat.assignments":"AttackResult$AttackResultBuilder"{
+	
+ :public: :void: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~init^~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Lorg~owasp~webgoat~i18n~PluginMessages^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: , org.owasp.webgoat.i18n.PluginMessages :*: ) :  "AttackResultBuilder" ;
+:public: org.owasp.webgoat.assignments.AttackResult :*: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ) :  "build" ;
+:public: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: , java.lang.String :*: ) :  "feedback" ;
+:public: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedbackArgs~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^?Ljava~lang~Object^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: , java.lang.Object :*: [] , ... ) :  "feedbackArgs" ;
+:public: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~output~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: , java.lang.String :*: ) :  "output" ;
+}
+	
+:public::class: org.owasp.webgoat.password_reset.PasswordResetEmail :extends: java.lang.Object java.io.Serializable :"org.owasp.webgoat.password_reset":"PasswordResetEmail"{
+	
+ :void: org~owasp~webgoat~password_reset~PasswordResetEmail~~init^~Lorg~owasp~webgoat~password_reset~PasswordResetEmail^Ljava~time~LocalDateTime^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( org.owasp.webgoat.password_reset.PasswordResetEmail :*: , java.time.LocalDateTime :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "PasswordResetEmail" ;
+:public: :static: org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: org~owasp~webgoat~password_reset~PasswordResetEmail~~builder~S~ ( ) :  "builder" ;
+:public: :boolean: org~owasp~webgoat~password_reset~PasswordResetEmail~~equals~Lorg~owasp~webgoat~password_reset~PasswordResetEmail^Ljava~lang~Object^ ( org.owasp.webgoat.password_reset.PasswordResetEmail :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :static::class: org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :extends: java.lang.Object :"org.owasp.webgoat.password_reset":"PasswordResetEmail$PasswordResetEmailBuilder"{
+	
+ :void: org~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder~~init^~Lorg~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder^ ( org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: ) :  "PasswordResetEmailBuilder" ;
+:public: org.owasp.webgoat.password_reset.PasswordResetEmail :*: org~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder~~build~Lorg~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder^ ( org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: ) :  "build" ;
+:public: org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: org~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder~~contents~Lorg~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder^Ljava~lang~String^ ( org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: , java.lang.String :*: ) :  "contents" ;
+:public: org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: org~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder~~recipient~Lorg~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder^Ljava~lang~String^ ( org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: , java.lang.String :*: ) :  "recipient" ;
+:public: org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: org~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder~~sender~Lorg~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder^Ljava~lang~String^ ( org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: , java.lang.String :*: ) :  "sender" ;
+:public: org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: org~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder~~time~Lorg~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder^Ljava~time~LocalDateTime^ ( org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: , java.time.LocalDateTime :*: ) :  "time" ;
+:public: org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: org~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder~~title~Lorg~owasp~webgoat~password_reset~PasswordResetEmail$PasswordResetEmailBuilder^Ljava~lang~String^ ( org.owasp.webgoat.password_reset.PasswordResetEmail$PasswordResetEmailBuilder :*: , java.lang.String :*: ) :  "title" ;
+}
+	
+:public: :final::class: java.time.LocalDateTime :extends: java.lang.Object java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.time.chrono.ChronoLocalDateTime java.io.Serializable :"java.time":"LocalDateTime"{
+	
+ :public: :static: java.lang.Throwable :*: java~time~LocalDateTime~~readExternal~S~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalDateTime~~readObject~Ljava~time~LocalDateTime^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalDateTime~~writeExternal~Ljava~time~LocalDateTime^Ljava~io~DataOutput^~throws;
+ :private: :void: java~time~LocalDateTime~~init^~Ljava~time~LocalDateTime^Ljava~time~LocalDate^Ljava~time~LocalTime^ ( java.time.LocalDateTime :*: , java.time.LocalDate :*: , java.time.LocalTime :*: ) :  "LocalDateTime" ;
+:public: :boolean: java~time~LocalDateTime~~equals~Ljava~time~LocalDateTime^Ljava~lang~Object^ ( java.time.LocalDateTime :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :static: java.time.LocalDateTime :*: java~time~LocalDateTime~~now~S~ ( ) :  "now" ;
+:public: :static: java.time.LocalDateTime :*: java~time~LocalDateTime~~now~S~Ljava~time~ZoneId^ ( java.time.ZoneId :*: ) :  "now" ;
+:public: :static: java.time.LocalDateTime :*: java~time~LocalDateTime~~now~S~Ljava~time~Clock^ ( java.time.Clock :*: ) :  "now" ;
+}
+	
+:public: :final::class: java.lang.Class :extends: java.lang.Object java.io.Serializable java.lang.reflect.GenericDeclaration java.lang.reflect.Type java.lang.reflect.AnnotatedElement :"java.lang":"Class"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName0~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor0~Ljava~lang~Class^?Ljava~lang~Class^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredClasses~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaringClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingConstructor~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingMethod~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField0~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~newInstance~Ljava~lang~Class^~throws;
+ :private: :void: java~lang~Class~~init^~Ljava~lang~Class^Ljava~lang~ClassLoader^ ( java.lang.Class :*: , java.lang.ClassLoader :*: ) :  "Class" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+:public: :boolean: java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( java.lang.Object :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public::class: org.springframework.web.client.RestClientException :extends: org.springframework.core.NestedRuntimeException :"org.springframework.web.client":"RestClientException"{
+	
+ :public: :void: org~springframework~web~client~RestClientException~~init^~Lorg~springframework~web~client~RestClientException^Ljava~lang~String^ ( org.springframework.web.client.RestClientException :*: , java.lang.String :*: ) :  "RestClientException" ;
+:public: :void: org~springframework~web~client~RestClientException~~init^~Lorg~springframework~web~client~RestClientException^Ljava~lang~String^Ljava~lang~Throwable^ ( org.springframework.web.client.RestClientException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "RestClientException" ;
+}
+	
+:public: :abstract::class: org.springframework.core.NestedRuntimeException :extends: java.lang.RuntimeException :"org.springframework.core":"NestedRuntimeException"{
+	
+ :public: :void: org~springframework~core~NestedRuntimeException~~init^~Lorg~springframework~core~NestedRuntimeException^Ljava~lang~String^ ( org.springframework.core.NestedRuntimeException :*: , java.lang.String :*: ) :  "NestedRuntimeException" ;
+:public: :void: org~springframework~core~NestedRuntimeException~~init^~Lorg~springframework~core~NestedRuntimeException^Ljava~lang~String^Ljava~lang~Throwable^ ( org.springframework.core.NestedRuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "NestedRuntimeException" ;
+:public: java.lang.String :*: org~springframework~core~NestedRuntimeException~~getMessage~Lorg~springframework~core~NestedRuntimeException^ ( org.springframework.core.NestedRuntimeException :*: ) :  "getMessage" ;
+}
+	
+:public: :annotation::class: org.springframework.beans.factory.annotation.Value :extends: java.lang.annotation.Annotation :"org.springframework.beans.factory.annotation":"Value"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~beans~factory~annotation~Value~~value~Lorg~springframework~beans~factory~annotation~Value^ ( org.springframework.beans.factory.annotation.Value :*: ) :  "value" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+ :public: :abstract: :int: java~lang~CharSequence~~length~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "length" ;
+}
+	
+:public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+:public: :int: java~lang~StringBuffer~~indexOf~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "indexOf" ;
+:public: :synchronized: :int: java~lang~StringBuffer~~indexOf~Ljava~lang~StringBuffer^Ljava~lang~String^I^ ( java.lang.StringBuffer :*: , java.lang.String :*: , :int: ) :  "indexOf" ;
+:public: :synchronized: :int: java~lang~StringBuffer~~length~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "length" ;
+:public: :synchronized: java.lang.StringBuffer :*: java~lang~StringBuffer~~reverse~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "reverse" ;
+:public: :synchronized: java.lang.String :*: java~lang~StringBuffer~~substring~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "substring" ;
+:public: :synchronized: java.lang.String :*: java~lang~StringBuffer~~substring~Ljava~lang~StringBuffer^I^I^ ( java.lang.StringBuffer :*: , :int: , :int: ) :  "substring" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+:public: :int: java~lang~StringBuilder~~indexOf~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "indexOf" ;
+:public: :int: java~lang~StringBuilder~~indexOf~Ljava~lang~StringBuilder^Ljava~lang~String^I^ ( java.lang.StringBuilder :*: , java.lang.String :*: , :int: ) :  "indexOf" ;
+:public: java.lang.StringBuilder :*: java~lang~StringBuilder~~reverse~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "reverse" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: :boolean: java~nio~charset~Charset~~equals~Ljava~nio~charset~Charset^Ljava~lang~Object^ ( java.nio.charset.Charset :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :abstract::class: org.springframework.http.client.support.InterceptingHttpAccessor :extends: org.springframework.http.client.support.HttpAccessor :"org.springframework.http.client.support":"InterceptingHttpAccessor"{
+	
+ :public: :void: org~springframework~http~client~support~InterceptingHttpAccessor~~init^~Lorg~springframework~http~client~support~InterceptingHttpAccessor^ ( org.springframework.http.client.support.InterceptingHttpAccessor :*: ) :  "InterceptingHttpAccessor" ;
+}
+	
+:public: :interface::class: org.springframework.web.client.RestOperations :extends: java.lang.Object :"org.springframework.web.client":"RestOperations"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~delete~Lorg~springframework~web~client~RestOperations^Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~delete~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~delete~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~exchange~Lorg~springframework~web~client~RestOperations^Lorg~springframework~http~RequestEntity^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~exchange~Lorg~springframework~web~client~RestOperations^Lorg~springframework~http~RequestEntity^Lorg~springframework~core~ParameterizedTypeReference^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~exchange~Lorg~springframework~web~client~RestOperations^Ljava~net~URI^Lorg~springframework~http~HttpMethod^Lorg~springframework~http~HttpEntity^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~exchange~Lorg~springframework~web~client~RestOperations^Ljava~net~URI^Lorg~springframework~http~HttpMethod^Lorg~springframework~http~HttpEntity^Lorg~springframework~core~ParameterizedTypeReference^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~exchange~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Lorg~springframework~http~HttpMethod^Lorg~springframework~http~HttpEntity^Ljava~lang~Class^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~exchange~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Lorg~springframework~http~HttpMethod^Lorg~springframework~http~HttpEntity^Ljava~lang~Class^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~exchange~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Lorg~springframework~http~HttpMethod^Lorg~springframework~http~HttpEntity^Lorg~springframework~core~ParameterizedTypeReference^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~exchange~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Lorg~springframework~http~HttpMethod^Lorg~springframework~http~HttpEntity^Lorg~springframework~core~ParameterizedTypeReference^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~execute~Lorg~springframework~web~client~RestOperations^Ljava~net~URI^Lorg~springframework~http~HttpMethod^Lorg~springframework~web~client~RequestCallback^Lorg~springframework~web~client~ResponseExtractor^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~execute~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Lorg~springframework~http~HttpMethod^Lorg~springframework~web~client~RequestCallback^Lorg~springframework~web~client~ResponseExtractor^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~execute~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Lorg~springframework~http~HttpMethod^Lorg~springframework~web~client~RequestCallback^Lorg~springframework~web~client~ResponseExtractor^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~getForEntity~Lorg~springframework~web~client~RestOperations^Ljava~net~URI^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~getForEntity~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Class^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~getForEntity~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Class^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~getForObject~Lorg~springframework~web~client~RestOperations^Ljava~net~URI^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~getForObject~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Class^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~getForObject~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Class^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~headForHeaders~Lorg~springframework~web~client~RestOperations^Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~headForHeaders~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~headForHeaders~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~optionsForAllow~Lorg~springframework~web~client~RestOperations^Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~optionsForAllow~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~optionsForAllow~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~patchForObject~Lorg~springframework~web~client~RestOperations^Ljava~net~URI^Ljava~lang~Object^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~patchForObject~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~patchForObject~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~postForEntity~Lorg~springframework~web~client~RestOperations^Ljava~net~URI^Ljava~lang~Object^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~postForEntity~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~postForEntity~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~postForLocation~Lorg~springframework~web~client~RestOperations^Ljava~net~URI^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~postForLocation~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Object^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~postForLocation~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Object^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~postForObject~Lorg~springframework~web~client~RestOperations^Ljava~net~URI^Ljava~lang~Object^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~postForObject~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~postForObject~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~put~Lorg~springframework~web~client~RestOperations^Ljava~net~URI^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~put~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Object^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~client~RestOperations~~put~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Object^Ljava~util~Map^~throws;
+ :public: :abstract: org.springframework.http.ResponseEntity :*: org~springframework~web~client~RestOperations~~postForEntity~Lorg~springframework~web~client~RestOperations^Ljava~net~URI^Ljava~lang~Object^Ljava~lang~Class^ ( org.springframework.web.client.RestOperations :*: , java.net.URI :*: , java.lang.Object :*: , java.lang.Class :*: ) :  "postForEntity"  :exceptions:  org.springframework.web.client.RestClientException :*: ;
+:public: :abstract: org.springframework.http.ResponseEntity :*: org~springframework~web~client~RestOperations~~postForEntity~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^?Ljava~lang~Object^ ( org.springframework.web.client.RestOperations :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Class :*: , java.lang.Object :*: [] , ... ) :  "postForEntity"  :exceptions:  org.springframework.web.client.RestClientException :*: ;
+:public: :abstract: org.springframework.http.ResponseEntity :*: org~springframework~web~client~RestOperations~~postForEntity~Lorg~springframework~web~client~RestOperations^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Class^Ljava~util~Map^ ( org.springframework.web.client.RestOperations :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Class :*: , java.util.Map :*: ) :  "postForEntity"  :exceptions:  org.springframework.web.client.RestClientException :*: ;
+}
+	
+:public: :interface::class: org.springframework.http.client.ClientHttpRequestFactory :extends: java.lang.Object :"org.springframework.http.client":"ClientHttpRequestFactory"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~http~client~ClientHttpRequestFactory~~createRequest~Lorg~springframework~http~client~ClientHttpRequestFactory^Ljava~net~URI^Lorg~springframework~http~HttpMethod^~throws;
+}
+	
+ :public: :interface::class: java.util.List :extends: java.util.Collection :"java.util":"List"{
+	
+ :public: :abstract: :boolean: java~util~List~~equals~Ljava~util~List^Ljava~lang~Object^ ( java.util.List :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :abstract: :int: java~util~List~~indexOf~Ljava~util~List^Ljava~lang~Object^ ( java.util.List :*: , java.lang.Object :*: ) :  "indexOf" ;
+}
+	
+:public::class: org.springframework.http.ResponseEntity :extends: org.springframework.http.HttpEntity :"org.springframework.http":"ResponseEntity"{
+	
+ :public: :void: org~springframework~http~ResponseEntity~~init^~Lorg~springframework~http~ResponseEntity^Lorg~springframework~http~HttpStatus^ ( org.springframework.http.ResponseEntity :*: , org.springframework.http.HttpStatus :*: ) :  "ResponseEntity" ;
+:public: :void: org~springframework~http~ResponseEntity~~init^~Lorg~springframework~http~ResponseEntity^Ljava~lang~Object^Lorg~springframework~http~HttpStatus^ ( org.springframework.http.ResponseEntity :*: , java.lang.Object :*: , org.springframework.http.HttpStatus :*: ) :  "ResponseEntity" ;
+:public: :void: org~springframework~http~ResponseEntity~~init^~Lorg~springframework~http~ResponseEntity^Lorg~springframework~util~MultiValueMap^Lorg~springframework~http~HttpStatus^ ( org.springframework.http.ResponseEntity :*: , org.springframework.util.MultiValueMap :*: , org.springframework.http.HttpStatus :*: ) :  "ResponseEntity" ;
+:public: :void: org~springframework~http~ResponseEntity~~init^~Lorg~springframework~http~ResponseEntity^Ljava~lang~Object^Lorg~springframework~util~MultiValueMap^Lorg~springframework~http~HttpStatus^ ( org.springframework.http.ResponseEntity :*: , java.lang.Object :*: , org.springframework.util.MultiValueMap :*: , org.springframework.http.HttpStatus :*: ) :  "ResponseEntity" ;
+:public: :void: org~springframework~http~ResponseEntity~~init^~Lorg~springframework~http~ResponseEntity^Ljava~lang~Object^Lorg~springframework~util~MultiValueMap^I^ ( org.springframework.http.ResponseEntity :*: , java.lang.Object :*: , org.springframework.util.MultiValueMap :*: , :int: ) :  "ResponseEntity" ;
+:private: :void: org~springframework~http~ResponseEntity~~init^~Lorg~springframework~http~ResponseEntity^Ljava~lang~Object^Lorg~springframework~util~MultiValueMap^Ljava~lang~Object^ ( org.springframework.http.ResponseEntity :*: , java.lang.Object :*: , org.springframework.util.MultiValueMap :*: , java.lang.Object :*: ) :  "ResponseEntity" ;
+:public: :boolean: org~springframework~http~ResponseEntity~~equals~Lorg~springframework~http~ResponseEntity^Ljava~lang~Object^ ( org.springframework.http.ResponseEntity :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :final::class: java.net.URI :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.net":"URI"{
+	
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~checkPath~S~Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~parseServerAuthority~Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~readObject~Ljava~net~URI^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~toURL~Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~writeObject~Ljava~net~URI^Ljava~io~ObjectOutputStream^~throws;
+ :private: :void: java~net~URI~~init^~Ljava~net~URI^ ( java.net.URI :*: ) :  "URI" ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , :int: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :boolean: java~net~URI~~equals~Ljava~net~URI^Ljava~lang~Object^ ( java.net.URI :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :interface::class: java.util.Map :extends: java.lang.Object :"java.util":"Map"{
+	
+ :public: :abstract: :boolean: java~util~Map~~equals~Ljava~util~Map^Ljava~lang~Object^ ( java.util.Map :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+ :public: :abstract: :boolean: java~lang~annotation~Annotation~~equals~Ljava~lang~annotation~Annotation^Ljava~lang~Object^ ( java.lang.annotation.Annotation :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.PluginMessages :extends: org.springframework.context.support.ReloadableResourceBundleMessageSource :"org.owasp.webgoat.i18n":"PluginMessages"{
+	
+ :public: :void: org~owasp~webgoat~i18n~PluginMessages~~init^~Lorg~owasp~webgoat~i18n~PluginMessages^Lorg~owasp~webgoat~i18n~Messages^Lorg~owasp~webgoat~i18n~Language^ ( org.owasp.webgoat.i18n.PluginMessages :*: , org.owasp.webgoat.i18n.Messages :*: , org.owasp.webgoat.i18n.Language :*: ) :  "PluginMessages" ;
+:public: java.lang.String :*: org~owasp~webgoat~i18n~PluginMessages~~getMessage~Lorg~owasp~webgoat~i18n~PluginMessages^Ljava~lang~String^?Ljava~lang~Object^ ( org.owasp.webgoat.i18n.PluginMessages :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "getMessage" ;
+:public: java.lang.String :*: org~owasp~webgoat~i18n~PluginMessages~~getMessage~Lorg~owasp~webgoat~i18n~PluginMessages^Ljava~lang~String^Ljava~lang~String^?Ljava~lang~Object^ ( org.owasp.webgoat.i18n.PluginMessages :*: , java.lang.String :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "getMessage" ;
+}
+	
+:public::class: org.springframework.util.MimeType :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"org.springframework.util":"MimeType"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~util~MimeType~~readObject~Lorg~springframework~util~MimeType^Ljava~io~ObjectInputStream^~throws;
+ :public: :void: org~springframework~util~MimeType~~init^~Lorg~springframework~util~MimeType^Ljava~lang~String^ ( org.springframework.util.MimeType :*: , java.lang.String :*: ) :  "MimeType" ;
+:protected: :void: org~springframework~util~MimeType~~init^~Lorg~springframework~util~MimeType^Lorg~springframework~util~MimeType^ ( org.springframework.util.MimeType :*: , org.springframework.util.MimeType :*: ) :  "MimeType" ;
+:public: :void: org~springframework~util~MimeType~~init^~Lorg~springframework~util~MimeType^Ljava~lang~String^Ljava~lang~String^ ( org.springframework.util.MimeType :*: , java.lang.String :*: , java.lang.String :*: ) :  "MimeType" ;
+:public: :void: org~springframework~util~MimeType~~init^~Lorg~springframework~util~MimeType^Lorg~springframework~util~MimeType^Ljava~nio~charset~Charset^ ( org.springframework.util.MimeType :*: , org.springframework.util.MimeType :*: , java.nio.charset.Charset :*: ) :  "MimeType" ;
+:public: :void: org~springframework~util~MimeType~~init^~Lorg~springframework~util~MimeType^Lorg~springframework~util~MimeType^Ljava~util~Map^ ( org.springframework.util.MimeType :*: , org.springframework.util.MimeType :*: , java.util.Map :*: ) :  "MimeType" ;
+:public: :void: org~springframework~util~MimeType~~init^~Lorg~springframework~util~MimeType^Ljava~lang~String^Ljava~lang~String^Ljava~nio~charset~Charset^ ( org.springframework.util.MimeType :*: , java.lang.String :*: , java.lang.String :*: , java.nio.charset.Charset :*: ) :  "MimeType" ;
+:public: :void: org~springframework~util~MimeType~~init^~Lorg~springframework~util~MimeType^Ljava~lang~String^Ljava~lang~String^Ljava~util~Map^ ( org.springframework.util.MimeType :*: , java.lang.String :*: , java.lang.String :*: , java.util.Map :*: ) :  "MimeType" ;
+:public: :boolean: org~springframework~util~MimeType~~equals~Lorg~springframework~util~MimeType^Ljava~lang~Object^ ( org.springframework.util.MimeType :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :interface::class: java.time.temporal.Temporal :extends: java.time.temporal.TemporalAccessor :"java.time.temporal":"Temporal"{
+	
+}
+	
+ :public: :interface::class: java.time.temporal.TemporalAdjuster :extends: java.lang.Object :"java.time.temporal":"TemporalAdjuster"{
+	
+}
+	
+ :public: :interface::class: java.time.chrono.ChronoLocalDateTime :extends: java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.lang.Comparable :"java.time.chrono":"ChronoLocalDateTime"{
+	
+ :public: :abstract: :boolean: java~time~chrono~ChronoLocalDateTime~~equals~Ljava~time~chrono~ChronoLocalDateTime^Ljava~lang~Object^ ( java.time.chrono.ChronoLocalDateTime :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :final::class: java.time.LocalDate :extends: java.lang.Object java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.time.chrono.ChronoLocalDate java.io.Serializable :"java.time":"LocalDate"{
+	
+ :public: :static: java.lang.Throwable :*: java~time~LocalDate~~readExternal~S~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalDate~~readObject~Ljava~time~LocalDate^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalDate~~writeExternal~Ljava~time~LocalDate^Ljava~io~DataOutput^~throws;
+ :private: :void: java~time~LocalDate~~init^~Ljava~time~LocalDate^I^I^I^ ( java.time.LocalDate :*: , :int: , :int: , :int: ) :  "LocalDate" ;
+:public: :boolean: java~time~LocalDate~~equals~Ljava~time~LocalDate^Ljava~lang~Object^ ( java.time.LocalDate :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :static: java.time.LocalDate :*: java~time~LocalDate~~now~S~ ( ) :  "now" ;
+:public: :static: java.time.LocalDate :*: java~time~LocalDate~~now~S~Ljava~time~ZoneId^ ( java.time.ZoneId :*: ) :  "now" ;
+:public: :static: java.time.LocalDate :*: java~time~LocalDate~~now~S~Ljava~time~Clock^ ( java.time.Clock :*: ) :  "now" ;
+}
+	
+:public: :final::class: java.time.LocalTime :extends: java.lang.Object java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.lang.Comparable java.io.Serializable :"java.time":"LocalTime"{
+	
+ :public: :static: java.lang.Throwable :*: java~time~LocalTime~~readExternal~S~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalTime~~readObject~Ljava~time~LocalTime^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalTime~~writeExternal~Ljava~time~LocalTime^Ljava~io~DataOutput^~throws;
+ :private: :void: java~time~LocalTime~~init^~Ljava~time~LocalTime^I^I^I^I^ ( java.time.LocalTime :*: , :int: , :int: , :int: , :int: ) :  "LocalTime" ;
+:public: :boolean: java~time~LocalTime~~equals~Ljava~time~LocalTime^Ljava~lang~Object^ ( java.time.LocalTime :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :static: java.time.LocalTime :*: java~time~LocalTime~~now~S~ ( ) :  "now" ;
+:public: :static: java.time.LocalTime :*: java~time~LocalTime~~now~S~Ljava~time~ZoneId^ ( java.time.ZoneId :*: ) :  "now" ;
+:public: :static: java.time.LocalTime :*: java~time~LocalTime~~now~S~Ljava~time~Clock^ ( java.time.Clock :*: ) :  "now" ;
+}
+	
+:public: :abstract::class: java.time.ZoneId :extends: java.lang.Object java.io.Serializable :"java.time":"ZoneId"{
+	
+ :public: :static: java.lang.Throwable :*: java~time~ZoneId~~readObject~Ljava~time~ZoneId^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~ZoneId~~write~Ljava~time~ZoneId^Ljava~io~DataOutput^~throws;
+ :void: java~time~ZoneId~~init^~Ljava~time~ZoneId^ ( java.time.ZoneId :*: ) :  "ZoneId" ;
+:public: :boolean: java~time~ZoneId~~equals~Ljava~time~ZoneId^Ljava~lang~Object^ ( java.time.ZoneId :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :abstract::class: java.time.Clock :extends: java.lang.Object :"java.time":"Clock"{
+	
+ :protected: :void: java~time~Clock~~init^~Ljava~time~Clock^ ( java.time.Clock :*: ) :  "Clock" ;
+:public: :boolean: java~time~Clock~~equals~Ljava~time~Clock^Ljava~lang~Object^ ( java.time.Clock :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :interface::class: java.lang.reflect.GenericDeclaration :extends: java.lang.reflect.AnnotatedElement :"java.lang.reflect":"GenericDeclaration"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.Type :extends: java.lang.Object :"java.lang.reflect":"Type"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.AnnotatedElement :extends: java.lang.Object :"java.lang.reflect":"AnnotatedElement"{
+	
+}
+	
+ :public: :abstract::class: java.lang.ClassLoader :extends: java.lang.Object :"java.lang":"ClassLoader"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~nio~ByteBuffer^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~definePackage~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findSystemClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getBootstrapResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getSystemResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClassInternal~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:private: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~Void^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.Void :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+:public: java.lang.String :*: java~lang~Throwable~~getMessage~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "getMessage" ;
+}
+	
+:public::class: java.lang.RuntimeException :extends: java.lang.Exception :"java.lang":"RuntimeException"{
+	
+ :public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^ ( java.lang.RuntimeException :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^ ( java.lang.RuntimeException :*: , java.lang.String :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:protected: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "RuntimeException" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :char: [] value;
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+:public: :int: java~lang~AbstractStringBuilder~~indexOf~Ljava~lang~AbstractStringBuilder^Ljava~lang~String^ ( java.lang.AbstractStringBuilder :*: , java.lang.String :*: ) :  "indexOf" ;
+:public: :int: java~lang~AbstractStringBuilder~~indexOf~Ljava~lang~AbstractStringBuilder^Ljava~lang~String^I^ ( java.lang.AbstractStringBuilder :*: , java.lang.String :*: , :int: ) :  "indexOf" ;
+:public: :int: java~lang~AbstractStringBuilder~~length~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "length" ;
+:public: java.lang.AbstractStringBuilder :*: java~lang~AbstractStringBuilder~~reverse~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "reverse" ;
+:public: java.lang.String :*: java~lang~AbstractStringBuilder~~substring~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "substring" ;
+:public: java.lang.String :*: java~lang~AbstractStringBuilder~~substring~Ljava~lang~AbstractStringBuilder^I^I^ ( java.lang.AbstractStringBuilder :*: , :int: , :int: ) :  "substring" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :abstract::class: org.springframework.http.client.support.HttpAccessor :extends: java.lang.Object :"org.springframework.http.client.support":"HttpAccessor"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~http~client~support~HttpAccessor~~createRequest~Lorg~springframework~http~client~support~HttpAccessor^Ljava~net~URI^Lorg~springframework~http~HttpMethod^~throws;
+ :public: :void: org~springframework~http~client~support~HttpAccessor~~init^~Lorg~springframework~http~client~support~HttpAccessor^ ( org.springframework.http.client.support.HttpAccessor :*: ) :  "HttpAccessor" ;
+}
+	
+:public: :interface::class: java.util.Collection :extends: java.lang.Iterable :"java.util":"Collection"{
+	
+ :public: :abstract: :boolean: java~util~Collection~~equals~Ljava~util~Collection^Ljava~lang~Object^ ( java.util.Collection :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public::class: org.springframework.http.HttpEntity :extends: java.lang.Object :"org.springframework.http":"HttpEntity"{
+	
+ :protected: :void: org~springframework~http~HttpEntity~~init^~Lorg~springframework~http~HttpEntity^ ( org.springframework.http.HttpEntity :*: ) :  "HttpEntity" ;
+:public: :void: org~springframework~http~HttpEntity~~init^~Lorg~springframework~http~HttpEntity^Ljava~lang~Object^ ( org.springframework.http.HttpEntity :*: , java.lang.Object :*: ) :  "HttpEntity" ;
+:public: :void: org~springframework~http~HttpEntity~~init^~Lorg~springframework~http~HttpEntity^Lorg~springframework~util~MultiValueMap^ ( org.springframework.http.HttpEntity :*: , org.springframework.util.MultiValueMap :*: ) :  "HttpEntity" ;
+:public: :void: org~springframework~http~HttpEntity~~init^~Lorg~springframework~http~HttpEntity^Ljava~lang~Object^Lorg~springframework~util~MultiValueMap^ ( org.springframework.http.HttpEntity :*: , java.lang.Object :*: , org.springframework.util.MultiValueMap :*: ) :  "HttpEntity" ;
+:public: :boolean: org~springframework~http~HttpEntity~~equals~Lorg~springframework~http~HttpEntity^Ljava~lang~Object^ ( org.springframework.http.HttpEntity :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :final: :enum::class: org.springframework.http.HttpStatus :extends: java.lang.Enum java.lang.Enum :"org.springframework.http":"HttpStatus"{
+	
+ :private: :void: org~springframework~http~HttpStatus~~init^~Lorg~springframework~http~HttpStatus^I^Lorg~springframework~http~HttpStatus$Series^Ljava~lang~String^ ( org.springframework.http.HttpStatus :*: , :int: , org.springframework.http.HttpStatus$Series :*: , java.lang.String :*: ) :  "HttpStatus" ;
+:public: :int: org~springframework~http~HttpStatus~~value~Lorg~springframework~http~HttpStatus^ ( org.springframework.http.HttpStatus :*: ) :  "value" ;
+}
+	
+:public: :interface::class: org.springframework.util.MultiValueMap :extends: java.util.Map :"org.springframework.util":"MultiValueMap"{
+	
+}
+	
+ :public::class: java.net.URISyntaxException :extends: java.lang.Exception :"java.net":"URISyntaxException"{
+	
+ :public: :void: java~net~URISyntaxException~~init^~Ljava~net~URISyntaxException^Ljava~lang~String^Ljava~lang~String^ ( java.net.URISyntaxException :*: , java.lang.String :*: , java.lang.String :*: ) :  "URISyntaxException" ;
+:public: :void: java~net~URISyntaxException~~init^~Ljava~net~URISyntaxException^Ljava~lang~String^Ljava~lang~String^I^ ( java.net.URISyntaxException :*: , java.lang.String :*: , java.lang.String :*: , :int: ) :  "URISyntaxException" ;
+:public: java.lang.String :*: java~net~URISyntaxException~~getMessage~Ljava~net~URISyntaxException^ ( java.net.URISyntaxException :*: ) :  "getMessage" ;
+}
+	
+:public::class: org.springframework.context.support.ReloadableResourceBundleMessageSource :extends: org.springframework.context.support.AbstractResourceBasedMessageSource org.springframework.context.ResourceLoaderAware :"org.springframework.context.support":"ReloadableResourceBundleMessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~ReloadableResourceBundleMessageSource~~loadProperties~Lorg~springframework~context~support~ReloadableResourceBundleMessageSource^Lorg~springframework~core~io~Resource^Ljava~lang~String^~throws;
+ :public: :void: org~springframework~context~support~ReloadableResourceBundleMessageSource~~init^~Lorg~springframework~context~support~ReloadableResourceBundleMessageSource^ ( org.springframework.context.support.ReloadableResourceBundleMessageSource :*: ) :  "ReloadableResourceBundleMessageSource" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.Messages :extends: org.springframework.context.support.ReloadableResourceBundleMessageSource :"org.owasp.webgoat.i18n":"Messages"{
+	
+ :public: :void: org~owasp~webgoat~i18n~Messages~~init^~Lorg~owasp~webgoat~i18n~Messages^Lorg~owasp~webgoat~i18n~Language^ ( org.owasp.webgoat.i18n.Messages :*: , org.owasp.webgoat.i18n.Language :*: ) :  "Messages" ;
+:public: java.lang.String :*: org~owasp~webgoat~i18n~Messages~~getMessage~Lorg~owasp~webgoat~i18n~Messages^Ljava~lang~String^?Ljava~lang~Object^ ( org.owasp.webgoat.i18n.Messages :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "getMessage" ;
+:public: java.lang.String :*: org~owasp~webgoat~i18n~Messages~~getMessage~Lorg~owasp~webgoat~i18n~Messages^Ljava~lang~String^Ljava~lang~String^?Ljava~lang~Object^ ( org.owasp.webgoat.i18n.Messages :*: , java.lang.String :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "getMessage" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.Language :extends: java.lang.Object :"org.owasp.webgoat.i18n":"Language"{
+	
+ :public: :void: org~owasp~webgoat~i18n~Language~~init^~Lorg~owasp~webgoat~i18n~Language^Lorg~springframework~web~servlet~LocaleResolver^ ( org.owasp.webgoat.i18n.Language :*: , org.springframework.web.servlet.LocaleResolver :*: ) :  "Language" ;
+}
+	
+:public: :interface::class: java.time.temporal.TemporalAccessor :extends: java.lang.Object :"java.time.temporal":"TemporalAccessor"{
+	
+}
+	
+ :public: :interface::class: java.time.chrono.ChronoLocalDate :extends: java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.lang.Comparable :"java.time.chrono":"ChronoLocalDate"{
+	
+ :public: :abstract: :boolean: java~time~chrono~ChronoLocalDate~~equals~Ljava~time~chrono~ChronoLocalDate^Ljava~lang~Object^ ( java.time.chrono.ChronoLocalDate :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :final::class: java.lang.Void :extends: java.lang.Object :"java.lang":"Void"{
+	
+ :private: :void: java~lang~Void~~init^~Ljava~lang~Void^ ( java.lang.Void :*: ) :  "Void" ;
+}
+	
+:public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public: :interface::class: java.lang.Iterable :extends: java.lang.Object :"java.lang":"Iterable"{
+	
+}
+	
+ :public: :abstract::class: java.lang.Enum :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.lang":"Enum"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~clone~Ljava~lang~Enum^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObject~Ljava~lang~Enum^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObjectNoData~Ljava~lang~Enum^~throws;
+ :protected: :void: java~lang~Enum~~init^~Ljava~lang~Enum^Ljava~lang~String^I^ ( java.lang.Enum :*: , java.lang.String :*: , :int: ) :  "Enum" ;
+:public: :final: :boolean: java~lang~Enum~~equals~Ljava~lang~Enum^Ljava~lang~Object^ ( java.lang.Enum :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :final: :static: :enum::class: org.springframework.http.HttpStatus$Series :extends: java.lang.Enum java.lang.Enum :"org.springframework.http":"HttpStatus$Series"{
+	
+ :private: :void: org~springframework~http~HttpStatus$Series~~init^~Lorg~springframework~http~HttpStatus$Series^I^ ( org.springframework.http.HttpStatus$Series :*: , :int: ) :  "Series" ;
+:public: :int: org~springframework~http~HttpStatus$Series~~value~Lorg~springframework~http~HttpStatus$Series^ ( org.springframework.http.HttpStatus$Series :*: ) :  "value" ;
+}
+	
+:public: :abstract::class: org.springframework.context.support.AbstractResourceBasedMessageSource :extends: org.springframework.context.support.AbstractMessageSource :"org.springframework.context.support":"AbstractResourceBasedMessageSource"{
+	
+ :public: :void: org~springframework~context~support~AbstractResourceBasedMessageSource~~init^~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^ ( org.springframework.context.support.AbstractResourceBasedMessageSource :*: ) :  "AbstractResourceBasedMessageSource" ;
+}
+	
+:public: :interface::class: org.springframework.context.ResourceLoaderAware :extends: org.springframework.beans.factory.Aware :"org.springframework.context":"ResourceLoaderAware"{
+	
+}
+	
+ :public: :interface::class: org.springframework.web.servlet.LocaleResolver :extends: java.lang.Object :"org.springframework.web.servlet":"LocaleResolver"{
+	
+}
+	
+ :public: :abstract::class: org.springframework.context.support.AbstractMessageSource :extends: org.springframework.context.support.MessageSourceSupport org.springframework.context.HierarchicalMessageSource :"org.springframework.context.support":"AbstractMessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^~throws;
+ :public: :void: org~springframework~context~support~AbstractMessageSource~~init^~Lorg~springframework~context~support~AbstractMessageSource^ ( org.springframework.context.support.AbstractMessageSource :*: ) :  "AbstractMessageSource" ;
+:public: :final: java.lang.String :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^ ( org.springframework.context.support.AbstractMessageSource :*: , org.springframework.context.MessageSourceResolvable :*: , java.util.Locale :*: ) :  "getMessage"  :exceptions:  org.springframework.context.NoSuchMessageException :*: ;
+:public: :final: java.lang.String :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^ ( org.springframework.context.support.AbstractMessageSource :*: , java.lang.String :*: , java.lang.Object :*: [] , java.util.Locale :*: ) :  "getMessage"  :exceptions:  org.springframework.context.NoSuchMessageException :*: ;
+:public: :final: java.lang.String :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~lang~String^Ljava~util~Locale^ ( org.springframework.context.support.AbstractMessageSource :*: , java.lang.String :*: , java.lang.Object :*: [] , java.lang.String :*: , java.util.Locale :*: ) :  "getMessage" ;
+}
+	
+:public: :interface::class: org.springframework.beans.factory.Aware :extends: java.lang.Object :"org.springframework.beans.factory":"Aware"{
+	
+}
+	
+ :public: :abstract::class: org.springframework.context.support.MessageSourceSupport :extends: java.lang.Object :"org.springframework.context.support":"MessageSourceSupport"{
+	
+ :public: :void: org~springframework~context~support~MessageSourceSupport~~init^~Lorg~springframework~context~support~MessageSourceSupport^ ( org.springframework.context.support.MessageSourceSupport :*: ) :  "MessageSourceSupport" ;
+}
+	
+:public: :interface::class: org.springframework.context.HierarchicalMessageSource :extends: org.springframework.context.MessageSource :"org.springframework.context":"HierarchicalMessageSource"{
+	
+}
+	
+ :public: :interface::class: org.springframework.context.MessageSourceResolvable :extends: java.lang.Object :"org.springframework.context":"MessageSourceResolvable"{
+	
+}
+	
+ :public: :final::class: java.util.Locale :extends: java.lang.Object java.lang.Cloneable java.io.Serializable :"java.util":"Locale"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~getISO3Country~Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~getISO3Language~Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~readObject~Ljava~util~Locale^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~readResolve~Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~writeObject~Ljava~util~Locale^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~util~Locale~~init^~Ljava~util~Locale^Ljava~lang~String^ ( java.util.Locale :*: , java.lang.String :*: ) :  "Locale" ;
+:private: :void: java~util~Locale~~init^~Ljava~util~Locale^Lsun~util~locale~BaseLocale^Lsun~util~locale~LocaleExtensions^ ( java.util.Locale :*: , sun.util.locale.BaseLocale :*: , sun.util.locale.LocaleExtensions :*: ) :  "Locale" ;
+:public: :void: java~util~Locale~~init^~Ljava~util~Locale^Ljava~lang~String^Ljava~lang~String^ ( java.util.Locale :*: , java.lang.String :*: , java.lang.String :*: ) :  "Locale" ;
+:public: :void: java~util~Locale~~init^~Ljava~util~Locale^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.util.Locale :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "Locale" ;
+:public: :boolean: java~util~Locale~~equals~Ljava~util~Locale^Ljava~lang~Object^ ( java.util.Locale :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public::class: org.springframework.context.NoSuchMessageException :extends: java.lang.RuntimeException :"org.springframework.context":"NoSuchMessageException"{
+	
+ :public: :void: org~springframework~context~NoSuchMessageException~~init^~Lorg~springframework~context~NoSuchMessageException^Ljava~lang~String^ ( org.springframework.context.NoSuchMessageException :*: , java.lang.String :*: ) :  "NoSuchMessageException" ;
+:public: :void: org~springframework~context~NoSuchMessageException~~init^~Lorg~springframework~context~NoSuchMessageException^Ljava~lang~String^Ljava~util~Locale^ ( org.springframework.context.NoSuchMessageException :*: , java.lang.String :*: , java.util.Locale :*: ) :  "NoSuchMessageException" ;
+}
+	
+:public: :interface::class: org.springframework.context.MessageSource :extends: java.lang.Object :"org.springframework.context":"MessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^~throws;
+ :public: :abstract: java.lang.String :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^ ( org.springframework.context.MessageSource :*: , org.springframework.context.MessageSourceResolvable :*: , java.util.Locale :*: ) :  "getMessage"  :exceptions:  org.springframework.context.NoSuchMessageException :*: ;
+:public: :abstract: java.lang.String :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^ ( org.springframework.context.MessageSource :*: , java.lang.String :*: , java.lang.Object :*: [] , java.util.Locale :*: ) :  "getMessage"  :exceptions:  org.springframework.context.NoSuchMessageException :*: ;
+:public: :abstract: java.lang.String :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~lang~String^Ljava~util~Locale^ ( org.springframework.context.MessageSource :*: , java.lang.String :*: , java.lang.Object :*: [] , java.lang.String :*: , java.util.Locale :*: ) :  "getMessage" ;
+}
+	
+:public: :interface::class: java.lang.Cloneable :extends: java.lang.Object :"java.lang":"Cloneable"{
+	
+}
+	
+ :public: :final::class: sun.util.locale.BaseLocale :extends: java.lang.Object :"sun.util.locale":"BaseLocale"{
+	
+ :private: :void: sun~util~locale~BaseLocale~~init^~Lsun~util~locale~BaseLocale^Ljava~lang~String^Ljava~lang~String^ ( sun.util.locale.BaseLocale :*: , java.lang.String :*: , java.lang.String :*: ) :  "BaseLocale" ;
+:private: :void: sun~util~locale~BaseLocale~~init^~Lsun~util~locale~BaseLocale^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( sun.util.locale.BaseLocale :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "BaseLocale" ;
+:public: :boolean: sun~util~locale~BaseLocale~~equals~Lsun~util~locale~BaseLocale^Ljava~lang~Object^ ( sun.util.locale.BaseLocale :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public::class: sun.util.locale.LocaleExtensions :extends: java.lang.Object :"sun.util.locale":"LocaleExtensions"{
+	
+ :private: :void: sun~util~locale~LocaleExtensions~~init^~Lsun~util~locale~LocaleExtensions^Ljava~lang~String^Ljava~lang~Character^Lsun~util~locale~Extension^ ( sun.util.locale.LocaleExtensions :*: , java.lang.String :*: , java.lang.Character :*: , sun.util.locale.Extension :*: ) :  "LocaleExtensions" ;
+:void: sun~util~locale~LocaleExtensions~~init^~Lsun~util~locale~LocaleExtensions^Ljava~util~Map^Ljava~util~Set^Ljava~util~Map^ ( sun.util.locale.LocaleExtensions :*: , java.util.Map :*: , java.util.Set :*: , java.util.Map :*: ) :  "LocaleExtensions" ;
+:public: :boolean: sun~util~locale~LocaleExtensions~~equals~Lsun~util~locale~LocaleExtensions^Ljava~lang~Object^ ( sun.util.locale.LocaleExtensions :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :final::class: java.lang.Character :extends: java.lang.Object java.io.Serializable java.lang.Comparable :"java.lang":"Character"{
+	
+ :public: :void: java~lang~Character~~init^~Ljava~lang~Character^C^ ( java.lang.Character :*: , :char: ) :  "Character" ;
+:public: :boolean: java~lang~Character~~equals~Ljava~lang~Character^Ljava~lang~Object^ ( java.lang.Character :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:class: sun.util.locale.Extension :extends: java.lang.Object :"sun.util.locale":"Extension"{
+	
+:protected: :void: sun~util~locale~Extension~~init^~Lsun~util~locale~Extension^C^ ( sun.util.locale.Extension :*: , :char: ) :  "Extension" ;
+:void: sun~util~locale~Extension~~init^~Lsun~util~locale~Extension^C^Ljava~lang~String^ ( sun.util.locale.Extension :*: , :char: , java.lang.String :*: ) :  "Extension" ;
+}
+	
+:public: :interface::class: java.util.Set :extends: java.util.Collection :"java.util":"Set"{
+	
+ :public: :abstract: :boolean: java~util~Set~~equals~Ljava~util~Set^Ljava~lang~Object^ ( java.util.Set :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	

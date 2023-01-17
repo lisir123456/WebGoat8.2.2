@@ -1,0 +1,1179 @@
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+#source-type java
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 45
+ #14# :public::class: org.owasp.webgoat.password_reset.SecurityQuestionAssignment :extends: org.owasp.webgoat.assignments.AssignmentEndpoint :"org.owasp.webgoat.password_reset":"SecurityQuestionAssignment"
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 44
+ #1# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #1# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #1# < org.springframework.web.bind.annotation.RestController :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 50
+ #40# :private: :static: java.util.Map :*: questions;
+ 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 48
+ #28# :private: org.owasp.webgoat.password_reset.TriedQuestions :*: triedQuestions
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 47
+ #5# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #5# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #5# < org.springframework.beans.factory.annotation.Autowired :*: > -~> ~annotation ( ):]]:
+;
+ 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 72
+ #25# :public: org.owasp.webgoat.assignments.AttackResult :*: org~owasp~webgoat~password_reset~SecurityQuestionAssignment~~completed~Lorg~owasp~webgoat~password_reset~SecurityQuestionAssignment^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #25# org.owasp.webgoat.password_reset.SecurityQuestionAssignment :*: this~ , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #56# java.lang.String :*: question
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #35# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #35# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #35# < org.springframework.web.bind.annotation.RequestParam :*: > -~> ~annotation ( ):]]:
+ ) :  "completed"
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 70
+ #5# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #5# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #5# < org.springframework.web.bind.annotation.PostMapping :*: > -~> ~annotation ( value:  "/PasswordReset/SecurityQuestions" ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 71
+ #5# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #5# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #5# < org.springframework.web.bind.annotation.ResponseBody :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 72
+ #66# {
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 73
+ #13# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #13# 	var :*: answer ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #25# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #25# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #25# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #25# 	~t0 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #25# 	-~> java~util~Map~~get~Ljava~util~Map^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #25# 	[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #39# 	question ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #13# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #13# 	answer :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #22# 	-~> java~util~Optional~~of~S~Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #25# 	~t0 ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 74
+ #9# 	:if: ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #13# 	-~> isPresent ( ) ) 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #33# 	{
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 75
+ #13# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #13# 		-~> org~owasp~webgoat~password_reset~TriedQuestions~~incr~Lorg~owasp~webgoat~password_reset~TriedQuestions^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #13# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] ( this~ ) :.: triedQuestions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #33# 		question ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 76
+ #13# 		:if: ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #17# 		-~> org~owasp~webgoat~password_reset~TriedQuestions~~isComplete~Lorg~owasp~webgoat~password_reset~TriedQuestions^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #17# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] ( this~ ) :.: triedQuestions ) ) 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #46# 		{
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 77
+ #24# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #24# 			org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t1 ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #24# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #24# 			~t1 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #24# 			-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~success~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #53# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #53# 			java.lang.String :*: ~t2 ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #53# 			__toString____L__~tool~generated~ :
+			:if: ( ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #53# 			answer :==: :null: ) ) 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #53# 			{
+				
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #53# 				
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #53# 				~t2 :=: "null" ;
+			}
+			:else: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #53# 			{
+				
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #53# 				
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #53# 				~t2 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #53# 				-~> java~lang~Object~~toString~Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #53# 				answer ) ;
+			}
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #45# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #45# 			~Unknown~Type~ :*: ~t3 ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #45# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #45# 			~t3 :=: ( ( "<b>" :+: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #53# 			~t2 ) :+: "</b>" ) ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #24# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #24# 			~Unknown~Type~ :*: ~t4 ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #24# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #24# 			~t4 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #24# 			-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~output~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #24# 			~t1 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #45# 			~t3 ) ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #17# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #17# 			~Unknown~Type~ :*: ~t5 ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #17# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #17# 			~t5 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #24# 			-~> build ( ) ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #17# 			:return: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #17# 			~t5 ;
+
+#source-line 78
+		}
+
+#source-line 79
+	}
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 80
+ #16# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #16# 	org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t6 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #16# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #16# 	~t6 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #16# 	-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~informationMessage~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 81
+ #27# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #27# 	java.lang.String :*: ~t7 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #27# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #27# 	~t7 :=: "password-questions-one-successful" ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 80
+ #16# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #16# 	org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t8 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #16# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #16# 	~t8 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #16# 	-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #16# 	~t6 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 81
+ #27# 	~t7 ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 82
+ #39# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #39# 	java.lang.String :*: ~t9 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #39# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #39# 	~t9 :=: "Unknown question, please try again..." ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #25# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #25# 	~Unknown~Type~ :*: ~t10 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #25# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #25# 	~t10 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #25# 	-~> orElse ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #39# 	~t9 ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 80
+ #16# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #16# 	~Unknown~Type~ :*: ~t11 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #16# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #16# 	~t11 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #16# 	-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~output~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #16# 	~t8 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 82
+ #25# 	~t10 ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 80
+ #9# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 	~Unknown~Type~ :*: ~t12 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 	~t12 :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #16# 	-~> build ( ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 	:return: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 	~t12 ;
+
+#source-line 84
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 45
+ #14# :public: :void: org~owasp~webgoat~password_reset~SecurityQuestionAssignment~~init^~Lorg~owasp~webgoat~password_reset~SecurityQuestionAssignment^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #14# org.owasp.webgoat.password_reset.SecurityQuestionAssignment :*: this~ ) :  "init^" 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #14# {
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #14# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #14# 	-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~init^~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ ) ;
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #14# :public: :static: :void: org~owasp~webgoat~password_reset~SecurityQuestionAssignment~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #14# {
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 52
+ #12# 	{
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 53
+ #21# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #21# 		java.util.HashMap :*: ~t0 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #21# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #21# 		~t0 :=: :new: java.util.HashMap ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #21# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #21# 		-~> java~util~HashMap~~init^~Ljava~util~HashMap^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #21# 		~t0 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #21# 		~t0 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 54
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		java.lang.String :*: ~t1 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t1 :=: "What is your favorite animal?" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #56# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #56# 		java.lang.String :*: ~t2 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #56# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #56# 		~t2 :=: "The answer can easily be guessed and figured out through social media." ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t1 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #56# 		~t2 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 55
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		java.lang.String :*: ~t3 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t3 :=: "In what year was your mother born?" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #61# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #61# 		java.lang.String :*: ~t4 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #61# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #61# 		~t4 :=: "Can  be easily guessed." ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t3 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #61# 		~t4 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 56
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		java.lang.String :*: ~t5 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t5 :=: "What was the time you were born?" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #59# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #59# 		java.lang.String :*: ~t6 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #59# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #59# 		~t6 :=: "This may first seem like a good question, but you most likely dont know the exact time, so it might be hard to remember." ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t5 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #59# 		~t6 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 57
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		java.lang.String :*: ~t7 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t7 :=: "What is the name of the person you first kissed?" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #75# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #75# 		java.lang.String :*: ~t8 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #75# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #75# 		~t8 :=: "Can be figured out through social media, or even guessed by trying the most common names." ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t7 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #75# 		~t8 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 58
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		java.lang.String :*: ~t9 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t9 :=: "What was the house number and street name you lived in as a child?" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #93# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #93# 		java.lang.String :*: ~t10 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #93# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #93# 		~t10 :=: "Answer can be figured out through social media, or worse it might be your current address." ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t9 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #93# 		~t10 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 59
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		java.lang.String :*: ~t11 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t11 :=: "In what town or city was your first full time job?" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #77# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #77# 		java.lang.String :*: ~t12 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #77# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #77# 		~t12 :=: "In times of LinkedIn and Facebook, the answer can be figured out quite easily." ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t11 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #77# 		~t12 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 60
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		java.lang.String :*: ~t13 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t13 :=: "In what city were you born?" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #54# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #54# 		java.lang.String :*: ~t14 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #54# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #54# 		~t14 :=: "Easy to figure out through social media." ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t13 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #54# 		~t14 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 61
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		java.lang.String :*: ~t15 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t15 :=: "What was the last name of your favorite teacher in grade three?" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #90# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #90# 		java.lang.String :*: ~t16 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #90# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #90# 		~t16 :=: "Most people would probably not know the answer to that." ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t15 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #90# 		~t16 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 62
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		java.lang.String :*: ~t17 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t17 :=: "What is the name of a college/job you applied to but didn't attend?" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #94# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #94# 		java.lang.String :*: ~t18 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #94# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #94# 		~t18 :=: "It might not be easy to remember and an hacker could just try some company's/colleges in your area." ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t17 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #94# 		~t18 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 63
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		java.lang.String :*: ~t19 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t19 :=: "What are the last 5 digits of your drivers license?" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #78# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #78# 		java.lang.String :*: ~t20 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #78# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #78# 		~t20 :=: "Is subject to change, and the last digit of your driver license might follow a specific pattern. (For example your birthday)." ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t19 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #78# 		~t20 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 64
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		java.lang.String :*: ~t21 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t21 :=: "What was your childhood nickname?" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #60# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #60# 		java.lang.String :*: ~t22 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #60# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #60# 		~t22 :=: "Not all people had a nickname." ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t21 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #60# 		~t22 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 65
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		java.lang.String :*: ~t23 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t23 :=: "Who was your childhood hero?" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #55# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #55# 		java.lang.String :*: ~t24 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #55# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #55# 		~t24 :=: "Most Heroes we had as a child where quite obvious ones, like Superman for example." ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t23 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #55# 		~t24 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 66
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		java.lang.String :*: ~t25 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t25 :=: "On which wrist do you were your watch?" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #65# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #65# 		java.lang.String :*: ~t26 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #65# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #65# 		~t26 :=: "There are only to possible real answers, so really easy to guess." ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t25 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #65# 		~t26 ) ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+
+#source-line 67
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		java.lang.String :*: ~t27 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t27 :=: "What is your favorite color?" ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #55# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #55# 		java.lang.String :*: ~t28 ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #55# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #55# 		~t28 :=: "Can easily be guessed." ;
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #9# 		[ org.owasp.webgoat.password_reset.SecurityQuestionAssignment ] questions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #23# 		~t27 , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\SecurityQuestionAssignment.java
+ #55# 		~t28 ) ;
+
+#source-line 68
+	}
+
+#source-line 45
+}
+#source-line 45
+}
+	
+:public::class: org.owasp.webgoat.password_reset.TriedQuestions :extends: java.lang.Object :"org.owasp.webgoat.password_reset":"TriedQuestions"{
+	
+ :public: :void: org~owasp~webgoat~password_reset~TriedQuestions~~init^~Lorg~owasp~webgoat~password_reset~TriedQuestions^ ( org.owasp.webgoat.password_reset.TriedQuestions :*: ) :  "TriedQuestions" ;
+:public: :void: org~owasp~webgoat~password_reset~TriedQuestions~~incr~Lorg~owasp~webgoat~password_reset~TriedQuestions^Ljava~lang~String^ ( org.owasp.webgoat.password_reset.TriedQuestions :*: , java.lang.String :*: ) :  "incr" ;
+:public: :boolean: org~owasp~webgoat~password_reset~TriedQuestions~~isComplete~Lorg~owasp~webgoat~password_reset~TriedQuestions^ ( org.owasp.webgoat.password_reset.TriedQuestions :*: ) :  "isComplete" ;
+}
+	
+:public: :interface::class: java.util.Map :extends: java.lang.Object :"java.util":"Map"{
+	
+ :public: :abstract: java.lang.Object :*: java~util~Map~~get~Ljava~util~Map^Ljava~lang~Object^ ( java.util.Map :*: , java.lang.Object :*: ) :  "get" ;
+:public: :abstract: java.lang.Object :*: java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( java.util.Map :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "put" ;
+}
+	
+:public: :abstract::class: org.owasp.webgoat.assignments.AssignmentEndpoint :extends: java.lang.Object :"org.owasp.webgoat.assignments":"AssignmentEndpoint"{
+	
+ :public: :void: org~owasp~webgoat~assignments~AssignmentEndpoint~~init^~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "AssignmentEndpoint" ;
+:protected: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AssignmentEndpoint~~informationMessage~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: , org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "informationMessage" ;
+:protected: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AssignmentEndpoint~~success~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: , org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "success" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.RestController :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"RestController"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~web~bind~annotation~RestController~~value~Lorg~springframework~web~bind~annotation~RestController^ ( org.springframework.web.bind.annotation.RestController :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: org.springframework.beans.factory.annotation.Autowired :extends: java.lang.annotation.Annotation :"org.springframework.beans.factory.annotation":"Autowired"{
+	
+}
+	
+ :public::class: org.owasp.webgoat.assignments.AttackResult :extends: java.lang.Object :"org.owasp.webgoat.assignments":"AttackResult"{
+	
+ :public: :void: org~owasp~webgoat~assignments~AttackResult~~init^~Lorg~owasp~webgoat~assignments~AttackResult^Z^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Z^ ( org.owasp.webgoat.assignments.AttackResult :*: , :boolean: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , :boolean: ) :  "AttackResult" ;
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: java.lang.String :*: java~lang~String~~toString~Ljava~lang~String^ ( java.lang.String :*: ) :  "toString" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.RequestParam :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"RequestParam"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~web~bind~annotation~RequestParam~~value~Lorg~springframework~web~bind~annotation~RequestParam^ ( org.springframework.web.bind.annotation.RequestParam :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.PostMapping :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"PostMapping"{
+	
+ :public: :abstract: java.lang.String :*: [] org~springframework~web~bind~annotation~PostMapping~~value~Lorg~springframework~web~bind~annotation~PostMapping^ ( org.springframework.web.bind.annotation.PostMapping :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.ResponseBody :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"ResponseBody"{
+	
+}
+	
+ :public::class: var :extends: java.lang.Object :"org.owasp.webgoat.password_reset":"var"{
+	
+}
+	
+ :public: :final::class: java.util.Optional :extends: java.lang.Object :"java.util":"Optional"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~Optional~~orElseThrow~Ljava~util~Optional^Ljava~util~function~Supplier^~throws;
+ :private: :void: java~util~Optional~~init^~Ljava~util~Optional^ ( java.util.Optional :*: ) :  "Optional" ;
+:private: :void: java~util~Optional~~init^~Ljava~util~Optional^Ljava~lang~Object^ ( java.util.Optional :*: , java.lang.Object :*: ) :  "Optional" ;
+:public: java.lang.Object :*: java~util~Optional~~get~Ljava~util~Optional^ ( java.util.Optional :*: ) :  "get" ;
+:public: :boolean: java~util~Optional~~isPresent~Ljava~util~Optional^ ( java.util.Optional :*: ) :  "isPresent" ;
+:public: :static: java.util.Optional :*: java~util~Optional~~of~S~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "of" ;
+:public: java.lang.Object :*: java~util~Optional~~orElse~Ljava~util~Optional^Ljava~lang~Object^ ( java.util.Optional :*: , java.lang.Object :*: ) :  "orElse" ;
+:public: java.lang.String :*: java~util~Optional~~toString~Ljava~util~Optional^ ( java.util.Optional :*: ) :  "toString" ;
+}
+	
+:public: :static::class: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :extends: java.lang.Object :"org.owasp.webgoat.assignments":"AttackResult$AttackResultBuilder"{
+	
+ :public: :void: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~init^~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Lorg~owasp~webgoat~i18n~PluginMessages^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: , org.owasp.webgoat.i18n.PluginMessages :*: ) :  "AttackResultBuilder" ;
+:public: org.owasp.webgoat.assignments.AttackResult :*: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ) :  "build" ;
+:public: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: , java.lang.String :*: ) :  "feedback" ;
+:public: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~output~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: , java.lang.String :*: ) :  "output" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+:public: java.lang.String :*: java~lang~Object~~toString~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "toString" ;
+}
+	
+:public::class: java.util.HashMap :extends: java.util.AbstractMap java.util.Map java.lang.Cloneable java.io.Serializable :"java.util":"HashMap"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~HashMap~~internalWriteEntries~Ljava~util~HashMap^Ljava~io~ObjectOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~HashMap~~readObject~Ljava~util~HashMap^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~HashMap~~writeObject~Ljava~util~HashMap^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~util~HashMap~~init^~Ljava~util~HashMap^ ( java.util.HashMap :*: ) :  "HashMap" ;
+:public: :void: java~util~HashMap~~init^~Ljava~util~HashMap^I^ ( java.util.HashMap :*: , :int: ) :  "HashMap" ;
+:public: :void: java~util~HashMap~~init^~Ljava~util~HashMap^Ljava~util~Map^ ( java.util.HashMap :*: , java.util.Map :*: ) :  "HashMap" ;
+:public: :void: java~util~HashMap~~init^~Ljava~util~HashMap^I^F^ ( java.util.HashMap :*: , :int: , :float: ) :  "HashMap" ;
+:public: java.lang.Object :*: java~util~HashMap~~get~Ljava~util~HashMap^Ljava~lang~Object^ ( java.util.HashMap :*: , java.lang.Object :*: ) :  "get" ;
+:public: java.lang.Object :*: java~util~HashMap~~put~Ljava~util~HashMap^Ljava~lang~Object^Ljava~lang~Object^ ( java.util.HashMap :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "put" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+ :public: :abstract: java.lang.String :*: java~lang~annotation~Annotation~~toString~Ljava~lang~annotation~Annotation^ ( java.lang.annotation.Annotation :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+ :public: :abstract: java.lang.String :*: java~lang~CharSequence~~toString~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+:public: :synchronized: java.lang.String :*: java~lang~StringBuffer~~toString~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+:public: java.lang.String :*: java~lang~StringBuilder~~toString~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: java.lang.String :*: java~nio~charset~Charset~~toString~Ljava~nio~charset~Charset^ ( java.nio.charset.Charset :*: ) :  "toString" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.PluginMessages :extends: org.springframework.context.support.ReloadableResourceBundleMessageSource :"org.owasp.webgoat.i18n":"PluginMessages"{
+	
+ :public: :void: org~owasp~webgoat~i18n~PluginMessages~~init^~Lorg~owasp~webgoat~i18n~PluginMessages^Lorg~owasp~webgoat~i18n~Messages^Lorg~owasp~webgoat~i18n~Language^ ( org.owasp.webgoat.i18n.PluginMessages :*: , org.owasp.webgoat.i18n.Messages :*: , org.owasp.webgoat.i18n.Language :*: ) :  "PluginMessages" ;
+}
+	
+:public: :abstract::class: java.util.AbstractMap :extends: java.lang.Object java.util.Map :"java.util":"AbstractMap"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~AbstractMap~~clone~Ljava~util~AbstractMap^~throws;
+ :protected: :void: java~util~AbstractMap~~init^~Ljava~util~AbstractMap^ ( java.util.AbstractMap :*: ) :  "AbstractMap" ;
+:public: java.lang.Object :*: java~util~AbstractMap~~get~Ljava~util~AbstractMap^Ljava~lang~Object^ ( java.util.AbstractMap :*: , java.lang.Object :*: ) :  "get" ;
+:public: java.lang.Object :*: java~util~AbstractMap~~put~Ljava~util~AbstractMap^Ljava~lang~Object^Ljava~lang~Object^ ( java.util.AbstractMap :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "put" ;
+:public: java.lang.String :*: java~util~AbstractMap~~toString~Ljava~util~AbstractMap^ ( java.util.AbstractMap :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.lang.Cloneable :extends: java.lang.Object :"java.lang":"Cloneable"{
+	
+}
+	
+ :abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :char: [] value;
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+:public: :abstract: java.lang.String :*: java~lang~AbstractStringBuilder~~toString~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public::class: org.springframework.context.support.ReloadableResourceBundleMessageSource :extends: org.springframework.context.support.AbstractResourceBasedMessageSource org.springframework.context.ResourceLoaderAware :"org.springframework.context.support":"ReloadableResourceBundleMessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~ReloadableResourceBundleMessageSource~~loadProperties~Lorg~springframework~context~support~ReloadableResourceBundleMessageSource^Lorg~springframework~core~io~Resource^Ljava~lang~String^~throws;
+ :public: :void: org~springframework~context~support~ReloadableResourceBundleMessageSource~~init^~Lorg~springframework~context~support~ReloadableResourceBundleMessageSource^ ( org.springframework.context.support.ReloadableResourceBundleMessageSource :*: ) :  "ReloadableResourceBundleMessageSource" ;
+:public: java.lang.String :*: org~springframework~context~support~ReloadableResourceBundleMessageSource~~toString~Lorg~springframework~context~support~ReloadableResourceBundleMessageSource^ ( org.springframework.context.support.ReloadableResourceBundleMessageSource :*: ) :  "toString" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.Messages :extends: org.springframework.context.support.ReloadableResourceBundleMessageSource :"org.owasp.webgoat.i18n":"Messages"{
+	
+ :public: :void: org~owasp~webgoat~i18n~Messages~~init^~Lorg~owasp~webgoat~i18n~Messages^Lorg~owasp~webgoat~i18n~Language^ ( org.owasp.webgoat.i18n.Messages :*: , org.owasp.webgoat.i18n.Language :*: ) :  "Messages" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.Language :extends: java.lang.Object :"org.owasp.webgoat.i18n":"Language"{
+	
+ :public: :void: org~owasp~webgoat~i18n~Language~~init^~Lorg~owasp~webgoat~i18n~Language^Lorg~springframework~web~servlet~LocaleResolver^ ( org.owasp.webgoat.i18n.Language :*: , org.springframework.web.servlet.LocaleResolver :*: ) :  "Language" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+:public: java.lang.String :*: java~lang~Throwable~~toString~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "toString" ;
+}
+	
+:public: :abstract::class: org.springframework.context.support.AbstractResourceBasedMessageSource :extends: org.springframework.context.support.AbstractMessageSource :"org.springframework.context.support":"AbstractResourceBasedMessageSource"{
+	
+ :public: :void: org~springframework~context~support~AbstractResourceBasedMessageSource~~init^~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^ ( org.springframework.context.support.AbstractResourceBasedMessageSource :*: ) :  "AbstractResourceBasedMessageSource" ;
+}
+	
+:public: :interface::class: org.springframework.context.ResourceLoaderAware :extends: org.springframework.beans.factory.Aware :"org.springframework.context":"ResourceLoaderAware"{
+	
+}
+	
+ :public: :interface::class: org.springframework.web.servlet.LocaleResolver :extends: java.lang.Object :"org.springframework.web.servlet":"LocaleResolver"{
+	
+}
+	
+ :public: :abstract::class: org.springframework.context.support.AbstractMessageSource :extends: org.springframework.context.support.MessageSourceSupport org.springframework.context.HierarchicalMessageSource :"org.springframework.context.support":"AbstractMessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^~throws;
+ :public: :void: org~springframework~context~support~AbstractMessageSource~~init^~Lorg~springframework~context~support~AbstractMessageSource^ ( org.springframework.context.support.AbstractMessageSource :*: ) :  "AbstractMessageSource" ;
+}
+	
+:public: :interface::class: org.springframework.beans.factory.Aware :extends: java.lang.Object :"org.springframework.beans.factory":"Aware"{
+	
+}
+	
+ :public: :abstract::class: org.springframework.context.support.MessageSourceSupport :extends: java.lang.Object :"org.springframework.context.support":"MessageSourceSupport"{
+	
+ :public: :void: org~springframework~context~support~MessageSourceSupport~~init^~Lorg~springframework~context~support~MessageSourceSupport^ ( org.springframework.context.support.MessageSourceSupport :*: ) :  "MessageSourceSupport" ;
+}
+	
+:public: :interface::class: org.springframework.context.HierarchicalMessageSource :extends: org.springframework.context.MessageSource :"org.springframework.context":"HierarchicalMessageSource"{
+	
+}
+	
+ :public: :interface::class: org.springframework.context.MessageSource :extends: java.lang.Object :"org.springframework.context":"MessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^~throws;
+}
+	

@@ -1,0 +1,304 @@
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+#source-type java
+
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+
+#source-line 30
+ #14# :public::class: org.owasp.webgoat.auth_bypass.AuthBypass :extends: org.owasp.webgoat.lessons.Lesson :"org.owasp.webgoat.auth_bypass":"AuthBypass"
+	:[[: 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+
+#source-line 29
+ #1# {
+}
+
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+ #1# 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+ #1# < org.springframework.stereotype.Component :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+
+#source-line 33
+ #21# :public: org.owasp.webgoat.lessons.Category :*: org~owasp~webgoat~auth_bypass~AuthBypass~~getDefaultCategory~Lorg~owasp~webgoat~auth_bypass~AuthBypass^ ( 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+ #21# org.owasp.webgoat.auth_bypass.AuthBypass :*: this~ ) :  "getDefaultCategory"
+	:[[: 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+
+#source-line 32
+ #5# {
+}
+
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+ #5# 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+ #5# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+
+#source-line 33
+ #42# {
+	
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+
+#source-line 34
+ #9# 	:return: 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+ #16# 	[ org.owasp.webgoat.lessons.Category ] AUTHENTICATION ;
+
+#source-line 35
+}
+
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+
+#source-line 38
+ #19# :public: java.lang.String :*: org~owasp~webgoat~auth_bypass~AuthBypass~~getTitle~Lorg~owasp~webgoat~auth_bypass~AuthBypass^ ( 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+ #19# org.owasp.webgoat.auth_bypass.AuthBypass :*: this~ ) :  "getTitle"
+	:[[: 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+
+#source-line 37
+ #5# {
+}
+
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+ #5# 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+ #5# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+
+#source-line 38
+ #30# {
+	
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+
+#source-line 39
+ #9# 	:return: "auth-bypass.title" ;
+
+#source-line 40
+}
+
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+
+#source-line 30
+ #14# :public: :void: org~owasp~webgoat~auth_bypass~AuthBypass~~init^~Lorg~owasp~webgoat~auth_bypass~AuthBypass^ ( 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+ #14# org.owasp.webgoat.auth_bypass.AuthBypass :*: this~ ) :  "init^" 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+ #14# {
+	
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+ #14# 	
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+ #14# 	-~> org~owasp~webgoat~lessons~Lesson~~init^~Lorg~owasp~webgoat~lessons~Lesson^ ( this~ ) ;
+}
+
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+ #14# :public: :static: :void: org~owasp~webgoat~auth_bypass~AuthBypass~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\auth-bypass\src\main\java\org\owasp\webgoat\auth_bypass\AuthBypass.java
+ #14# {
+}
+#source-line 30
+}
+	
+:public: :abstract::class: org.owasp.webgoat.lessons.Lesson :extends: java.lang.Object :"org.owasp.webgoat.lessons":"Lesson"{
+	
+ :public: :void: org~owasp~webgoat~lessons~Lesson~~init^~Lorg~owasp~webgoat~lessons~Lesson^ ( org.owasp.webgoat.lessons.Lesson :*: ) :  "Lesson" ;
+:protected: :abstract: org.owasp.webgoat.lessons.Category :*: org~owasp~webgoat~lessons~Lesson~~getDefaultCategory~Lorg~owasp~webgoat~lessons~Lesson^ ( org.owasp.webgoat.lessons.Lesson :*: ) :  "getDefaultCategory" ;
+:public: :abstract: java.lang.String :*: org~owasp~webgoat~lessons~Lesson~~getTitle~Lorg~owasp~webgoat~lessons~Lesson^ ( org.owasp.webgoat.lessons.Lesson :*: ) :  "getTitle" ;
+}
+	
+:public: :annotation::class: org.springframework.stereotype.Component :extends: java.lang.annotation.Annotation :"org.springframework.stereotype":"Component"{
+	
+}
+	
+ :public: :final: :enum::class: org.owasp.webgoat.lessons.Category :extends: java.lang.Enum java.lang.Enum :"org.owasp.webgoat.lessons":"Category"{
+	
+ :public: :final: :static: org.owasp.webgoat.lessons.Category :*: AUTHENTICATION;
+ :private: :void: org~owasp~webgoat~lessons~Category~~init^~Lorg~owasp~webgoat~lessons~Category^Ljava~lang~String^Ljava~lang~Integer^ ( org.owasp.webgoat.lessons.Category :*: , java.lang.String :*: , java.lang.Integer :*: ) :  "Category" ;
+}
+	
+:public: :annotation::class: java.lang.Override :extends: java.lang.annotation.Annotation :"java.lang":"Override"{
+	
+}
+	
+ :public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+}
+	
+ :public: :abstract::class: java.lang.Enum :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.lang":"Enum"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~clone~Ljava~lang~Enum^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObject~Ljava~lang~Enum^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObjectNoData~Ljava~lang~Enum^~throws;
+ :protected: :void: java~lang~Enum~~init^~Ljava~lang~Enum^Ljava~lang~String^I^ ( java.lang.Enum :*: , java.lang.String :*: , :int: ) :  "Enum" ;
+}
+	
+:public: :final::class: java.lang.Integer :extends: java.lang.Number java.lang.Comparable :"java.lang":"Integer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~init^~Ljava~lang~Integer^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~decode~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseInt~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseInt~S~Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseUnsignedInt~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseUnsignedInt~S~Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~valueOf~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~valueOf~S~Ljava~lang~String^I^~throws;
+ :public: :void: java~lang~Integer~~init^~Ljava~lang~Integer^I^ ( java.lang.Integer :*: , :int: ) :  "Integer" ;
+:public: :void: java~lang~Integer~~init^~Ljava~lang~Integer^Ljava~lang~String^ ( java.lang.Integer :*: , java.lang.String :*: ) :  "Integer"  :exceptions:  java.lang.NumberFormatException :*: ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+}
+	
+ :public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+}
+	
+:public: :abstract::class: java.lang.Number :extends: java.lang.Object java.io.Serializable :"java.lang":"Number"{
+	
+ :public: :void: java~lang~Number~~init^~Ljava~lang~Number^ ( java.lang.Number :*: ) :  "Number" ;
+}
+	
+:public::class: java.lang.NumberFormatException :extends: java.lang.IllegalArgumentException :"java.lang":"NumberFormatException"{
+	
+ :public: :void: java~lang~NumberFormatException~~init^~Ljava~lang~NumberFormatException^ ( java.lang.NumberFormatException :*: ) :  "NumberFormatException" ;
+:public: :void: java~lang~NumberFormatException~~init^~Ljava~lang~NumberFormatException^Ljava~lang~String^ ( java.lang.NumberFormatException :*: , java.lang.String :*: ) :  "NumberFormatException" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public::class: java.lang.IllegalArgumentException :extends: java.lang.RuntimeException :"java.lang":"IllegalArgumentException"{
+	
+ :public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^ ( java.lang.IllegalArgumentException :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+}
+	
+:public::class: java.lang.RuntimeException :extends: java.lang.Exception :"java.lang":"RuntimeException"{
+	
+ :public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^ ( java.lang.RuntimeException :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^ ( java.lang.RuntimeException :*: , java.lang.String :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:protected: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "RuntimeException" ;
+}
+	

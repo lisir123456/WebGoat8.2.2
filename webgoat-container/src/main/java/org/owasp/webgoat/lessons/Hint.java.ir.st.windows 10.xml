@@ -1,0 +1,685 @@
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+#source-type java
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+
+#source-line 39
+ #14# :public: :final::class: org.owasp.webgoat.lessons.Hint :extends: java.lang.Object :"org.owasp.webgoat.lessons":"Hint"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+
+#source-line 38
+ #1# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# < lombok.Value :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+
+#source-line 42
+ #20# :private: :final: java.lang.String :*: assignmentPath;
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+
+#source-line 41
+ #20# :private: :final: java.lang.String :*: hint;
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# :public: java.lang.String :*: org~owasp~webgoat~lessons~Hint~~getHint~Lorg~owasp~webgoat~lessons~Hint^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# org.owasp.webgoat.lessons.Hint :*: this~ ) :  "getHint" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# 	[ org.owasp.webgoat.lessons.Hint ] ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# 	this~ ) :.: hint ;
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+
+#source-line 42
+ #20# :public: java.lang.String :*: org~owasp~webgoat~lessons~Hint~~getAssignmentPath~Lorg~owasp~webgoat~lessons~Hint^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# org.owasp.webgoat.lessons.Hint :*: this~ ) :  "getAssignmentPath" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# 	[ org.owasp.webgoat.lessons.Hint ] ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# 	this~ ) :.: assignmentPath ;
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+
+#source-line 38
+ #1# :public: :boolean: org~owasp~webgoat~lessons~Hint~~equals~Lorg~owasp~webgoat~lessons~Hint^Ljava~lang~Object^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# org.owasp.webgoat.lessons.Hint :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# java.lang.Object :*: o ) :  "equals"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:if: ( ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	o :==: this~ ) ) 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		:return: :true: ;
+	}
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:boolean: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	~t0 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	-~> __instanceof ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	o , < org.owasp.webgoat.lessons.Hint :*: > :null: ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:if: ( ( :!: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	~t0 ) ) 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		:return: :false: ;
+	}
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	org.owasp.webgoat.lessons.Hint :*: other ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	other :=: < org.owasp.webgoat.lessons.Hint :*: > 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	o ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	java.lang.Object :*: this$hint ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	this$hint :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	-~> org~owasp~webgoat~lessons~Hint~~getHint~Lorg~owasp~webgoat~lessons~Hint^ ( this~ ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	java.lang.Object :*: other$hint ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	other$hint :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	-~> org~owasp~webgoat~lessons~Hint~~getHint~Lorg~owasp~webgoat~lessons~Hint^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	other ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:boolean: ~t1 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:if: ( ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	this$hint :==: :null: ) ) 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		~t1 :=: ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		other$hint :!=: :null: ) ;
+	}
+	:else: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		~t1 :=: ( :!: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		-~> java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		this$hint , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		other$hint ) ) ;
+	}
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:if: ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	~t1 ) 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		:return: :false: ;
+	}
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	java.lang.Object :*: this$assignmentPath ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	this$assignmentPath :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	-~> org~owasp~webgoat~lessons~Hint~~getAssignmentPath~Lorg~owasp~webgoat~lessons~Hint^ ( this~ ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	java.lang.Object :*: other$assignmentPath ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	other$assignmentPath :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	-~> org~owasp~webgoat~lessons~Hint~~getAssignmentPath~Lorg~owasp~webgoat~lessons~Hint^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	other ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:boolean: ~t2 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:if: ( ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	this$assignmentPath :==: :null: ) ) 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		~t2 :=: ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		other$assignmentPath :!=: :null: ) ;
+	}
+	:else: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		~t2 :=: ( :!: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		-~> java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		this$assignmentPath , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		other$assignmentPath ) ) ;
+	}
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:if: ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	~t2 ) 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		:return: :false: ;
+	}
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:return: :true: ;
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# :public: :int: org~owasp~webgoat~lessons~Hint~~hashCode~Lorg~owasp~webgoat~lessons~Hint^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# org.owasp.webgoat.lessons.Hint :*: this~ ) :  "hashCode"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:int: PRIME ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	PRIME :=: < :int: >59 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:int: result ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	result :=: < :int: >1 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	java.lang.Object :*: $hint ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	$hint :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	-~> org~owasp~webgoat~lessons~Hint~~getHint~Lorg~owasp~webgoat~lessons~Hint^ ( this~ ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:int: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:if: ( ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	$hint :==: :null: ) ) 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		~t0 :=: < :int: >43 ;
+	}
+	:else: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		~t0 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		-~> java~lang~Object~~hashCode~Ljava~lang~Object^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		$hint ) ;
+	}
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	result :=: ( ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	result :*: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	PRIME ) :+: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	~t0 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	java.lang.Object :*: $assignmentPath ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	$assignmentPath :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	-~> org~owasp~webgoat~lessons~Hint~~getAssignmentPath~Lorg~owasp~webgoat~lessons~Hint^ ( this~ ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:int: ~t1 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:if: ( ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	$assignmentPath :==: :null: ) ) 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		~t1 :=: < :int: >43 ;
+	}
+	:else: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		~t1 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		-~> java~lang~Object~~hashCode~Ljava~lang~Object^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 		$assignmentPath ) ;
+	}
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	result :=: ( ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	result :*: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	PRIME ) :+: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	~t1 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	result ;
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# :public: java.lang.String :*: org~owasp~webgoat~lessons~Hint~~toString~Lorg~owasp~webgoat~lessons~Hint^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# org.owasp.webgoat.lessons.Hint :*: this~ ) :  "toString"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	~t0 :=: ( ( ( ( "Hint(hint=" :+: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	-~> org~owasp~webgoat~lessons~Hint~~getHint~Lorg~owasp~webgoat~lessons~Hint^ ( this~ ) ) :+: ", assignmentPath=" ) :+: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	-~> org~owasp~webgoat~lessons~Hint~~getAssignmentPath~Lorg~owasp~webgoat~lessons~Hint^ ( this~ ) ) :+: ")" ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	~t0 ;
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# :public: :void: org~owasp~webgoat~lessons~Hint~~init^~Lorg~owasp~webgoat~lessons~Hint^Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# org.owasp.webgoat.lessons.Hint :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# java.lang.String :*: hint , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# java.lang.String :*: assignmentPath ) :  "init^"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# < java.lang.SuppressWarnings :*: > -~> ~annotation ( value:  "all" ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #1# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+
+#source-line 41
+ #20# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# 	[ org.owasp.webgoat.lessons.Hint ] ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# 	this~ ) :.: hint :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# 	hint ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+
+#source-line 42
+ #20# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# 	[ org.owasp.webgoat.lessons.Hint ] ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# 	this~ ) :.: assignmentPath :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #20# 	assignmentPath ;
+
+#source-line 38
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+
+#source-line 39
+ #14# :public: :static: :void: org~owasp~webgoat~lessons~Hint~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\lessons\Hint.java
+ #14# {
+}
+#source-line 39
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: :boolean: java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( java.lang.String :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :int: java~lang~String~~hashCode~Ljava~lang~String^ ( java.lang.String :*: ) :  "hashCode" ;
+:public: java.lang.String :*: java~lang~String~~toString~Ljava~lang~String^ ( java.lang.String :*: ) :  "toString" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+:public: :boolean: java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( java.lang.Object :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :native: :int: java~lang~Object~~hashCode~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "hashCode" ;
+:public: java.lang.String :*: java~lang~Object~~toString~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "toString" ;
+}
+	
+:public: :annotation::class: lombok.Value :extends: java.lang.annotation.Annotation :"lombok":"Value"{
+	
+}
+	
+ :public: :annotation::class: java.lang.Override :extends: java.lang.annotation.Annotation :"java.lang":"Override"{
+	
+}
+	
+ :public: :annotation::class: java.lang.SuppressWarnings :extends: java.lang.annotation.Annotation :"java.lang":"SuppressWarnings"{
+	
+ :public: :abstract: java.lang.String :*: [] java~lang~SuppressWarnings~~value~Ljava~lang~SuppressWarnings^ ( java.lang.SuppressWarnings :*: ) :  "value" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+ :public: :abstract: java.lang.String :*: java~lang~CharSequence~~toString~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+:public: :synchronized: java.lang.String :*: java~lang~StringBuffer~~toString~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+:public: java.lang.String :*: java~lang~StringBuilder~~toString~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: :boolean: java~nio~charset~Charset~~equals~Ljava~nio~charset~Charset^Ljava~lang~Object^ ( java.nio.charset.Charset :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :final: :int: java~nio~charset~Charset~~hashCode~Ljava~nio~charset~Charset^ ( java.nio.charset.Charset :*: ) :  "hashCode" ;
+:public: :final: java.lang.String :*: java~nio~charset~Charset~~toString~Ljava~nio~charset~Charset^ ( java.nio.charset.Charset :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+ :public: :abstract: :boolean: java~lang~annotation~Annotation~~equals~Ljava~lang~annotation~Annotation^Ljava~lang~Object^ ( java.lang.annotation.Annotation :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :abstract: :int: java~lang~annotation~Annotation~~hashCode~Ljava~lang~annotation~Annotation^ ( java.lang.annotation.Annotation :*: ) :  "hashCode" ;
+:public: :abstract: java.lang.String :*: java~lang~annotation~Annotation~~toString~Ljava~lang~annotation~Annotation^ ( java.lang.annotation.Annotation :*: ) :  "toString" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :char: [] value;
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+:public: :abstract: java.lang.String :*: java~lang~AbstractStringBuilder~~toString~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+:public: java.lang.String :*: java~lang~Throwable~~toString~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "toString" ;
+}
+	

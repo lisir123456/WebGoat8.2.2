@@ -1,0 +1,1199 @@
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+#source-type java
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 28
+ #14# :public::class: org.owasp.webgoat.vulnerable_components.ContactImpl :extends: org.owasp.webgoat.vulnerable_components.Contact java.lang.Object :"org.owasp.webgoat.vulnerable_components":"ContactImpl"
+	:[[: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 27
+ #1# {
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# < lombok.Data :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 33
+ #17# :private: java.lang.String :*: email;
+ 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 31
+ #17# :private: java.lang.String :*: firstName;
+ 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 30
+ #18# :private: java.lang.Integer :*: id;
+ 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 32
+ #17# :private: java.lang.String :*: lastName;
+ 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 30
+ #18# :public: java.lang.Integer :*: org~owasp~webgoat~vulnerable_components~ContactImpl~~getId~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #18# org.owasp.webgoat.vulnerable_components.ContactImpl :*: this~ ) :  "getId" 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #18# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #18# 	:return: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #18# 	[ org.owasp.webgoat.vulnerable_components.ContactImpl ] ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #18# 	this~ ) :.: id ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 31
+ #17# :public: java.lang.String :*: org~owasp~webgoat~vulnerable_components~ContactImpl~~getFirstName~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# org.owasp.webgoat.vulnerable_components.ContactImpl :*: this~ ) :  "getFirstName" 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	:return: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	[ org.owasp.webgoat.vulnerable_components.ContactImpl ] ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	this~ ) :.: firstName ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 32
+ #17# :public: java.lang.String :*: org~owasp~webgoat~vulnerable_components~ContactImpl~~getLastName~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# org.owasp.webgoat.vulnerable_components.ContactImpl :*: this~ ) :  "getLastName" 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	:return: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	[ org.owasp.webgoat.vulnerable_components.ContactImpl ] ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	this~ ) :.: lastName ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 33
+ #17# :public: java.lang.String :*: org~owasp~webgoat~vulnerable_components~ContactImpl~~getEmail~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# org.owasp.webgoat.vulnerable_components.ContactImpl :*: this~ ) :  "getEmail" 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	:return: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	[ org.owasp.webgoat.vulnerable_components.ContactImpl ] ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	this~ ) :.: email ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 30
+ #18# :public: :void: org~owasp~webgoat~vulnerable_components~ContactImpl~~setId~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^Ljava~lang~Integer^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #18# org.owasp.webgoat.vulnerable_components.ContactImpl :*: this~ , 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #18# java.lang.Integer :*: id ) :  "setId" 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #18# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #18# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #18# 	[ org.owasp.webgoat.vulnerable_components.ContactImpl ] ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #18# 	this~ ) :.: id :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #18# 	id ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 31
+ #17# :public: :void: org~owasp~webgoat~vulnerable_components~ContactImpl~~setFirstName~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# org.owasp.webgoat.vulnerable_components.ContactImpl :*: this~ , 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# java.lang.String :*: firstName ) :  "setFirstName" 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	[ org.owasp.webgoat.vulnerable_components.ContactImpl ] ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	this~ ) :.: firstName :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	firstName ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 32
+ #17# :public: :void: org~owasp~webgoat~vulnerable_components~ContactImpl~~setLastName~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# org.owasp.webgoat.vulnerable_components.ContactImpl :*: this~ , 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# java.lang.String :*: lastName ) :  "setLastName" 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	[ org.owasp.webgoat.vulnerable_components.ContactImpl ] ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	this~ ) :.: lastName :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	lastName ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 33
+ #17# :public: :void: org~owasp~webgoat~vulnerable_components~ContactImpl~~setEmail~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# org.owasp.webgoat.vulnerable_components.ContactImpl :*: this~ , 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# java.lang.String :*: email ) :  "setEmail" 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	[ org.owasp.webgoat.vulnerable_components.ContactImpl ] ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	this~ ) :.: email :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #17# 	email ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 27
+ #1# :public: :boolean: org~owasp~webgoat~vulnerable_components~ContactImpl~~equals~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# org.owasp.webgoat.vulnerable_components.ContactImpl :*: this~ , 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# java.lang.Object :*: o ) :  "equals"
+	:[[: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# {
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	o :==: this~ ) ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		:return: :true: ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:boolean: ~t0 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t0 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> __instanceof ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	o , < org.owasp.webgoat.vulnerable_components.ContactImpl :*: > :null: ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:if: ( ( :!: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t0 ) ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		:return: :false: ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	org.owasp.webgoat.vulnerable_components.ContactImpl :*: other ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	other :=: < org.owasp.webgoat.vulnerable_components.ContactImpl :*: > 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	o ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:if: ( ( :!: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~canEqual~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	other , < java.lang.Object :*: > this~ ) ) ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		:return: :false: ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	java.lang.Object :*: this$id ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	this$id :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getId~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( this~ ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	java.lang.Object :*: other$id ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	other$id :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getId~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	other ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:boolean: ~t1 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	this$id :==: :null: ) ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t1 :=: ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		other$id :!=: :null: ) ;
+	}
+	:else: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t1 :=: ( :!: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		-~> java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		this$id , 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		other$id ) ) ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:if: ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t1 ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		:return: :false: ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	java.lang.Object :*: this$firstName ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	this$firstName :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getFirstName~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( this~ ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	java.lang.Object :*: other$firstName ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	other$firstName :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getFirstName~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	other ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:boolean: ~t2 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	this$firstName :==: :null: ) ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t2 :=: ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		other$firstName :!=: :null: ) ;
+	}
+	:else: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t2 :=: ( :!: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		-~> java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		this$firstName , 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		other$firstName ) ) ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:if: ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t2 ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		:return: :false: ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	java.lang.Object :*: this$lastName ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	this$lastName :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getLastName~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( this~ ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	java.lang.Object :*: other$lastName ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	other$lastName :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getLastName~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	other ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:boolean: ~t3 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	this$lastName :==: :null: ) ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t3 :=: ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		other$lastName :!=: :null: ) ;
+	}
+	:else: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t3 :=: ( :!: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		-~> java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		this$lastName , 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		other$lastName ) ) ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:if: ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t3 ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		:return: :false: ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	java.lang.Object :*: this$email ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	this$email :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getEmail~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( this~ ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	java.lang.Object :*: other$email ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	other$email :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getEmail~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	other ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:boolean: ~t4 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	this$email :==: :null: ) ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t4 :=: ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		other$email :!=: :null: ) ;
+	}
+	:else: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t4 :=: ( :!: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		-~> java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		this$email , 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		other$email ) ) ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:if: ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t4 ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		:return: :false: ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:return: :true: ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# :protected: :boolean: org~owasp~webgoat~vulnerable_components~ContactImpl~~canEqual~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# org.owasp.webgoat.vulnerable_components.ContactImpl :*: this~ , 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# java.lang.Object :*: other ) :  "canEqual"
+	:[[: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# {
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# < java.lang.SuppressWarnings :*: > -~> ~annotation ( value:  "all" ):]]:
+ 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:boolean: ~t0 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t0 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> __instanceof ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	other , < org.owasp.webgoat.vulnerable_components.ContactImpl :*: > :null: ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:return: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t0 ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# :public: :int: org~owasp~webgoat~vulnerable_components~ContactImpl~~hashCode~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# org.owasp.webgoat.vulnerable_components.ContactImpl :*: this~ ) :  "hashCode"
+	:[[: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# {
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:int: PRIME ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	PRIME :=: < :int: >59 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:int: result ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	result :=: < :int: >1 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	java.lang.Object :*: $id ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	$id :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getId~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( this~ ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:int: ~t0 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	$id :==: :null: ) ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t0 :=: < :int: >43 ;
+	}
+	:else: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t0 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		-~> java~lang~Object~~hashCode~Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		$id ) ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	result :=: ( ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	result :*: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	PRIME ) :+: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t0 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	java.lang.Object :*: $firstName ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	$firstName :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getFirstName~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( this~ ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:int: ~t1 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	$firstName :==: :null: ) ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t1 :=: < :int: >43 ;
+	}
+	:else: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t1 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		-~> java~lang~Object~~hashCode~Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		$firstName ) ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	result :=: ( ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	result :*: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	PRIME ) :+: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t1 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	java.lang.Object :*: $lastName ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	$lastName :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getLastName~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( this~ ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:int: ~t2 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	$lastName :==: :null: ) ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t2 :=: < :int: >43 ;
+	}
+	:else: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t2 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		-~> java~lang~Object~~hashCode~Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		$lastName ) ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	result :=: ( ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	result :*: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	PRIME ) :+: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t2 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	java.lang.Object :*: $email ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	$email :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getEmail~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( this~ ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:int: ~t3 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	$email :==: :null: ) ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t3 :=: < :int: >43 ;
+	}
+	:else: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t3 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		-~> java~lang~Object~~hashCode~Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		$email ) ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	result :=: ( ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	result :*: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	PRIME ) :+: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t3 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:return: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	result ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# :public: java.lang.String :*: org~owasp~webgoat~vulnerable_components~ContactImpl~~toString~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# org.owasp.webgoat.vulnerable_components.ContactImpl :*: this~ ) :  "toString"
+	:[[: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# {
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	java.lang.Integer :*: ~t0 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t0 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getId~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( this~ ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	__toString____L__~tool~generated~ :
+	:if: ( ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t0 :==: :null: ) ) 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t1 :=: "null" ;
+	}
+	:else: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t1 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		-~> java~lang~Integer~~toString~Ljava~lang~Integer^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 		~t0 ) ;
+	}
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	java.lang.String :*: ~t2 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t2 :=: ( ( ( ( ( ( ( ( "ContactImpl(id=" :+: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t1 ) :+: ", firstName=" ) :+: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getFirstName~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( this~ ) ) :+: ", lastName=" ) :+: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getLastName~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( this~ ) ) :+: ", email=" ) :+: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> org~owasp~webgoat~vulnerable_components~ContactImpl~~getEmail~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( this~ ) ) :+: ")" ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	:return: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	~t2 ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# :public: :void: org~owasp~webgoat~vulnerable_components~ContactImpl~~init^~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# org.owasp.webgoat.vulnerable_components.ContactImpl :*: this~ ) :  "init^"
+	:[[: 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# {
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# < java.lang.SuppressWarnings :*: > -~> ~annotation ( value:  "all" ):]]:
+ 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #1# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+
+#source-line 28
+ #14# :public: :static: :void: org~owasp~webgoat~vulnerable_components~ContactImpl~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\vulnerable-components\src\main\java\org\owasp\webgoat\vulnerable_components\ContactImpl.java
+ #14# {
+}
+#source-line 28
+}
+	
+:public: :final::class: java.lang.Integer :extends: java.lang.Number java.lang.Comparable :"java.lang":"Integer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~init^~Ljava~lang~Integer^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~decode~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseInt~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseInt~S~Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseUnsignedInt~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseUnsignedInt~S~Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~valueOf~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~valueOf~S~Ljava~lang~String^I^~throws;
+ :public: :void: java~lang~Integer~~init^~Ljava~lang~Integer^I^ ( java.lang.Integer :*: , :int: ) :  "Integer" ;
+:public: :void: java~lang~Integer~~init^~Ljava~lang~Integer^Ljava~lang~String^ ( java.lang.Integer :*: , java.lang.String :*: ) :  "Integer"  :exceptions:  java.lang.NumberFormatException :*: ;
+:public: :boolean: java~lang~Integer~~equals~Ljava~lang~Integer^Ljava~lang~Object^ ( java.lang.Integer :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :int: java~lang~Integer~~hashCode~Ljava~lang~Integer^ ( java.lang.Integer :*: ) :  "hashCode" ;
+:public: :static: :int: java~lang~Integer~~hashCode~S~I^ ( :int: ) :  "hashCode" ;
+:public: java.lang.String :*: java~lang~Integer~~toString~Ljava~lang~Integer^ ( java.lang.Integer :*: ) :  "toString" ;
+:public: :static: java.lang.String :*: java~lang~Integer~~toString~S~I^ ( :int: ) :  "toString" ;
+:public: :static: java.lang.String :*: java~lang~Integer~~toString~S~I^I^ ( :int: , :int: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: :boolean: java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( java.lang.String :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :int: java~lang~String~~hashCode~Ljava~lang~String^ ( java.lang.String :*: ) :  "hashCode" ;
+:public: java.lang.String :*: java~lang~String~~toString~Ljava~lang~String^ ( java.lang.String :*: ) :  "toString" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+:public: :boolean: java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( java.lang.Object :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :native: :int: java~lang~Object~~hashCode~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "hashCode" ;
+:public: java.lang.String :*: java~lang~Object~~toString~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: org.owasp.webgoat.vulnerable_components.Contact :extends: java.lang.Object :"org.owasp.webgoat.vulnerable_components":"Contact"{
+	
+ :public: :abstract: java.lang.String :*: org~owasp~webgoat~vulnerable_components~Contact~~getEmail~Lorg~owasp~webgoat~vulnerable_components~Contact^ ( org.owasp.webgoat.vulnerable_components.Contact :*: ) :  "getEmail" ;
+:public: :abstract: java.lang.String :*: org~owasp~webgoat~vulnerable_components~Contact~~getFirstName~Lorg~owasp~webgoat~vulnerable_components~Contact^ ( org.owasp.webgoat.vulnerable_components.Contact :*: ) :  "getFirstName" ;
+:public: :abstract: java.lang.Integer :*: org~owasp~webgoat~vulnerable_components~Contact~~getId~Lorg~owasp~webgoat~vulnerable_components~Contact^ ( org.owasp.webgoat.vulnerable_components.Contact :*: ) :  "getId" ;
+:public: :abstract: java.lang.String :*: org~owasp~webgoat~vulnerable_components~Contact~~getLastName~Lorg~owasp~webgoat~vulnerable_components~Contact^ ( org.owasp.webgoat.vulnerable_components.Contact :*: ) :  "getLastName" ;
+:public: :abstract: :void: org~owasp~webgoat~vulnerable_components~Contact~~setEmail~Lorg~owasp~webgoat~vulnerable_components~Contact^Ljava~lang~String^ ( org.owasp.webgoat.vulnerable_components.Contact :*: , java.lang.String :*: ) :  "setEmail" ;
+:public: :abstract: :void: org~owasp~webgoat~vulnerable_components~Contact~~setFirstName~Lorg~owasp~webgoat~vulnerable_components~Contact^Ljava~lang~String^ ( org.owasp.webgoat.vulnerable_components.Contact :*: , java.lang.String :*: ) :  "setFirstName" ;
+:public: :abstract: :void: org~owasp~webgoat~vulnerable_components~Contact~~setId~Lorg~owasp~webgoat~vulnerable_components~Contact^Ljava~lang~Integer^ ( org.owasp.webgoat.vulnerable_components.Contact :*: , java.lang.Integer :*: ) :  "setId" ;
+:public: :abstract: :void: org~owasp~webgoat~vulnerable_components~Contact~~setLastName~Lorg~owasp~webgoat~vulnerable_components~Contact^Ljava~lang~String^ ( org.owasp.webgoat.vulnerable_components.Contact :*: , java.lang.String :*: ) :  "setLastName" ;
+}
+	
+:public: :annotation::class: lombok.Data :extends: java.lang.annotation.Annotation :"lombok":"Data"{
+	
+}
+	
+ :public: :annotation::class: java.lang.Override :extends: java.lang.annotation.Annotation :"java.lang":"Override"{
+	
+}
+	
+ :public: :annotation::class: java.lang.SuppressWarnings :extends: java.lang.annotation.Annotation :"java.lang":"SuppressWarnings"{
+	
+ :public: :abstract: java.lang.String :*: [] java~lang~SuppressWarnings~~value~Ljava~lang~SuppressWarnings^ ( java.lang.SuppressWarnings :*: ) :  "value" ;
+}
+	
+:public: :abstract::class: java.lang.Number :extends: java.lang.Object java.io.Serializable :"java.lang":"Number"{
+	
+ :public: :void: java~lang~Number~~init^~Ljava~lang~Number^ ( java.lang.Number :*: ) :  "Number" ;
+}
+	
+:public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public::class: java.lang.NumberFormatException :extends: java.lang.IllegalArgumentException :"java.lang":"NumberFormatException"{
+	
+ :public: :void: java~lang~NumberFormatException~~init^~Ljava~lang~NumberFormatException^ ( java.lang.NumberFormatException :*: ) :  "NumberFormatException" ;
+:public: :void: java~lang~NumberFormatException~~init^~Ljava~lang~NumberFormatException^Ljava~lang~String^ ( java.lang.NumberFormatException :*: , java.lang.String :*: ) :  "NumberFormatException" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+ :public: :abstract: java.lang.String :*: java~lang~CharSequence~~toString~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+:public: :synchronized: java.lang.String :*: java~lang~StringBuffer~~toString~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+:public: java.lang.String :*: java~lang~StringBuilder~~toString~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: :boolean: java~nio~charset~Charset~~equals~Ljava~nio~charset~Charset^Ljava~lang~Object^ ( java.nio.charset.Charset :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :final: :int: java~nio~charset~Charset~~hashCode~Ljava~nio~charset~Charset^ ( java.nio.charset.Charset :*: ) :  "hashCode" ;
+:public: :final: java.lang.String :*: java~nio~charset~Charset~~toString~Ljava~nio~charset~Charset^ ( java.nio.charset.Charset :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+ :public: :abstract: :boolean: java~lang~annotation~Annotation~~equals~Ljava~lang~annotation~Annotation^Ljava~lang~Object^ ( java.lang.annotation.Annotation :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :abstract: :int: java~lang~annotation~Annotation~~hashCode~Ljava~lang~annotation~Annotation^ ( java.lang.annotation.Annotation :*: ) :  "hashCode" ;
+:public: :abstract: java.lang.String :*: java~lang~annotation~Annotation~~toString~Ljava~lang~annotation~Annotation^ ( java.lang.annotation.Annotation :*: ) :  "toString" ;
+}
+	
+:public::class: java.lang.IllegalArgumentException :extends: java.lang.RuntimeException :"java.lang":"IllegalArgumentException"{
+	
+ :public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^ ( java.lang.IllegalArgumentException :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :char: [] value;
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+:public: :abstract: java.lang.String :*: java~lang~AbstractStringBuilder~~toString~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public::class: java.lang.RuntimeException :extends: java.lang.Exception :"java.lang":"RuntimeException"{
+	
+ :public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^ ( java.lang.RuntimeException :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^ ( java.lang.RuntimeException :*: , java.lang.String :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:protected: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "RuntimeException" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+:public: java.lang.String :*: java~lang~Throwable~~toString~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	

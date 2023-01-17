@@ -1,0 +1,709 @@
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+#source-type java
+
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 11
+ #14# :public::class: org.owasp.webgoat.DeserializationTest :extends: org.owasp.webgoat.IntegrationTest :"org.owasp.webgoat":"DeserializationTest"{
+	
+ 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 13
+ #27# :private: :static: java.lang.String :*: OS;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~DeserializationTest~~runTests~Lorg~owasp~webgoat~DeserializationTest^~throws;
+ 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 16
+ #17# :public: :void: org~owasp~webgoat~DeserializationTest~~runTests~Lorg~owasp~webgoat~DeserializationTest^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #17# org.owasp.webgoat.DeserializationTest :*: this~ ) :  "runTests"  :exceptions:  java.io.IOException :*:
+	:[[: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 15
+ #5# {
+}
+
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #5# 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #5# < org.junit.jupiter.api.Test :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 16
+ #47# {
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 17
+ #21# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #21# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #21# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #21# 	~t0 :=: "InsecureDeserialization" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #9# 	-~> org~owasp~webgoat~IntegrationTest~~startLesson~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #21# 	~t0 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 19
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #29# 	java.util.Map :*: params ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #38# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #38# 	java.util.HashMap :*: ~t1 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #38# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #38# 	~t1 :=: :new: java.util.HashMap ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #38# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #38# 	-~> java~util~HashMap~~init^~Ljava~util~HashMap^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #38# 	~t1 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #29# 	params :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #38# 	~t1 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 20
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #9# 	-~> java~util~Map~~clear~Ljava~util~Map^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #9# 	params ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 22
+ #24# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #24# 	java.lang.String :*: ~t2 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #24# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #24# 	~t2 :=: "win" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #9# 	:if: ( ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #13# 	-~> java~lang~String~~indexOf~Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #13# 	[ org.owasp.webgoat.DeserializationTest ] OS , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #24# 	~t2 ) :>: ( < :int: >0 :-: < :int: >1 ) ) ) 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #37# 	{
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 23
+ #24# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #24# 		java.lang.String :*: ~t3 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #24# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #24# 		~t3 :=: "token" ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		org.dummy.insecure.framework.VulnerableTaskHolder :*: ~t4 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		~t4 :=: :new: org.dummy.insecure.framework.VulnerableTaskHolder ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		-~> org~dummy~insecure~framework~VulnerableTaskHolder~~init^~Lorg~dummy~insecure~framework~VulnerableTaskHolder^Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		~t4 , "wait" , "ping localhost -n 5" ) ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		java.lang.String :*: ~t5 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		ANYTYPE ~t~j~1 ;
+		__throwingcall_1 :
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		~t~j~1 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		-~> org~owasp~webgoat~deserialization~SerializationHelper~~toString~S~Ljava~io~Serializable^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		~t4 ) ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		:if: ( < :long: > 1 ) 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		{
+			[ org.owasp.webgoat.DeserializationTest ] org~owasp~webgoat~DeserializationTest~~runTests~Lorg~owasp~webgoat~DeserializationTest^~throws :=: < java.io.IOException :*: > :null: ;
+			
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 			__caught__throwingcall_1 :
+			 :throw:  < java.io.IOException :*: > :null: ;
+		}
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		~t5 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		~t~j~1 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #13# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #13# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #13# 		params , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #24# 		~t3 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		~t5 ) ;
+
+#source-line 24
+	}
+	:else: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #16# 	{
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 25
+ #24# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #24# 		java.lang.String :*: ~t6 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #24# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #24# 		~t6 :=: "token" ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		org.dummy.insecure.framework.VulnerableTaskHolder :*: ~t7 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		~t7 :=: :new: org.dummy.insecure.framework.VulnerableTaskHolder ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		-~> org~dummy~insecure~framework~VulnerableTaskHolder~~init^~Lorg~dummy~insecure~framework~VulnerableTaskHolder^Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		~t7 , "wait" , "sleep 5" ) ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		java.lang.String :*: ~t8 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		ANYTYPE ~t~j~2 ;
+		__throwingcall_2 :
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		~t~j~2 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		-~> org~owasp~webgoat~deserialization~SerializationHelper~~toString~S~Ljava~io~Serializable^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #62# 		~t7 ) ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		:if: ( < :long: > 1 ) 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		{
+			[ org.owasp.webgoat.DeserializationTest ] org~owasp~webgoat~DeserializationTest~~runTests~Lorg~owasp~webgoat~DeserializationTest^~throws :=: < java.io.IOException :*: > :null: ;
+			
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 			__caught__throwingcall_2 :
+			 :throw:  < java.io.IOException :*: > :null: ;
+		}
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		~t8 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		~t~j~2 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #13# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #13# 		-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #13# 		params , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #24# 		~t6 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #33# 		~t8 ) ;
+
+#source-line 26
+	}
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 27
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #29# 	java.lang.String :*: ~t9 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #29# 	~t9 :=: "/WebGoat/InsecureDeserialization/task" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #25# 	java.lang.String :*: ~t10 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #25# 	~t10 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #25# 	-~> org~owasp~webgoat~IntegrationTest~~url~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #29# 	~t9 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #79# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #79# 	:boolean: ~t11 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #79# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #79# 	~t11 :=: :true: ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #9# 	-~> org~owasp~webgoat~IntegrationTest~~checkAssignment~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^Ljava~util~Map^Z^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #25# 	~t10 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #71# 	params , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #79# 	~t11 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 29
+ #22# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #22# 	java.lang.String :*: ~t12 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #22# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #22# 	~t12 :=: "/InsecureDeserialization/" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #9# 	-~> org~owasp~webgoat~IntegrationTest~~checkResults~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #22# 	~t12 ) ;
+
+#source-line 31
+}
+
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 11
+ #14# :public: :void: org~owasp~webgoat~DeserializationTest~~init^~Lorg~owasp~webgoat~DeserializationTest^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #14# org.owasp.webgoat.DeserializationTest :*: this~ ) :  "init^" 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #14# {
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #14# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #14# 	-~> org~owasp~webgoat~IntegrationTest~~init^~Lorg~owasp~webgoat~IntegrationTest^ ( this~ ) ;
+}
+
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #14# :public: :static: :void: org~owasp~webgoat~DeserializationTest~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #14# {
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+
+#source-line 13
+ #27# 	{
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #51# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #51# 		java.lang.String :*: ~t0 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #51# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #51# 		~t0 :=: "os.name" ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #32# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #32# 		java.lang.String :*: ~t1 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #32# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #32# 		~t1 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #32# 		-~> java~lang~System~~getProperty~S~Ljava~lang~String^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #51# 		~t0 ) ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #27# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #27# 		[ org.owasp.webgoat.DeserializationTest ] OS :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #32# 		-~> java~lang~String~~toLowerCase~Ljava~lang~String^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\DeserializationTest.java
+ #32# 		~t1 ) ;
+	}
+
+#source-line 11
+}
+#source-line 11
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: :int: java~lang~String~~indexOf~Ljava~lang~String^I^ ( java.lang.String :*: , :int: ) :  "indexOf" ;
+:public: :int: java~lang~String~~indexOf~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "indexOf" ;
+:public: :int: java~lang~String~~indexOf~Ljava~lang~String^I^I^ ( java.lang.String :*: , :int: , :int: ) :  "indexOf" ;
+:public: :int: java~lang~String~~indexOf~Ljava~lang~String^Ljava~lang~String^I^ ( java.lang.String :*: , java.lang.String :*: , :int: ) :  "indexOf" ;
+:static: :int: java~lang~String~~indexOf~S~?C^I^I^Ljava~lang~String^I^ ( :char: [] , :int: , :int: , java.lang.String :*: , :int: ) :  "indexOf" ;
+:static: :int: java~lang~String~~indexOf~S~?C^I^I^?C^I^I^I^ ( :char: [] , :int: , :int: , :char: [] , :int: , :int: , :int: ) :  "indexOf" ;
+:public: java.lang.String :*: java~lang~String~~toLowerCase~Ljava~lang~String^ ( java.lang.String :*: ) :  "toLowerCase" ;
+:public: java.lang.String :*: java~lang~String~~toLowerCase~Ljava~lang~String^Ljava~util~Locale^ ( java.lang.String :*: , java.util.Locale :*: ) :  "toLowerCase" ;
+:public: java.lang.String :*: java~lang~String~~toString~Ljava~lang~String^ ( java.lang.String :*: ) :  "toString" ;
+}
+	
+:public: :abstract::class: org.owasp.webgoat.IntegrationTest :extends: java.lang.Object :"org.owasp.webgoat":"IntegrationTest"{
+	
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~IntegrationTest~~getWebGoatServerPath~Lorg~owasp~webgoat~IntegrationTest^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~IntegrationTest~~getWebWolfServerPath~Lorg~owasp~webgoat~IntegrationTest^~throws;
+ :public: :void: org~owasp~webgoat~IntegrationTest~~init^~Lorg~owasp~webgoat~IntegrationTest^ ( org.owasp.webgoat.IntegrationTest :*: ) :  "IntegrationTest" ;
+:public: :void: org~owasp~webgoat~IntegrationTest~~checkAssignment~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^Ljava~util~Map^Z^ ( org.owasp.webgoat.IntegrationTest :*: , java.lang.String :*: , java.util.Map :*: , :boolean: ) :  "checkAssignment" ;
+:public: :void: org~owasp~webgoat~IntegrationTest~~checkAssignment~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^Lio~restassured~http~ContentType^Ljava~lang~String^Z^ ( org.owasp.webgoat.IntegrationTest :*: , java.lang.String :*: , io.restassured.http.ContentType :*: , java.lang.String :*: , :boolean: ) :  "checkAssignment" ;
+:public: :void: org~owasp~webgoat~IntegrationTest~~checkResults~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( org.owasp.webgoat.IntegrationTest :*: , java.lang.String :*: ) :  "checkResults" ;
+:public: :void: org~owasp~webgoat~IntegrationTest~~checkResults~Lorg~owasp~webgoat~IntegrationTest^ ( org.owasp.webgoat.IntegrationTest :*: ) :  "checkResults" ;
+:public: :void: org~owasp~webgoat~IntegrationTest~~startLesson~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( org.owasp.webgoat.IntegrationTest :*: , java.lang.String :*: ) :  "startLesson" ;
+:public: :void: org~owasp~webgoat~IntegrationTest~~startLesson~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^Z^ ( org.owasp.webgoat.IntegrationTest :*: , java.lang.String :*: , :boolean: ) :  "startLesson" ;
+:protected: java.lang.String :*: org~owasp~webgoat~IntegrationTest~~url~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( org.owasp.webgoat.IntegrationTest :*: , java.lang.String :*: ) :  "url" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :annotation::class: org.junit.jupiter.api.Test :extends: java.lang.annotation.Annotation :"org.junit.jupiter.api":"Test"{
+	
+}
+	
+ :public: :interface::class: java.util.Map :extends: java.lang.Object :"java.util":"Map"{
+	
+ :public: :abstract: :void: java~util~Map~~clear~Ljava~util~Map^ ( java.util.Map :*: ) :  "clear" ;
+:public: :abstract: java.lang.Object :*: java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( java.util.Map :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "put" ;
+}
+	
+:public::class: java.util.HashMap :extends: java.util.AbstractMap java.util.Map java.lang.Cloneable java.io.Serializable :"java.util":"HashMap"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~HashMap~~internalWriteEntries~Ljava~util~HashMap^Ljava~io~ObjectOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~HashMap~~readObject~Ljava~util~HashMap^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~HashMap~~writeObject~Ljava~util~HashMap^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~util~HashMap~~init^~Ljava~util~HashMap^ ( java.util.HashMap :*: ) :  "HashMap" ;
+:public: :void: java~util~HashMap~~init^~Ljava~util~HashMap^I^ ( java.util.HashMap :*: , :int: ) :  "HashMap" ;
+:public: :void: java~util~HashMap~~init^~Ljava~util~HashMap^Ljava~util~Map^ ( java.util.HashMap :*: , java.util.Map :*: ) :  "HashMap" ;
+:public: :void: java~util~HashMap~~init^~Ljava~util~HashMap^I^F^ ( java.util.HashMap :*: , :int: , :float: ) :  "HashMap" ;
+:public: :void: java~util~HashMap~~clear~Ljava~util~HashMap^ ( java.util.HashMap :*: ) :  "clear" ;
+:public: java.lang.Object :*: java~util~HashMap~~put~Ljava~util~HashMap^Ljava~lang~Object^Ljava~lang~Object^ ( java.util.HashMap :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "put" ;
+}
+	
+:public::class: org.dummy.insecure.framework.VulnerableTaskHolder :extends: java.lang.Object java.io.Serializable :"org.dummy.insecure.framework":"VulnerableTaskHolder"{
+	
+ :public: :static: java.lang.Throwable :*: org~dummy~insecure~framework~VulnerableTaskHolder~~readObject~Lorg~dummy~insecure~framework~VulnerableTaskHolder^Ljava~io~ObjectInputStream^~throws;
+ :public: :void: org~dummy~insecure~framework~VulnerableTaskHolder~~init^~Lorg~dummy~insecure~framework~VulnerableTaskHolder^Ljava~lang~String^Ljava~lang~String^ ( org.dummy.insecure.framework.VulnerableTaskHolder :*: , java.lang.String :*: , java.lang.String :*: ) :  "VulnerableTaskHolder" ;
+:public: java.lang.String :*: org~dummy~insecure~framework~VulnerableTaskHolder~~toString~Lorg~dummy~insecure~framework~VulnerableTaskHolder^ ( org.dummy.insecure.framework.VulnerableTaskHolder :*: ) :  "toString" ;
+}
+	
+:public::class: org.owasp.webgoat.deserialization.SerializationHelper :extends: java.lang.Object :"org.owasp.webgoat.deserialization":"SerializationHelper"{
+	
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~deserialization~SerializationHelper~~fromString~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~deserialization~SerializationHelper~~show~S~~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~deserialization~SerializationHelper~~toString~S~Ljava~io~Serializable^~throws;
+ :public: :void: org~owasp~webgoat~deserialization~SerializationHelper~~init^~Lorg~owasp~webgoat~deserialization~SerializationHelper^ ( org.owasp.webgoat.deserialization.SerializationHelper :*: ) :  "SerializationHelper" ;
+:public: :static: java.lang.String :*: org~owasp~webgoat~deserialization~SerializationHelper~~toString~S~Ljava~io~Serializable^ ( java.io.Serializable :*: ) :  "toString"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public: :final::class: java.lang.System :extends: java.lang.Object :"java.lang":"System"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~System~~inheritedChannel~S~~throws;
+ :private: :void: java~lang~System~~init^~Ljava~lang~System^ ( java.lang.System :*: ) :  "System" ;
+:public: :static: java.lang.String :*: java~lang~System~~getProperty~S~Ljava~lang~String^ ( java.lang.String :*: ) :  "getProperty" ;
+:public: :static: java.lang.String :*: java~lang~System~~getProperty~S~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "getProperty" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+:public: java.lang.String :*: java~lang~Object~~toString~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+ :public: :abstract: java.lang.String :*: java~lang~CharSequence~~toString~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+:public: :int: java~lang~StringBuffer~~indexOf~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "indexOf" ;
+:public: :synchronized: :int: java~lang~StringBuffer~~indexOf~Ljava~lang~StringBuffer^Ljava~lang~String^I^ ( java.lang.StringBuffer :*: , java.lang.String :*: , :int: ) :  "indexOf" ;
+:public: :synchronized: java.lang.String :*: java~lang~StringBuffer~~toString~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+:public: :int: java~lang~StringBuilder~~indexOf~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "indexOf" ;
+:public: :int: java~lang~StringBuilder~~indexOf~Ljava~lang~StringBuilder^Ljava~lang~String^I^ ( java.lang.StringBuilder :*: , java.lang.String :*: , :int: ) :  "indexOf" ;
+:public: java.lang.String :*: java~lang~StringBuilder~~toString~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: java.lang.String :*: java~nio~charset~Charset~~toString~Ljava~nio~charset~Charset^ ( java.nio.charset.Charset :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.util.Locale :extends: java.lang.Object java.lang.Cloneable java.io.Serializable :"java.util":"Locale"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~getISO3Country~Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~getISO3Language~Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~readObject~Ljava~util~Locale^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~readResolve~Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~writeObject~Ljava~util~Locale^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~util~Locale~~init^~Ljava~util~Locale^Ljava~lang~String^ ( java.util.Locale :*: , java.lang.String :*: ) :  "Locale" ;
+:private: :void: java~util~Locale~~init^~Ljava~util~Locale^Lsun~util~locale~BaseLocale^Lsun~util~locale~LocaleExtensions^ ( java.util.Locale :*: , sun.util.locale.BaseLocale :*: , sun.util.locale.LocaleExtensions :*: ) :  "Locale" ;
+:public: :void: java~util~Locale~~init^~Ljava~util~Locale^Ljava~lang~String^Ljava~lang~String^ ( java.util.Locale :*: , java.lang.String :*: , java.lang.String :*: ) :  "Locale" ;
+:public: :void: java~util~Locale~~init^~Ljava~util~Locale^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.util.Locale :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "Locale" ;
+:public: :final: java.lang.String :*: java~util~Locale~~toString~Ljava~util~Locale^ ( java.util.Locale :*: ) :  "toString" ;
+}
+	
+:public: :final: :enum::class: io.restassured.http.ContentType :extends: java.lang.Enum java.lang.Enum :"io.restassured.http":"ContentType"{
+	
+ :private: :void: io~restassured~http~ContentType~~init^~Lio~restassured~http~ContentType^?Ljava~lang~String^ ( io.restassured.http.ContentType :*: , java.lang.String :*: [] , ... ) :  "ContentType" ;
+:public: java.lang.String :*: io~restassured~http~ContentType~~toString~Lio~restassured~http~ContentType^ ( io.restassured.http.ContentType :*: ) :  "toString" ;
+}
+	
+:public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+:public: java.lang.String :*: java~lang~Throwable~~toString~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+ :public: :abstract: java.lang.String :*: java~lang~annotation~Annotation~~toString~Ljava~lang~annotation~Annotation^ ( java.lang.annotation.Annotation :*: ) :  "toString" ;
+}
+	
+:public: :abstract::class: java.util.AbstractMap :extends: java.lang.Object java.util.Map :"java.util":"AbstractMap"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~AbstractMap~~clone~Ljava~util~AbstractMap^~throws;
+ :protected: :void: java~util~AbstractMap~~init^~Ljava~util~AbstractMap^ ( java.util.AbstractMap :*: ) :  "AbstractMap" ;
+:public: :void: java~util~AbstractMap~~clear~Ljava~util~AbstractMap^ ( java.util.AbstractMap :*: ) :  "clear" ;
+:public: java.lang.Object :*: java~util~AbstractMap~~put~Ljava~util~AbstractMap^Ljava~lang~Object^Ljava~lang~Object^ ( java.util.AbstractMap :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "put" ;
+:public: java.lang.String :*: java~util~AbstractMap~~toString~Ljava~util~AbstractMap^ ( java.util.AbstractMap :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.lang.Cloneable :extends: java.lang.Object :"java.lang":"Cloneable"{
+	
+}
+	
+ :abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+:public: :int: java~lang~AbstractStringBuilder~~indexOf~Ljava~lang~AbstractStringBuilder^Ljava~lang~String^ ( java.lang.AbstractStringBuilder :*: , java.lang.String :*: ) :  "indexOf" ;
+:public: :int: java~lang~AbstractStringBuilder~~indexOf~Ljava~lang~AbstractStringBuilder^Ljava~lang~String^I^ ( java.lang.AbstractStringBuilder :*: , java.lang.String :*: , :int: ) :  "indexOf" ;
+:public: :abstract: java.lang.String :*: java~lang~AbstractStringBuilder~~toString~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "toString" ;
+}
+	
+:public: :final::class: sun.util.locale.BaseLocale :extends: java.lang.Object :"sun.util.locale":"BaseLocale"{
+	
+ :private: :void: sun~util~locale~BaseLocale~~init^~Lsun~util~locale~BaseLocale^Ljava~lang~String^Ljava~lang~String^ ( sun.util.locale.BaseLocale :*: , java.lang.String :*: , java.lang.String :*: ) :  "BaseLocale" ;
+:private: :void: sun~util~locale~BaseLocale~~init^~Lsun~util~locale~BaseLocale^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( sun.util.locale.BaseLocale :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "BaseLocale" ;
+:public: java.lang.String :*: sun~util~locale~BaseLocale~~toString~Lsun~util~locale~BaseLocale^ ( sun.util.locale.BaseLocale :*: ) :  "toString" ;
+}
+	
+:public::class: sun.util.locale.LocaleExtensions :extends: java.lang.Object :"sun.util.locale":"LocaleExtensions"{
+	
+ :private: :void: sun~util~locale~LocaleExtensions~~init^~Lsun~util~locale~LocaleExtensions^Ljava~lang~String^Ljava~lang~Character^Lsun~util~locale~Extension^ ( sun.util.locale.LocaleExtensions :*: , java.lang.String :*: , java.lang.Character :*: , sun.util.locale.Extension :*: ) :  "LocaleExtensions" ;
+:void: sun~util~locale~LocaleExtensions~~init^~Lsun~util~locale~LocaleExtensions^Ljava~util~Map^Ljava~util~Set^Ljava~util~Map^ ( sun.util.locale.LocaleExtensions :*: , java.util.Map :*: , java.util.Set :*: , java.util.Map :*: ) :  "LocaleExtensions" ;
+:public: java.lang.String :*: sun~util~locale~LocaleExtensions~~toString~Lsun~util~locale~LocaleExtensions^ ( sun.util.locale.LocaleExtensions :*: ) :  "toString" ;
+}
+	
+:public: :abstract::class: java.lang.Enum :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.lang":"Enum"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~clone~Ljava~lang~Enum^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObject~Ljava~lang~Enum^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObjectNoData~Ljava~lang~Enum^~throws;
+ :protected: :void: java~lang~Enum~~init^~Ljava~lang~Enum^Ljava~lang~String^I^ ( java.lang.Enum :*: , java.lang.String :*: , :int: ) :  "Enum" ;
+:public: java.lang.String :*: java~lang~Enum~~toString~Ljava~lang~Enum^ ( java.lang.Enum :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public: :final::class: java.lang.Character :extends: java.lang.Object java.io.Serializable java.lang.Comparable :"java.lang":"Character"{
+	
+ :public: :void: java~lang~Character~~init^~Ljava~lang~Character^C^ ( java.lang.Character :*: , :char: ) :  "Character" ;
+:public: :static: :char: java~lang~Character~~toLowerCase~S~C^ ( :char: ) :  "toLowerCase" ;
+:public: :static: :int: java~lang~Character~~toLowerCase~S~I^ ( :int: ) :  "toLowerCase" ;
+:public: java.lang.String :*: java~lang~Character~~toString~Ljava~lang~Character^ ( java.lang.Character :*: ) :  "toString" ;
+:public: :static: java.lang.String :*: java~lang~Character~~toString~S~C^ ( :char: ) :  "toString" ;
+}
+	
+:class: sun.util.locale.Extension :extends: java.lang.Object :"sun.util.locale":"Extension"{
+	
+:protected: :void: sun~util~locale~Extension~~init^~Lsun~util~locale~Extension^C^ ( sun.util.locale.Extension :*: , :char: ) :  "Extension" ;
+:void: sun~util~locale~Extension~~init^~Lsun~util~locale~Extension^C^Ljava~lang~String^ ( sun.util.locale.Extension :*: , :char: , java.lang.String :*: ) :  "Extension" ;
+:public: java.lang.String :*: sun~util~locale~Extension~~toString~Lsun~util~locale~Extension^ ( sun.util.locale.Extension :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.util.Set :extends: java.util.Collection :"java.util":"Set"{
+	
+ :public: :abstract: :void: java~util~Set~~clear~Ljava~util~Set^ ( java.util.Set :*: ) :  "clear" ;
+}
+	
+:public: :interface::class: java.util.Collection :extends: java.lang.Iterable :"java.util":"Collection"{
+	
+ :public: :abstract: :void: java~util~Collection~~clear~Ljava~util~Collection^ ( java.util.Collection :*: ) :  "clear" ;
+}
+	
+:public: :interface::class: java.lang.Iterable :extends: java.lang.Object :"java.lang":"Iterable"{
+	
+}
+	

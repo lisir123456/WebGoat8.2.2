@@ -1,0 +1,1420 @@
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+#source-type java
+
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 46
+ #14# :public::class: org.owasp.webgoat.crypto.SigningAssignment :extends: org.owasp.webgoat.assignments.AssignmentEndpoint :"org.owasp.webgoat.crypto":"SigningAssignment"
+	:[[: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 43
+ #1# {
+}
+
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# < org.springframework.web.bind.annotation.RestController :*: > -~> ~annotation ( ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 44
+ #1# {
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #18# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #18# 	java.lang.String :*: [] ~t0 ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #18# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #18# 	~t0 :=: :new: java.lang.String [ < :int: >4 ] ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #18# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #18# 	~t0 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #18# 	-~> __array_init ( "crypto-signing.hints.1" , "crypto-signing.hints.2" , "crypto-signing.hints.3" , "crypto-signing.hints.4" ) ;
+}
+
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# < org.owasp.webgoat.assignments.AssignmentHints :*: > -~> ~annotation ( value:  
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #18# ~t0 ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 45
+ #1# {
+}
+
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# < lombok.extern.slf4j.Slf4j :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# :private: :final: :static: org.slf4j.Logger :*: log;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~crypto~SigningAssignment~~getPrivateKey~Lorg~owasp~webgoat~crypto~SigningAssignment^Ljavax~servlet~http~HttpServletRequest^~throws;
+ 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 50
+ #19# :public: java.lang.String :*: org~owasp~webgoat~crypto~SigningAssignment~~getPrivateKey~Lorg~owasp~webgoat~crypto~SigningAssignment^Ljavax~servlet~http~HttpServletRequest^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #19# org.owasp.webgoat.crypto.SigningAssignment :*: this~ , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #52# javax.servlet.http.HttpServletRequest :*: request ) :  "getPrivateKey"  :exceptions:  java.security.NoSuchAlgorithmException :*: ,  java.security.InvalidAlgorithmParameterException :*:
+	:[[: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 48
+ #2# {
+}
+
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #2# 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #2# < org.springframework.web.bind.annotation.RequestMapping :*: > -~> ~annotation ( path:  "/crypto/signing/getprivate" , produces:  
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #61# [ org.springframework.http.MediaType ] TEXT_HTML_VALUE ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 49
+ #5# {
+}
+
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #5# 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #5# < org.springframework.web.bind.annotation.ResponseBody :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 50
+ #129# {
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 52
+ #10# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #10# 	java.lang.String :*: privateKey ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #32# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #32# 	javax.servlet.http.HttpSession :*: ~t0 ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #32# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #32# 	~t0 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #32# 	-~> javax~servlet~http~HttpServletRequest~~getSession~Ljavax~servlet~http~HttpServletRequest^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #32# 	request ) ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #66# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #66# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #66# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #66# 	~t1 :=: "privateKeyString" ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #10# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #10# 	privateKey :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #32# 	< java.lang.String :*: > -~> javax~servlet~http~HttpSession~~getAttribute~Ljavax~servlet~http~HttpSession^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #32# 	~t0 , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #66# 	~t1 ) ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 53
+ #3# 	:if: ( ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #7# 	privateKey :==: :null: ) ) 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #27# 	{
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 54
+ #12# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #12# 		java.security.KeyPair :*: keyPair ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #22# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #22# 		ANYTYPE ~t~j~1 ;
+		__throwingcall_1 :
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #22# 		~t~j~1 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #22# 		-~> org~owasp~webgoat~crypto~CryptoUtil~~generateKeyPair~S~ ( ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #22# 		:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #22# 		{
+			[ org.owasp.webgoat.crypto.SigningAssignment ] org~owasp~webgoat~crypto~SigningAssignment~~getPrivateKey~Lorg~owasp~webgoat~crypto~SigningAssignment^Ljavax~servlet~http~HttpServletRequest^~throws :=: < java.security.NoSuchAlgorithmException :*: > :null: ;
+			
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #22# 			__caught__throwingcall_1 :
+			 :throw:  < java.security.NoSuchAlgorithmException :*: > :null: ;
+		}
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #12# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #12# 		keyPair :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #22# 		~t~j~1 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 55
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		privateKey :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #17# 		-~> org~owasp~webgoat~crypto~CryptoUtil~~getPrivateKeyInPEM~S~Ljava~security~KeyPair^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #47# 		keyPair ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 56
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		javax.servlet.http.HttpSession :*: ~t2 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		~t2 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		-~> javax~servlet~http~HttpServletRequest~~getSession~Ljavax~servlet~http~HttpServletRequest^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		request ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #38# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #38# 		java.lang.String :*: ~t3 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #38# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #38# 		~t3 :=: "privateKeyString" ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		-~> javax~servlet~http~HttpSession~~setAttribute~Ljavax~servlet~http~HttpSession^Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		~t2 , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #38# 		~t3 , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #58# 		privateKey ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 57
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		javax.servlet.http.HttpSession :*: ~t4 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		~t4 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		-~> javax~servlet~http~HttpServletRequest~~getSession~Ljavax~servlet~http~HttpServletRequest^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		request ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #38# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #38# 		java.lang.String :*: ~t5 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #38# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #38# 		~t5 :=: "keyPair" ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		-~> javax~servlet~http~HttpSession~~setAttribute~Ljavax~servlet~http~HttpSession^Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		~t4 , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #38# 		~t5 , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #49# 		keyPair ) ;
+
+#source-line 58
+	}
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 59
+ #3# 	:return: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #10# 	privateKey ;
+
+#source-line 60
+}
+
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 64
+ #25# :public: org.owasp.webgoat.assignments.AttackResult :*: org~owasp~webgoat~crypto~SigningAssignment~~completed~Lorg~owasp~webgoat~crypto~SigningAssignment^Ljavax~servlet~http~HttpServletRequest^Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #25# org.owasp.webgoat.crypto.SigningAssignment :*: this~ , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #54# javax.servlet.http.HttpServletRequest :*: request , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #84# java.lang.String :*: modulus
+	:[[: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #63# {
+}
+
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #63# 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #63# < org.springframework.web.bind.annotation.RequestParam :*: > -~> ~annotation ( ):]]:
+ , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #114# java.lang.String :*: signature
+	:[[: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #93# {
+}
+
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #93# 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #93# < org.springframework.web.bind.annotation.RequestParam :*: > -~> ~annotation ( ):]]:
+ ) :  "completed"
+	:[[: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 62
+ #5# {
+}
+
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #5# 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #5# < org.springframework.web.bind.annotation.PostMapping :*: > -~> ~annotation ( value:  "/crypto/signing/verify" ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 63
+ #5# {
+}
+
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #5# 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #5# < org.springframework.web.bind.annotation.ResponseBody :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 64
+ #125# {
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 66
+ #10# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #10# 	java.lang.String :*: tempModulus ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #10# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #10# 	tempModulus :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #24# 	modulus ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 67
+ #14# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #14# 	java.security.KeyPair :*: keyPair ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #34# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #34# 	javax.servlet.http.HttpSession :*: ~t0 ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #34# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #34# 	~t0 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #34# 	-~> javax~servlet~http~HttpServletRequest~~getSession~Ljavax~servlet~http~HttpServletRequest^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #34# 	request ) ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #68# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #68# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #68# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #68# 	~t1 :=: "keyPair" ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #14# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #14# 	keyPair :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #34# 	< java.security.KeyPair :*: > -~> javax~servlet~http~HttpSession~~getAttribute~Ljavax~servlet~http~HttpSession^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #34# 	~t0 , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #68# 	~t1 ) ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 68
+ #16# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #16# 	java.security.interfaces.RSAPublicKey :*: rsaPubKey ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #16# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #16# 	rsaPubKey :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #43# 	< java.security.interfaces.RSAPublicKey :*: > -~> java~security~KeyPair~~getPublic~Ljava~security~KeyPair^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #43# 	keyPair ) ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 69
+ #3# 	:if: ( ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #7# 	-~> java~lang~String~~length~Ljava~lang~String^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #7# 	tempModulus ) :==: < :int: >512 ) ) 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #36# 	{
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 70
+ #18# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #18# 		java.lang.String :*: ~t2 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #18# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #18# 		~t2 :=: "00" ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		tempModulus :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #18# 		-~> java~lang~String~~concat~Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #18# 		~t2 , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #30# 		tempModulus ) ;
+
+#source-line 71
+	}
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 72
+ #41# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #41# 	java.math.BigInteger :*: ~t3 ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #41# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #41# 	~t3 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #41# 	-~> java~security~interfaces~RSAKey~~getModulus~Ljava~security~interfaces~RSAKey^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #41# 	rsaPubKey ) ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #41# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #41# 	:byte: [] ~t4 ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #41# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #41# 	~t4 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #41# 	-~> java~math~BigInteger~~toByteArray~Ljava~math~BigInteger^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #41# 	~t3 ) ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #8# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #8# 	java.lang.String :*: ~t5 ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #8# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #8# 	~t5 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #8# 	-~> javax~xml~bind~DatatypeConverter~~printHexBinary~S~?B^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #41# 	~t4 ) ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #86# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #86# 	java.lang.String :*: ~t6 ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #86# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #86# 	~t6 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #86# 	-~> java~lang~String~~toUpperCase~Ljava~lang~String^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #86# 	tempModulus ) ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #3# 	:if: ( ( :!: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #8# 	-~> java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #8# 	~t5 , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #86# 	~t6 ) ) ) 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #114# 	{
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 73
+ #13# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #13# 		java.lang.String :*: ~t7 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #13# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #13# 		~t7 :=: "modulus {} incorrect" ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		-~> org~slf4j~Logger~~warn~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		[ org.owasp.webgoat.crypto.SigningAssignment ] log , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #13# 		~t7 , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #37# 		modulus ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 74
+ #11# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t8 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		~t8 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~failed~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #33# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #33# 		java.lang.String :*: ~t9 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #33# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #33# 		~t9 :=: "crypto-signing.modulusnotok" ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t10 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		~t10 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		~t8 , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #33# 		~t9 ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		org.owasp.webgoat.assignments.AttackResult :*: ~t11 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		~t11 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		~t10 ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		:return: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		~t11 ;
+
+#source-line 75
+	}
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 77
+ #52# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #52# 	java.security.PublicKey :*: ~t12 ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #52# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #52# 	~t12 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #52# 	-~> java~security~KeyPair~~getPublic~Ljava~security~KeyPair^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #52# 	keyPair ) ;
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #3# 	:if: ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #7# 	-~> org~owasp~webgoat~crypto~CryptoUtil~~verifyMessage~S~Ljava~lang~String^Ljava~lang~String^Ljava~security~PublicKey^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #32# 	modulus , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #41# 	signature , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #52# 	~t12 ) ) 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #74# 	{
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 78
+ #11# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t13 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		~t13 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~success~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #34# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #34# 		java.lang.String :*: ~t14 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #34# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #34# 		~t14 :=: "crypto-signing.success" ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t15 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		~t15 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		~t13 , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #34# 		~t14 ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		org.owasp.webgoat.assignments.AttackResult :*: ~t16 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		~t16 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		~t15 ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		:return: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		~t16 ;
+
+#source-line 79
+	}
+	:else: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #10# 	{
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 80
+ #13# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #13# 		java.lang.String :*: ~t17 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #13# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #13# 		~t17 :=: "signature incorrect" ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		-~> org~slf4j~Logger~~warn~Lorg~slf4j~Logger^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		[ org.owasp.webgoat.crypto.SigningAssignment ] log , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #13# 		~t17 ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 81
+ #11# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t18 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		~t18 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~failed~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #33# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #33# 		java.lang.String :*: ~t19 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #33# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #33# 		~t19 :=: "crypto-signing.notok" ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t20 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		~t20 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		~t18 , 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #33# 		~t19 ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		org.owasp.webgoat.assignments.AttackResult :*: ~t21 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		~t21 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #11# 		~t20 ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		:return: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #4# 		~t21 ;
+
+#source-line 82
+	}
+
+#source-line 84
+}
+
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 46
+ #14# :public: :void: org~owasp~webgoat~crypto~SigningAssignment~~init^~Lorg~owasp~webgoat~crypto~SigningAssignment^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #14# org.owasp.webgoat.crypto.SigningAssignment :*: this~ ) :  "init^" 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #14# {
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #14# 	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #14# 	-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~init^~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ ) ;
+}
+
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #14# :public: :static: :void: org~owasp~webgoat~crypto~SigningAssignment~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #14# {
+	
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+
+#source-line 45
+ #1# 	{
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# 		java.lang.Class :*: ~t0 ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# 		~t0 :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# 		< java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.crypto.SigningAssignment :*: > :null: ) ;
+		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# 		
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# 		[ org.owasp.webgoat.crypto.SigningAssignment ] log :=: 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# 		-~> org~slf4j~LoggerFactory~~getLogger~S~Ljava~lang~Class^ ( 
+#source-file webgoat-lessons\crypto\src\main\java\org\owasp\webgoat\crypto\SigningAssignment.java
+ #1# 		~t0 ) ;
+	}
+
+#source-line 46
+}
+#source-line 46
+}
+	
+:public: :interface::class: org.slf4j.Logger :extends: java.lang.Object :"org.slf4j":"Logger"{
+	
+ :public: :abstract: :void: org~slf4j~Logger~~warn~Lorg~slf4j~Logger^Ljava~lang~String^ ( org.slf4j.Logger :*: , java.lang.String :*: ) :  "warn" ;
+:public: :abstract: :void: org~slf4j~Logger~~warn~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: ) :  "warn" ;
+:public: :abstract: :void: org~slf4j~Logger~~warn~Lorg~slf4j~Logger^Ljava~lang~String^?Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "warn" ;
+:public: :abstract: :void: org~slf4j~Logger~~warn~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Throwable^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "warn" ;
+:public: :abstract: :void: org~slf4j~Logger~~warn~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: ) :  "warn" ;
+:public: :abstract: :void: org~slf4j~Logger~~warn~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "warn" ;
+:public: :abstract: :void: org~slf4j~Logger~~warn~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: ) :  "warn" ;
+:public: :abstract: :void: org~slf4j~Logger~~warn~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^?Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "warn" ;
+:public: :abstract: :void: org~slf4j~Logger~~warn~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Throwable^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "warn" ;
+:public: :abstract: :void: org~slf4j~Logger~~warn~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "warn" ;
+}
+	
+:public: :abstract::class: org.owasp.webgoat.assignments.AssignmentEndpoint :extends: java.lang.Object :"org.owasp.webgoat.assignments":"AssignmentEndpoint"{
+	
+ :public: :void: org~owasp~webgoat~assignments~AssignmentEndpoint~~init^~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "AssignmentEndpoint" ;
+:protected: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AssignmentEndpoint~~failed~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: , org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "failed" ;
+:protected: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AssignmentEndpoint~~success~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: , org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "success" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.RestController :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"RestController"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~web~bind~annotation~RestController~~value~Lorg~springframework~web~bind~annotation~RestController^ ( org.springframework.web.bind.annotation.RestController :*: ) :  "value" ;
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: java.lang.String :*: java~lang~String~~concat~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "concat" ;
+:public: :boolean: java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( java.lang.String :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :int: java~lang~String~~length~Ljava~lang~String^ ( java.lang.String :*: ) :  "length" ;
+:public: java.lang.String :*: java~lang~String~~toUpperCase~Ljava~lang~String^ ( java.lang.String :*: ) :  "toUpperCase" ;
+:public: java.lang.String :*: java~lang~String~~toUpperCase~Ljava~lang~String^Ljava~util~Locale^ ( java.lang.String :*: , java.util.Locale :*: ) :  "toUpperCase" ;
+}
+	
+:public: :annotation::class: org.owasp.webgoat.assignments.AssignmentHints :extends: java.lang.annotation.Annotation :"org.owasp.webgoat.assignments":"AssignmentHints"{
+	
+ :public: :abstract: java.lang.String :*: [] org~owasp~webgoat~assignments~AssignmentHints~~value~Lorg~owasp~webgoat~assignments~AssignmentHints^ ( org.owasp.webgoat.assignments.AssignmentHints :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: lombok.extern.slf4j.Slf4j :extends: java.lang.annotation.Annotation :"lombok.extern.slf4j":"Slf4j"{
+	
+}
+	
+ :public: :interface::class: javax.servlet.http.HttpServletRequest :extends: javax.servlet.ServletRequest :"javax.servlet.http":"HttpServletRequest"{
+	
+ :public: :static: java.lang.Throwable :*: javax~servlet~http~HttpServletRequest~~authenticate~Ljavax~servlet~http~HttpServletRequest^Ljavax~servlet~http~HttpServletResponse^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~http~HttpServletRequest~~getPart~Ljavax~servlet~http~HttpServletRequest^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~http~HttpServletRequest~~getParts~Ljavax~servlet~http~HttpServletRequest^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~http~HttpServletRequest~~login~Ljavax~servlet~http~HttpServletRequest^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~http~HttpServletRequest~~logout~Ljavax~servlet~http~HttpServletRequest^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~http~HttpServletRequest~~upgrade~Ljavax~servlet~http~HttpServletRequest^Ljava~lang~Class^~throws;
+ :public: :abstract: javax.servlet.http.HttpSession :*: javax~servlet~http~HttpServletRequest~~getSession~Ljavax~servlet~http~HttpServletRequest^ ( javax.servlet.http.HttpServletRequest :*: ) :  "getSession" ;
+:public: :abstract: javax.servlet.http.HttpSession :*: javax~servlet~http~HttpServletRequest~~getSession~Ljavax~servlet~http~HttpServletRequest^Z^ ( javax.servlet.http.HttpServletRequest :*: , :boolean: ) :  "getSession" ;
+}
+	
+:public::class: java.security.NoSuchAlgorithmException :extends: java.security.GeneralSecurityException :"java.security":"NoSuchAlgorithmException"{
+	
+ :public: :void: java~security~NoSuchAlgorithmException~~init^~Ljava~security~NoSuchAlgorithmException^ ( java.security.NoSuchAlgorithmException :*: ) :  "NoSuchAlgorithmException" ;
+:public: :void: java~security~NoSuchAlgorithmException~~init^~Ljava~security~NoSuchAlgorithmException^Ljava~lang~String^ ( java.security.NoSuchAlgorithmException :*: , java.lang.String :*: ) :  "NoSuchAlgorithmException" ;
+:public: :void: java~security~NoSuchAlgorithmException~~init^~Ljava~security~NoSuchAlgorithmException^Ljava~lang~Throwable^ ( java.security.NoSuchAlgorithmException :*: , java.lang.Throwable :*: ) :  "NoSuchAlgorithmException" ;
+:public: :void: java~security~NoSuchAlgorithmException~~init^~Ljava~security~NoSuchAlgorithmException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.security.NoSuchAlgorithmException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "NoSuchAlgorithmException" ;
+}
+	
+:public::class: java.security.InvalidAlgorithmParameterException :extends: java.security.GeneralSecurityException :"java.security":"InvalidAlgorithmParameterException"{
+	
+ :public: :void: java~security~InvalidAlgorithmParameterException~~init^~Ljava~security~InvalidAlgorithmParameterException^ ( java.security.InvalidAlgorithmParameterException :*: ) :  "InvalidAlgorithmParameterException" ;
+:public: :void: java~security~InvalidAlgorithmParameterException~~init^~Ljava~security~InvalidAlgorithmParameterException^Ljava~lang~String^ ( java.security.InvalidAlgorithmParameterException :*: , java.lang.String :*: ) :  "InvalidAlgorithmParameterException" ;
+:public: :void: java~security~InvalidAlgorithmParameterException~~init^~Ljava~security~InvalidAlgorithmParameterException^Ljava~lang~Throwable^ ( java.security.InvalidAlgorithmParameterException :*: , java.lang.Throwable :*: ) :  "InvalidAlgorithmParameterException" ;
+:public: :void: java~security~InvalidAlgorithmParameterException~~init^~Ljava~security~InvalidAlgorithmParameterException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.security.InvalidAlgorithmParameterException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "InvalidAlgorithmParameterException" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.RequestMapping :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"RequestMapping"{
+	
+ :public: :abstract: java.lang.String :*: [] org~springframework~web~bind~annotation~RequestMapping~~path~Lorg~springframework~web~bind~annotation~RequestMapping^ ( org.springframework.web.bind.annotation.RequestMapping :*: ) :  "path" ;
+:public: :abstract: java.lang.String :*: [] org~springframework~web~bind~annotation~RequestMapping~~produces~Lorg~springframework~web~bind~annotation~RequestMapping^ ( org.springframework.web.bind.annotation.RequestMapping :*: ) :  "produces" ;
+:public: :abstract: java.lang.String :*: [] org~springframework~web~bind~annotation~RequestMapping~~value~Lorg~springframework~web~bind~annotation~RequestMapping^ ( org.springframework.web.bind.annotation.RequestMapping :*: ) :  "value" ;
+}
+	
+:public::class: org.springframework.http.MediaType :extends: org.springframework.util.MimeType java.io.Serializable :"org.springframework.http":"MediaType"{
+	
+ :public: :final: :static: java.lang.String :*: TEXT_HTML_VALUE :=:  "text/html";
+ :public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Ljava~lang~String^ ( org.springframework.http.MediaType :*: , java.lang.String :*: ) :  "MediaType" ;
+:public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Lorg~springframework~util~MimeType^ ( org.springframework.http.MediaType :*: , org.springframework.util.MimeType :*: ) :  "MediaType" ;
+:public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Ljava~lang~String^Ljava~lang~String^ ( org.springframework.http.MediaType :*: , java.lang.String :*: , java.lang.String :*: ) :  "MediaType" ;
+:public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Lorg~springframework~http~MediaType^Ljava~nio~charset~Charset^ ( org.springframework.http.MediaType :*: , org.springframework.http.MediaType :*: , java.nio.charset.Charset :*: ) :  "MediaType" ;
+:public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Lorg~springframework~http~MediaType^Ljava~util~Map^ ( org.springframework.http.MediaType :*: , org.springframework.http.MediaType :*: , java.util.Map :*: ) :  "MediaType" ;
+:public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Ljava~lang~String^Ljava~lang~String^Ljava~nio~charset~Charset^ ( org.springframework.http.MediaType :*: , java.lang.String :*: , java.lang.String :*: , java.nio.charset.Charset :*: ) :  "MediaType" ;
+:public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Ljava~lang~String^Ljava~lang~String^D^ ( org.springframework.http.MediaType :*: , java.lang.String :*: , java.lang.String :*: , :double: ) :  "MediaType" ;
+:public: :void: org~springframework~http~MediaType~~init^~Lorg~springframework~http~MediaType^Ljava~lang~String^Ljava~lang~String^Ljava~util~Map^ ( org.springframework.http.MediaType :*: , java.lang.String :*: , java.lang.String :*: , java.util.Map :*: ) :  "MediaType" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.ResponseBody :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"ResponseBody"{
+	
+}
+	
+ :public: :interface::class: javax.servlet.http.HttpSession :extends: java.lang.Object :"javax.servlet.http":"HttpSession"{
+	
+ :public: :abstract: java.lang.Object :*: javax~servlet~http~HttpSession~~getAttribute~Ljavax~servlet~http~HttpSession^Ljava~lang~String^ ( javax.servlet.http.HttpSession :*: , java.lang.String :*: ) :  "getAttribute" ;
+:public: :abstract: :void: javax~servlet~http~HttpSession~~setAttribute~Ljavax~servlet~http~HttpSession^Ljava~lang~String^Ljava~lang~Object^ ( javax.servlet.http.HttpSession :*: , java.lang.String :*: , java.lang.Object :*: ) :  "setAttribute" ;
+}
+	
+:public: :final::class: java.security.KeyPair :extends: java.lang.Object java.io.Serializable :"java.security":"KeyPair"{
+	
+ :public: :void: java~security~KeyPair~~init^~Ljava~security~KeyPair^Ljava~security~PublicKey^Ljava~security~PrivateKey^ ( java.security.KeyPair :*: , java.security.PublicKey :*: , java.security.PrivateKey :*: ) :  "KeyPair" ;
+:public: java.security.PublicKey :*: java~security~KeyPair~~getPublic~Ljava~security~KeyPair^ ( java.security.KeyPair :*: ) :  "getPublic" ;
+}
+	
+:public::class: org.owasp.webgoat.crypto.CryptoUtil :extends: java.lang.Object :"org.owasp.webgoat.crypto":"CryptoUtil"{
+	
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~crypto~CryptoUtil~~generateKeyPair~S~~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~crypto~CryptoUtil~~getPrivateKeyFromPEM~S~Ljava~lang~String^~throws;
+ :public: :void: org~owasp~webgoat~crypto~CryptoUtil~~init^~Lorg~owasp~webgoat~crypto~CryptoUtil^ ( org.owasp.webgoat.crypto.CryptoUtil :*: ) :  "CryptoUtil" ;
+:public: :static: java.security.KeyPair :*: org~owasp~webgoat~crypto~CryptoUtil~~generateKeyPair~S~ ( ) :  "generateKeyPair"  :exceptions:  java.security.NoSuchAlgorithmException :*: ,  java.security.InvalidAlgorithmParameterException :*: ;
+:public: :static: java.lang.String :*: org~owasp~webgoat~crypto~CryptoUtil~~getPrivateKeyInPEM~S~Ljava~security~KeyPair^ ( java.security.KeyPair :*: ) :  "getPrivateKeyInPEM" ;
+:public: :static: :boolean: org~owasp~webgoat~crypto~CryptoUtil~~verifyMessage~S~Ljava~lang~String^Ljava~lang~String^Ljava~security~PublicKey^ ( java.lang.String :*: , java.lang.String :*: , java.security.PublicKey :*: ) :  "verifyMessage" ;
+}
+	
+:public::class: org.owasp.webgoat.assignments.AttackResult :extends: java.lang.Object :"org.owasp.webgoat.assignments":"AttackResult"{
+	
+ :public: :void: org~owasp~webgoat~assignments~AttackResult~~init^~Lorg~owasp~webgoat~assignments~AttackResult^Z^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Z^ ( org.owasp.webgoat.assignments.AttackResult :*: , :boolean: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , :boolean: ) :  "AttackResult" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.RequestParam :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"RequestParam"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~web~bind~annotation~RequestParam~~value~Lorg~springframework~web~bind~annotation~RequestParam^ ( org.springframework.web.bind.annotation.RequestParam :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.PostMapping :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"PostMapping"{
+	
+ :public: :abstract: java.lang.String :*: [] org~springframework~web~bind~annotation~PostMapping~~path~Lorg~springframework~web~bind~annotation~PostMapping^ ( org.springframework.web.bind.annotation.PostMapping :*: ) :  "path" ;
+:public: :abstract: java.lang.String :*: [] org~springframework~web~bind~annotation~PostMapping~~produces~Lorg~springframework~web~bind~annotation~PostMapping^ ( org.springframework.web.bind.annotation.PostMapping :*: ) :  "produces" ;
+:public: :abstract: java.lang.String :*: [] org~springframework~web~bind~annotation~PostMapping~~value~Lorg~springframework~web~bind~annotation~PostMapping^ ( org.springframework.web.bind.annotation.PostMapping :*: ) :  "value" ;
+}
+	
+:public: :interface::class: java.security.interfaces.RSAPublicKey :extends: java.security.PublicKey java.security.interfaces.RSAKey :"java.security.interfaces":"RSAPublicKey"{
+	
+}
+	
+ :public::class: java.math.BigInteger :extends: java.lang.Number java.lang.Comparable :"java.math":"BigInteger"{
+	
+ :public: :static: java.lang.Throwable :*: java~math~BigInteger~~implMontgomeryMultiplyChecks~S~?I^?I^?I^I^?I^~throws;
+ :public: :static: java.lang.Throwable :*: java~math~BigInteger~~implSquareToLenChecks~S~?I^I^?I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~math~BigInteger~~readObject~Ljava~math~BigInteger^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~math~BigInteger~~writeObject~Ljava~math~BigInteger^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~math~BigInteger~~init^~Ljava~math~BigInteger^?B^ ( java.math.BigInteger :*: , :byte: [] ) :  "BigInteger" ;
+:private: :void: java~math~BigInteger~~init^~Ljava~math~BigInteger^?I^ ( java.math.BigInteger :*: , :int: [] ) :  "BigInteger" ;
+:public: :void: java~math~BigInteger~~init^~Ljava~math~BigInteger^Ljava~lang~String^ ( java.math.BigInteger :*: , java.lang.String :*: ) :  "BigInteger" ;
+:private: :void: java~math~BigInteger~~init^~Ljava~math~BigInteger^J^ ( java.math.BigInteger :*: , :long: ) :  "BigInteger" ;
+:public: :void: java~math~BigInteger~~init^~Ljava~math~BigInteger^I^?B^ ( java.math.BigInteger :*: , :int: , :byte: [] ) :  "BigInteger" ;
+:private: :void: java~math~BigInteger~~init^~Ljava~math~BigInteger^I^?I^ ( java.math.BigInteger :*: , :int: , :int: [] ) :  "BigInteger" ;
+:public: :void: java~math~BigInteger~~init^~Ljava~math~BigInteger^Ljava~lang~String^I^ ( java.math.BigInteger :*: , java.lang.String :*: , :int: ) :  "BigInteger" ;
+:public: :void: java~math~BigInteger~~init^~Ljava~math~BigInteger^I^Ljava~util~Random^ ( java.math.BigInteger :*: , :int: , java.util.Random :*: ) :  "BigInteger" ;
+:void: java~math~BigInteger~~init^~Ljava~math~BigInteger^?I^I^ ( java.math.BigInteger :*: , :int: [] , :int: ) :  "BigInteger" ;
+:private: :void: java~math~BigInteger~~init^~Ljava~math~BigInteger^?B^I^ ( java.math.BigInteger :*: , :byte: [] , :int: ) :  "BigInteger" ;
+:void: java~math~BigInteger~~init^~Ljava~math~BigInteger^?C^I^I^ ( java.math.BigInteger :*: , :char: [] , :int: , :int: ) :  "BigInteger" ;
+:public: :void: java~math~BigInteger~~init^~Ljava~math~BigInteger^I^I^Ljava~util~Random^ ( java.math.BigInteger :*: , :int: , :int: , java.util.Random :*: ) :  "BigInteger" ;
+:public: :boolean: java~math~BigInteger~~equals~Ljava~math~BigInteger^Ljava~lang~Object^ ( java.math.BigInteger :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :byte: [] java~math~BigInteger~~toByteArray~Ljava~math~BigInteger^ ( java.math.BigInteger :*: ) :  "toByteArray" ;
+}
+	
+:public: :interface::class: java.security.interfaces.RSAKey :extends: java.lang.Object :"java.security.interfaces":"RSAKey"{
+	
+ :public: :abstract: java.math.BigInteger :*: java~security~interfaces~RSAKey~~getModulus~Ljava~security~interfaces~RSAKey^ ( java.security.interfaces.RSAKey :*: ) :  "getModulus" ;
+}
+	
+:public: :final::class: javax.xml.bind.DatatypeConverter :extends: java.lang.Object :"javax.xml.bind":"DatatypeConverter"{
+	
+ :private: :void: javax~xml~bind~DatatypeConverter~~init^~Ljavax~xml~bind~DatatypeConverter^ ( javax.xml.bind.DatatypeConverter :*: ) :  "DatatypeConverter" ;
+:public: :static: java.lang.String :*: javax~xml~bind~DatatypeConverter~~printHexBinary~S~?B^ ( :byte: [] ) :  "printHexBinary" ;
+}
+	
+:public: :static::class: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :extends: java.lang.Object :"org.owasp.webgoat.assignments":"AttackResult$AttackResultBuilder"{
+	
+ :public: :void: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~init^~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Lorg~owasp~webgoat~i18n~PluginMessages^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: , org.owasp.webgoat.i18n.PluginMessages :*: ) :  "AttackResultBuilder" ;
+:public: org.owasp.webgoat.assignments.AttackResult :*: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ) :  "build" ;
+:public: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: , java.lang.String :*: ) :  "feedback" ;
+}
+	
+:public: :interface::class: java.security.PublicKey :extends: java.security.Key :"java.security":"PublicKey"{
+	
+}
+	
+ :public: :final::class: java.lang.Class :extends: java.lang.Object java.io.Serializable java.lang.reflect.GenericDeclaration java.lang.reflect.Type java.lang.reflect.AnnotatedElement :"java.lang":"Class"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName0~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor0~Ljava~lang~Class^?Ljava~lang~Class^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredClasses~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaringClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingConstructor~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingMethod~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField0~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~newInstance~Ljava~lang~Class^~throws;
+ :private: :void: java~lang~Class~~init^~Ljava~lang~Class^Ljava~lang~ClassLoader^ ( java.lang.Class :*: , java.lang.ClassLoader :*: ) :  "Class" ;
+}
+	
+:public: :final::class: org.slf4j.LoggerFactory :extends: java.lang.Object :"org.slf4j":"LoggerFactory"{
+	
+ :private: :void: org~slf4j~LoggerFactory~~init^~Lorg~slf4j~LoggerFactory^ ( org.slf4j.LoggerFactory :*: ) :  "LoggerFactory" ;
+:public: :static: org.slf4j.Logger :*: org~slf4j~LoggerFactory~~getLogger~S~Ljava~lang~String^ ( java.lang.String :*: ) :  "getLogger" ;
+:public: :static: org.slf4j.Logger :*: org~slf4j~LoggerFactory~~getLogger~S~Ljava~lang~Class^ ( java.lang.Class :*: ) :  "getLogger" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+:public: :boolean: java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( java.lang.Object :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+}
+	
+:public: :interface::class: org.slf4j.Marker :extends: java.io.Serializable :"org.slf4j":"Marker"{
+	
+ :public: :abstract: :boolean: org~slf4j~Marker~~equals~Lorg~slf4j~Marker^Ljava~lang~Object^ ( org.slf4j.Marker :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+ :public: :abstract: :boolean: java~lang~annotation~Annotation~~equals~Ljava~lang~annotation~Annotation^Ljava~lang~Object^ ( java.lang.annotation.Annotation :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+ :public: :abstract: :int: java~lang~CharSequence~~length~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "length" ;
+}
+	
+:public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+:public: :synchronized: :int: java~lang~StringBuffer~~length~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "length" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: :boolean: java~nio~charset~Charset~~equals~Ljava~nio~charset~Charset^Ljava~lang~Object^ ( java.nio.charset.Charset :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :final::class: java.util.Locale :extends: java.lang.Object java.lang.Cloneable java.io.Serializable :"java.util":"Locale"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~getISO3Country~Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~getISO3Language~Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~readObject~Ljava~util~Locale^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~readResolve~Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~writeObject~Ljava~util~Locale^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~util~Locale~~init^~Ljava~util~Locale^Ljava~lang~String^ ( java.util.Locale :*: , java.lang.String :*: ) :  "Locale" ;
+:private: :void: java~util~Locale~~init^~Ljava~util~Locale^Lsun~util~locale~BaseLocale^Lsun~util~locale~LocaleExtensions^ ( java.util.Locale :*: , sun.util.locale.BaseLocale :*: , sun.util.locale.LocaleExtensions :*: ) :  "Locale" ;
+:public: :void: java~util~Locale~~init^~Ljava~util~Locale^Ljava~lang~String^Ljava~lang~String^ ( java.util.Locale :*: , java.lang.String :*: , java.lang.String :*: ) :  "Locale" ;
+:public: :void: java~util~Locale~~init^~Ljava~util~Locale^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.util.Locale :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "Locale" ;
+:public: :boolean: java~util~Locale~~equals~Ljava~util~Locale^Ljava~lang~Object^ ( java.util.Locale :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :interface::class: javax.servlet.ServletRequest :extends: java.lang.Object :"javax.servlet":"ServletRequest"{
+	
+ :public: :static: java.lang.Throwable :*: javax~servlet~ServletRequest~~getInputStream~Ljavax~servlet~ServletRequest^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~ServletRequest~~getReader~Ljavax~servlet~ServletRequest^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~ServletRequest~~setCharacterEncoding~Ljavax~servlet~ServletRequest^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~ServletRequest~~startAsync~Ljavax~servlet~ServletRequest^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~ServletRequest~~startAsync~Ljavax~servlet~ServletRequest^Ljavax~servlet~ServletRequest^Ljavax~servlet~ServletResponse^~throws;
+ :public: :abstract: java.lang.Object :*: javax~servlet~ServletRequest~~getAttribute~Ljavax~servlet~ServletRequest^Ljava~lang~String^ ( javax.servlet.ServletRequest :*: , java.lang.String :*: ) :  "getAttribute" ;
+:public: :abstract: :void: javax~servlet~ServletRequest~~setAttribute~Ljavax~servlet~ServletRequest^Ljava~lang~String^Ljava~lang~Object^ ( javax.servlet.ServletRequest :*: , java.lang.String :*: , java.lang.Object :*: ) :  "setAttribute" ;
+}
+	
+:public::class: java.security.GeneralSecurityException :extends: java.lang.Exception :"java.security":"GeneralSecurityException"{
+	
+ :public: :void: java~security~GeneralSecurityException~~init^~Ljava~security~GeneralSecurityException^ ( java.security.GeneralSecurityException :*: ) :  "GeneralSecurityException" ;
+:public: :void: java~security~GeneralSecurityException~~init^~Ljava~security~GeneralSecurityException^Ljava~lang~String^ ( java.security.GeneralSecurityException :*: , java.lang.String :*: ) :  "GeneralSecurityException" ;
+:public: :void: java~security~GeneralSecurityException~~init^~Ljava~security~GeneralSecurityException^Ljava~lang~Throwable^ ( java.security.GeneralSecurityException :*: , java.lang.Throwable :*: ) :  "GeneralSecurityException" ;
+:public: :void: java~security~GeneralSecurityException~~init^~Ljava~security~GeneralSecurityException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.security.GeneralSecurityException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "GeneralSecurityException" ;
+}
+	
+:public::class: org.springframework.util.MimeType :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"org.springframework.util":"MimeType"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~util~MimeType~~readObject~Lorg~springframework~util~MimeType^Ljava~io~ObjectInputStream^~throws;
+ :public: :void: org~springframework~util~MimeType~~init^~Lorg~springframework~util~MimeType^Ljava~lang~String^ ( org.springframework.util.MimeType :*: , java.lang.String :*: ) :  "MimeType" ;
+:protected: :void: org~springframework~util~MimeType~~init^~Lorg~springframework~util~MimeType^Lorg~springframework~util~MimeType^ ( org.springframework.util.MimeType :*: , org.springframework.util.MimeType :*: ) :  "MimeType" ;
+:public: :void: org~springframework~util~MimeType~~init^~Lorg~springframework~util~MimeType^Ljava~lang~String^Ljava~lang~String^ ( org.springframework.util.MimeType :*: , java.lang.String :*: , java.lang.String :*: ) :  "MimeType" ;
+:public: :void: org~springframework~util~MimeType~~init^~Lorg~springframework~util~MimeType^Lorg~springframework~util~MimeType^Ljava~nio~charset~Charset^ ( org.springframework.util.MimeType :*: , org.springframework.util.MimeType :*: , java.nio.charset.Charset :*: ) :  "MimeType" ;
+:public: :void: org~springframework~util~MimeType~~init^~Lorg~springframework~util~MimeType^Lorg~springframework~util~MimeType^Ljava~util~Map^ ( org.springframework.util.MimeType :*: , org.springframework.util.MimeType :*: , java.util.Map :*: ) :  "MimeType" ;
+:public: :void: org~springframework~util~MimeType~~init^~Lorg~springframework~util~MimeType^Ljava~lang~String^Ljava~lang~String^Ljava~nio~charset~Charset^ ( org.springframework.util.MimeType :*: , java.lang.String :*: , java.lang.String :*: , java.nio.charset.Charset :*: ) :  "MimeType" ;
+:public: :void: org~springframework~util~MimeType~~init^~Lorg~springframework~util~MimeType^Ljava~lang~String^Ljava~lang~String^Ljava~util~Map^ ( org.springframework.util.MimeType :*: , java.lang.String :*: , java.lang.String :*: , java.util.Map :*: ) :  "MimeType" ;
+:public: :boolean: org~springframework~util~MimeType~~equals~Lorg~springframework~util~MimeType^Ljava~lang~Object^ ( org.springframework.util.MimeType :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :interface::class: java.util.Map :extends: java.lang.Object :"java.util":"Map"{
+	
+ :public: :abstract: :boolean: java~util~Map~~equals~Ljava~util~Map^Ljava~lang~Object^ ( java.util.Map :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :interface::class: java.security.PrivateKey :extends: java.security.Key javax.security.auth.Destroyable :"java.security":"PrivateKey"{
+	
+}
+	
+ :public: :abstract::class: java.lang.Number :extends: java.lang.Object java.io.Serializable :"java.lang":"Number"{
+	
+ :public: :void: java~lang~Number~~init^~Ljava~lang~Number^ ( java.lang.Number :*: ) :  "Number" ;
+}
+	
+:public::class: java.util.Random :extends: java.lang.Object java.io.Serializable :"java.util":"Random"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~Random~~readObject~Ljava~util~Random^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Random~~writeObject~Ljava~util~Random^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~util~Random~~init^~Ljava~util~Random^ ( java.util.Random :*: ) :  "Random" ;
+:public: :void: java~util~Random~~init^~Ljava~util~Random^J^ ( java.util.Random :*: , :long: ) :  "Random" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.PluginMessages :extends: org.springframework.context.support.ReloadableResourceBundleMessageSource :"org.owasp.webgoat.i18n":"PluginMessages"{
+	
+ :public: :void: org~owasp~webgoat~i18n~PluginMessages~~init^~Lorg~owasp~webgoat~i18n~PluginMessages^Lorg~owasp~webgoat~i18n~Messages^Lorg~owasp~webgoat~i18n~Language^ ( org.owasp.webgoat.i18n.PluginMessages :*: , org.owasp.webgoat.i18n.Messages :*: , org.owasp.webgoat.i18n.Language :*: ) :  "PluginMessages" ;
+}
+	
+:public: :interface::class: java.security.Key :extends: java.io.Serializable :"java.security":"Key"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.GenericDeclaration :extends: java.lang.reflect.AnnotatedElement :"java.lang.reflect":"GenericDeclaration"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.Type :extends: java.lang.Object :"java.lang.reflect":"Type"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.AnnotatedElement :extends: java.lang.Object :"java.lang.reflect":"AnnotatedElement"{
+	
+}
+	
+ :public: :abstract::class: java.lang.ClassLoader :extends: java.lang.Object :"java.lang":"ClassLoader"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~nio~ByteBuffer^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~definePackage~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findSystemClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getBootstrapResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getSystemResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClassInternal~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:private: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~Void^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.Void :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :char: [] value;
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+:public: :int: java~lang~AbstractStringBuilder~~length~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "length" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :interface::class: java.lang.Cloneable :extends: java.lang.Object :"java.lang":"Cloneable"{
+	
+}
+	
+ :public: :final::class: sun.util.locale.BaseLocale :extends: java.lang.Object :"sun.util.locale":"BaseLocale"{
+	
+ :private: :void: sun~util~locale~BaseLocale~~init^~Lsun~util~locale~BaseLocale^Ljava~lang~String^Ljava~lang~String^ ( sun.util.locale.BaseLocale :*: , java.lang.String :*: , java.lang.String :*: ) :  "BaseLocale" ;
+:private: :void: sun~util~locale~BaseLocale~~init^~Lsun~util~locale~BaseLocale^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( sun.util.locale.BaseLocale :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "BaseLocale" ;
+:public: :boolean: sun~util~locale~BaseLocale~~equals~Lsun~util~locale~BaseLocale^Ljava~lang~Object^ ( sun.util.locale.BaseLocale :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public::class: sun.util.locale.LocaleExtensions :extends: java.lang.Object :"sun.util.locale":"LocaleExtensions"{
+	
+ :private: :void: sun~util~locale~LocaleExtensions~~init^~Lsun~util~locale~LocaleExtensions^Ljava~lang~String^Ljava~lang~Character^Lsun~util~locale~Extension^ ( sun.util.locale.LocaleExtensions :*: , java.lang.String :*: , java.lang.Character :*: , sun.util.locale.Extension :*: ) :  "LocaleExtensions" ;
+:void: sun~util~locale~LocaleExtensions~~init^~Lsun~util~locale~LocaleExtensions^Ljava~util~Map^Ljava~util~Set^Ljava~util~Map^ ( sun.util.locale.LocaleExtensions :*: , java.util.Map :*: , java.util.Set :*: , java.util.Map :*: ) :  "LocaleExtensions" ;
+:public: :boolean: sun~util~locale~LocaleExtensions~~equals~Lsun~util~locale~LocaleExtensions^Ljava~lang~Object^ ( sun.util.locale.LocaleExtensions :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public: :interface::class: javax.security.auth.Destroyable :extends: java.lang.Object :"javax.security.auth":"Destroyable"{
+	
+ :public: :static: java.lang.Throwable :*: javax~security~auth~Destroyable~~destroy~Ljavax~security~auth~Destroyable^~throws;
+}
+	
+ :public::class: org.springframework.context.support.ReloadableResourceBundleMessageSource :extends: org.springframework.context.support.AbstractResourceBasedMessageSource org.springframework.context.ResourceLoaderAware :"org.springframework.context.support":"ReloadableResourceBundleMessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~ReloadableResourceBundleMessageSource~~loadProperties~Lorg~springframework~context~support~ReloadableResourceBundleMessageSource^Lorg~springframework~core~io~Resource^Ljava~lang~String^~throws;
+ :public: :void: org~springframework~context~support~ReloadableResourceBundleMessageSource~~init^~Lorg~springframework~context~support~ReloadableResourceBundleMessageSource^ ( org.springframework.context.support.ReloadableResourceBundleMessageSource :*: ) :  "ReloadableResourceBundleMessageSource" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.Messages :extends: org.springframework.context.support.ReloadableResourceBundleMessageSource :"org.owasp.webgoat.i18n":"Messages"{
+	
+ :public: :void: org~owasp~webgoat~i18n~Messages~~init^~Lorg~owasp~webgoat~i18n~Messages^Lorg~owasp~webgoat~i18n~Language^ ( org.owasp.webgoat.i18n.Messages :*: , org.owasp.webgoat.i18n.Language :*: ) :  "Messages" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.Language :extends: java.lang.Object :"org.owasp.webgoat.i18n":"Language"{
+	
+ :public: :void: org~owasp~webgoat~i18n~Language~~init^~Lorg~owasp~webgoat~i18n~Language^Lorg~springframework~web~servlet~LocaleResolver^ ( org.owasp.webgoat.i18n.Language :*: , org.springframework.web.servlet.LocaleResolver :*: ) :  "Language" ;
+}
+	
+:public: :final::class: java.lang.Void :extends: java.lang.Object :"java.lang":"Void"{
+	
+ :private: :void: java~lang~Void~~init^~Ljava~lang~Void^ ( java.lang.Void :*: ) :  "Void" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public: :final::class: java.lang.Character :extends: java.lang.Object java.io.Serializable java.lang.Comparable :"java.lang":"Character"{
+	
+ :public: :void: java~lang~Character~~init^~Ljava~lang~Character^C^ ( java.lang.Character :*: , :char: ) :  "Character" ;
+:public: :boolean: java~lang~Character~~equals~Ljava~lang~Character^Ljava~lang~Object^ ( java.lang.Character :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :static: :char: java~lang~Character~~toUpperCase~S~C^ ( :char: ) :  "toUpperCase" ;
+:public: :static: :int: java~lang~Character~~toUpperCase~S~I^ ( :int: ) :  "toUpperCase" ;
+}
+	
+:class: sun.util.locale.Extension :extends: java.lang.Object :"sun.util.locale":"Extension"{
+	
+:protected: :void: sun~util~locale~Extension~~init^~Lsun~util~locale~Extension^C^ ( sun.util.locale.Extension :*: , :char: ) :  "Extension" ;
+:void: sun~util~locale~Extension~~init^~Lsun~util~locale~Extension^C^Ljava~lang~String^ ( sun.util.locale.Extension :*: , :char: , java.lang.String :*: ) :  "Extension" ;
+}
+	
+:public: :interface::class: java.util.Set :extends: java.util.Collection :"java.util":"Set"{
+	
+ :public: :abstract: :boolean: java~util~Set~~equals~Ljava~util~Set^Ljava~lang~Object^ ( java.util.Set :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :abstract::class: org.springframework.context.support.AbstractResourceBasedMessageSource :extends: org.springframework.context.support.AbstractMessageSource :"org.springframework.context.support":"AbstractResourceBasedMessageSource"{
+	
+ :public: :void: org~springframework~context~support~AbstractResourceBasedMessageSource~~init^~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^ ( org.springframework.context.support.AbstractResourceBasedMessageSource :*: ) :  "AbstractResourceBasedMessageSource" ;
+}
+	
+:public: :interface::class: org.springframework.context.ResourceLoaderAware :extends: org.springframework.beans.factory.Aware :"org.springframework.context":"ResourceLoaderAware"{
+	
+}
+	
+ :public: :interface::class: org.springframework.web.servlet.LocaleResolver :extends: java.lang.Object :"org.springframework.web.servlet":"LocaleResolver"{
+	
+}
+	
+ :public: :interface::class: java.util.Collection :extends: java.lang.Iterable :"java.util":"Collection"{
+	
+ :public: :abstract: :boolean: java~util~Collection~~equals~Ljava~util~Collection^Ljava~lang~Object^ ( java.util.Collection :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :abstract::class: org.springframework.context.support.AbstractMessageSource :extends: org.springframework.context.support.MessageSourceSupport org.springframework.context.HierarchicalMessageSource :"org.springframework.context.support":"AbstractMessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^~throws;
+ :public: :void: org~springframework~context~support~AbstractMessageSource~~init^~Lorg~springframework~context~support~AbstractMessageSource^ ( org.springframework.context.support.AbstractMessageSource :*: ) :  "AbstractMessageSource" ;
+}
+	
+:public: :interface::class: org.springframework.beans.factory.Aware :extends: java.lang.Object :"org.springframework.beans.factory":"Aware"{
+	
+}
+	
+ :public: :interface::class: java.lang.Iterable :extends: java.lang.Object :"java.lang":"Iterable"{
+	
+}
+	
+ :public: :abstract::class: org.springframework.context.support.MessageSourceSupport :extends: java.lang.Object :"org.springframework.context.support":"MessageSourceSupport"{
+	
+ :public: :void: org~springframework~context~support~MessageSourceSupport~~init^~Lorg~springframework~context~support~MessageSourceSupport^ ( org.springframework.context.support.MessageSourceSupport :*: ) :  "MessageSourceSupport" ;
+}
+	
+:public: :interface::class: org.springframework.context.HierarchicalMessageSource :extends: org.springframework.context.MessageSource :"org.springframework.context":"HierarchicalMessageSource"{
+	
+}
+	
+ :public: :interface::class: org.springframework.context.MessageSource :extends: java.lang.Object :"org.springframework.context":"MessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^~throws;
+}
+	

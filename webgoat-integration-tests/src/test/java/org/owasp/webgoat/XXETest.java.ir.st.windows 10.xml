@@ -1,0 +1,2548 @@
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+#source-type java
+
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 13
+ #14# :public::class: org.owasp.webgoat.XXETest :extends: org.owasp.webgoat.IntegrationTest :"org.owasp.webgoat":"XXETest"{
+	
+ 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 17
+ #33# :private: :final: :static: java.lang.String :*: dtd7 :=:  "<?xml version="1.0" encoding="UTF-8"?><!ENTITY % file SYSTEM "file:SECRET"><!ENTITY % all "<!ENTITY send SYSTEM 'WEBWOLFURL?text=%file;'>">%all;";
+ 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 20
+ #20# :private: java.lang.String :*: webGoatHomeDirectory;
+ 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 21
+ #20# :private: java.lang.String :*: webwolfFileDir;
+ 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 15
+ #33# :private: :final: :static: java.lang.String :*: xxe3 :=:  "<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE user [<!ENTITY xxe SYSTEM "file:///">]><comment><text>&xxe;test</text></comment>";
+ 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 16
+ #33# :private: :final: :static: java.lang.String :*: xxe4 :=:  "<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE user [<!ENTITY xxe SYSTEM "file:///">]><comment><text>&xxe;test</text></comment>";
+ 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 18
+ #33# :private: :final: :static: java.lang.String :*: xxe7 :=:  "<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE comment [<!ENTITY % remote SYSTEM "WEBWOLFURL/USERNAME/blind.dtd">%remote;]><comment><text>test&send;</text></comment>";
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~XXETest~~runTests~Lorg~owasp~webgoat~XXETest^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~XXETest~~xxeSecure~Lorg~owasp~webgoat~XXETest^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~XXETest~~getSecret~Lorg~owasp~webgoat~XXETest^~throws;
+ 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 24
+ #17# :public: :void: org~owasp~webgoat~XXETest~~runTests~Lorg~owasp~webgoat~XXETest^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #17# org.owasp.webgoat.XXETest :*: this~ ) :  "runTests"  :exceptions:  java.io.IOException :*:
+	:[[: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 23
+ #5# {
+}
+
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #5# 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #5# < org.junit.jupiter.api.Test :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 24
+ #47# {
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 25
+ #21# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #21# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #21# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #21# 	~t0 :=: "XXE" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> org~owasp~webgoat~IntegrationTest~~startLesson~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #21# 	~t0 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 26
+ #32# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #32# 	ANYTYPE ~t~j~1 ;
+	__throwingcall_1 :
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #32# 	~t~j~1 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #32# 	-~> org~owasp~webgoat~IntegrationTest~~getWebGoatServerPath~Lorg~owasp~webgoat~IntegrationTest^ ( this~ ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #32# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #32# 	{
+		[ org.owasp.webgoat.XXETest ] org~owasp~webgoat~XXETest~~runTests~Lorg~owasp~webgoat~XXETest^~throws :=: < java.io.IOException :*: > :null: ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #32# 		__caught__throwingcall_1 :
+		 :throw:  < java.io.IOException :*: > :null: ;
+	}
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	[ org.owasp.webgoat.XXETest ] ( this~ ) :.: webGoatHomeDirectory :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #32# 	~t~j~1 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 27
+ #26# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 	ANYTYPE ~t~j~2 ;
+	__throwingcall_2 :
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 	~t~j~2 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 	-~> org~owasp~webgoat~IntegrationTest~~getWebWolfServerPath~Lorg~owasp~webgoat~IntegrationTest^ ( this~ ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 	{
+		[ org.owasp.webgoat.XXETest ] org~owasp~webgoat~XXETest~~runTests~Lorg~owasp~webgoat~XXETest^~throws :=: < java.io.IOException :*: > :null: ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 		__caught__throwingcall_2 :
+		 :throw:  < java.io.IOException :*: > :null: ;
+	}
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	[ org.owasp.webgoat.XXETest ] ( this~ ) :.: webwolfFileDir :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 	~t~j~2 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 28
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t1 :=: "/WebGoat/xxe/simple" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	java.lang.String :*: ~t2 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t2 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> org~owasp~webgoat~IntegrationTest~~url~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t1 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #76# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #76# 	:boolean: ~t3 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #76# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #76# 	~t3 :=: :true: ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> org~owasp~webgoat~IntegrationTest~~checkAssignment~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^Lio~restassured~http~ContentType^Ljava~lang~String^Z^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t2 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #53# 	[ io.restassured.http.ContentType ] XML , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #70# 	[ org.owasp.webgoat.XXETest ] xxe3 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #76# 	~t3 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 29
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	java.lang.String :*: ~t4 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t4 :=: "/WebGoat/xxe/content-type" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	java.lang.String :*: ~t5 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t5 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> org~owasp~webgoat~IntegrationTest~~url~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t4 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 	:boolean: ~t6 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 	~t6 :=: :true: ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> org~owasp~webgoat~IntegrationTest~~checkAssignment~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^Lio~restassured~http~ContentType^Ljava~lang~String^Z^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t5 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #59# 	[ io.restassured.http.ContentType ] XML , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #76# 	[ org.owasp.webgoat.XXETest ] xxe4 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 	~t6 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 30
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	java.lang.String :*: ~t7 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t7 :=: "/WebGoat/xxe/blind" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	java.lang.String :*: ~t8 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t8 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> org~owasp~webgoat~IntegrationTest~~url~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t7 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #69# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #69# 	java.lang.String :*: ~t9 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 	ANYTYPE ~t~j~3 ;
+	__throwingcall_3 :
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 	~t~j~3 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 	-~> org~owasp~webgoat~XXETest~~getSecret~Lorg~owasp~webgoat~XXETest^ ( this~ ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 	{
+		[ org.owasp.webgoat.XXETest ] org~owasp~webgoat~XXETest~~runTests~Lorg~owasp~webgoat~XXETest^~throws :=: < java.io.IOException :*: > :null: ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 		__caught__throwingcall_3 :
+		 :throw:  < java.io.IOException :*: > :null: ;
+	}
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #69# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #69# 	~t9 :=: ( ( "<comment><text>" :+: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 	~t~j~3 ) :+: "</text></comment>" ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #124# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #124# 	:boolean: ~t10 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #124# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #124# 	~t10 :=: :true: ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> org~owasp~webgoat~IntegrationTest~~checkAssignment~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^Lio~restassured~http~ContentType^Ljava~lang~String^Z^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t8 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #52# 	[ io.restassured.http.ContentType ] XML , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #69# 	~t9 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #124# 	~t10 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 31
+ #22# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #22# 	java.lang.String :*: ~t11 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #22# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #22# 	~t11 :=: "xxe/" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> org~owasp~webgoat~IntegrationTest~~checkResults~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #22# 	~t11 ) ;
+
+#source-line 32
+}
+
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 38
+ #17# :public: :void: org~owasp~webgoat~XXETest~~xxeSecure~Lorg~owasp~webgoat~XXETest^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #17# org.owasp.webgoat.XXETest :*: this~ ) :  "xxeSecure"  :exceptions:  java.io.IOException :*:
+	:[[: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 37
+ #5# {
+}
+
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #5# 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #5# < org.junit.jupiter.api.Test :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 38
+ #48# {
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 39
+ #21# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #21# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #21# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #21# 	~t0 :=: "XXE" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> org~owasp~webgoat~IntegrationTest~~startLesson~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #21# 	~t0 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 40
+ #32# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #32# 	ANYTYPE ~t~j~1 ;
+	__throwingcall_1 :
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #32# 	~t~j~1 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #32# 	-~> org~owasp~webgoat~IntegrationTest~~getWebGoatServerPath~Lorg~owasp~webgoat~IntegrationTest^ ( this~ ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #32# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #32# 	{
+		[ org.owasp.webgoat.XXETest ] org~owasp~webgoat~XXETest~~xxeSecure~Lorg~owasp~webgoat~XXETest^~throws :=: < java.io.IOException :*: > :null: ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #32# 		__caught__throwingcall_1 :
+		 :throw:  < java.io.IOException :*: > :null: ;
+	}
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	[ org.owasp.webgoat.XXETest ] ( this~ ) :.: webGoatHomeDirectory :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #32# 	~t~j~1 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 41
+ #26# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 	ANYTYPE ~t~j~2 ;
+	__throwingcall_2 :
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 	~t~j~2 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 	-~> org~owasp~webgoat~IntegrationTest~~getWebWolfServerPath~Lorg~owasp~webgoat~IntegrationTest^ ( this~ ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 	{
+		[ org.owasp.webgoat.XXETest ] org~owasp~webgoat~XXETest~~xxeSecure~Lorg~owasp~webgoat~XXETest^~throws :=: < java.io.IOException :*: > :null: ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 		__caught__throwingcall_2 :
+		 :throw:  < java.io.IOException :*: > :null: ;
+	}
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	[ org.owasp.webgoat.XXETest ] ( this~ ) :.: webwolfFileDir :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 	~t~j~2 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 42
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	io.restassured.specification.RequestSpecification :*: ~t1 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t1 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~RestAssured~~given~S~ ( ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	io.restassured.specification.RequestSpecification :*: ~t2 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t2 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~specification~RequestSpecification~~when~Lio~restassured~specification~RequestSpecification^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t1 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	io.restassured.specification.RequestSpecification :*: ~t3 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t3 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~specification~RequestSpecification~~relaxedHTTPSValidation~Lio~restassured~specification~RequestSpecification^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t2 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 43
+ #11# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #11# 	java.lang.String :*: ~t4 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #11# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #11# 	~t4 :=: "JSESSIONID" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	java.lang.String :*: ~t5 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t5 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> org~owasp~webgoat~IntegrationTest~~getWebGoatCookie~Lorg~owasp~webgoat~IntegrationTest^ ( this~ ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 42
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	io.restassured.specification.RequestSpecification :*: ~t6 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t6 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~specification~RequestSpecification~~cookie~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~lang~Object^?Ljava~lang~Object^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t3 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 43
+ #11# 	~t4 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t5 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #53# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #53# 	java.lang.String :*: ~t7 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #53# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #53# 	~t7 :=: "/xxe/applysecurity" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #49# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #49# 	java.lang.String :*: ~t8 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #49# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #49# 	~t8 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #49# 	-~> org~owasp~webgoat~IntegrationTest~~url~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #53# 	~t7 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 42
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~specification~RequestSenderOptions~~get~Lio~restassured~specification~RequestSenderOptions^Ljava~lang~String^?Ljava~lang~Object^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t6 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 43
+ #49# 	~t8 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 44
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	java.lang.String :*: ~t9 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t9 :=: "/WebGoat/xxe/simple" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	java.lang.String :*: ~t10 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t10 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> org~owasp~webgoat~IntegrationTest~~url~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t9 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #76# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #76# 	:boolean: ~t11 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #76# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #76# 	~t11 :=: :false: ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> org~owasp~webgoat~IntegrationTest~~checkAssignment~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^Lio~restassured~http~ContentType^Ljava~lang~String^Z^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t10 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #53# 	[ io.restassured.http.ContentType ] XML , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #70# 	[ org.owasp.webgoat.XXETest ] xxe3 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #76# 	~t11 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 45
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	java.lang.String :*: ~t12 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t12 :=: "/WebGoat/xxe/content-type" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	java.lang.String :*: ~t13 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t13 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> org~owasp~webgoat~IntegrationTest~~url~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t12 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 	:boolean: ~t14 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 	~t14 :=: :false: ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> org~owasp~webgoat~IntegrationTest~~checkAssignment~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^Lio~restassured~http~ContentType^Ljava~lang~String^Z^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t13 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #59# 	[ io.restassured.http.ContentType ] XML , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #76# 	[ org.owasp.webgoat.XXETest ] xxe4 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 	~t14 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 46
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	java.lang.String :*: ~t15 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t15 :=: "/WebGoat/xxe/blind" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	java.lang.String :*: ~t16 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t16 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> org~owasp~webgoat~IntegrationTest~~url~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t15 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #69# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #69# 	java.lang.String :*: ~t17 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 	ANYTYPE ~t~j~3 ;
+	__throwingcall_3 :
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 	~t~j~3 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 	-~> org~owasp~webgoat~XXETest~~getSecret~Lorg~owasp~webgoat~XXETest^ ( this~ ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 	{
+		[ org.owasp.webgoat.XXETest ] org~owasp~webgoat~XXETest~~xxeSecure~Lorg~owasp~webgoat~XXETest^~throws :=: < java.io.IOException :*: > :null: ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 		__caught__throwingcall_3 :
+		 :throw:  < java.io.IOException :*: > :null: ;
+	}
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #69# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #69# 	~t17 :=: ( ( "<comment><text>" :+: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #89# 	~t~j~3 ) :+: "</text></comment>" ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #124# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #124# 	:boolean: ~t18 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #124# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #124# 	~t18 :=: :false: ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> org~owasp~webgoat~IntegrationTest~~checkAssignment~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^Lio~restassured~http~ContentType^Ljava~lang~String^Z^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t16 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #52# 	[ io.restassured.http.ContentType ] XML , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #69# 	~t17 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #124# 	~t18 ) ;
+
+#source-line 47
+}
+
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 55
+ #20# :private: java.lang.String :*: org~owasp~webgoat~XXETest~~getSecret~Lorg~owasp~webgoat~XXETest^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #20# org.owasp.webgoat.XXETest :*: this~ ) :  "getSecret"  :exceptions:  java.io.IOException :*: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #51# {
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 57
+ #14# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #14# 	java.nio.file.Path :*: webWolfFilePath ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #14# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #14# 	webWolfFilePath :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #32# 	-~> java~nio~file~Paths~~get~S~Ljava~lang~String^?Ljava~lang~String^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #42# 	[ org.owasp.webgoat.XXETest ] ( this~ ) :.: webwolfFileDir ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 58
+ #47# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #47# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #47# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #47# 	~t0 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #47# 	-~> org~owasp~webgoat~IntegrationTest~~getWebgoatUser~Lorg~owasp~webgoat~IntegrationTest^ ( this~ ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #65# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #65# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #65# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #65# 	~t1 :=: "blind.dtd" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #37# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #37# 	java.nio.file.Path :*: ~t2 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #37# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #37# 	~t2 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #37# 	-~> java~nio~file~Paths~~get~S~Ljava~lang~String^?Ljava~lang~String^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #47# 	~t0 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #65# 	~t1 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 	java.nio.file.Path :*: ~t3 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 	~t3 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 	-~> java~nio~file~Path~~resolve~Ljava~nio~file~Path^Ljava~nio~file~Path^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 	webWolfFilePath , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #37# 	~t2 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 	java.io.File :*: ~t4 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 	~t4 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 	-~> java~nio~file~Path~~toFile~Ljava~nio~file~Path^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 	~t3 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	:if: ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 	-~> java~io~File~~exists~Ljava~io~File^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 	~t4 ) ) 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #98# 	{
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 59
+ #60# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #60# 		java.lang.String :*: ~t5 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #60# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #60# 		~t5 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #60# 		-~> org~owasp~webgoat~IntegrationTest~~getWebgoatUser~Lorg~owasp~webgoat~IntegrationTest^ ( this~ ) ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #78# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #78# 		java.lang.String :*: ~t6 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #78# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #78# 		~t6 :=: "blind.dtd" ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #50# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #50# 		java.nio.file.Path :*: ~t7 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #50# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #50# 		~t7 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #50# 		-~> java~nio~file~Paths~~get~S~Ljava~lang~String^?Ljava~lang~String^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #60# 		~t5 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #78# 		~t6 ) ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 		java.nio.file.Path :*: ~t8 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 		~t8 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 		-~> java~nio~file~Path~~resolve~Ljava~nio~file~Path^Ljava~nio~file~Path^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 		webWolfFilePath , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #50# 		~t7 ) ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 		__throwingcall_1 :
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 		-~> java~nio~file~Files~~delete~S~Ljava~nio~file~Path^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #26# 		~t8 ) ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 		:if: ( < :long: > 1 ) 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 		{
+			[ org.owasp.webgoat.XXETest ] org~owasp~webgoat~XXETest~~getSecret~Lorg~owasp~webgoat~XXETest^~throws :=: < java.io.IOException :*: > :null: ;
+			
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #13# 			__caught__throwingcall_1 :
+			 :throw:  < java.io.IOException :*: > :null: ;
+		}
+
+#source-line 60
+	}
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 61
+ #16# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #16# 	java.lang.String :*: secretFile ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #57# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #57# 	java.lang.String :*: ~t9 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #57# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #57# 	~t9 :=: "/XXE/secret.txt" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #16# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #16# 	secretFile :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	-~> java~lang~String~~concat~Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	[ org.owasp.webgoat.XXETest ] ( this~ ) :.: webGoatHomeDirectory , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #57# 	~t9 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 62
+ #16# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #16# 	java.lang.String :*: dtd7String ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #42# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #42# 	java.lang.String :*: ~t10 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #42# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #42# 	~t10 :=: "WEBWOLFURL" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #67# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #67# 	java.lang.String :*: ~t11 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #67# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #67# 	~t11 :=: "/landing" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #56# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #56# 	java.lang.String :*: ~t12 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #56# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #56# 	~t12 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #56# 	-~> org~owasp~webgoat~IntegrationTest~~webWolfUrl~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #67# 	~t11 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	java.lang.String :*: ~t13 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t13 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	-~> java~lang~String~~replace~Ljava~lang~String^Ljava~lang~CharSequence^Ljava~lang~CharSequence^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	[ org.owasp.webgoat.XXETest ] dtd7 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #42# 	~t10 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #56# 	~t12 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #88# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #88# 	java.lang.String :*: ~t14 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #88# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #88# 	~t14 :=: "SECRET" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #16# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #16# 	dtd7String :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	-~> java~lang~String~~replace~Ljava~lang~String^Ljava~lang~CharSequence^Ljava~lang~CharSequence^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t13 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #88# 	~t14 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #98# 	secretFile ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 65
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	io.restassured.specification.RequestSpecification :*: ~t15 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t15 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~RestAssured~~given~S~ ( ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	io.restassured.specification.RequestSpecification :*: ~t16 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t16 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~specification~RequestSpecification~~when~Lio~restassured~specification~RequestSpecification^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t15 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	io.restassured.specification.RequestSpecification :*: ~t17 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t17 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~specification~RequestSpecification~~relaxedHTTPSValidation~Lio~restassured~specification~RequestSpecification^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t16 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 68
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	java.lang.String :*: ~t18 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t18 :=: "WEBWOLFSESSION" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #43# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #43# 	java.lang.String :*: ~t19 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #43# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #43# 	~t19 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #43# 	-~> org~owasp~webgoat~IntegrationTest~~getWebWolfCookie~Lorg~owasp~webgoat~IntegrationTest^ ( this~ ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 65
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	io.restassured.specification.RequestSpecification :*: ~t20 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t20 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~specification~RequestSpecification~~cookie~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~lang~Object^?Ljava~lang~Object^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t17 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 68
+ #25# 	~t18 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #43# 	~t19 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 69
+ #28# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #28# 	java.lang.String :*: ~t21 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #28# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #28# 	~t21 :=: "file" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #36# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #36# 	java.lang.String :*: ~t22 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #36# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #36# 	~t22 :=: "blind.dtd" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #49# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #49# 	:byte: [] ~t23 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #49# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #49# 	~t23 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #49# 	-~> java~lang~String~~getBytes~Ljava~lang~String^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #49# 	dtd7String ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 65
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	io.restassured.specification.RequestSpecification :*: ~t24 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t24 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~specification~RequestSpecification~~multiPart~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~lang~String^?B^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t20 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 69
+ #28# 	~t21 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #36# 	~t22 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #49# 	~t23 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 70
+ #34# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #34# 	java.lang.String :*: ~t25 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #34# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #34# 	~t25 :=: "/WebWolf/fileupload" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #23# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #23# 	java.lang.String :*: ~t26 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #23# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #23# 	~t26 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #23# 	-~> org~owasp~webgoat~IntegrationTest~~webWolfUrl~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #34# 	~t25 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 65
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	io.restassured.response.Response :*: ~t27 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t27 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~specification~RequestSenderOptions~~post~Lio~restassured~specification~RequestSenderOptions^Ljava~lang~String^?Ljava~lang~Object^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t24 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 70
+ #23# 	~t26 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 65
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	io.restassured.response.ValidatableResponse :*: ~t28 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t28 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~response~Validatable~~then~Lio~restassured~response~Validatable^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t27 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	io.restassured.response.ExtractableResponse :*: ~t29 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t29 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~response~ValidatableResponseOptions~~extract~Lio~restassured~response~ValidatableResponseOptions^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t28 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	io.restassured.response.Response :*: ~t30 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t30 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~response~ExtractableResponse~~response~Lio~restassured~response~ExtractableResponse^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t29 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	io.restassured.response.ResponseBody :*: ~t31 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t31 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~response~ResponseOptions~~getBody~Lio~restassured~response~ResponseOptions^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t30 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> io~restassured~response~ResponseBodyData~~asString~Lio~restassured~response~ResponseBodyData^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	~t31 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 74
+ #16# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #16# 	java.lang.String :*: xxe7String ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #42# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #42# 	java.lang.String :*: ~t32 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #42# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #42# 	~t32 :=: "WEBWOLFURL" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #67# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #67# 	java.lang.String :*: ~t33 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #67# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #67# 	~t33 :=: "/files" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #56# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #56# 	java.lang.String :*: ~t34 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #56# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #56# 	~t34 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #56# 	-~> org~owasp~webgoat~IntegrationTest~~webWolfUrl~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #67# 	~t33 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	java.lang.String :*: ~t35 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t35 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	-~> java~lang~String~~replace~Ljava~lang~String^Ljava~lang~CharSequence^Ljava~lang~CharSequence^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	[ org.owasp.webgoat.XXETest ] xxe7 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #42# 	~t32 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #56# 	~t34 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #86# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #86# 	java.lang.String :*: ~t36 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #86# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #86# 	~t36 :=: "USERNAME" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #98# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #98# 	java.lang.String :*: ~t37 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #98# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #98# 	~t37 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #98# 	-~> org~owasp~webgoat~IntegrationTest~~getWebgoatUser~Lorg~owasp~webgoat~IntegrationTest^ ( this~ ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #16# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #16# 	xxe7String :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	-~> java~lang~String~~replace~Ljava~lang~String^Ljava~lang~CharSequence^Ljava~lang~CharSequence^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t35 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #86# 	~t36 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #98# 	~t37 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 75
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	java.lang.String :*: ~t38 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t38 :=: "/WebGoat/xxe/blind?send=test" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	java.lang.String :*: ~t39 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t39 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> org~owasp~webgoat~IntegrationTest~~url~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #29# 	~t38 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #91# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #91# 	:boolean: ~t40 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #91# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #91# 	~t40 :=: :false: ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	-~> org~owasp~webgoat~IntegrationTest~~checkAssignment~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^Lio~restassured~http~ContentType^Ljava~lang~String^Z^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t39 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #62# 	[ io.restassured.http.ContentType ] XML , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #79# 	xxe7String , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #91# 	~t40 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 78
+ #16# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #16# 	java.lang.String :*: result ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	io.restassured.specification.RequestSpecification :*: ~t41 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t41 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> io~restassured~RestAssured~~given~S~ ( ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	io.restassured.specification.RequestSpecification :*: ~t42 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t42 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> io~restassured~specification~RequestSpecification~~when~Lio~restassured~specification~RequestSpecification^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t41 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	io.restassured.specification.RequestSpecification :*: ~t43 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t43 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> io~restassured~specification~RequestSpecification~~relaxedHTTPSValidation~Lio~restassured~specification~RequestSpecification^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t42 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 81
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	java.lang.String :*: ~t44 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t44 :=: "WEBWOLFSESSION" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #43# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #43# 	java.lang.String :*: ~t45 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #43# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #43# 	~t45 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #43# 	-~> org~owasp~webgoat~IntegrationTest~~getWebWolfCookie~Lorg~owasp~webgoat~IntegrationTest^ ( this~ ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 78
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	io.restassured.specification.RequestSpecification :*: ~t46 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t46 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> io~restassured~specification~RequestSpecification~~cookie~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~lang~Object^?Ljava~lang~Object^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t43 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 81
+ #25# 	~t44 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #43# 	~t45 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 82
+ #33# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 	java.lang.String :*: ~t47 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 	~t47 :=: "/WebWolf/requests" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #22# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #22# 	java.lang.String :*: ~t48 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #22# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #22# 	~t48 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #22# 	-~> org~owasp~webgoat~IntegrationTest~~webWolfUrl~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 	~t47 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 78
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	io.restassured.response.Response :*: ~t49 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t49 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> io~restassured~specification~RequestSenderOptions~~get~Lio~restassured~specification~RequestSenderOptions^Ljava~lang~String^?Ljava~lang~Object^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t46 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 82
+ #22# 	~t48 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 78
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	io.restassured.response.ValidatableResponse :*: ~t50 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t50 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> io~restassured~response~Validatable~~then~Lio~restassured~response~Validatable^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t49 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	io.restassured.response.ExtractableResponse :*: ~t51 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t51 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> io~restassured~response~ValidatableResponseOptions~~extract~Lio~restassured~response~ValidatableResponseOptions^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t50 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	io.restassured.response.Response :*: ~t52 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t52 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> io~restassured~response~ExtractableResponse~~response~Lio~restassured~response~ExtractableResponse^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t51 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	io.restassured.response.ResponseBody :*: ~t53 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t53 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> io~restassured~response~ResponseOptions~~getBody~Lio~restassured~response~ResponseOptions^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t52 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #16# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #16# 	result :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	-~> io~restassured~response~ResponseBodyData~~asString~Lio~restassured~response~ResponseBodyData^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #25# 	~t53 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 85
+ #33# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 	java.lang.String :*: ~t54 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 	~t54 :=: "%20" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #40# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #40# 	java.lang.String :*: ~t55 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #40# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #40# 	~t55 :=: " " ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	result :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #18# 	-~> java~lang~String~~replace~Ljava~lang~String^Ljava~lang~CharSequence^Ljava~lang~CharSequence^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #18# 	result , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 	~t54 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #40# 	~t55 ) ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 86
+ #38# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #38# 	java.lang.String :*: ~t56 ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #38# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #38# 	~t56 :=: "WebGoat 8.0 rocks... (" ;
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #9# 	:if: ( ( ( < :int: >0 :-: < :int: >1 ) :!=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #19# 	-~> java~lang~String~~lastIndexOf~Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #19# 	result , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #38# 	~t56 ) ) ) 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #65# 	{
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 87
+ #55# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #55# 		java.lang.String :*: ~t57 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #55# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #55# 		~t57 :=: "WebGoat 8.0 rocks... (" ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #36# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #36# 		:int: ~t58 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #36# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #36# 		~t58 :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #36# 		-~> java~lang~String~~lastIndexOf~Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #36# 		result , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #55# 		~t57 ) ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #101# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #101# 		java.lang.String :*: ~t59 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #101# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #101# 		~t59 :=: "WebGoat 8.0 rocks... (" ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 		:int: ~t60 ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 		~t60 :=: ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 		-~> java~lang~String~~lastIndexOf~Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 		result , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #101# 		~t59 ) :+: < :int: >33 ) ;
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #10# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #10# 		result :=: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #19# 		-~> java~lang~String~~substring~Ljava~lang~String^I^I^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #19# 		result , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #36# 		~t58 , 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #82# 		~t60 ) ;
+
+#source-line 88
+	}
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 89
+ #9# 	:return: 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #16# 	result ;
+
+#source-line 90
+}
+
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 13
+ #14# :public: :void: org~owasp~webgoat~XXETest~~init^~Lorg~owasp~webgoat~XXETest^ ( 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #14# org.owasp.webgoat.XXETest :*: this~ ) :  "init^" 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #14# {
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #14# 	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #14# 	-~> org~owasp~webgoat~IntegrationTest~~init^~Lorg~owasp~webgoat~IntegrationTest^ ( this~ ) ;
+}
+
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #14# :public: :static: :void: org~owasp~webgoat~XXETest~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #14# {
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 15
+ #33# 	{
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 		[ org.owasp.webgoat.XXETest ] xxe3 :=: "<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE user [<!ENTITY xxe SYSTEM "file:///">]><comment><text>&xxe;test</text></comment>" ;
+	}
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 16
+ #33# 	{
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 		[ org.owasp.webgoat.XXETest ] xxe4 :=: "<?xml version="1.0" encoding="ISO-8859-1"?><!DOCTYPE user [<!ENTITY xxe SYSTEM "file:///">]><comment><text>&xxe;test</text></comment>" ;
+	}
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 17
+ #33# 	{
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 		[ org.owasp.webgoat.XXETest ] dtd7 :=: "<?xml version="1.0" encoding="UTF-8"?><!ENTITY % file SYSTEM "file:SECRET"><!ENTITY % all "<!ENTITY send SYSTEM 'WEBWOLFURL?text=%file;'>">%all;" ;
+	}
+	
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+
+#source-line 18
+ #33# 	{
+		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 		
+#source-file webgoat-integration-tests\src\test\java\org\owasp\webgoat\XXETest.java
+ #33# 		[ org.owasp.webgoat.XXETest ] xxe7 :=: "<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE comment [<!ENTITY % remote SYSTEM "WEBWOLFURL/USERNAME/blind.dtd">%remote;]><comment><text>test&send;</text></comment>" ;
+	}
+
+#source-line 13
+}
+#source-line 13
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: java.lang.String :*: java~lang~String~~concat~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "concat" ;
+:public: :byte: [] java~lang~String~~getBytes~Ljava~lang~String^ ( java.lang.String :*: ) :  "getBytes" ;
+:public: :byte: [] java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "getBytes"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :byte: [] java~lang~String~~getBytes~Ljava~lang~String^Ljava~nio~charset~Charset^ ( java.lang.String :*: , java.nio.charset.Charset :*: ) :  "getBytes" ;
+:public: :void: java~lang~String~~getBytes~Ljava~lang~String^I^I^?B^I^ ( java.lang.String :*: , :int: , :int: , :byte: [] , :int: ) :  "getBytes" ;
+:public: :int: java~lang~String~~lastIndexOf~Ljava~lang~String^I^ ( java.lang.String :*: , :int: ) :  "lastIndexOf" ;
+:public: :int: java~lang~String~~lastIndexOf~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "lastIndexOf" ;
+:public: :int: java~lang~String~~lastIndexOf~Ljava~lang~String^I^I^ ( java.lang.String :*: , :int: , :int: ) :  "lastIndexOf" ;
+:public: :int: java~lang~String~~lastIndexOf~Ljava~lang~String^Ljava~lang~String^I^ ( java.lang.String :*: , java.lang.String :*: , :int: ) :  "lastIndexOf" ;
+:static: :int: java~lang~String~~lastIndexOf~S~?C^I^I^Ljava~lang~String^I^ ( :char: [] , :int: , :int: , java.lang.String :*: , :int: ) :  "lastIndexOf" ;
+:static: :int: java~lang~String~~lastIndexOf~S~?C^I^I^?C^I^I^I^ ( :char: [] , :int: , :int: , :char: [] , :int: , :int: , :int: ) :  "lastIndexOf" ;
+:public: java.lang.String :*: java~lang~String~~replace~Ljava~lang~String^C^C^ ( java.lang.String :*: , :char: , :char: ) :  "replace" ;
+:public: java.lang.String :*: java~lang~String~~replace~Ljava~lang~String^Ljava~lang~CharSequence^Ljava~lang~CharSequence^ ( java.lang.String :*: , java.lang.CharSequence :*: , java.lang.CharSequence :*: ) :  "replace" ;
+:public: java.lang.String :*: java~lang~String~~substring~Ljava~lang~String^I^ ( java.lang.String :*: , :int: ) :  "substring" ;
+:public: java.lang.String :*: java~lang~String~~substring~Ljava~lang~String^I^I^ ( java.lang.String :*: , :int: , :int: ) :  "substring" ;
+}
+	
+:public: :abstract::class: org.owasp.webgoat.IntegrationTest :extends: java.lang.Object :"org.owasp.webgoat":"IntegrationTest"{
+	
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~IntegrationTest~~getWebGoatServerPath~Lorg~owasp~webgoat~IntegrationTest^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~IntegrationTest~~getWebWolfServerPath~Lorg~owasp~webgoat~IntegrationTest^~throws;
+ :public: :void: org~owasp~webgoat~IntegrationTest~~init^~Lorg~owasp~webgoat~IntegrationTest^ ( org.owasp.webgoat.IntegrationTest :*: ) :  "IntegrationTest" ;
+:public: :void: org~owasp~webgoat~IntegrationTest~~checkAssignment~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^Ljava~util~Map^Z^ ( org.owasp.webgoat.IntegrationTest :*: , java.lang.String :*: , java.util.Map :*: , :boolean: ) :  "checkAssignment" ;
+:public: :void: org~owasp~webgoat~IntegrationTest~~checkAssignment~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^Lio~restassured~http~ContentType^Ljava~lang~String^Z^ ( org.owasp.webgoat.IntegrationTest :*: , java.lang.String :*: , io.restassured.http.ContentType :*: , java.lang.String :*: , :boolean: ) :  "checkAssignment" ;
+:public: :void: org~owasp~webgoat~IntegrationTest~~checkResults~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( org.owasp.webgoat.IntegrationTest :*: , java.lang.String :*: ) :  "checkResults" ;
+:public: :void: org~owasp~webgoat~IntegrationTest~~checkResults~Lorg~owasp~webgoat~IntegrationTest^ ( org.owasp.webgoat.IntegrationTest :*: ) :  "checkResults" ;
+:public: java.lang.String :*: org~owasp~webgoat~IntegrationTest~~getWebGoatCookie~Lorg~owasp~webgoat~IntegrationTest^ ( org.owasp.webgoat.IntegrationTest :*: ) :  "getWebGoatCookie" ;
+:public: java.lang.String :*: org~owasp~webgoat~IntegrationTest~~getWebGoatServerPath~Lorg~owasp~webgoat~IntegrationTest^ ( org.owasp.webgoat.IntegrationTest :*: ) :  "getWebGoatServerPath"  :exceptions:  java.io.IOException :*: ;
+:public: java.lang.String :*: org~owasp~webgoat~IntegrationTest~~getWebWolfCookie~Lorg~owasp~webgoat~IntegrationTest^ ( org.owasp.webgoat.IntegrationTest :*: ) :  "getWebWolfCookie" ;
+:public: java.lang.String :*: org~owasp~webgoat~IntegrationTest~~getWebWolfServerPath~Lorg~owasp~webgoat~IntegrationTest^ ( org.owasp.webgoat.IntegrationTest :*: ) :  "getWebWolfServerPath"  :exceptions:  java.io.IOException :*: ;
+:public: java.lang.String :*: org~owasp~webgoat~IntegrationTest~~getWebgoatUser~Lorg~owasp~webgoat~IntegrationTest^ ( org.owasp.webgoat.IntegrationTest :*: ) :  "getWebgoatUser" ;
+:public: :void: org~owasp~webgoat~IntegrationTest~~startLesson~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( org.owasp.webgoat.IntegrationTest :*: , java.lang.String :*: ) :  "startLesson" ;
+:public: :void: org~owasp~webgoat~IntegrationTest~~startLesson~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^Z^ ( org.owasp.webgoat.IntegrationTest :*: , java.lang.String :*: , :boolean: ) :  "startLesson" ;
+:protected: java.lang.String :*: org~owasp~webgoat~IntegrationTest~~url~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( org.owasp.webgoat.IntegrationTest :*: , java.lang.String :*: ) :  "url" ;
+:protected: java.lang.String :*: org~owasp~webgoat~IntegrationTest~~webWolfUrl~Lorg~owasp~webgoat~IntegrationTest^Ljava~lang~String^ ( org.owasp.webgoat.IntegrationTest :*: , java.lang.String :*: ) :  "webWolfUrl" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :annotation::class: org.junit.jupiter.api.Test :extends: java.lang.annotation.Annotation :"org.junit.jupiter.api":"Test"{
+	
+}
+	
+ :public: :final: :enum::class: io.restassured.http.ContentType :extends: java.lang.Enum java.lang.Enum :"io.restassured.http":"ContentType"{
+	
+ :public: :final: :static: io.restassured.http.ContentType :*: XML;
+ :private: :void: io~restassured~http~ContentType~~init^~Lio~restassured~http~ContentType^?Ljava~lang~String^ ( io.restassured.http.ContentType :*: , java.lang.String :*: [] , ... ) :  "ContentType" ;
+}
+	
+:public: :interface::class: io.restassured.specification.RequestSpecification :extends: io.restassured.specification.RequestSender :"io.restassured.specification":"RequestSpecification"{
+	
+ :public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~cookie~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^ ( io.restassured.specification.RequestSpecification :*: , java.lang.String :*: ) :  "cookie" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~cookie~Lio~restassured~specification~RequestSpecification^Lio~restassured~http~Cookie^ ( io.restassured.specification.RequestSpecification :*: , io.restassured.http.Cookie :*: ) :  "cookie" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~cookie~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~lang~Object^?Ljava~lang~Object^ ( io.restassured.specification.RequestSpecification :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Object :*: [] , ... ) :  "cookie" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~given~Lio~restassured~specification~RequestSpecification^ ( io.restassured.specification.RequestSpecification :*: ) :  "given" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~multiPart~Lio~restassured~specification~RequestSpecification^Lio~restassured~specification~MultiPartSpecification^ ( io.restassured.specification.RequestSpecification :*: , io.restassured.specification.MultiPartSpecification :*: ) :  "multiPart" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~multiPart~Lio~restassured~specification~RequestSpecification^Ljava~io~File^ ( io.restassured.specification.RequestSpecification :*: , java.io.File :*: ) :  "multiPart" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~multiPart~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~io~File^ ( io.restassured.specification.RequestSpecification :*: , java.lang.String :*: , java.io.File :*: ) :  "multiPart" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~multiPart~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~lang~Object^ ( io.restassured.specification.RequestSpecification :*: , java.lang.String :*: , java.lang.Object :*: ) :  "multiPart" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~multiPart~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~lang~String^ ( io.restassured.specification.RequestSpecification :*: , java.lang.String :*: , java.lang.String :*: ) :  "multiPart" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~multiPart~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~io~File^Ljava~lang~String^ ( io.restassured.specification.RequestSpecification :*: , java.lang.String :*: , java.io.File :*: , java.lang.String :*: ) :  "multiPart" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~multiPart~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~String^ ( io.restassured.specification.RequestSpecification :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.String :*: ) :  "multiPart" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~multiPart~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~lang~String^?B^ ( io.restassured.specification.RequestSpecification :*: , java.lang.String :*: , java.lang.String :*: , :byte: [] ) :  "multiPart" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~multiPart~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~lang~String^Ljava~io~InputStream^ ( io.restassured.specification.RequestSpecification :*: , java.lang.String :*: , java.lang.String :*: , java.io.InputStream :*: ) :  "multiPart" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~multiPart~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( io.restassured.specification.RequestSpecification :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "multiPart" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~multiPart~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~String^ ( io.restassured.specification.RequestSpecification :*: , java.lang.String :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.String :*: ) :  "multiPart" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~multiPart~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~lang~String^?B^Ljava~lang~String^ ( io.restassured.specification.RequestSpecification :*: , java.lang.String :*: , java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "multiPart" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~multiPart~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^Ljava~lang~String^Ljava~io~InputStream^Ljava~lang~String^ ( io.restassured.specification.RequestSpecification :*: , java.lang.String :*: , java.lang.String :*: , java.io.InputStream :*: , java.lang.String :*: ) :  "multiPart" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~relaxedHTTPSValidation~Lio~restassured~specification~RequestSpecification^ ( io.restassured.specification.RequestSpecification :*: ) :  "relaxedHTTPSValidation" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~relaxedHTTPSValidation~Lio~restassured~specification~RequestSpecification^Ljava~lang~String^ ( io.restassured.specification.RequestSpecification :*: , java.lang.String :*: ) :  "relaxedHTTPSValidation" ;
+:public: :abstract: io.restassured.specification.ResponseSpecification :*: io~restassured~specification~RequestSpecification~~response~Lio~restassured~specification~RequestSpecification^ ( io.restassured.specification.RequestSpecification :*: ) :  "response" ;
+:public: :abstract: io.restassured.specification.ResponseSpecification :*: io~restassured~specification~RequestSpecification~~then~Lio~restassured~specification~RequestSpecification^ ( io.restassured.specification.RequestSpecification :*: ) :  "then" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~RequestSpecification~~when~Lio~restassured~specification~RequestSpecification^ ( io.restassured.specification.RequestSpecification :*: ) :  "when" ;
+}
+	
+:public::class: io.restassured.RestAssured :extends: java.lang.Object :"io.restassured":"RestAssured"{
+	
+ :public: :void: io~restassured~RestAssured~~init^~Lio~restassured~RestAssured^ ( io.restassured.RestAssured :*: ) :  "RestAssured" ;
+:public: :static: io.restassured.response.Response :*: io~restassured~RestAssured~~delete~S~ ( ) :  "delete" ;
+:public: :static: io.restassured.response.Response :*: io~restassured~RestAssured~~delete~S~Ljava~net~URI^ ( java.net.URI :*: ) :  "delete" ;
+:public: :static: io.restassured.response.Response :*: io~restassured~RestAssured~~delete~S~Ljava~net~URL^ ( java.net.URL :*: ) :  "delete" ;
+:public: :static: io.restassured.response.Response :*: io~restassured~RestAssured~~delete~S~Ljava~lang~String^?Ljava~lang~Object^ ( java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "delete" ;
+:public: :static: io.restassured.response.Response :*: io~restassured~RestAssured~~delete~S~Ljava~lang~String^Ljava~util~Map^ ( java.lang.String :*: , java.util.Map :*: ) :  "delete" ;
+:public: :static: io.restassured.response.Response :*: io~restassured~RestAssured~~get~S~ ( ) :  "get" ;
+:public: :static: io.restassured.response.Response :*: io~restassured~RestAssured~~get~S~Ljava~net~URI^ ( java.net.URI :*: ) :  "get" ;
+:public: :static: io.restassured.response.Response :*: io~restassured~RestAssured~~get~S~Ljava~net~URL^ ( java.net.URL :*: ) :  "get" ;
+:public: :static: io.restassured.response.Response :*: io~restassured~RestAssured~~get~S~Ljava~lang~String^?Ljava~lang~Object^ ( java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "get" ;
+:public: :static: io.restassured.response.Response :*: io~restassured~RestAssured~~get~S~Ljava~lang~String^Ljava~util~Map^ ( java.lang.String :*: , java.util.Map :*: ) :  "get" ;
+:public: :static: io.restassured.specification.RequestSpecification :*: io~restassured~RestAssured~~given~S~ ( ) :  "given" ;
+:public: :static: io.restassured.specification.RequestSpecification :*: io~restassured~RestAssured~~given~S~Lio~restassured~specification~RequestSpecification^ ( io.restassured.specification.RequestSpecification :*: ) :  "given" ;
+:public: :static: io.restassured.specification.RequestSender :*: io~restassured~RestAssured~~given~S~Lio~restassured~specification~RequestSpecification^Lio~restassured~specification~ResponseSpecification^ ( io.restassured.specification.RequestSpecification :*: , io.restassured.specification.ResponseSpecification :*: ) :  "given" ;
+:public: :static: io.restassured.response.Response :*: io~restassured~RestAssured~~post~S~ ( ) :  "post" ;
+:public: :static: io.restassured.response.Response :*: io~restassured~RestAssured~~post~S~Ljava~net~URI^ ( java.net.URI :*: ) :  "post" ;
+:public: :static: io.restassured.response.Response :*: io~restassured~RestAssured~~post~S~Ljava~net~URL^ ( java.net.URL :*: ) :  "post" ;
+:public: :static: io.restassured.response.Response :*: io~restassured~RestAssured~~post~S~Ljava~lang~String^?Ljava~lang~Object^ ( java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "post" ;
+:public: :static: io.restassured.response.Response :*: io~restassured~RestAssured~~post~S~Ljava~lang~String^Ljava~util~Map^ ( java.lang.String :*: , java.util.Map :*: ) :  "post" ;
+:public: :static: io.restassured.specification.RequestSender :*: io~restassured~RestAssured~~when~S~ ( ) :  "when" ;
+}
+	
+:public: :interface::class: io.restassured.specification.RequestSenderOptions :extends: java.lang.Object :"io.restassured.specification":"RequestSenderOptions"{
+	
+ :public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~specification~RequestSenderOptions~~delete~Lio~restassured~specification~RequestSenderOptions^ ( io.restassured.specification.RequestSenderOptions :*: ) :  "delete" ;
+:public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~specification~RequestSenderOptions~~delete~Lio~restassured~specification~RequestSenderOptions^Ljava~net~URI^ ( io.restassured.specification.RequestSenderOptions :*: , java.net.URI :*: ) :  "delete" ;
+:public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~specification~RequestSenderOptions~~delete~Lio~restassured~specification~RequestSenderOptions^Ljava~net~URL^ ( io.restassured.specification.RequestSenderOptions :*: , java.net.URL :*: ) :  "delete" ;
+:public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~specification~RequestSenderOptions~~delete~Lio~restassured~specification~RequestSenderOptions^Ljava~lang~String^?Ljava~lang~Object^ ( io.restassured.specification.RequestSenderOptions :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "delete" ;
+:public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~specification~RequestSenderOptions~~delete~Lio~restassured~specification~RequestSenderOptions^Ljava~lang~String^Ljava~util~Map^ ( io.restassured.specification.RequestSenderOptions :*: , java.lang.String :*: , java.util.Map :*: ) :  "delete" ;
+:public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~specification~RequestSenderOptions~~get~Lio~restassured~specification~RequestSenderOptions^ ( io.restassured.specification.RequestSenderOptions :*: ) :  "get" ;
+:public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~specification~RequestSenderOptions~~get~Lio~restassured~specification~RequestSenderOptions^Ljava~net~URI^ ( io.restassured.specification.RequestSenderOptions :*: , java.net.URI :*: ) :  "get" ;
+:public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~specification~RequestSenderOptions~~get~Lio~restassured~specification~RequestSenderOptions^Ljava~net~URL^ ( io.restassured.specification.RequestSenderOptions :*: , java.net.URL :*: ) :  "get" ;
+:public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~specification~RequestSenderOptions~~get~Lio~restassured~specification~RequestSenderOptions^Ljava~lang~String^?Ljava~lang~Object^ ( io.restassured.specification.RequestSenderOptions :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "get" ;
+:public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~specification~RequestSenderOptions~~get~Lio~restassured~specification~RequestSenderOptions^Ljava~lang~String^Ljava~util~Map^ ( io.restassured.specification.RequestSenderOptions :*: , java.lang.String :*: , java.util.Map :*: ) :  "get" ;
+:public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~specification~RequestSenderOptions~~post~Lio~restassured~specification~RequestSenderOptions^ ( io.restassured.specification.RequestSenderOptions :*: ) :  "post" ;
+:public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~specification~RequestSenderOptions~~post~Lio~restassured~specification~RequestSenderOptions^Ljava~net~URI^ ( io.restassured.specification.RequestSenderOptions :*: , java.net.URI :*: ) :  "post" ;
+:public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~specification~RequestSenderOptions~~post~Lio~restassured~specification~RequestSenderOptions^Ljava~net~URL^ ( io.restassured.specification.RequestSenderOptions :*: , java.net.URL :*: ) :  "post" ;
+:public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~specification~RequestSenderOptions~~post~Lio~restassured~specification~RequestSenderOptions^Ljava~lang~String^?Ljava~lang~Object^ ( io.restassured.specification.RequestSenderOptions :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "post" ;
+:public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~specification~RequestSenderOptions~~post~Lio~restassured~specification~RequestSenderOptions^Ljava~lang~String^Ljava~util~Map^ ( io.restassured.specification.RequestSenderOptions :*: , java.lang.String :*: , java.util.Map :*: ) :  "post" ;
+}
+	
+:public: :interface::class: java.nio.file.Path :extends: java.lang.Comparable java.lang.Iterable java.nio.file.Watchable :"java.nio.file":"Path"{
+	
+ :public: :static: java.lang.Throwable :*: java~nio~file~Path~~register~Ljava~nio~file~Path^Ljava~nio~file~WatchService^?Ljava~nio~file~WatchEvent$Kind^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Path~~register~Ljava~nio~file~Path^Ljava~nio~file~WatchService^?Ljava~nio~file~WatchEvent$Kind^?Ljava~nio~file~WatchEvent$Modifier^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Path~~toRealPath~Ljava~nio~file~Path^?Ljava~nio~file~LinkOption^~throws;
+ :public: :abstract: java.nio.file.Path :*: java~nio~file~Path~~resolve~Ljava~nio~file~Path^Ljava~nio~file~Path^ ( java.nio.file.Path :*: , java.nio.file.Path :*: ) :  "resolve" ;
+:public: :abstract: java.nio.file.Path :*: java~nio~file~Path~~resolve~Ljava~nio~file~Path^Ljava~lang~String^ ( java.nio.file.Path :*: , java.lang.String :*: ) :  "resolve" ;
+:public: :abstract: java.io.File :*: java~nio~file~Path~~toFile~Ljava~nio~file~Path^ ( java.nio.file.Path :*: ) :  "toFile" ;
+}
+	
+:public: :final::class: java.nio.file.Paths :extends: java.lang.Object :"java.nio.file":"Paths"{
+	
+ :private: :void: java~nio~file~Paths~~init^~Ljava~nio~file~Paths^ ( java.nio.file.Paths :*: ) :  "Paths" ;
+:public: :static: java.nio.file.Path :*: java~nio~file~Paths~~get~S~Ljava~net~URI^ ( java.net.URI :*: ) :  "get" ;
+:public: :static: java.nio.file.Path :*: java~nio~file~Paths~~get~S~Ljava~lang~String^?Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: [] , ... ) :  "get" ;
+}
+	
+:public::class: java.io.File :extends: java.lang.Object java.io.Serializable java.lang.Comparable :"java.io":"File"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~File~~createNewFile~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~createTempFile~S~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~createTempFile~S~Ljava~lang~String^Ljava~lang~String^Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~getCanonicalFile~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~getCanonicalPath~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~readObject~Ljava~io~File^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~toURL~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~writeObject~Ljava~io~File^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^ ( java.io.File :*: , java.lang.String :*: ) :  "File" ;
+:public: :void: java~io~File~~init^~Ljava~io~File^Ljava~net~URI^ ( java.io.File :*: , java.net.URI :*: ) :  "File" ;
+:private: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^I^ ( java.io.File :*: , java.lang.String :*: , :int: ) :  "File" ;
+:private: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^Ljava~io~File^ ( java.io.File :*: , java.lang.String :*: , java.io.File :*: ) :  "File" ;
+:public: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^Ljava~lang~String^ ( java.io.File :*: , java.lang.String :*: , java.lang.String :*: ) :  "File" ;
+:public: :void: java~io~File~~init^~Ljava~io~File^Ljava~io~File^Ljava~lang~String^ ( java.io.File :*: , java.io.File :*: , java.lang.String :*: ) :  "File" ;
+:public: :boolean: java~io~File~~delete~Ljava~io~File^ ( java.io.File :*: ) :  "delete" ;
+:public: :boolean: java~io~File~~exists~Ljava~io~File^ ( java.io.File :*: ) :  "exists" ;
+}
+	
+:public: :final::class: java.nio.file.Files :extends: java.lang.Object :"java.nio.file":"Files"{
+	
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~copy~S~Ljava~io~InputStream^Ljava~io~OutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~copy~S~Ljava~nio~file~Path^Ljava~io~OutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~copy~S~Ljava~nio~file~Path^Ljava~nio~file~Path^?Ljava~nio~file~CopyOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~copy~S~Ljava~io~InputStream^Ljava~nio~file~Path^?Ljava~nio~file~CopyOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~createAndCheckIsDirectory~S~Ljava~nio~file~Path^?Ljava~nio~file~attribute~FileAttribute^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~createDirectories~S~Ljava~nio~file~Path^?Ljava~nio~file~attribute~FileAttribute^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~createDirectory~S~Ljava~nio~file~Path^?Ljava~nio~file~attribute~FileAttribute^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~createFile~S~Ljava~nio~file~Path^?Ljava~nio~file~attribute~FileAttribute^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~createLink~S~Ljava~nio~file~Path^Ljava~nio~file~Path^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~createSymbolicLink~S~Ljava~nio~file~Path^Ljava~nio~file~Path^?Ljava~nio~file~attribute~FileAttribute^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~createTempDirectory~S~Ljava~lang~String^?Ljava~nio~file~attribute~FileAttribute^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~createTempDirectory~S~Ljava~nio~file~Path^Ljava~lang~String^?Ljava~nio~file~attribute~FileAttribute^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~createTempFile~S~Ljava~lang~String^Ljava~lang~String^?Ljava~nio~file~attribute~FileAttribute^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~createTempFile~S~Ljava~nio~file~Path^Ljava~lang~String^Ljava~lang~String^?Ljava~nio~file~attribute~FileAttribute^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~delete~S~Ljava~nio~file~Path^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~deleteIfExists~S~Ljava~nio~file~Path^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~find~S~Ljava~nio~file~Path^I^Ljava~util~function~BiPredicate^?Ljava~nio~file~FileVisitOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~getAttribute~S~Ljava~nio~file~Path^Ljava~lang~String^?Ljava~nio~file~LinkOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~getFileStore~S~Ljava~nio~file~Path^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~getLastModifiedTime~S~Ljava~nio~file~Path^?Ljava~nio~file~LinkOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~getOwner~S~Ljava~nio~file~Path^?Ljava~nio~file~LinkOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~getPosixFilePermissions~S~Ljava~nio~file~Path^?Ljava~nio~file~LinkOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~isHidden~S~Ljava~nio~file~Path^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~isSameFile~S~Ljava~nio~file~Path^Ljava~nio~file~Path^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~lines~S~Ljava~nio~file~Path^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~lines~S~Ljava~nio~file~Path^Ljava~nio~charset~Charset^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~list~S~Ljava~nio~file~Path^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~move~S~Ljava~nio~file~Path^Ljava~nio~file~Path^?Ljava~nio~file~CopyOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~newBufferedReader~S~Ljava~nio~file~Path^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~newBufferedReader~S~Ljava~nio~file~Path^Ljava~nio~charset~Charset^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~newBufferedWriter~S~Ljava~nio~file~Path^?Ljava~nio~file~OpenOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~newBufferedWriter~S~Ljava~nio~file~Path^Ljava~nio~charset~Charset^?Ljava~nio~file~OpenOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~newByteChannel~S~Ljava~nio~file~Path^?Ljava~nio~file~OpenOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~newByteChannel~S~Ljava~nio~file~Path^Ljava~util~Set^?Ljava~nio~file~attribute~FileAttribute^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~newDirectoryStream~S~Ljava~nio~file~Path^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~newDirectoryStream~S~Ljava~nio~file~Path^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~newDirectoryStream~S~Ljava~nio~file~Path^Ljava~nio~file~DirectoryStream$Filter^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~newInputStream~S~Ljava~nio~file~Path^?Ljava~nio~file~OpenOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~newOutputStream~S~Ljava~nio~file~Path^?Ljava~nio~file~OpenOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~probeContentType~S~Ljava~nio~file~Path^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~read~S~Ljava~io~InputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~readAllBytes~S~Ljava~nio~file~Path^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~readAllLines~S~Ljava~nio~file~Path^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~readAllLines~S~Ljava~nio~file~Path^Ljava~nio~charset~Charset^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~readAttributes~S~Ljava~nio~file~Path^Ljava~lang~Class^?Ljava~nio~file~LinkOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~readAttributes~S~Ljava~nio~file~Path^Ljava~lang~String^?Ljava~nio~file~LinkOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~readSymbolicLink~S~Ljava~nio~file~Path^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~setAttribute~S~Ljava~nio~file~Path^Ljava~lang~String^Ljava~lang~Object^?Ljava~nio~file~LinkOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~setLastModifiedTime~S~Ljava~nio~file~Path^Ljava~nio~file~attribute~FileTime^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~setOwner~S~Ljava~nio~file~Path^Ljava~nio~file~attribute~UserPrincipal^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~setPosixFilePermissions~S~Ljava~nio~file~Path^Ljava~util~Set^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~size~S~Ljava~nio~file~Path^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~walk~S~Ljava~nio~file~Path^?Ljava~nio~file~FileVisitOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~walk~S~Ljava~nio~file~Path^I^?Ljava~nio~file~FileVisitOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~walkFileTree~S~Ljava~nio~file~Path^Ljava~nio~file~FileVisitor^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~walkFileTree~S~Ljava~nio~file~Path^Ljava~util~Set^I^Ljava~nio~file~FileVisitor^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~write~S~Ljava~nio~file~Path^?B^?Ljava~nio~file~OpenOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~write~S~Ljava~nio~file~Path^Ljava~lang~Iterable^?Ljava~nio~file~OpenOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Files~~write~S~Ljava~nio~file~Path^Ljava~lang~Iterable^Ljava~nio~charset~Charset^?Ljava~nio~file~OpenOption^~throws;
+ :private: :void: java~nio~file~Files~~init^~Ljava~nio~file~Files^ ( java.nio.file.Files :*: ) :  "Files" ;
+:public: :static: :void: java~nio~file~Files~~delete~S~Ljava~nio~file~Path^ ( java.nio.file.Path :*: ) :  "delete"  :exceptions:  java.io.IOException :*: ;
+:public: :static: :boolean: java~nio~file~Files~~exists~S~Ljava~nio~file~Path^?Ljava~nio~file~LinkOption^ ( java.nio.file.Path :*: , java.nio.file.LinkOption :*: [] , ... ) :  "exists" ;
+}
+	
+:public: :interface::class: io.restassured.response.Response :extends: io.restassured.response.ResponseBody io.restassured.response.ResponseOptions io.restassured.response.Validatable :"io.restassured.response":"Response"{
+	
+}
+	
+ :public: :interface::class: io.restassured.response.ValidatableResponse :extends: io.restassured.response.ValidatableResponseOptions :"io.restassured.response":"ValidatableResponse"{
+	
+}
+	
+ :public: :interface::class: io.restassured.response.Validatable :extends: java.lang.Object :"io.restassured.response":"Validatable"{
+	
+ :public: :abstract: io.restassured.response.ValidatableResponseOptions :*: io~restassured~response~Validatable~~then~Lio~restassured~response~Validatable^ ( io.restassured.response.Validatable :*: ) :  "then" ;
+}
+	
+:public: :interface::class: io.restassured.response.ExtractableResponse :extends: io.restassured.response.ResponseBodyExtractionOptions :"io.restassured.response":"ExtractableResponse"{
+	
+ :public: :abstract: java.lang.String :*: io~restassured~response~ExtractableResponse~~cookie~Lio~restassured~response~ExtractableResponse^Ljava~lang~String^ ( io.restassured.response.ExtractableResponse :*: , java.lang.String :*: ) :  "cookie" ;
+:public: :abstract: io.restassured.response.ResponseOptions :*: io~restassured~response~ExtractableResponse~~response~Lio~restassured~response~ExtractableResponse^ ( io.restassured.response.ExtractableResponse :*: ) :  "response" ;
+}
+	
+:public: :interface::class: io.restassured.response.ValidatableResponseOptions :extends: java.lang.Object :"io.restassured.response":"ValidatableResponseOptions"{
+	
+ :public: :abstract: io.restassured.response.ValidatableResponseOptions :*: io~restassured~response~ValidatableResponseOptions~~cookie~Lio~restassured~response~ValidatableResponseOptions^Ljava~lang~String^ ( io.restassured.response.ValidatableResponseOptions :*: , java.lang.String :*: ) :  "cookie" ;
+:public: :abstract: io.restassured.response.ValidatableResponseOptions :*: io~restassured~response~ValidatableResponseOptions~~cookie~Lio~restassured~response~ValidatableResponseOptions^Ljava~lang~String^Lorg~hamcrest~Matcher^ ( io.restassured.response.ValidatableResponseOptions :*: , java.lang.String :*: , org.hamcrest.Matcher :*: ) :  "cookie" ;
+:public: :abstract: io.restassured.response.ValidatableResponseOptions :*: io~restassured~response~ValidatableResponseOptions~~cookie~Lio~restassured~response~ValidatableResponseOptions^Ljava~lang~String^Lio~restassured~matcher~DetailedCookieMatcher^ ( io.restassured.response.ValidatableResponseOptions :*: , java.lang.String :*: , io.restassured.matcher.DetailedCookieMatcher :*: ) :  "cookie" ;
+:public: :abstract: io.restassured.response.ValidatableResponseOptions :*: io~restassured~response~ValidatableResponseOptions~~cookie~Lio~restassured~response~ValidatableResponseOptions^Ljava~lang~String^Ljava~lang~Object^ ( io.restassured.response.ValidatableResponseOptions :*: , java.lang.String :*: , java.lang.Object :*: ) :  "cookie" ;
+:public: :abstract: io.restassured.response.ExtractableResponse :*: io~restassured~response~ValidatableResponseOptions~~extract~Lio~restassured~response~ValidatableResponseOptions^ ( io.restassured.response.ValidatableResponseOptions :*: ) :  "extract" ;
+}
+	
+:public: :interface::class: io.restassured.response.ResponseBody :extends: io.restassured.response.ResponseBodyExtractionOptions :"io.restassured.response":"ResponseBody"{
+	
+}
+	
+ :public: :interface::class: io.restassured.response.ResponseOptions :extends: java.lang.Object :"io.restassured.response":"ResponseOptions"{
+	
+ :public: :abstract: java.lang.String :*: io~restassured~response~ResponseOptions~~cookie~Lio~restassured~response~ResponseOptions^Ljava~lang~String^ ( io.restassured.response.ResponseOptions :*: , java.lang.String :*: ) :  "cookie" ;
+:public: :abstract: io.restassured.response.ResponseBody :*: io~restassured~response~ResponseOptions~~getBody~Lio~restassured~response~ResponseOptions^ ( io.restassured.response.ResponseOptions :*: ) :  "getBody" ;
+}
+	
+:public: :interface::class: io.restassured.response.ResponseBodyData :extends: java.lang.Object :"io.restassured.response":"ResponseBodyData"{
+	
+ :public: :abstract: java.lang.String :*: io~restassured~response~ResponseBodyData~~asString~Lio~restassured~response~ResponseBodyData^ ( io.restassured.response.ResponseBodyData :*: ) :  "asString" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+}
+	
+ :public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+:public: :synchronized: java.lang.StringBuffer :*: java~lang~StringBuffer~~delete~Ljava~lang~StringBuffer^I^I^ ( java.lang.StringBuffer :*: , :int: , :int: ) :  "delete" ;
+:public: :int: java~lang~StringBuffer~~lastIndexOf~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "lastIndexOf" ;
+:public: :synchronized: :int: java~lang~StringBuffer~~lastIndexOf~Ljava~lang~StringBuffer^Ljava~lang~String^I^ ( java.lang.StringBuffer :*: , java.lang.String :*: , :int: ) :  "lastIndexOf" ;
+:public: :synchronized: java.lang.StringBuffer :*: java~lang~StringBuffer~~replace~Ljava~lang~StringBuffer^I^I^Ljava~lang~String^ ( java.lang.StringBuffer :*: , :int: , :int: , java.lang.String :*: ) :  "replace" ;
+:public: :synchronized: java.lang.String :*: java~lang~StringBuffer~~substring~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "substring" ;
+:public: :synchronized: java.lang.String :*: java~lang~StringBuffer~~substring~Ljava~lang~StringBuffer^I^I^ ( java.lang.StringBuffer :*: , :int: , :int: ) :  "substring" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+:public: java.lang.StringBuilder :*: java~lang~StringBuilder~~delete~Ljava~lang~StringBuilder^I^I^ ( java.lang.StringBuilder :*: , :int: , :int: ) :  "delete" ;
+:public: :int: java~lang~StringBuilder~~lastIndexOf~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "lastIndexOf" ;
+:public: :int: java~lang~StringBuilder~~lastIndexOf~Ljava~lang~StringBuilder^Ljava~lang~String^I^ ( java.lang.StringBuilder :*: , java.lang.String :*: , :int: ) :  "lastIndexOf" ;
+:public: java.lang.StringBuilder :*: java~lang~StringBuilder~~replace~Ljava~lang~StringBuilder^I^I^Ljava~lang~String^ ( java.lang.StringBuilder :*: , :int: , :int: , java.lang.String :*: ) :  "replace" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+}
+	
+:public: :interface::class: java.util.Map :extends: java.lang.Object :"java.util":"Map"{
+	
+ :public: :abstract: java.lang.Object :*: java~util~Map~~get~Ljava~util~Map^Ljava~lang~Object^ ( java.util.Map :*: , java.lang.Object :*: ) :  "get" ;
+:public: java.lang.Object :*: java~util~Map~~replace~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( java.util.Map :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "replace" ;
+:public: :boolean: java~util~Map~~replace~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^Ljava~lang~Object^ ( java.util.Map :*: , java.lang.Object :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "replace" ;
+}
+	
+:public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+}
+	
+ :public: :abstract::class: java.lang.Enum :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.lang":"Enum"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~clone~Ljava~lang~Enum^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObject~Ljava~lang~Enum^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObjectNoData~Ljava~lang~Enum^~throws;
+ :protected: :void: java~lang~Enum~~init^~Ljava~lang~Enum^Ljava~lang~String^I^ ( java.lang.Enum :*: , java.lang.String :*: , :int: ) :  "Enum" ;
+}
+	
+:public: :interface::class: io.restassured.specification.RequestSender :extends: io.restassured.specification.RequestSenderOptions :"io.restassured.specification":"RequestSender"{
+	
+}
+	
+ :public::class: io.restassured.http.Cookie :extends: java.lang.Object io.restassured.internal.NameAndValue :"io.restassured.http":"Cookie"{
+	
+ :private: :void: io~restassured~http~Cookie~~init^~Lio~restassured~http~Cookie^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~util~Date^Ljava~lang~String^Ljava~lang~String^Z^Z^I^I^ ( io.restassured.http.Cookie :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.util.Date :*: , java.lang.String :*: , java.lang.String :*: , :boolean: , :boolean: , :int: , :int: ) :  "Cookie" ;
+}
+	
+:public: :interface::class: io.restassured.specification.MultiPartSpecification :extends: java.lang.Object :"io.restassured.specification":"MultiPartSpecification"{
+	
+}
+	
+ :public: :abstract::class: java.io.InputStream :extends: java.lang.Object java.io.Closeable :"java.io":"InputStream"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~available~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~close~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~read~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~read~Ljava~io~InputStream^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~read~Ljava~io~InputStream^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~reset~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~skip~Ljava~io~InputStream^J^~throws;
+ :public: :void: java~io~InputStream~~init^~Ljava~io~InputStream^ ( java.io.InputStream :*: ) :  "InputStream" ;
+}
+	
+:public: :interface::class: io.restassured.specification.ResponseSpecification :extends: java.lang.Object :"io.restassured.specification":"ResponseSpecification"{
+	
+ :public: :abstract: io.restassured.specification.ResponseSpecification :*: io~restassured~specification~ResponseSpecification~~cookie~Lio~restassured~specification~ResponseSpecification^Ljava~lang~String^ ( io.restassured.specification.ResponseSpecification :*: , java.lang.String :*: ) :  "cookie" ;
+:public: :abstract: io.restassured.specification.ResponseSpecification :*: io~restassured~specification~ResponseSpecification~~cookie~Lio~restassured~specification~ResponseSpecification^Ljava~lang~String^Lorg~hamcrest~Matcher^ ( io.restassured.specification.ResponseSpecification :*: , java.lang.String :*: , org.hamcrest.Matcher :*: ) :  "cookie" ;
+:public: :abstract: io.restassured.specification.ResponseSpecification :*: io~restassured~specification~ResponseSpecification~~cookie~Lio~restassured~specification~ResponseSpecification^Ljava~lang~String^Lio~restassured~matcher~DetailedCookieMatcher^ ( io.restassured.specification.ResponseSpecification :*: , java.lang.String :*: , io.restassured.matcher.DetailedCookieMatcher :*: ) :  "cookie" ;
+:public: :abstract: io.restassured.specification.ResponseSpecification :*: io~restassured~specification~ResponseSpecification~~cookie~Lio~restassured~specification~ResponseSpecification^Ljava~lang~String^Ljava~lang~Object^ ( io.restassured.specification.ResponseSpecification :*: , java.lang.String :*: , java.lang.Object :*: ) :  "cookie" ;
+:public: :abstract: io.restassured.specification.RequestSpecification :*: io~restassured~specification~ResponseSpecification~~given~Lio~restassured~specification~ResponseSpecification^ ( io.restassured.specification.ResponseSpecification :*: ) :  "given" ;
+:public: :abstract: io.restassured.specification.ResponseSpecification :*: io~restassured~specification~ResponseSpecification~~response~Lio~restassured~specification~ResponseSpecification^ ( io.restassured.specification.ResponseSpecification :*: ) :  "response" ;
+:public: :abstract: io.restassured.specification.ResponseSpecification :*: io~restassured~specification~ResponseSpecification~~then~Lio~restassured~specification~ResponseSpecification^ ( io.restassured.specification.ResponseSpecification :*: ) :  "then" ;
+:public: :abstract: io.restassured.specification.RequestSender :*: io~restassured~specification~ResponseSpecification~~when~Lio~restassured~specification~ResponseSpecification^ ( io.restassured.specification.ResponseSpecification :*: ) :  "when" ;
+}
+	
+:public: :final::class: java.net.URI :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.net":"URI"{
+	
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~checkPath~S~Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~parseServerAuthority~Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~readObject~Ljava~net~URI^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~toURL~Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~writeObject~Ljava~net~URI^Ljava~io~ObjectOutputStream^~throws;
+ :private: :void: java~net~URI~~init^~Ljava~net~URI^ ( java.net.URI :*: ) :  "URI" ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , :int: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: java.net.URI :*: java~net~URI~~resolve~Ljava~net~URI^Ljava~net~URI^ ( java.net.URI :*: , java.net.URI :*: ) :  "resolve" ;
+:public: java.net.URI :*: java~net~URI~~resolve~Ljava~net~URI^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: ) :  "resolve" ;
+}
+	
+:public: :final::class: java.net.URL :extends: java.lang.Object java.io.Serializable :"java.net":"URL"{
+	
+ :public: :static: java.lang.Throwable :*: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~init^~Ljava~net~URL^Ljava~net~URL^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~init^~Ljava~net~URL^Ljava~net~URL^Ljava~lang~String^Ljava~net~URLStreamHandler^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~net~URLStreamHandler^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~fabricateNewURL~Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~getContent~Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~getContent~Ljava~net~URL^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~openConnection~Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~openConnection~Ljava~net~URL^Ljava~net~Proxy^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~openStream~Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~readObject~Ljava~net~URL^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~readResolve~Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~toURI~Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~writeObject~Ljava~net~URL^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^ ( java.net.URL :*: , java.lang.String :*: ) :  "URL"  :exceptions:  java.net.MalformedURLException :*: ;
+:public: :void: java~net~URL~~init^~Ljava~net~URL^Ljava~net~URL^Ljava~lang~String^ ( java.net.URL :*: , java.net.URL :*: , java.lang.String :*: ) :  "URL"  :exceptions:  java.net.MalformedURLException :*: ;
+:public: :void: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URL :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URL"  :exceptions:  java.net.MalformedURLException :*: ;
+:public: :void: java~net~URL~~init^~Ljava~net~URL^Ljava~net~URL^Ljava~lang~String^Ljava~net~URLStreamHandler^ ( java.net.URL :*: , java.net.URL :*: , java.lang.String :*: , java.net.URLStreamHandler :*: ) :  "URL"  :exceptions:  java.net.MalformedURLException :*: ;
+:public: :void: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^ ( java.net.URL :*: , java.lang.String :*: , java.lang.String :*: , :int: , java.lang.String :*: ) :  "URL"  :exceptions:  java.net.MalformedURLException :*: ;
+:public: :void: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~net~URLStreamHandler^ ( java.net.URL :*: , java.lang.String :*: , java.lang.String :*: , :int: , java.lang.String :*: , java.net.URLStreamHandler :*: ) :  "URL"  :exceptions:  java.net.MalformedURLException :*: ;
+}
+	
+:public: :interface::class: java.lang.Iterable :extends: java.lang.Object :"java.lang":"Iterable"{
+	
+}
+	
+ :public: :interface::class: java.nio.file.Watchable :extends: java.lang.Object :"java.nio.file":"Watchable"{
+	
+ :public: :static: java.lang.Throwable :*: java~nio~file~Watchable~~register~Ljava~nio~file~Watchable^Ljava~nio~file~WatchService^?Ljava~nio~file~WatchEvent$Kind^~throws;
+ :public: :static: java.lang.Throwable :*: java~nio~file~Watchable~~register~Ljava~nio~file~Watchable^Ljava~nio~file~WatchService^?Ljava~nio~file~WatchEvent$Kind^?Ljava~nio~file~WatchEvent$Modifier^~throws;
+}
+	
+ :public: :final: :enum::class: java.nio.file.LinkOption :extends: java.lang.Enum java.nio.file.OpenOption java.nio.file.CopyOption java.lang.Enum :"java.nio.file":"LinkOption"{
+	
+ :private: :void: java~nio~file~LinkOption~~init^~Ljava~nio~file~LinkOption^ ( java.nio.file.LinkOption :*: ) :  "LinkOption" ;
+}
+	
+:public: :interface::class: io.restassured.response.ResponseBodyExtractionOptions :extends: io.restassured.response.ResponseBodyData :"io.restassured.response":"ResponseBodyExtractionOptions"{
+	
+}
+	
+ :public: :interface::class: org.hamcrest.Matcher :extends: org.hamcrest.SelfDescribing :"org.hamcrest":"Matcher"{
+	
+}
+	
+ :public::class: io.restassured.matcher.DetailedCookieMatcher :extends: org.hamcrest.core.CombinableMatcher :"io.restassured.matcher":"DetailedCookieMatcher"{
+	
+ :void: io~restassured~matcher~DetailedCookieMatcher~~init^~Lio~restassured~matcher~DetailedCookieMatcher^ ( io.restassured.matcher.DetailedCookieMatcher :*: ) :  "DetailedCookieMatcher" ;
+:private: :void: io~restassured~matcher~DetailedCookieMatcher~~init^~Lio~restassured~matcher~DetailedCookieMatcher^Lorg~hamcrest~Matcher^ ( io.restassured.matcher.DetailedCookieMatcher :*: , org.hamcrest.Matcher :*: ) :  "DetailedCookieMatcher" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+:public: java.lang.AbstractStringBuilder :*: java~lang~AbstractStringBuilder~~delete~Ljava~lang~AbstractStringBuilder^I^I^ ( java.lang.AbstractStringBuilder :*: , :int: , :int: ) :  "delete" ;
+:public: :int: java~lang~AbstractStringBuilder~~lastIndexOf~Ljava~lang~AbstractStringBuilder^Ljava~lang~String^ ( java.lang.AbstractStringBuilder :*: , java.lang.String :*: ) :  "lastIndexOf" ;
+:public: :int: java~lang~AbstractStringBuilder~~lastIndexOf~Ljava~lang~AbstractStringBuilder^Ljava~lang~String^I^ ( java.lang.AbstractStringBuilder :*: , java.lang.String :*: , :int: ) :  "lastIndexOf" ;
+:public: java.lang.AbstractStringBuilder :*: java~lang~AbstractStringBuilder~~replace~Ljava~lang~AbstractStringBuilder^I^I^Ljava~lang~String^ ( java.lang.AbstractStringBuilder :*: , :int: , :int: , java.lang.String :*: ) :  "replace" ;
+:public: java.lang.String :*: java~lang~AbstractStringBuilder~~substring~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "substring" ;
+:public: java.lang.String :*: java~lang~AbstractStringBuilder~~substring~Ljava~lang~AbstractStringBuilder^I^I^ ( java.lang.AbstractStringBuilder :*: , :int: , :int: ) :  "substring" ;
+}
+	
+:public: :interface::class: io.restassured.internal.NameAndValue :extends: java.lang.Object :"io.restassured.internal":"NameAndValue"{
+	
+}
+	
+ :public::class: java.util.Date :extends: java.lang.Object java.io.Serializable java.lang.Cloneable java.lang.Comparable :"java.util":"Date"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~Date~~readObject~Ljava~util~Date^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Date~~writeObject~Ljava~util~Date^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~util~Date~~init^~Ljava~util~Date^ ( java.util.Date :*: ) :  "Date" ;
+:public: :void: java~util~Date~~init^~Ljava~util~Date^J^ ( java.util.Date :*: , :long: ) :  "Date" ;
+:public: :void: java~util~Date~~init^~Ljava~util~Date^Ljava~lang~String^ ( java.util.Date :*: , java.lang.String :*: ) :  "Date" ;
+:public: :void: java~util~Date~~init^~Ljava~util~Date^I^I^I^ ( java.util.Date :*: , :int: , :int: , :int: ) :  "Date" ;
+:public: :void: java~util~Date~~init^~Ljava~util~Date^I^I^I^I^I^ ( java.util.Date :*: , :int: , :int: , :int: , :int: , :int: ) :  "Date" ;
+:public: :void: java~util~Date~~init^~Ljava~util~Date^I^I^I^I^I^I^ ( java.util.Date :*: , :int: , :int: , :int: , :int: , :int: , :int: ) :  "Date" ;
+}
+	
+:public: :interface::class: java.io.Closeable :extends: java.lang.AutoCloseable :"java.io":"Closeable"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~Closeable~~close~Ljava~io~Closeable^~throws;
+}
+	
+ :public::class: java.net.URISyntaxException :extends: java.lang.Exception :"java.net":"URISyntaxException"{
+	
+ :public: :void: java~net~URISyntaxException~~init^~Ljava~net~URISyntaxException^Ljava~lang~String^Ljava~lang~String^ ( java.net.URISyntaxException :*: , java.lang.String :*: , java.lang.String :*: ) :  "URISyntaxException" ;
+:public: :void: java~net~URISyntaxException~~init^~Ljava~net~URISyntaxException^Ljava~lang~String^Ljava~lang~String^I^ ( java.net.URISyntaxException :*: , java.lang.String :*: , java.lang.String :*: , :int: ) :  "URISyntaxException" ;
+}
+	
+:public::class: java.net.MalformedURLException :extends: java.io.IOException :"java.net":"MalformedURLException"{
+	
+ :public: :void: java~net~MalformedURLException~~init^~Ljava~net~MalformedURLException^ ( java.net.MalformedURLException :*: ) :  "MalformedURLException" ;
+:public: :void: java~net~MalformedURLException~~init^~Ljava~net~MalformedURLException^Ljava~lang~String^ ( java.net.MalformedURLException :*: , java.lang.String :*: ) :  "MalformedURLException" ;
+}
+	
+:public: :abstract::class: java.net.URLStreamHandler :extends: java.lang.Object :"java.net":"URLStreamHandler"{
+	
+ :public: :static: java.lang.Throwable :*: java~net~URLStreamHandler~~openConnection~Ljava~net~URLStreamHandler^Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URLStreamHandler~~openConnection~Ljava~net~URLStreamHandler^Ljava~net~URL^Ljava~net~Proxy^~throws;
+ :public: :void: java~net~URLStreamHandler~~init^~Ljava~net~URLStreamHandler^ ( java.net.URLStreamHandler :*: ) :  "URLStreamHandler" ;
+}
+	
+:public: :interface::class: java.nio.file.OpenOption :extends: java.lang.Object :"java.nio.file":"OpenOption"{
+	
+}
+	
+ :public: :interface::class: java.nio.file.CopyOption :extends: java.lang.Object :"java.nio.file":"CopyOption"{
+	
+}
+	
+ :public: :interface::class: org.hamcrest.SelfDescribing :extends: java.lang.Object :"org.hamcrest":"SelfDescribing"{
+	
+}
+	
+ :public::class: org.hamcrest.core.CombinableMatcher :extends: org.hamcrest.TypeSafeDiagnosingMatcher :"org.hamcrest.core":"CombinableMatcher"{
+	
+ :public: :void: org~hamcrest~core~CombinableMatcher~~init^~Lorg~hamcrest~core~CombinableMatcher^Lorg~hamcrest~Matcher^ ( org.hamcrest.core.CombinableMatcher :*: , org.hamcrest.Matcher :*: ) :  "CombinableMatcher" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public: :interface::class: java.lang.Cloneable :extends: java.lang.Object :"java.lang":"Cloneable"{
+	
+}
+	
+ :public: :interface::class: java.lang.AutoCloseable :extends: java.lang.Object :"java.lang":"AutoCloseable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^~throws;
+}
+	
+ :public: :abstract::class: org.hamcrest.TypeSafeDiagnosingMatcher :extends: org.hamcrest.BaseMatcher :"org.hamcrest":"TypeSafeDiagnosingMatcher"{
+	
+ :protected: :void: org~hamcrest~TypeSafeDiagnosingMatcher~~init^~Lorg~hamcrest~TypeSafeDiagnosingMatcher^ ( org.hamcrest.TypeSafeDiagnosingMatcher :*: ) :  "TypeSafeDiagnosingMatcher" ;
+:protected: :void: org~hamcrest~TypeSafeDiagnosingMatcher~~init^~Lorg~hamcrest~TypeSafeDiagnosingMatcher^Ljava~lang~Class^ ( org.hamcrest.TypeSafeDiagnosingMatcher :*: , java.lang.Class :*: ) :  "TypeSafeDiagnosingMatcher" ;
+:protected: :void: org~hamcrest~TypeSafeDiagnosingMatcher~~init^~Lorg~hamcrest~TypeSafeDiagnosingMatcher^Lorg~hamcrest~internal~ReflectiveTypeFinder^ ( org.hamcrest.TypeSafeDiagnosingMatcher :*: , org.hamcrest.internal.ReflectiveTypeFinder :*: ) :  "TypeSafeDiagnosingMatcher" ;
+}
+	
+:public: :abstract::class: org.hamcrest.BaseMatcher :extends: java.lang.Object org.hamcrest.Matcher :"org.hamcrest":"BaseMatcher"{
+	
+ :public: :void: org~hamcrest~BaseMatcher~~init^~Lorg~hamcrest~BaseMatcher^ ( org.hamcrest.BaseMatcher :*: ) :  "BaseMatcher" ;
+}
+	
+:public: :final::class: java.lang.Class :extends: java.lang.Object java.io.Serializable java.lang.reflect.GenericDeclaration java.lang.reflect.Type java.lang.reflect.AnnotatedElement :"java.lang":"Class"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName0~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor0~Ljava~lang~Class^?Ljava~lang~Class^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredClasses~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaringClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingConstructor~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingMethod~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField0~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~newInstance~Ljava~lang~Class^~throws;
+ :private: :void: java~lang~Class~~init^~Ljava~lang~Class^Ljava~lang~ClassLoader^ ( java.lang.Class :*: , java.lang.ClassLoader :*: ) :  "Class" ;
+}
+	
+:public::class: org.hamcrest.internal.ReflectiveTypeFinder :extends: java.lang.Object :"org.hamcrest.internal":"ReflectiveTypeFinder"{
+	
+ :public: :void: org~hamcrest~internal~ReflectiveTypeFinder~~init^~Lorg~hamcrest~internal~ReflectiveTypeFinder^Ljava~lang~String^I^I^ ( org.hamcrest.internal.ReflectiveTypeFinder :*: , java.lang.String :*: , :int: , :int: ) :  "ReflectiveTypeFinder" ;
+}
+	
+:public: :interface::class: java.lang.reflect.GenericDeclaration :extends: java.lang.reflect.AnnotatedElement :"java.lang.reflect":"GenericDeclaration"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.Type :extends: java.lang.Object :"java.lang.reflect":"Type"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.AnnotatedElement :extends: java.lang.Object :"java.lang.reflect":"AnnotatedElement"{
+	
+}
+	
+ :public: :abstract::class: java.lang.ClassLoader :extends: java.lang.Object :"java.lang":"ClassLoader"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~nio~ByteBuffer^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~definePackage~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findSystemClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getBootstrapResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getSystemResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClassInternal~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:private: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~Void^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.Void :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+}
+	
+:public: :final::class: java.lang.Void :extends: java.lang.Object :"java.lang":"Void"{
+	
+ :private: :void: java~lang~Void~~init^~Ljava~lang~Void^ ( java.lang.Void :*: ) :  "Void" ;
+}
+	

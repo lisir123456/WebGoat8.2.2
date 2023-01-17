@@ -1,0 +1,2159 @@
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+#source-type java
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 1
+ #1# 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 39
+ #14# :public::class: org.owasp.webwolf.WebWolf :extends: java.lang.Object :"org.owasp.webwolf":"WebWolf"
+	:[[: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 38
+ #1# {
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #1# 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #1# < org.springframework.boot.autoconfigure.SpringBootApplication :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 42
+ #32# :public: org.springframework.boot.actuate.trace.http.HttpTraceRepository :*: org~owasp~webwolf~WebWolf~~traceRepository~Lorg~owasp~webwolf~WebWolf^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #32# org.owasp.webwolf.WebWolf :*: this~ ) :  "traceRepository"
+	:[[: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 41
+ #5# {
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #5# 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #5# < org.springframework.context.annotation.Bean :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 42
+ #50# {
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 43
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	org.owasp.webwolf.requests.WebWolfTraceRepository :*: ~t0 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	~t0 :=: :new: org.owasp.webwolf.requests.WebWolfTraceRepository ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	-~> org~owasp~webwolf~requests~WebWolfTraceRepository~~init^~Lorg~owasp~webwolf~requests~WebWolfTraceRepository^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	~t0 ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #9# 	:return: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	~t0 ;
+
+#source-line 44
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 46
+ #24# :public: :static: :void: org~owasp~webwolf~WebWolf~~main~S~?Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #38# java.lang.String :*: [] args ) :  "main" 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #44# {
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 47
+ #28# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #28# 	java.lang.String :*: ~t0 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #28# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #28# 	~t0 :=: "spring.config.name" ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	java.lang.String :*: ~t1 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	~t1 :=: "application-webwolf" ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #9# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #9# 	-~> java~lang~System~~setProperty~S~Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #28# 	~t0 , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	~t1 ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 49
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	java.lang.String :*: webwolfPort ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #45# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #45# 	java.lang.String :*: ~t2 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #45# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #45# 	~t2 :=: "WEBWOLF_PORT" ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	webwolfPort :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #31# 	-~> java~lang~System~~getenv~S~Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #45# 	~t2 ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 50
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	java.lang.String :*: databasePort ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #45# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #45# 	java.lang.String :*: ~t3 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #45# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #45# 	~t3 :=: "WEBGOAT_HSQLPORT" ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	databasePort :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #31# 	-~> java~lang~System~~getenv~S~Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #45# 	~t3 ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 51
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	java.lang.String :*: webGoatHost ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 	java.lang.String :*: ~t4 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	java.lang.String :*: ~t5 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	~t5 :=: "WEBGOAT_HOST" ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 	:if: ( ( :null: :==: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #36# 	-~> java~lang~System~~getenv~S~Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	~t5 ) ) ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 	{
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 		~t4 :=: "127.0.0.1" ;
+	}
+	:else: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 	{
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #92# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #92# 		java.lang.String :*: ~t6 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #92# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #92# 		~t6 :=: "WEBGOAT_HOST" ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 		~t4 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #78# 		-~> java~lang~System~~getenv~S~Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #92# 		~t6 ) ;
+	}
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	webGoatHost :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 	~t4 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 52
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	java.lang.String :*: webWolfHost ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 	java.lang.String :*: ~t7 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	java.lang.String :*: ~t8 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	~t8 :=: "WEBWOLF_HOST" ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 	:if: ( ( :null: :==: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #36# 	-~> java~lang~System~~getenv~S~Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	~t8 ) ) ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 	{
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 		~t7 :=: "127.0.0.1" ;
+	}
+	:else: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 	{
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #92# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #92# 		java.lang.String :*: ~t9 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #92# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #92# 		~t9 :=: "WEBWOLF_HOST" ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 		~t7 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #78# 		-~> java~lang~System~~getenv~S~Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #92# 		~t9 ) ;
+	}
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	webWolfHost :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 	~t7 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 53
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	java.lang.String :*: fileEncoding ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	java.lang.String :*: ~t10 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	~t10 :=: "file.encoding" ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	fileEncoding :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #31# 	-~> java~lang~System~~getProperty~S~Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #50# 	~t10 ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 55
+ #13# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 	:int: wolfPort ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #24# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #24# 	:int: ~t11 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #24# 	:if: ( ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #24# 	webwolfPort :==: :null: ) ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #24# 	{
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #24# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #24# 		~t11 :=: < :int: >9090 ;
+	}
+	:else: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #24# 	{
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #49# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #49# 		ANYTYPE ~t~j~1 ;
+		__throwingcall_1 :
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #49# 		~t~j~1 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #49# 		-~> java~lang~Integer~~parseInt~S~Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #66# 		webwolfPort ) ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #49# 		:if: ( < :long: > 1 ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #49# 		{
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #49# 			__caught__throwingcall_1 :
+			 :throw:  < java.lang.NumberFormatException :*: > :null: ;
+		}
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #24# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #24# 		~t11 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #49# 		~t~j~1 ;
+	}
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 	wolfPort :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #24# 	~t11 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 56
+ #13# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 	:int: dbPort ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 	:int: ~t12 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 	:if: ( ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 	databasePort :==: :null: ) ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 	{
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		~t12 :=: < :int: >9001 ;
+	}
+	:else: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 	{
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #48# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #48# 		ANYTYPE ~t~j~2 ;
+		__throwingcall_2 :
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #48# 		~t~j~2 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #48# 		-~> java~lang~Integer~~parseInt~S~Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #65# 		databasePort ) ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #48# 		:if: ( < :long: > 1 ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #48# 		{
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #48# 			__caught__throwingcall_2 :
+			 :throw:  < java.lang.NumberFormatException :*: > :null: ;
+		}
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		~t12 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #48# 		~t~j~2 ;
+	}
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 	dbPort :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 	~t12 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 58
+ #13# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 	:boolean: ~t13 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 	~t13 :=: :true: ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 	:if: ( ( :null: :==: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #19# 	fileEncoding ) ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 	{
+	}
+	:else: {
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #56# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #56# 		java.lang.String :*: ~t14 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #56# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #56# 		~t14 :=: "UTF-8" ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #35# 		:if: ( ( :!: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #36# 		-~> java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #36# 		fileEncoding , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #56# 		~t14 ) ) ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #35# 		{
+		}
+		:else: {
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 			~t13 :=: :false: ;
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 			:goto: F~~__L__~t13 ;
+		}
+	}
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 	:goto: S~~__L__~t13 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #9# 	F~~__L__~t13 :
+	:if: ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 	~t13 ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #66# 	{
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 59
+ #29# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		java.lang.String :*: ~t15 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		~t15 :=: ( "It seems the application is startd on a OS with non default UTF-8 encoding:" :+: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #107# 		fileEncoding ) ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		-~> java~io~PrintStream~~println~Ljava~io~PrintStream^Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		[ java.lang.System ] out , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		~t15 ) ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 60
+ #29# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		java.lang.String :*: ~t16 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		~t16 :=: "Please add: -Dfile.encoding=UTF-8" ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		-~> java~io~PrintStream~~println~Ljava~io~PrintStream^Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		[ java.lang.System ] out , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		~t16 ) ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 61
+ #22# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		:int: ~t17 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		~t17 :=: ( < :int: >0 :-: < :int: >1 ) ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		-~> java~lang~System~~exit~S~I^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		~t17 ) ;
+
+#source-line 62
+	}
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 64
+ #9# 	:if: ( ( :!: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #14# 	-~> org~owasp~webwolf~WebWolf~~isAlreadyRunning~S~Ljava~lang~String^I^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #31# 	webGoatHost , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #44# 	dbPort ) ) ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #53# 	{
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 65
+ #29# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		java.lang.String :*: ~t18 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		~t18 :=: "It seems that the required database is not running. Please start WebGoat with the integrated or standalone database first." ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		-~> java~io~PrintStream~~println~Ljava~io~PrintStream^Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		[ java.lang.System ] out , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		~t18 ) ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 66
+ #22# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		:int: ~t19 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		~t19 :=: ( < :int: >0 :-: < :int: >1 ) ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		-~> java~lang~System~~exit~S~I^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		~t19 ) ;
+
+#source-line 67
+	}
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 68
+ #9# 	:if: ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #13# 	-~> org~owasp~webwolf~WebWolf~~isAlreadyRunning~S~Ljava~lang~String^I^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #30# 	webGoatHost , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #43# 	wolfPort ) ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #54# 	{
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 69
+ #29# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		java.lang.String :*: ~t20 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		~t20 :=: ( ( ( ( "Port " :+: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #37# 		webWolfHost ) :+: ":" ) :+: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #53# 		wolfPort ) :+: " is in use. Use environment value WEBWOLF_PORT to set a different value." ) ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		-~> java~io~PrintStream~~println~Ljava~io~PrintStream^Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		[ java.lang.System ] out , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #29# 		~t20 ) ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 70
+ #22# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		:int: ~t21 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		~t21 :=: ( < :int: >0 :-: < :int: >1 ) ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #10# 		-~> java~lang~System~~exit~S~I^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #22# 		~t21 ) ;
+
+#source-line 71
+	}
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 72
+ #31# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #31# 	java.lang.Class :*: ~t22 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #31# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #31# 	~t22 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #31# 	< java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webwolf.WebWolf :*: > :null: ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #9# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #9# 	-~> org~springframework~boot~SpringApplication~~run~S~Ljava~lang~Class^?Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #31# 	~t22 , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #46# 	args ) ;
+
+#source-line 73
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 76
+ #23# :public: javax.sql.DataSource :*: org~owasp~webwolf~WebWolf~~dataSource~Lorg~owasp~webwolf~WebWolf^Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #23# org.owasp.webwolf.WebWolf :*: this~ , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #76# java.lang.String :*: url
+	:[[: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #34# {
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #34# 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #34# < org.springframework.beans.factory.annotation.Value :*: > -~> ~annotation ( value:  "${spring.datasource.url}" ):]]:
+ , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #137# java.lang.String :*: driverClassName
+	:[[: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #81# {
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #81# 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #81# < org.springframework.beans.factory.annotation.Value :*: > -~> ~annotation ( value:  "${spring.datasource.driver-class-name}" ):]]:
+ ) :  "dataSource"
+	:[[: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 75
+ #5# {
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #5# 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #5# < org.springframework.context.annotation.Bean :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 76
+ #154# {
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 77
+ #33# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #33# 	org.springframework.jdbc.datasource.DriverManagerDataSource :*: driverManagerDataSource ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #59# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #59# 	org.springframework.jdbc.datasource.DriverManagerDataSource :*: ~t0 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #59# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #59# 	~t0 :=: :new: org.springframework.jdbc.datasource.DriverManagerDataSource ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #59# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #59# 	-~> org~springframework~jdbc~datasource~DriverManagerDataSource~~init^~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #59# 	~t0 , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #87# 	url ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #33# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #33# 	driverManagerDataSource :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #59# 	~t0 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 78
+ #9# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #9# 	-~> org~springframework~jdbc~datasource~DriverManagerDataSource~~setDriverClassName~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #9# 	driverManagerDataSource , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 	driverClassName ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 79
+ #9# 	:return: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #16# 	driverManagerDataSource ;
+
+#source-line 80
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 82
+ #28# :private: :static: :boolean: org~owasp~webwolf~WebWolf~~isAlreadyRunning~S~Ljava~lang~String^I^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# java.lang.String :*: host , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #62# :int: port ) :  "isAlreadyRunning" 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #68# {
+	java.lang.Throwable ~t~try~1 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #14# 	__try____L__7~0be66a99 :
+	{
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #18# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #18# 		var :*: ignored ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #28# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #28# 		java.net.Socket :*: ~t0 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #28# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #28# 		~t0 :=: :new: java.net.Socket ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #28# 		__throwingcall_1 :
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #28# 		-~> java~net~Socket~~init^~Ljava~net~Socket^Ljava~lang~String^I^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #28# 		~t0 , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #39# 		host , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #45# 		port ) ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #28# 		{
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #28# 			:if: ( < :long: > 1 ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #28# 			{
+				~t~try~1 :=: [ java.net.Socket ] java~net~Socket~~init^~Ljava~net~Socket^Ljava~lang~String^I^~throws ;
+				__caught__throwingcall_1 :
+				:goto: __catch____L__8~0be66a99 ;
+			}
+		}
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #18# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #18# 		ignored :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #28# 		~t0 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #14# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #14# 		java.lang.Throwable :*: ~t~try~with~1 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #14# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #14# 		~t~try~with~1 :=: :null: ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 		__try____L__2~0be66a99 :
+		{
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 			__inline____finally____L__~tool~generated~1~0be66a99_1 :
+			{
+				
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 				:if: ( ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #14# 				ignored :!=: :null: ) ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 				{
+					
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 					:if: ( ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 					~t~try~with~1 :!=: :null: ) ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 					{
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						__try____L__5~0be66a99 :
+						{
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							__throwingcall_2 :
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							-~> java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							ignored ) ;
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							{
+								
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 								:if: ( < :long: > 1 ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 								{
+									~t~try~1 :=: [ java.lang.AutoCloseable ] java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^~throws ;
+									__caught__throwingcall_2 :
+									:goto: __catch____L__~tool~generated~6~0be66a99 ;
+
+#source-line 85
+								}
+							}
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 							:goto: __finally____L__~tool~generated~4~0be66a99 ;
+
+#source-line 85
+						}
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 						__catch____L__~tool~generated~6~0be66a99 :
+						{
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							java.lang.Throwable :*: ~suppressedException ;
+							~suppressedException :=: ~t~try~1 ;
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							-~> java~lang~Throwable~~addSuppressed~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							~suppressedException , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							~t~try~with~1 ) ;
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							java.lang.Throwable :*: ~t2 ;
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							~t2 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							~suppressedException ;
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							 :throw:  ~t2 ;
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							:goto: __finally____L__~tool~generated~4~0be66a99 ;
+
+#source-line 85
+						}
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 						__finally____L__~tool~generated~4~0be66a99 :
+						{
+
+#source-line 85
+						}
+					}
+					:else: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 					{
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						__throwingcall_3 :
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						-~> java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						ignored ) ;
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						:if: ( < :long: > 1 ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						{
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							__caught__throwingcall_3 :
+							 :throw:  < java.lang.Exception :*: > :null: ;
+
+#source-line 85
+						}
+					}
+				}
+			}
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 84
+ #13# 			:return: :true: ;
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 			:goto: __finally____L__~tool~generated~1~0be66a99 ;
+
+#source-line 85
+		}
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 		__catch____L__~tool~generated~3~0be66a99 :
+		{
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 			java.lang.Throwable :*: ~suppressedException ;
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 			~t~try~with~1 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 			~suppressedException ;
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 			java.lang.Throwable :*: ~t1 ;
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 			~t1 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 			~suppressedException ;
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 			__inline____finally____L__~tool~generated~1~0be66a99_2 :
+			{
+				
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 				:if: ( ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #14# 				ignored :!=: :null: ) ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 				{
+					
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 					:if: ( ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 					~t~try~with~1 :!=: :null: ) ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 					{
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						__try____L__5~0be66a99 :
+						{
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							__throwingcall_4 :
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							-~> java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							ignored ) ;
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							{
+								
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 								:if: ( < :long: > 1 ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 								{
+									~t~try~1 :=: [ java.lang.AutoCloseable ] java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^~throws ;
+									__caught__throwingcall_4 :
+									:goto: __catch____L__~tool~generated~6~0be66a99 ;
+
+#source-line 85
+								}
+							}
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 							:goto: __finally____L__~tool~generated~4~0be66a99 ;
+
+#source-line 85
+						}
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 						__catch____L__~tool~generated~6~0be66a99 :
+						{
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							java.lang.Throwable :*: ~suppressedException ;
+							~suppressedException :=: ~t~try~1 ;
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							-~> java~lang~Throwable~~addSuppressed~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							~suppressedException , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							~t~try~with~1 ) ;
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							java.lang.Throwable :*: ~t2 ;
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							~t2 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							~suppressedException ;
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							 :throw:  ~t2 ;
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							:goto: __finally____L__~tool~generated~4~0be66a99 ;
+
+#source-line 85
+						}
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 						__finally____L__~tool~generated~4~0be66a99 :
+						{
+
+#source-line 85
+						}
+					}
+					:else: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 					{
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						__throwingcall_5 :
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						-~> java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						ignored ) ;
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						:if: ( < :long: > 1 ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						{
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							__caught__throwingcall_5 :
+							 :throw:  < java.lang.Exception :*: > :null: ;
+
+#source-line 85
+						}
+					}
+				}
+			}
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 			 :throw:  ~t1 ;
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 			:goto: __finally____L__~tool~generated~1~0be66a99 ;
+
+#source-line 85
+		}
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 		__finally____L__~tool~generated~1~0be66a99 :
+		{
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 			:if: ( ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #14# 			ignored :!=: :null: ) ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 			{
+				
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 				:if: ( ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 				~t~try~with~1 :!=: :null: ) ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 				{
+					
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 					__try____L__5~0be66a99 :
+					{
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						__throwingcall_6 :
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						-~> java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						ignored ) ;
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						{
+							
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							:if: ( < :long: > 1 ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 							{
+								~t~try~1 :=: [ java.lang.AutoCloseable ] java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^~throws ;
+								__caught__throwingcall_6 :
+								:goto: __catch____L__~tool~generated~6~0be66a99 ;
+
+#source-line 85
+							}
+						}
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 						:goto: __finally____L__~tool~generated~4~0be66a99 ;
+
+#source-line 85
+					}
+					
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 					__catch____L__~tool~generated~6~0be66a99 :
+					{
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						java.lang.Throwable :*: ~suppressedException ;
+						~suppressedException :=: ~t~try~1 ;
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						-~> java~lang~Throwable~~addSuppressed~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						~suppressedException , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						~t~try~with~1 ) ;
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						java.lang.Throwable :*: ~t2 ;
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						~t2 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						~suppressedException ;
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						 :throw:  ~t2 ;
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						:goto: __finally____L__~tool~generated~4~0be66a99 ;
+
+#source-line 85
+					}
+					
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 					__finally____L__~tool~generated~4~0be66a99 :
+					{
+
+#source-line 85
+					}
+				}
+				:else: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 				{
+					
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 					__throwingcall_7 :
+					
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 					-~> java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 					ignored ) ;
+					
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 					:if: ( < :long: > 1 ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 					{
+						
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #52# 						__caught__throwingcall_7 :
+						 :throw:  < java.lang.Exception :*: > :null: ;
+
+#source-line 85
+					}
+				}
+			}
+		}
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #52# 		:goto: __finally____L__0~0be66a99 ;
+
+#source-line 85
+	}
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #11# 	__catch____L__8~0be66a99 :
+	{
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #18# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #18# 		java.io.IOException :*: e ;
+		e :=: ~t~try~1 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 86
+ #13# 		:return: :false: ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 85
+ #11# 		:goto: __finally____L__0~0be66a99 ;
+
+#source-line 87
+	}
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 83
+ #9# 	__finally____L__0~0be66a99 :
+	{
+
+#source-line 87
+	}
+
+#source-line 88
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+
+#source-line 39
+ #14# :public: :void: org~owasp~webwolf~WebWolf~~init^~Lorg~owasp~webwolf~WebWolf^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #14# org.owasp.webwolf.WebWolf :*: this~ ) :  "init^" 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #14# {
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #14# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #14# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #14# :public: :static: :void: org~owasp~webwolf~WebWolf~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webwolf\src\main\java\org\owasp\webwolf\WebWolf.java
+ #14# {
+}
+#source-line 39
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+:public: :boolean: java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( java.lang.Object :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :annotation::class: org.springframework.boot.autoconfigure.SpringBootApplication :extends: java.lang.annotation.Annotation :"org.springframework.boot.autoconfigure":"SpringBootApplication"{
+	
+}
+	
+ :public: :interface::class: org.springframework.boot.actuate.trace.http.HttpTraceRepository :extends: java.lang.Object :"org.springframework.boot.actuate.trace.http":"HttpTraceRepository"{
+	
+}
+	
+ :public: :annotation::class: org.springframework.context.annotation.Bean :extends: java.lang.annotation.Annotation :"org.springframework.context.annotation":"Bean"{
+	
+ :public: :abstract: java.lang.String :*: [] org~springframework~context~annotation~Bean~~value~Lorg~springframework~context~annotation~Bean^ ( org.springframework.context.annotation.Bean :*: ) :  "value" ;
+}
+	
+:public::class: org.owasp.webwolf.requests.WebWolfTraceRepository :extends: java.lang.Object org.springframework.boot.actuate.trace.http.HttpTraceRepository :"org.owasp.webwolf.requests":"WebWolfTraceRepository"{
+	
+ :public: :void: org~owasp~webwolf~requests~WebWolfTraceRepository~~init^~Lorg~owasp~webwolf~requests~WebWolfTraceRepository^ ( org.owasp.webwolf.requests.WebWolfTraceRepository :*: ) :  "WebWolfTraceRepository" ;
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: :boolean: java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( java.lang.String :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :final::class: java.lang.System :extends: java.lang.Object :"java.lang":"System"{
+	
+ :public: :final: :static: java.io.PrintStream :*: out;
+ :public: :static: java.lang.Throwable :*: java~lang~System~~inheritedChannel~S~~throws;
+ :private: :void: java~lang~System~~init^~Ljava~lang~System^ ( java.lang.System :*: ) :  "System" ;
+:public: :static: :void: java~lang~System~~exit~S~I^ ( :int: ) :  "exit" ;
+:public: :static: java.lang.String :*: java~lang~System~~getProperty~S~Ljava~lang~String^ ( java.lang.String :*: ) :  "getProperty" ;
+:public: :static: java.lang.String :*: java~lang~System~~getProperty~S~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "getProperty" ;
+:public: :static: java.util.Map :*: java~lang~System~~getenv~S~ ( ) :  "getenv" ;
+:public: :static: java.lang.String :*: java~lang~System~~getenv~S~Ljava~lang~String^ ( java.lang.String :*: ) :  "getenv" ;
+:public: :static: java.lang.String :*: java~lang~System~~setProperty~S~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "setProperty" ;
+}
+	
+:public: :final::class: java.lang.Integer :extends: java.lang.Number java.lang.Comparable :"java.lang":"Integer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~init^~Ljava~lang~Integer^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~decode~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseInt~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseInt~S~Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseUnsignedInt~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseUnsignedInt~S~Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~valueOf~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~valueOf~S~Ljava~lang~String^I^~throws;
+ :public: :void: java~lang~Integer~~init^~Ljava~lang~Integer^I^ ( java.lang.Integer :*: , :int: ) :  "Integer" ;
+:public: :void: java~lang~Integer~~init^~Ljava~lang~Integer^Ljava~lang~String^ ( java.lang.Integer :*: , java.lang.String :*: ) :  "Integer"  :exceptions:  java.lang.NumberFormatException :*: ;
+:public: :boolean: java~lang~Integer~~equals~Ljava~lang~Integer^Ljava~lang~Object^ ( java.lang.Integer :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :static: :int: java~lang~Integer~~parseInt~S~Ljava~lang~String^ ( java.lang.String :*: ) :  "parseInt"  :exceptions:  java.lang.NumberFormatException :*: ;
+:public: :static: :int: java~lang~Integer~~parseInt~S~Ljava~lang~String^I^ ( java.lang.String :*: , :int: ) :  "parseInt"  :exceptions:  java.lang.NumberFormatException :*: ;
+}
+	
+:public::class: java.io.PrintStream :extends: java.io.FilterOutputStream java.lang.Appendable java.io.Closeable :"java.io":"PrintStream"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~PrintStream~~init^~Ljava~io~PrintStream^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~PrintStream~~init^~Ljava~io~PrintStream^Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~PrintStream~~init^~Ljava~io~PrintStream^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~PrintStream~~init^~Ljava~io~PrintStream^Ljava~io~File^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~PrintStream~~init^~Ljava~io~PrintStream^Z^Ljava~nio~charset~Charset^Ljava~io~OutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~PrintStream~~init^~Ljava~io~PrintStream^Ljava~io~OutputStream^Z^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~PrintStream~~ensureOpen~Ljava~io~PrintStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~PrintStream~~toCharset~S~Ljava~lang~String^~throws;
+ :public: :void: java~io~PrintStream~~init^~Ljava~io~PrintStream^Ljava~io~OutputStream^ ( java.io.PrintStream :*: , java.io.OutputStream :*: ) :  "PrintStream" ;
+:public: :void: java~io~PrintStream~~init^~Ljava~io~PrintStream^Ljava~lang~String^ ( java.io.PrintStream :*: , java.lang.String :*: ) :  "PrintStream"  :exceptions:  java.io.FileNotFoundException :*: ;
+:public: :void: java~io~PrintStream~~init^~Ljava~io~PrintStream^Ljava~io~File^ ( java.io.PrintStream :*: , java.io.File :*: ) :  "PrintStream"  :exceptions:  java.io.FileNotFoundException :*: ;
+:private: :void: java~io~PrintStream~~init^~Ljava~io~PrintStream^Z^Ljava~io~OutputStream^ ( java.io.PrintStream :*: , :boolean: , java.io.OutputStream :*: ) :  "PrintStream" ;
+:public: :void: java~io~PrintStream~~init^~Ljava~io~PrintStream^Ljava~io~OutputStream^Z^ ( java.io.PrintStream :*: , java.io.OutputStream :*: , :boolean: ) :  "PrintStream" ;
+:public: :void: java~io~PrintStream~~init^~Ljava~io~PrintStream^Ljava~lang~String^Ljava~lang~String^ ( java.io.PrintStream :*: , java.lang.String :*: , java.lang.String :*: ) :  "PrintStream"  :exceptions:  java.io.FileNotFoundException :*: ,  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~io~PrintStream~~init^~Ljava~io~PrintStream^Ljava~io~File^Ljava~lang~String^ ( java.io.PrintStream :*: , java.io.File :*: , java.lang.String :*: ) :  "PrintStream"  :exceptions:  java.io.FileNotFoundException :*: ,  java.io.UnsupportedEncodingException :*: ;
+:private: :void: java~io~PrintStream~~init^~Ljava~io~PrintStream^Z^Ljava~io~OutputStream^Ljava~nio~charset~Charset^ ( java.io.PrintStream :*: , :boolean: , java.io.OutputStream :*: , java.nio.charset.Charset :*: ) :  "PrintStream" ;
+:private: :void: java~io~PrintStream~~init^~Ljava~io~PrintStream^Z^Ljava~nio~charset~Charset^Ljava~io~OutputStream^ ( java.io.PrintStream :*: , :boolean: , java.nio.charset.Charset :*: , java.io.OutputStream :*: ) :  "PrintStream"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~io~PrintStream~~init^~Ljava~io~PrintStream^Ljava~io~OutputStream^Z^Ljava~lang~String^ ( java.io.PrintStream :*: , java.io.OutputStream :*: , :boolean: , java.lang.String :*: ) :  "PrintStream"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~io~PrintStream~~close~Ljava~io~PrintStream^ ( java.io.PrintStream :*: ) :  "close" ;
+:public: :void: java~io~PrintStream~~println~Ljava~io~PrintStream^ ( java.io.PrintStream :*: ) :  "println" ;
+:public: :void: java~io~PrintStream~~println~Ljava~io~PrintStream^Z^ ( java.io.PrintStream :*: , :boolean: ) :  "println" ;
+:public: :void: java~io~PrintStream~~println~Ljava~io~PrintStream^C^ ( java.io.PrintStream :*: , :char: ) :  "println" ;
+:public: :void: java~io~PrintStream~~println~Ljava~io~PrintStream^I^ ( java.io.PrintStream :*: , :int: ) :  "println" ;
+:public: :void: java~io~PrintStream~~println~Ljava~io~PrintStream^J^ ( java.io.PrintStream :*: , :long: ) :  "println" ;
+:public: :void: java~io~PrintStream~~println~Ljava~io~PrintStream^F^ ( java.io.PrintStream :*: , :float: ) :  "println" ;
+:public: :void: java~io~PrintStream~~println~Ljava~io~PrintStream^D^ ( java.io.PrintStream :*: , :double: ) :  "println" ;
+:public: :void: java~io~PrintStream~~println~Ljava~io~PrintStream^?C^ ( java.io.PrintStream :*: , :char: [] ) :  "println" ;
+:public: :void: java~io~PrintStream~~println~Ljava~io~PrintStream^Ljava~lang~String^ ( java.io.PrintStream :*: , java.lang.String :*: ) :  "println" ;
+:public: :void: java~io~PrintStream~~println~Ljava~io~PrintStream^Ljava~lang~Object^ ( java.io.PrintStream :*: , java.lang.Object :*: ) :  "println" ;
+}
+	
+:public: :final::class: java.lang.Class :extends: java.lang.Object java.io.Serializable java.lang.reflect.GenericDeclaration java.lang.reflect.Type java.lang.reflect.AnnotatedElement :"java.lang":"Class"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName0~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor0~Ljava~lang~Class^?Ljava~lang~Class^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredClasses~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaringClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingConstructor~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingMethod~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField0~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~newInstance~Ljava~lang~Class^~throws;
+ :private: :void: java~lang~Class~~init^~Ljava~lang~Class^Ljava~lang~ClassLoader^ ( java.lang.Class :*: , java.lang.ClassLoader :*: ) :  "Class" ;
+}
+	
+:public::class: org.springframework.boot.SpringApplication :extends: java.lang.Object :"org.springframework.boot":"SpringApplication"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~boot~SpringApplication~~main~S~?Ljava~lang~String^~throws;
+ :public: :void: org~springframework~boot~SpringApplication~~init^~Lorg~springframework~boot~SpringApplication^?Ljava~lang~Class^ ( org.springframework.boot.SpringApplication :*: , java.lang.Class :*: [] , ... ) :  "SpringApplication" ;
+:public: :void: org~springframework~boot~SpringApplication~~init^~Lorg~springframework~boot~SpringApplication^Lorg~springframework~core~io~ResourceLoader^?Ljava~lang~Class^ ( org.springframework.boot.SpringApplication :*: , org.springframework.core.io.ResourceLoader :*: , java.lang.Class :*: [] , ... ) :  "SpringApplication" ;
+:public: :static: :int: org~springframework~boot~SpringApplication~~exit~S~Lorg~springframework~context~ApplicationContext^?Lorg~springframework~boot~ExitCodeGenerator^ ( org.springframework.context.ApplicationContext :*: , org.springframework.boot.ExitCodeGenerator :*: [] , ... ) :  "exit" ;
+:public: :static: :void: org~springframework~boot~SpringApplication~~main~S~?Ljava~lang~String^ ( java.lang.String :*: [] ) :  "main"  :exceptions:  java.lang.Exception :*: ;
+:public: org.springframework.context.ConfigurableApplicationContext :*: org~springframework~boot~SpringApplication~~run~Lorg~springframework~boot~SpringApplication^?Ljava~lang~String^ ( org.springframework.boot.SpringApplication :*: , java.lang.String :*: [] , ... ) :  "run" ;
+:public: :static: org.springframework.context.ConfigurableApplicationContext :*: org~springframework~boot~SpringApplication~~run~S~Ljava~lang~Class^?Ljava~lang~String^ ( java.lang.Class :*: , java.lang.String :*: [] , ... ) :  "run" ;
+:public: :static: org.springframework.context.ConfigurableApplicationContext :*: org~springframework~boot~SpringApplication~~run~S~?Ljava~lang~Class^?Ljava~lang~String^ ( java.lang.Class :*: [] , java.lang.String :*: [] ) :  "run" ;
+}
+	
+:public: :interface::class: javax.sql.DataSource :extends: javax.sql.CommonDataSource java.sql.Wrapper :"javax.sql":"DataSource"{
+	
+ :public: :static: java.lang.Throwable :*: javax~sql~DataSource~~getConnection~Ljavax~sql~DataSource^~throws;
+ :public: :static: java.lang.Throwable :*: javax~sql~DataSource~~getConnection~Ljavax~sql~DataSource^Ljava~lang~String^Ljava~lang~String^~throws;
+}
+	
+ :public: :annotation::class: org.springframework.beans.factory.annotation.Value :extends: java.lang.annotation.Annotation :"org.springframework.beans.factory.annotation":"Value"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~beans~factory~annotation~Value~~value~Lorg~springframework~beans~factory~annotation~Value^ ( org.springframework.beans.factory.annotation.Value :*: ) :  "value" ;
+}
+	
+:public::class: org.springframework.jdbc.datasource.DriverManagerDataSource :extends: org.springframework.jdbc.datasource.AbstractDriverBasedDataSource :"org.springframework.jdbc.datasource":"DriverManagerDataSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~DriverManagerDataSource~~getConnectionFromDriver~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~util~Properties^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~DriverManagerDataSource~~getConnectionFromDriverManager~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~lang~String^Ljava~util~Properties^~throws;
+ :public: :void: org~springframework~jdbc~datasource~DriverManagerDataSource~~init^~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^ ( org.springframework.jdbc.datasource.DriverManagerDataSource :*: ) :  "DriverManagerDataSource" ;
+:public: :void: org~springframework~jdbc~datasource~DriverManagerDataSource~~init^~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~lang~String^ ( org.springframework.jdbc.datasource.DriverManagerDataSource :*: , java.lang.String :*: ) :  "DriverManagerDataSource" ;
+:public: :void: org~springframework~jdbc~datasource~DriverManagerDataSource~~init^~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~lang~String^Ljava~util~Properties^ ( org.springframework.jdbc.datasource.DriverManagerDataSource :*: , java.lang.String :*: , java.util.Properties :*: ) :  "DriverManagerDataSource" ;
+:public: :void: org~springframework~jdbc~datasource~DriverManagerDataSource~~init^~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( org.springframework.jdbc.datasource.DriverManagerDataSource :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "DriverManagerDataSource" ;
+:public: :void: org~springframework~jdbc~datasource~DriverManagerDataSource~~setDriverClassName~Lorg~springframework~jdbc~datasource~DriverManagerDataSource^Ljava~lang~String^ ( org.springframework.jdbc.datasource.DriverManagerDataSource :*: , java.lang.String :*: ) :  "setDriverClassName" ;
+}
+	
+:class: var :extends: java.lang.Object :"org.owasp.webwolf":"var"{
+	
+}
+	
+:public::class: java.net.Socket :extends: java.lang.Object java.io.Closeable :"java.net":"Socket"{
+	
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~init^~Ljava~net~Socket^Ljava~net~SocketImpl^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~init^~Ljava~net~Socket^Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~init^~Ljava~net~Socket^Ljava~net~InetAddress^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~init^~Ljava~net~Socket^Ljava~lang~String^I^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~init^~Ljava~net~Socket^Ljava~net~InetAddress^I^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~init^~Ljava~net~Socket^Ljava~net~SocketAddress^Ljava~net~SocketAddress^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~init^~Ljava~net~Socket^Ljava~lang~String^I^Ljava~net~InetAddress^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~init^~Ljava~net~Socket^Ljava~net~InetAddress^I^Ljava~net~InetAddress^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~bind~Ljava~net~Socket^Ljava~net~SocketAddress^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~close~Ljava~net~Socket^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~connect~Ljava~net~Socket^Ljava~net~SocketAddress^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~connect~Ljava~net~Socket^Ljava~net~SocketAddress^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~createImpl~Ljava~net~Socket^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~getImpl~Ljava~net~Socket^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~getInputStream~Ljava~net~Socket^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~getKeepAlive~Ljava~net~Socket^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~getOOBInline~Ljava~net~Socket^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~getOutputStream~Ljava~net~Socket^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~getReceiveBufferSize~Ljava~net~Socket^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~getReuseAddress~Ljava~net~Socket^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~getSendBufferSize~Ljava~net~Socket^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~getSoLinger~Ljava~net~Socket^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~getSoTimeout~Ljava~net~Socket^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~getTcpNoDelay~Ljava~net~Socket^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~getTrafficClass~Ljava~net~Socket^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~sendUrgentData~Ljava~net~Socket^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~setKeepAlive~Ljava~net~Socket^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~setOOBInline~Ljava~net~Socket^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~setReceiveBufferSize~Ljava~net~Socket^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~setReuseAddress~Ljava~net~Socket^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~setSendBufferSize~Ljava~net~Socket^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~setSoLinger~Ljava~net~Socket^Z^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~setSoTimeout~Ljava~net~Socket^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~setSocketImplFactory~S~Ljava~net~SocketImplFactory^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~setTcpNoDelay~Ljava~net~Socket^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~setTrafficClass~Ljava~net~Socket^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~shutdownInput~Ljava~net~Socket^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~Socket~~shutdownOutput~Ljava~net~Socket^~throws;
+ :public: :void: java~net~Socket~~init^~Ljava~net~Socket^ ( java.net.Socket :*: ) :  "Socket" ;
+:public: :void: java~net~Socket~~init^~Ljava~net~Socket^Ljava~net~Proxy^ ( java.net.Socket :*: , java.net.Proxy :*: ) :  "Socket" ;
+:protected: :void: java~net~Socket~~init^~Ljava~net~Socket^Ljava~net~SocketImpl^ ( java.net.Socket :*: , java.net.SocketImpl :*: ) :  "Socket"  :exceptions:  java.net.SocketException :*: ;
+:public: :void: java~net~Socket~~init^~Ljava~net~Socket^Ljava~lang~String^I^ ( java.net.Socket :*: , java.lang.String :*: , :int: ) :  "Socket"  :exceptions:  java.net.UnknownHostException :*: ,  java.io.IOException :*: ;
+:public: :void: java~net~Socket~~init^~Ljava~net~Socket^Ljava~net~InetAddress^I^ ( java.net.Socket :*: , java.net.InetAddress :*: , :int: ) :  "Socket"  :exceptions:  java.io.IOException :*: ;
+:public: :void: java~net~Socket~~init^~Ljava~net~Socket^Ljava~lang~String^I^Z^ ( java.net.Socket :*: , java.lang.String :*: , :int: , :boolean: ) :  "Socket"  :exceptions:  java.io.IOException :*: ;
+:public: :void: java~net~Socket~~init^~Ljava~net~Socket^Ljava~net~InetAddress^I^Z^ ( java.net.Socket :*: , java.net.InetAddress :*: , :int: , :boolean: ) :  "Socket"  :exceptions:  java.io.IOException :*: ;
+:private: :void: java~net~Socket~~init^~Ljava~net~Socket^Ljava~net~SocketAddress^Ljava~net~SocketAddress^Z^ ( java.net.Socket :*: , java.net.SocketAddress :*: , java.net.SocketAddress :*: , :boolean: ) :  "Socket"  :exceptions:  java.io.IOException :*: ;
+:public: :void: java~net~Socket~~init^~Ljava~net~Socket^Ljava~lang~String^I^Ljava~net~InetAddress^I^ ( java.net.Socket :*: , java.lang.String :*: , :int: , java.net.InetAddress :*: , :int: ) :  "Socket"  :exceptions:  java.io.IOException :*: ;
+:public: :void: java~net~Socket~~init^~Ljava~net~Socket^Ljava~net~InetAddress^I^Ljava~net~InetAddress^I^ ( java.net.Socket :*: , java.net.InetAddress :*: , :int: , java.net.InetAddress :*: , :int: ) :  "Socket"  :exceptions:  java.io.IOException :*: ;
+:public: :synchronized: :void: java~net~Socket~~close~Ljava~net~Socket^ ( java.net.Socket :*: ) :  "close"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+:public: :final: :synchronized: :void: java~lang~Throwable~~addSuppressed~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "addSuppressed" ;
+}
+	
+:public: :interface::class: java.lang.AutoCloseable :extends: java.lang.Object :"java.lang":"AutoCloseable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^~throws;
+ :public: :abstract: :void: java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^ ( java.lang.AutoCloseable :*: ) :  "close"  :exceptions:  java.lang.Exception :*: ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+ :public: :abstract: :boolean: java~lang~annotation~Annotation~~equals~Ljava~lang~annotation~Annotation^Ljava~lang~Object^ ( java.lang.annotation.Annotation :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+}
+	
+ :public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: :boolean: java~nio~charset~Charset~~equals~Ljava~nio~charset~Charset^Ljava~lang~Object^ ( java.nio.charset.Charset :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :interface::class: java.util.Map :extends: java.lang.Object :"java.util":"Map"{
+	
+ :public: :abstract: :boolean: java~util~Map~~equals~Ljava~util~Map^Ljava~lang~Object^ ( java.util.Map :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :abstract::class: java.lang.Number :extends: java.lang.Object java.io.Serializable :"java.lang":"Number"{
+	
+ :public: :void: java~lang~Number~~init^~Ljava~lang~Number^ ( java.lang.Number :*: ) :  "Number" ;
+}
+	
+:public::class: java.lang.NumberFormatException :extends: java.lang.IllegalArgumentException :"java.lang":"NumberFormatException"{
+	
+ :public: :void: java~lang~NumberFormatException~~init^~Ljava~lang~NumberFormatException^ ( java.lang.NumberFormatException :*: ) :  "NumberFormatException" ;
+:public: :void: java~lang~NumberFormatException~~init^~Ljava~lang~NumberFormatException^Ljava~lang~String^ ( java.lang.NumberFormatException :*: , java.lang.String :*: ) :  "NumberFormatException" ;
+}
+	
+:public::class: java.io.FilterOutputStream :extends: java.io.OutputStream :"java.io":"FilterOutputStream"{
+	
+ :protected: java.io.OutputStream :*: out;
+ :public: :static: java.lang.Throwable :*: java~io~FilterOutputStream~~close~Ljava~io~FilterOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~FilterOutputStream~~flush~Ljava~io~FilterOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~FilterOutputStream~~write~Ljava~io~FilterOutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~FilterOutputStream~~write~Ljava~io~FilterOutputStream^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~FilterOutputStream~~write~Ljava~io~FilterOutputStream^?B^I^I^~throws;
+ :public: :void: java~io~FilterOutputStream~~init^~Ljava~io~FilterOutputStream^Ljava~io~OutputStream^ ( java.io.FilterOutputStream :*: , java.io.OutputStream :*: ) :  "FilterOutputStream" ;
+:public: :void: java~io~FilterOutputStream~~close~Ljava~io~FilterOutputStream^ ( java.io.FilterOutputStream :*: ) :  "close"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public: :interface::class: java.io.Closeable :extends: java.lang.AutoCloseable :"java.io":"Closeable"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~Closeable~~close~Ljava~io~Closeable^~throws;
+ :public: :abstract: :void: java~io~Closeable~~close~Ljava~io~Closeable^ ( java.io.Closeable :*: ) :  "close"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public: :abstract::class: java.io.OutputStream :extends: java.lang.Object java.io.Closeable java.io.Flushable :"java.io":"OutputStream"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~OutputStream~~close~Ljava~io~OutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~OutputStream~~flush~Ljava~io~OutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~OutputStream~~write~Ljava~io~OutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~OutputStream~~write~Ljava~io~OutputStream^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~OutputStream~~write~Ljava~io~OutputStream^?B^I^I^~throws;
+ :public: :void: java~io~OutputStream~~init^~Ljava~io~OutputStream^ ( java.io.OutputStream :*: ) :  "OutputStream" ;
+:public: :void: java~io~OutputStream~~close~Ljava~io~OutputStream^ ( java.io.OutputStream :*: ) :  "close"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public::class: java.io.FileNotFoundException :extends: java.io.IOException :"java.io":"FileNotFoundException"{
+	
+ :public: :void: java~io~FileNotFoundException~~init^~Ljava~io~FileNotFoundException^ ( java.io.FileNotFoundException :*: ) :  "FileNotFoundException" ;
+:public: :void: java~io~FileNotFoundException~~init^~Ljava~io~FileNotFoundException^Ljava~lang~String^ ( java.io.FileNotFoundException :*: , java.lang.String :*: ) :  "FileNotFoundException" ;
+:private: :void: java~io~FileNotFoundException~~init^~Ljava~io~FileNotFoundException^Ljava~lang~String^Ljava~lang~String^ ( java.io.FileNotFoundException :*: , java.lang.String :*: , java.lang.String :*: ) :  "FileNotFoundException" ;
+}
+	
+:public::class: java.io.File :extends: java.lang.Object java.io.Serializable java.lang.Comparable :"java.io":"File"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~File~~createNewFile~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~createTempFile~S~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~createTempFile~S~Ljava~lang~String^Ljava~lang~String^Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~getCanonicalFile~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~getCanonicalPath~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~readObject~Ljava~io~File^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~toURL~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~writeObject~Ljava~io~File^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^ ( java.io.File :*: , java.lang.String :*: ) :  "File" ;
+:public: :void: java~io~File~~init^~Ljava~io~File^Ljava~net~URI^ ( java.io.File :*: , java.net.URI :*: ) :  "File" ;
+:private: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^I^ ( java.io.File :*: , java.lang.String :*: , :int: ) :  "File" ;
+:private: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^Ljava~io~File^ ( java.io.File :*: , java.lang.String :*: , java.io.File :*: ) :  "File" ;
+:public: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^Ljava~lang~String^ ( java.io.File :*: , java.lang.String :*: , java.lang.String :*: ) :  "File" ;
+:public: :void: java~io~File~~init^~Ljava~io~File^Ljava~io~File^Ljava~lang~String^ ( java.io.File :*: , java.io.File :*: , java.lang.String :*: ) :  "File" ;
+:public: :boolean: java~io~File~~equals~Ljava~io~File^Ljava~lang~Object^ ( java.io.File :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :interface::class: java.lang.reflect.GenericDeclaration :extends: java.lang.reflect.AnnotatedElement :"java.lang.reflect":"GenericDeclaration"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.Type :extends: java.lang.Object :"java.lang.reflect":"Type"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.AnnotatedElement :extends: java.lang.Object :"java.lang.reflect":"AnnotatedElement"{
+	
+}
+	
+ :public: :abstract::class: java.lang.ClassLoader :extends: java.lang.Object :"java.lang":"ClassLoader"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~nio~ByteBuffer^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~definePackage~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findSystemClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getBootstrapResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getSystemResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClassInternal~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:private: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~Void^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.Void :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+}
+	
+:public: :interface::class: org.springframework.core.io.ResourceLoader :extends: java.lang.Object :"org.springframework.core.io":"ResourceLoader"{
+	
+}
+	
+ :public: :interface::class: org.springframework.context.ApplicationContext :extends: org.springframework.core.env.EnvironmentCapable org.springframework.beans.factory.ListableBeanFactory org.springframework.beans.factory.HierarchicalBeanFactory org.springframework.context.MessageSource org.springframework.context.ApplicationEventPublisher org.springframework.core.io.support.ResourcePatternResolver :"org.springframework.context":"ApplicationContext"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~ApplicationContext~~getAutowireCapableBeanFactory~Lorg~springframework~context~ApplicationContext^~throws;
+}
+	
+ :public: :interface::class: org.springframework.boot.ExitCodeGenerator :extends: java.lang.Object :"org.springframework.boot":"ExitCodeGenerator"{
+	
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public: :interface::class: org.springframework.context.ConfigurableApplicationContext :extends: org.springframework.context.ApplicationContext org.springframework.context.Lifecycle java.io.Closeable :"org.springframework.context":"ConfigurableApplicationContext"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~ConfigurableApplicationContext~~getBeanFactory~Lorg~springframework~context~ConfigurableApplicationContext^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~ConfigurableApplicationContext~~refresh~Lorg~springframework~context~ConfigurableApplicationContext^~throws;
+ :public: :abstract: :void: org~springframework~context~ConfigurableApplicationContext~~close~Lorg~springframework~context~ConfigurableApplicationContext^ ( org.springframework.context.ConfigurableApplicationContext :*: ) :  "close" ;
+}
+	
+:public: :interface::class: javax.sql.CommonDataSource :extends: java.lang.Object :"javax.sql":"CommonDataSource"{
+	
+ :public: :static: java.lang.Throwable :*: javax~sql~CommonDataSource~~getLogWriter~Ljavax~sql~CommonDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: javax~sql~CommonDataSource~~getLoginTimeout~Ljavax~sql~CommonDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: javax~sql~CommonDataSource~~getParentLogger~Ljavax~sql~CommonDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: javax~sql~CommonDataSource~~setLogWriter~Ljavax~sql~CommonDataSource^Ljava~io~PrintWriter^~throws;
+ :public: :static: java.lang.Throwable :*: javax~sql~CommonDataSource~~setLoginTimeout~Ljavax~sql~CommonDataSource^I^~throws;
+}
+	
+ :public: :interface::class: java.sql.Wrapper :extends: java.lang.Object :"java.sql":"Wrapper"{
+	
+ :public: :static: java.lang.Throwable :*: java~sql~Wrapper~~isWrapperFor~Ljava~sql~Wrapper^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Wrapper~~unwrap~Ljava~sql~Wrapper^Ljava~lang~Class^~throws;
+}
+	
+ :public: :abstract::class: org.springframework.jdbc.datasource.AbstractDriverBasedDataSource :extends: org.springframework.jdbc.datasource.AbstractDataSource :"org.springframework.jdbc.datasource":"AbstractDriverBasedDataSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDriverBasedDataSource~~getConnection~Lorg~springframework~jdbc~datasource~AbstractDriverBasedDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDriverBasedDataSource~~getConnection~Lorg~springframework~jdbc~datasource~AbstractDriverBasedDataSource^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDriverBasedDataSource~~getConnectionFromDriver~Lorg~springframework~jdbc~datasource~AbstractDriverBasedDataSource^Ljava~util~Properties^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDriverBasedDataSource~~getConnectionFromDriver~Lorg~springframework~jdbc~datasource~AbstractDriverBasedDataSource^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: org~springframework~jdbc~datasource~AbstractDriverBasedDataSource~~init^~Lorg~springframework~jdbc~datasource~AbstractDriverBasedDataSource^ ( org.springframework.jdbc.datasource.AbstractDriverBasedDataSource :*: ) :  "AbstractDriverBasedDataSource" ;
+}
+	
+:public::class: java.util.Properties :extends: java.util.Hashtable :"java.util":"Properties"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~load~Ljava~util~Properties^Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~load~Ljava~util~Properties^Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~load0~Ljava~util~Properties^Ljava~util~Properties$LineReader^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~loadFromXML~Ljava~util~Properties^Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~store~Ljava~util~Properties^Ljava~io~Writer^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~store~Ljava~util~Properties^Ljava~io~OutputStream^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~store0~Ljava~util~Properties^Ljava~io~BufferedWriter^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~storeToXML~Ljava~util~Properties^Ljava~io~OutputStream^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~storeToXML~Ljava~util~Properties^Ljava~io~OutputStream^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Properties~~writeComments~S~Ljava~io~BufferedWriter^Ljava~lang~String^~throws;
+ :public: :void: java~util~Properties~~init^~Ljava~util~Properties^ ( java.util.Properties :*: ) :  "Properties" ;
+:public: :void: java~util~Properties~~init^~Ljava~util~Properties^Ljava~util~Properties^ ( java.util.Properties :*: , java.util.Properties :*: ) :  "Properties" ;
+:public: java.lang.String :*: java~util~Properties~~getProperty~Ljava~util~Properties^Ljava~lang~String^ ( java.util.Properties :*: , java.lang.String :*: ) :  "getProperty" ;
+:public: java.lang.String :*: java~util~Properties~~getProperty~Ljava~util~Properties^Ljava~lang~String^Ljava~lang~String^ ( java.util.Properties :*: , java.lang.String :*: , java.lang.String :*: ) :  "getProperty" ;
+:public: :synchronized: java.lang.Object :*: java~util~Properties~~setProperty~Ljava~util~Properties^Ljava~lang~String^Ljava~lang~String^ ( java.util.Properties :*: , java.lang.String :*: , java.lang.String :*: ) :  "setProperty" ;
+}
+	
+:public::class: java.net.Proxy :extends: java.lang.Object :"java.net":"Proxy"{
+	
+ :private: :void: java~net~Proxy~~init^~Ljava~net~Proxy^ ( java.net.Proxy :*: ) :  "Proxy" ;
+:public: :void: java~net~Proxy~~init^~Ljava~net~Proxy^Ljava~net~Proxy$Type^Ljava~net~SocketAddress^ ( java.net.Proxy :*: , java.net.Proxy$Type :*: , java.net.SocketAddress :*: ) :  "Proxy" ;
+:public: :final: :boolean: java~net~Proxy~~equals~Ljava~net~Proxy^Ljava~lang~Object^ ( java.net.Proxy :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :abstract::class: java.net.SocketImpl :extends: java.lang.Object java.net.SocketOptions :"java.net":"SocketImpl"{
+	
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~accept~Ljava~net~SocketImpl^Ljava~net~SocketImpl^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~available~Ljava~net~SocketImpl^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~bind~Ljava~net~SocketImpl^Ljava~net~InetAddress^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~close~Ljava~net~SocketImpl^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~connect~Ljava~net~SocketImpl^Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~connect~Ljava~net~SocketImpl^Ljava~net~InetAddress^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~connect~Ljava~net~SocketImpl^Ljava~net~SocketAddress^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~create~Ljava~net~SocketImpl^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~getInputStream~Ljava~net~SocketImpl^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~getOption~Ljava~net~SocketImpl^Ljava~net~SocketOption^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~getOutputStream~Ljava~net~SocketImpl^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~listen~Ljava~net~SocketImpl^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~reset~Ljava~net~SocketImpl^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~sendUrgentData~Ljava~net~SocketImpl^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~setOption~Ljava~net~SocketImpl^Ljava~net~SocketOption^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~shutdownInput~Ljava~net~SocketImpl^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketImpl~~shutdownOutput~Ljava~net~SocketImpl^~throws;
+ :public: :void: java~net~SocketImpl~~init^~Ljava~net~SocketImpl^ ( java.net.SocketImpl :*: ) :  "SocketImpl" ;
+:protected: :abstract: :void: java~net~SocketImpl~~close~Ljava~net~SocketImpl^ ( java.net.SocketImpl :*: ) :  "close"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public::class: java.net.SocketException :extends: java.io.IOException :"java.net":"SocketException"{
+	
+ :public: :void: java~net~SocketException~~init^~Ljava~net~SocketException^ ( java.net.SocketException :*: ) :  "SocketException" ;
+:public: :void: java~net~SocketException~~init^~Ljava~net~SocketException^Ljava~lang~String^ ( java.net.SocketException :*: , java.lang.String :*: ) :  "SocketException" ;
+}
+	
+:public::class: java.net.UnknownHostException :extends: java.io.IOException :"java.net":"UnknownHostException"{
+	
+ :public: :void: java~net~UnknownHostException~~init^~Ljava~net~UnknownHostException^ ( java.net.UnknownHostException :*: ) :  "UnknownHostException" ;
+:public: :void: java~net~UnknownHostException~~init^~Ljava~net~UnknownHostException^Ljava~lang~String^ ( java.net.UnknownHostException :*: , java.lang.String :*: ) :  "UnknownHostException" ;
+}
+	
+:public::class: java.net.InetAddress :extends: java.lang.Object java.io.Serializable :"java.net":"InetAddress"{
+	
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~checkNumericZone~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~getAddressesFromNameService~S~Ljava~lang~String^Ljava~net~InetAddress^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~getAllByName~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~getAllByName~S~Ljava~lang~String^Ljava~net~InetAddress^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~getAllByName0~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~getAllByName0~S~Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~getAllByName0~S~Ljava~lang~String^Ljava~net~InetAddress^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~getByAddress~S~?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~getByAddress~S~Ljava~lang~String^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~getByName~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~getByName~S~Ljava~lang~String^Ljava~net~InetAddress^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~getLocalHost~S~~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~isReachable~Ljava~net~InetAddress^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~isReachable~Ljava~net~InetAddress^Ljava~net~NetworkInterface^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~readObject~Ljava~net~InetAddress^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~readObjectNoData~Ljava~net~InetAddress^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~readResolve~Ljava~net~InetAddress^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~InetAddress~~writeObject~Ljava~net~InetAddress^Ljava~io~ObjectOutputStream^~throws;
+ :void: java~net~InetAddress~~init^~Ljava~net~InetAddress^ ( java.net.InetAddress :*: ) :  "InetAddress" ;
+:public: :boolean: java~net~InetAddress~~equals~Ljava~net~InetAddress^Ljava~lang~Object^ ( java.net.InetAddress :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :abstract::class: java.net.SocketAddress :extends: java.lang.Object java.io.Serializable :"java.net":"SocketAddress"{
+	
+ :public: :void: java~net~SocketAddress~~init^~Ljava~net~SocketAddress^ ( java.net.SocketAddress :*: ) :  "SocketAddress" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :char: [] value;
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+}
+	
+:public::class: java.lang.IllegalArgumentException :extends: java.lang.RuntimeException :"java.lang":"IllegalArgumentException"{
+	
+ :public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^ ( java.lang.IllegalArgumentException :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+}
+	
+:public: :interface::class: java.io.Flushable :extends: java.lang.Object :"java.io":"Flushable"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~Flushable~~flush~Ljava~io~Flushable^~throws;
+}
+	
+ :public: :final::class: java.net.URI :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.net":"URI"{
+	
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~checkPath~S~Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~parseServerAuthority~Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~readObject~Ljava~net~URI^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~toURL~Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~writeObject~Ljava~net~URI^Ljava~io~ObjectOutputStream^~throws;
+ :private: :void: java~net~URI~~init^~Ljava~net~URI^ ( java.net.URI :*: ) :  "URI" ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , :int: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :boolean: java~net~URI~~equals~Ljava~net~URI^Ljava~lang~Object^ ( java.net.URI :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :final::class: java.lang.Void :extends: java.lang.Object :"java.lang":"Void"{
+	
+ :private: :void: java~lang~Void~~init^~Ljava~lang~Void^ ( java.lang.Void :*: ) :  "Void" ;
+}
+	
+:public: :interface::class: org.springframework.core.env.EnvironmentCapable :extends: java.lang.Object :"org.springframework.core.env":"EnvironmentCapable"{
+	
+}
+	
+ :public: :interface::class: org.springframework.beans.factory.ListableBeanFactory :extends: org.springframework.beans.factory.BeanFactory :"org.springframework.beans.factory":"ListableBeanFactory"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~ListableBeanFactory~~findAnnotationOnBean~Lorg~springframework~beans~factory~ListableBeanFactory^Ljava~lang~String^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~ListableBeanFactory~~getBeansOfType~Lorg~springframework~beans~factory~ListableBeanFactory^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~ListableBeanFactory~~getBeansOfType~Lorg~springframework~beans~factory~ListableBeanFactory^Ljava~lang~Class^Z^Z^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~ListableBeanFactory~~getBeansWithAnnotation~Lorg~springframework~beans~factory~ListableBeanFactory^Ljava~lang~Class^~throws;
+}
+	
+ :public: :interface::class: org.springframework.beans.factory.HierarchicalBeanFactory :extends: org.springframework.beans.factory.BeanFactory :"org.springframework.beans.factory":"HierarchicalBeanFactory"{
+	
+}
+	
+ :public: :interface::class: org.springframework.context.MessageSource :extends: java.lang.Object :"org.springframework.context":"MessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^~throws;
+}
+	
+ :public: :interface::class: org.springframework.context.ApplicationEventPublisher :extends: java.lang.Object :"org.springframework.context":"ApplicationEventPublisher"{
+	
+}
+	
+ :public: :interface::class: org.springframework.core.io.support.ResourcePatternResolver :extends: org.springframework.core.io.ResourceLoader :"org.springframework.core.io.support":"ResourcePatternResolver"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~core~io~support~ResourcePatternResolver~~getResources~Lorg~springframework~core~io~support~ResourcePatternResolver^Ljava~lang~String^~throws;
+}
+	
+ :public: :interface::class: org.springframework.context.Lifecycle :extends: java.lang.Object :"org.springframework.context":"Lifecycle"{
+	
+}
+	
+ :public: :abstract::class: org.springframework.jdbc.datasource.AbstractDataSource :extends: java.lang.Object javax.sql.DataSource :"org.springframework.jdbc.datasource":"AbstractDataSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDataSource~~getLoginTimeout~Lorg~springframework~jdbc~datasource~AbstractDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDataSource~~isWrapperFor~Lorg~springframework~jdbc~datasource~AbstractDataSource^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDataSource~~setLogWriter~Lorg~springframework~jdbc~datasource~AbstractDataSource^Ljava~io~PrintWriter^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDataSource~~setLoginTimeout~Lorg~springframework~jdbc~datasource~AbstractDataSource^I^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~jdbc~datasource~AbstractDataSource~~unwrap~Lorg~springframework~jdbc~datasource~AbstractDataSource^Ljava~lang~Class^~throws;
+ :public: :void: org~springframework~jdbc~datasource~AbstractDataSource~~init^~Lorg~springframework~jdbc~datasource~AbstractDataSource^ ( org.springframework.jdbc.datasource.AbstractDataSource :*: ) :  "AbstractDataSource" ;
+}
+	
+:public::class: java.util.Hashtable :extends: java.util.Dictionary java.util.Map java.lang.Cloneable java.io.Serializable :"java.util":"Hashtable"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~Hashtable~~readObject~Ljava~util~Hashtable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Hashtable~~reconstitutionPut~Ljava~util~Hashtable^?Ljava~util~Hashtable$Entry^Ljava~lang~Object^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Hashtable~~writeObject~Ljava~util~Hashtable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~util~Hashtable~~init^~Ljava~util~Hashtable^ ( java.util.Hashtable :*: ) :  "Hashtable" ;
+:public: :void: java~util~Hashtable~~init^~Ljava~util~Hashtable^I^ ( java.util.Hashtable :*: , :int: ) :  "Hashtable" ;
+:public: :void: java~util~Hashtable~~init^~Ljava~util~Hashtable^Ljava~util~Map^ ( java.util.Hashtable :*: , java.util.Map :*: ) :  "Hashtable" ;
+:public: :void: java~util~Hashtable~~init^~Ljava~util~Hashtable^I^F^ ( java.util.Hashtable :*: , :int: , :float: ) :  "Hashtable" ;
+:public: :synchronized: :boolean: java~util~Hashtable~~equals~Ljava~util~Hashtable^Ljava~lang~Object^ ( java.util.Hashtable :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :final: :static: :enum::class: java.net.Proxy$Type :extends: java.lang.Enum java.lang.Enum :"java.net":"Proxy$Type"{
+	
+ :private: :void: java~net~Proxy$Type~~init^~Ljava~net~Proxy$Type^ ( java.net.Proxy$Type :*: ) :  "Type" ;
+}
+	
+:public: :interface::class: java.net.SocketOptions :extends: java.lang.Object :"java.net":"SocketOptions"{
+	
+ :public: :static: java.lang.Throwable :*: java~net~SocketOptions~~getOption~Ljava~net~SocketOptions^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~SocketOptions~~setOption~Ljava~net~SocketOptions^I^Ljava~lang~Object^~throws;
+}
+	
+ :public::class: java.lang.RuntimeException :extends: java.lang.Exception :"java.lang":"RuntimeException"{
+	
+ :public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^ ( java.lang.RuntimeException :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^ ( java.lang.RuntimeException :*: , java.lang.String :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:protected: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "RuntimeException" ;
+}
+	
+:public::class: java.net.URISyntaxException :extends: java.lang.Exception :"java.net":"URISyntaxException"{
+	
+ :public: :void: java~net~URISyntaxException~~init^~Ljava~net~URISyntaxException^Ljava~lang~String^Ljava~lang~String^ ( java.net.URISyntaxException :*: , java.lang.String :*: , java.lang.String :*: ) :  "URISyntaxException" ;
+:public: :void: java~net~URISyntaxException~~init^~Ljava~net~URISyntaxException^Ljava~lang~String^Ljava~lang~String^I^ ( java.net.URISyntaxException :*: , java.lang.String :*: , java.lang.String :*: , :int: ) :  "URISyntaxException" ;
+}
+	
+:public: :interface::class: org.springframework.beans.factory.BeanFactory :extends: java.lang.Object :"org.springframework.beans.factory":"BeanFactory"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~getBean~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~getBean~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~getBean~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~getBean~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~getBean~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~Class^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~getType~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~getType~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~isPrototype~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~isSingleton~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~isTypeMatch~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^Lorg~springframework~core~ResolvableType^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~isTypeMatch~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^Ljava~lang~Class^~throws;
+}
+	
+ :public: :abstract::class: java.util.Dictionary :extends: java.lang.Object :"java.util":"Dictionary"{
+	
+ :public: :void: java~util~Dictionary~~init^~Ljava~util~Dictionary^ ( java.util.Dictionary :*: ) :  "Dictionary" ;
+}
+	
+:public: :interface::class: java.lang.Cloneable :extends: java.lang.Object :"java.lang":"Cloneable"{
+	
+}
+	
+ :public: :abstract::class: java.lang.Enum :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.lang":"Enum"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~clone~Ljava~lang~Enum^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObject~Ljava~lang~Enum^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObjectNoData~Ljava~lang~Enum^~throws;
+ :protected: :void: java~lang~Enum~~init^~Ljava~lang~Enum^Ljava~lang~String^I^ ( java.lang.Enum :*: , java.lang.String :*: , :int: ) :  "Enum" ;
+:public: :final: :boolean: java~lang~Enum~~equals~Ljava~lang~Enum^Ljava~lang~Object^ ( java.lang.Enum :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	

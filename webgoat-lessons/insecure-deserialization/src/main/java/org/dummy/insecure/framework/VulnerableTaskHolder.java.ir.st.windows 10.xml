@@ -1,0 +1,1581 @@
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+#source-type java
+
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 13
+ #14# :public::class: org.dummy.insecure.framework.VulnerableTaskHolder :extends: java.io.Serializable java.lang.Object :"org.dummy.insecure.framework":"VulnerableTaskHolder"
+	:[[: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 12
+ #1# {
+}
+
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #1# 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #1# < lombok.extern.slf4j.Slf4j :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #1# :private: :final: :static: org.slf4j.Logger :*: log;
+ 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 19
+ #24# :private: java.time.LocalDateTime :*: requestedExecutionTime;
+ 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 15
+ #28# :private: :final: :static: :long: serialVersionUID :=:  < :long: > 2;
+ 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 18
+ #17# :private: java.lang.String :*: taskAction;
+ 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 17
+ #17# :private: java.lang.String :*: taskName;
+ :public: :static: java.lang.Throwable :*: org~dummy~insecure~framework~VulnerableTaskHolder~~readObject~Lorg~dummy~insecure~framework~VulnerableTaskHolder^Ljava~io~ObjectInputStream^~throws;
+ 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 29
+ #16# :public: java.lang.String :*: org~dummy~insecure~framework~VulnerableTaskHolder~~toString~Lorg~dummy~insecure~framework~VulnerableTaskHolder^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #16# org.dummy.insecure.framework.VulnerableTaskHolder :*: this~ ) :  "toString"
+	:[[: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 28
+ #2# {
+}
+
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #2# 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #2# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 29
+ #27# {
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 31
+ #7# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	__toString____L__~tool~generated~ :
+	:if: ( ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: requestedExecutionTime :==: :null: ) ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	{
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 		~t0 :=: "null" ;
+	}
+	:else: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	{
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 		~t0 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 		-~> java~time~LocalDateTime~~toString~Ljava~time~LocalDateTime^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 		[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: requestedExecutionTime ) ;
+	}
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 30
+ #3# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	~t1 :=: ( ( ( ( ( ( "VulnerableTaskHolder [taskName=" :+: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #46# 	[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: taskName ) :+: ", taskAction=" ) :+: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #75# 	[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: taskAction ) :+: ", requestedExecutionTime=" ) :+: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 31
+ #7# 	~t0 ) :+: "]" ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 30
+ #3# 	:return: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	~t1 ;
+
+#source-line 32
+}
+
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 38
+ #15# :private: :void: org~dummy~insecure~framework~VulnerableTaskHolder~~readObject~Lorg~dummy~insecure~framework~VulnerableTaskHolder^Ljava~io~ObjectInputStream^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #15# org.dummy.insecure.framework.VulnerableTaskHolder :*: this~ , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #45# java.io.ObjectInputStream :*: stream ) :  "readObject"  :exceptions:  java.lang.Exception :*: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #71# {
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 40
+ #3# 	__throwingcall_1 :
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	-~> java~io~ObjectInputStream~~defaultReadObject~Ljava~io~ObjectInputStream^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	stream ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	{
+		[ org.dummy.insecure.framework.VulnerableTaskHolder ] org~dummy~insecure~framework~VulnerableTaskHolder~~readObject~Lorg~dummy~insecure~framework~VulnerableTaskHolder^Ljava~io~ObjectInputStream^~throws :=: < java.io.IOException :*: > :null: ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 		__caught__throwingcall_1 :
+		 :throw:  < java.io.IOException :*: > :null: ;
+	}
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 43
+ #12# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #12# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #12# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #12# 	~t0 :=: "restoring task: {}" ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	-~> org~slf4j~Logger~~info~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	[ org.dummy.insecure.framework.VulnerableTaskHolder ] log , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #12# 	~t0 , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #34# 	[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: taskName ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 44
+ #12# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #12# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #12# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #12# 	~t1 :=: "restoring time: {}" ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	-~> org~slf4j~Logger~~info~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	[ org.dummy.insecure.framework.VulnerableTaskHolder ] log , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #12# 	~t1 , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #34# 	[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: requestedExecutionTime ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 46
+ #7# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	:boolean: ~t2 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	~t2 :=: :false: ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	:if: ( ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: requestedExecutionTime :!=: :null: ) ) {
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 47
+ #6# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #6# 		:boolean: ~t3 ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #6# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #6# 		~t3 :=: :true: ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #38# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #38# 		java.time.LocalDateTime :*: ~t4 ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #38# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #38# 		~t4 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #38# 		-~> java~time~LocalDateTime~~now~S~ ( ) ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #71# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #71# 		:int: ~t5 ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #71# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #71# 		~t5 :=: < :int: >10 ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #38# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #38# 		java.time.LocalDateTime :*: ~t6 ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #38# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #38# 		~t6 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #38# 		-~> java~time~LocalDateTime~~minusMinutes~Ljava~time~LocalDateTime^J^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #38# 		~t4 , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #71# 		~t5 ) ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #6# 		:if: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #6# 		-~> java~time~LocalDateTime~~isBefore~Ljava~time~LocalDateTime^Ljava~time~chrono~ChronoLocalDateTime^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #6# 		[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: requestedExecutionTime , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #38# 		~t6 ) ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #6# 		{
+		}
+		:else: {
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 48
+ #39# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #39# 			java.time.LocalDateTime :*: ~t7 ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #39# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #39# 			~t7 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #39# 			-~> java~time~LocalDateTime~~now~S~ ( ) ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 			:if: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 			-~> java~time~LocalDateTime~~isAfter~Ljava~time~LocalDateTime^Ljava~time~chrono~ChronoLocalDateTime^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 			[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: requestedExecutionTime , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #39# 			~t7 ) ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 			{
+			}
+			:else: {
+				
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 47
+ #6# 				
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #6# 				~t3 :=: :false: ;
+				
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #6# 				:goto: F~~__L__~t3 ;
+			}
+		}
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #6# 		:goto: S~~__L__~t3 ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #5# 		F~~__L__~t3 :
+		:if: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #6# 		~t3 ) {
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 46
+ #7# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 			~t2 :=: :true: ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 			:goto: S~~__L__~t2 ;
+		}
+	}
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	:goto: F~~__L__~t2 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	F~~__L__~t2 :
+	:if: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	~t2 ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 48
+ #62# 	{
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 50
+ #14# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #14# 		java.lang.String :*: ~t8 ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #14# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #14# 		~t8 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #14# 		-~> org~dummy~insecure~framework~VulnerableTaskHolder~~toString~Lorg~dummy~insecure~framework~VulnerableTaskHolder^ ( this~ ) ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #4# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #4# 		-~> org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #4# 		[ org.dummy.insecure.framework.VulnerableTaskHolder ] log , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #14# 		~t8 ) ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 51
+ #10# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #10# 		java.lang.IllegalArgumentException :*: ~t9 ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #10# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #10# 		~t9 :=: :new: java.lang.IllegalArgumentException ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #10# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #10# 		-~> java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #10# 		~t9 , "outdated" ) ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #4# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #4# 		java.lang.IllegalArgumentException :*: ~t10 ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #4# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #4# 		~t10 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #10# 		~t9 ;
+		[ org.dummy.insecure.framework.VulnerableTaskHolder ] org~dummy~insecure~framework~VulnerableTaskHolder~~readObject~Lorg~dummy~insecure~framework~VulnerableTaskHolder^Ljava~io~ObjectInputStream^~throws :=: ~t10 ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #4# 		 :throw:  ~t10 ;
+
+#source-line 52
+	}
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 55
+ #7# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	:boolean: ~t11 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	~t11 :=: :false: ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 	:boolean: ~t12 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 	~t12 :=: :true: ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #30# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #30# 	java.lang.String :*: ~t13 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #30# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #30# 	~t13 :=: "sleep" ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 	:if: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 	-~> java~lang~String~~startsWith~Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 	[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: taskAction , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #30# 	~t13 ) ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 	{
+	}
+	:else: {
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #62# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #62# 		java.lang.String :*: ~t14 ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #62# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #62# 		~t14 :=: "ping" ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #40# 		:if: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #40# 		-~> java~lang~String~~startsWith~Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #40# 		[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: taskAction , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #62# 		~t14 ) ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #40# 		{
+		}
+		:else: {
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 			~t12 :=: :false: ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 			:goto: F~~__L__~t12 ;
+		}
+	}
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 	:goto: S~~__L__~t12 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	F~~__L__~t12 :
+	:if: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 	~t12 ) {
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 56
+ #8# 		:if: ( ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 		-~> java~lang~String~~length~Ljava~lang~String^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #8# 		[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: taskAction ) :<: < :int: >22 ) ) {
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 55
+ #7# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 			~t11 :=: :true: ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 			:goto: S~~__L__~t11 ;
+		}
+	}
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	:goto: F~~__L__~t11 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	F~~__L__~t11 :
+	:if: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #7# 	~t11 ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 56
+ #34# 	{
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 57
+ #12# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #12# 		java.lang.String :*: ~t15 ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #12# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #12# 		~t15 :=: "about to execute: {}" ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 		-~> org~slf4j~Logger~~info~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 		[ org.dummy.insecure.framework.VulnerableTaskHolder ] log , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #12# 		~t15 , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #36# 		[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: taskAction ) ;
+		java.lang.Throwable ~t~try~1 ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 58
+ #7# 		__try____L__2~bd5b42e1 :
+		{
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 59
+ #21# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #21# 			java.lang.Process :*: p ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #25# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #25# 			java.lang.Runtime :*: ~t16 ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #25# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #25# 			~t16 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #25# 			-~> java~lang~Runtime~~getRuntime~S~ ( ) ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #25# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #25# 			ANYTYPE ~t~j~1 ;
+			__throwingcall_2 :
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #25# 			~t~j~1 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #25# 			-~> java~lang~Runtime~~exec~Ljava~lang~Runtime^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #25# 			~t16 , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #51# 			[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: taskAction ) ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #25# 			{
+				
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #25# 				:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #25# 				{
+					~t~try~1 :=: [ java.lang.Runtime ] java~lang~Runtime~~exec~Ljava~lang~Runtime^Ljava~lang~String^~throws ;
+					__caught__throwingcall_2 :
+					:goto: __catch____L__3~bd5b42e1 ;
+				}
+			}
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #21# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #21# 			p :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #25# 			~t~j~1 ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 60
+ #28# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #28# 			java.io.BufferedReader :*: in ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #33# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #33# 			java.io.BufferedReader :*: ~t17 ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #33# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #33# 			~t17 :=: :new: java.io.BufferedReader ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 61
+ #33# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #33# 			java.io.InputStreamReader :*: ~t18 ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #33# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #33# 			~t18 :=: :new: java.io.InputStreamReader ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #33# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #33# 			-~> java~io~InputStreamReader~~init^~Ljava~io~InputStreamReader^Ljava~io~InputStream^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #33# 			~t18 , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #55# 			-~> java~lang~Process~~getInputStream~Ljava~lang~Process^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #55# 			p ) ) ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 60
+ #33# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #33# 			-~> java~io~BufferedReader~~init^~Ljava~io~BufferedReader^Ljava~io~Reader^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #33# 			~t17 , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 61
+ #33# 			~t18 ) ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 60
+ #28# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #28# 			in :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #33# 			~t17 ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 62
+ #20# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #20# 			java.lang.String :*: line ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #20# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #20# 			line :=: :null: ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 63
+ #13# 			__L__1~bd5b42e1 :
+			{
+				
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #28# 				
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #28# 				ANYTYPE ~t~j~2 ;
+				__throwingcall_3 :
+				
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #28# 				~t~j~2 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #28# 				-~> java~io~BufferedReader~~readLine~Ljava~io~BufferedReader^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #28# 				in ) ;
+				
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #28# 				{
+					
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #28# 					:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #28# 					{
+						~t~try~1 :=: [ java.io.BufferedReader ] java~io~BufferedReader~~readLine~Ljava~io~BufferedReader^~throws ;
+						__caught__throwingcall_3 :
+						:goto: __catch____L__3~bd5b42e1 ;
+					}
+				}
+				
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #21# 				
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #21# 				line :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #28# 				~t~j~2 ;
+				
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #13# 				__L__1~bd5b42e1c :
+				:while: ( ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #21# 				line :!=: :null: ) ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #52# 				{
+					
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 64
+ #17# 					
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #17# 					-~> org~slf4j~Logger~~info~Lorg~slf4j~Logger^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #17# 					[ org.dummy.insecure.framework.VulnerableTaskHolder ] log , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #26# 					line ) ;
+					
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 63
+ #13# 					__L__1~bd5b42e1c :
+					:goto: __L__1~bd5b42e1 ;
+
+#source-line 65
+				}
+			}
+			__L__1~bd5b42e1b :
+			;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 58
+ #7# 			:goto: __finally____L__0~bd5b42e1 ;
+
+#source-line 66
+		}
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #11# 		__catch____L__3~bd5b42e1 :
+		{
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #18# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #18# 			java.io.IOException :*: e ;
+			e :=: ~t~try~1 ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 67
+ #23# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #23# 			java.lang.String :*: ~t19 ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #23# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #23# 			~t19 :=: "IO Exception" ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #13# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #13# 			-~> org~slf4j~Logger~~error~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Throwable^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #13# 			[ org.dummy.insecure.framework.VulnerableTaskHolder ] log , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #23# 			~t19 , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #39# 			e ) ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 66
+ #11# 			:goto: __finally____L__0~bd5b42e1 ;
+
+#source-line 68
+		}
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 58
+ #3# 		__finally____L__0~bd5b42e1 :
+		{
+
+#source-line 68
+		}
+
+#source-line 69
+	}
+
+#source-line 71
+}
+
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 21
+ #9# :public: :void: org~dummy~insecure~framework~VulnerableTaskHolder~~init^~Lorg~dummy~insecure~framework~VulnerableTaskHolder^Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #9# org.dummy.insecure.framework.VulnerableTaskHolder :*: this~ , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #37# java.lang.String :*: taskName , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #54# java.lang.String :*: taskAction ) :  "init^" 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #9# {
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 22
+ #3# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 23
+ #3# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: taskName :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #19# 	taskName ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 24
+ #3# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: taskAction :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #21# 	taskAction ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 25
+ #3# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #3# 	[ org.dummy.insecure.framework.VulnerableTaskHolder ] ( this~ ) :.: requestedExecutionTime :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #33# 	-~> java~time~LocalDateTime~~now~S~ ( ) ;
+
+#source-line 21
+}
+
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 13
+ #14# :public: :static: :void: org~dummy~insecure~framework~VulnerableTaskHolder~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #14# {
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 12
+ #1# 	{
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #1# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #1# 		java.lang.Class :*: ~t0 ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #1# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #1# 		~t0 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #1# 		< java.lang.Class :*: > -~> ~classliteral ( < org.dummy.insecure.framework.VulnerableTaskHolder :*: > :null: ) ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #1# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #1# 		[ org.dummy.insecure.framework.VulnerableTaskHolder ] log :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #1# 		-~> org~slf4j~LoggerFactory~~getLogger~S~Ljava~lang~Class^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #1# 		~t0 ) ;
+	}
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+
+#source-line 15
+ #28# 	{
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #28# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\dummy\insecure\framework\VulnerableTaskHolder.java
+ #28# 		[ org.dummy.insecure.framework.VulnerableTaskHolder ] serialVersionUID :=: < :int: >2 ;
+	}
+
+#source-line 13
+}
+#source-line 13
+}
+	
+:public: :interface::class: org.slf4j.Logger :extends: java.lang.Object :"org.slf4j":"Logger"{
+	
+ :public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Ljava~lang~String^ ( org.slf4j.Logger :*: , java.lang.String :*: ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Ljava~lang~String^?Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Throwable^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^?Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Throwable^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~error~Lorg~slf4j~Logger^Ljava~lang~String^ ( org.slf4j.Logger :*: , java.lang.String :*: ) :  "error" ;
+:public: :abstract: :void: org~slf4j~Logger~~error~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: ) :  "error" ;
+:public: :abstract: :void: org~slf4j~Logger~~error~Lorg~slf4j~Logger^Ljava~lang~String^?Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "error" ;
+:public: :abstract: :void: org~slf4j~Logger~~error~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Throwable^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "error" ;
+:public: :abstract: :void: org~slf4j~Logger~~error~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: ) :  "error" ;
+:public: :abstract: :void: org~slf4j~Logger~~error~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "error" ;
+:public: :abstract: :void: org~slf4j~Logger~~error~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: ) :  "error" ;
+:public: :abstract: :void: org~slf4j~Logger~~error~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^?Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "error" ;
+:public: :abstract: :void: org~slf4j~Logger~~error~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Throwable^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "error" ;
+:public: :abstract: :void: org~slf4j~Logger~~error~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "error" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Ljava~lang~String^ ( org.slf4j.Logger :*: , java.lang.String :*: ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Ljava~lang~String^?Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Throwable^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^?Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Throwable^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "info" ;
+:public: :abstract: :void: org~slf4j~Logger~~info~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "info" ;
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: :int: java~lang~String~~length~Ljava~lang~String^ ( java.lang.String :*: ) :  "length" ;
+:public: :boolean: java~lang~String~~startsWith~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "startsWith" ;
+:public: :boolean: java~lang~String~~startsWith~Ljava~lang~String^Ljava~lang~String^I^ ( java.lang.String :*: , java.lang.String :*: , :int: ) :  "startsWith" ;
+:public: java.lang.String :*: java~lang~String~~toString~Ljava~lang~String^ ( java.lang.String :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.time.LocalDateTime :extends: java.lang.Object java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.time.chrono.ChronoLocalDateTime java.io.Serializable :"java.time":"LocalDateTime"{
+	
+ :public: :static: java.lang.Throwable :*: java~time~LocalDateTime~~readExternal~S~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalDateTime~~readObject~Ljava~time~LocalDateTime^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalDateTime~~writeExternal~Ljava~time~LocalDateTime^Ljava~io~DataOutput^~throws;
+ :private: :void: java~time~LocalDateTime~~init^~Ljava~time~LocalDateTime^Ljava~time~LocalDate^Ljava~time~LocalTime^ ( java.time.LocalDateTime :*: , java.time.LocalDate :*: , java.time.LocalTime :*: ) :  "LocalDateTime" ;
+:public: :boolean: java~time~LocalDateTime~~isAfter~Ljava~time~LocalDateTime^Ljava~time~chrono~ChronoLocalDateTime^ ( java.time.LocalDateTime :*: , java.time.chrono.ChronoLocalDateTime :*: ) :  "isAfter" ;
+:public: :boolean: java~time~LocalDateTime~~isBefore~Ljava~time~LocalDateTime^Ljava~time~chrono~ChronoLocalDateTime^ ( java.time.LocalDateTime :*: , java.time.chrono.ChronoLocalDateTime :*: ) :  "isBefore" ;
+:public: java.time.LocalDateTime :*: java~time~LocalDateTime~~minusMinutes~Ljava~time~LocalDateTime^J^ ( java.time.LocalDateTime :*: , :long: ) :  "minusMinutes" ;
+:public: :static: java.time.LocalDateTime :*: java~time~LocalDateTime~~now~S~ ( ) :  "now" ;
+:public: :static: java.time.LocalDateTime :*: java~time~LocalDateTime~~now~S~Ljava~time~ZoneId^ ( java.time.ZoneId :*: ) :  "now" ;
+:public: :static: java.time.LocalDateTime :*: java~time~LocalDateTime~~now~S~Ljava~time~Clock^ ( java.time.Clock :*: ) :  "now" ;
+:public: java.lang.String :*: java~time~LocalDateTime~~toString~Ljava~time~LocalDateTime^ ( java.time.LocalDateTime :*: ) :  "toString" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+:public: java.lang.String :*: java~lang~Object~~toString~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :annotation::class: lombok.extern.slf4j.Slf4j :extends: java.lang.annotation.Annotation :"lombok.extern.slf4j":"Slf4j"{
+	
+}
+	
+ :public: :annotation::class: java.lang.Override :extends: java.lang.annotation.Annotation :"java.lang":"Override"{
+	
+}
+	
+ :public::class: java.io.ObjectInputStream :extends: java.io.InputStream java.io.ObjectInput java.io.ObjectStreamConstants :"java.io":"ObjectInputStream"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~init^~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~init^~Ljava~io~ObjectInputStream^Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~available~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~checkArray~Ljava~io~ObjectInputStream^Ljava~lang~Class^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~checkResolve~Ljava~io~ObjectInputStream^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~close~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~defaultReadFields~Ljava~io~ObjectInputStream^Ljava~lang~Object^Ljava~io~ObjectStreamClass^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~defaultReadObject~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~enableResolveObject~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~filterCheck~Ljava~io~ObjectInputStream^Ljava~lang~Class^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~handleReset~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~read~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~read~Ljava~io~ObjectInputStream^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readArray~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readBoolean~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readByte~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readChar~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readClass~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readClassDesc~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readClassDescriptor~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readDouble~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readEnum~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readExternalData~Ljava~io~ObjectInputStream^Ljava~io~Externalizable^Ljava~io~ObjectStreamClass^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readFatalException~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readFields~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readFloat~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readFully~Ljava~io~ObjectInputStream^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readFully~Ljava~io~ObjectInputStream^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readHandle~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readInt~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readLine~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readLong~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readNonProxyDesc~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readNull~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readObject~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readObject0~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readObjectOverride~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readOrdinaryObject~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readProxyDesc~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readSerialData~Ljava~io~ObjectInputStream^Ljava~lang~Object^Ljava~io~ObjectStreamClass^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readShort~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readStreamHeader~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readString~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readTypeString~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readUTF~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readUnshared~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readUnsignedByte~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readUnsignedShort~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~registerValidation~Ljava~io~ObjectInputStream^Ljava~io~ObjectInputValidation^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~resolveClass~Ljava~io~ObjectInputStream^Ljava~io~ObjectStreamClass^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~resolveObject~Ljava~io~ObjectInputStream^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~resolveProxyClass~Ljava~io~ObjectInputStream^?Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~skipBytes~Ljava~io~ObjectInputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~skipCustomData~Ljava~io~ObjectInputStream^~throws;
+ :protected: :void: java~io~ObjectInputStream~~init^~Ljava~io~ObjectInputStream^ ( java.io.ObjectInputStream :*: ) :  "ObjectInputStream"  :exceptions:  java.io.IOException :*: ,  java.lang.SecurityException :*: ;
+:public: :void: java~io~ObjectInputStream~~init^~Ljava~io~ObjectInputStream^Ljava~io~InputStream^ ( java.io.ObjectInputStream :*: , java.io.InputStream :*: ) :  "ObjectInputStream"  :exceptions:  java.io.IOException :*: ;
+:public: :void: java~io~ObjectInputStream~~defaultReadObject~Ljava~io~ObjectInputStream^ ( java.io.ObjectInputStream :*: ) :  "defaultReadObject"  :exceptions:  java.io.IOException :*: ,  java.lang.ClassNotFoundException :*: ;
+:public: java.lang.String :*: java~io~ObjectInputStream~~readLine~Ljava~io~ObjectInputStream^ ( java.io.ObjectInputStream :*: ) :  "readLine"  :exceptions:  java.io.IOException :*: ;
+:public: :final: java.lang.Object :*: java~io~ObjectInputStream~~readObject~Ljava~io~ObjectInputStream^ ( java.io.ObjectInputStream :*: ) :  "readObject"  :exceptions:  java.io.IOException :*: ,  java.lang.ClassNotFoundException :*: ;
+}
+	
+:public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :final: :static: :long: serialVersionUID :=:  < :long: > -3387516993124229948;
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public::class: java.lang.IllegalArgumentException :extends: java.lang.RuntimeException :"java.lang":"IllegalArgumentException"{
+	
+ :public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^ ( java.lang.IllegalArgumentException :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+}
+	
+:public: :abstract::class: java.lang.Process :extends: java.lang.Object :"java.lang":"Process"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Process~~waitFor~Ljava~lang~Process^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Process~~waitFor~Ljava~lang~Process^J^Ljava~util~concurrent~TimeUnit^~throws;
+ :public: :void: java~lang~Process~~init^~Ljava~lang~Process^ ( java.lang.Process :*: ) :  "Process" ;
+:public: :abstract: java.io.InputStream :*: java~lang~Process~~getInputStream~Ljava~lang~Process^ ( java.lang.Process :*: ) :  "getInputStream" ;
+}
+	
+:public::class: java.lang.Runtime :extends: java.lang.Object :"java.lang":"Runtime"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Runtime~~exec~Ljava~lang~Runtime^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Runtime~~exec~Ljava~lang~Runtime^?Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Runtime~~exec~Ljava~lang~Runtime^Ljava~lang~String^?Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Runtime~~exec~Ljava~lang~Runtime^?Ljava~lang~String^?Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Runtime~~exec~Ljava~lang~Runtime^Ljava~lang~String^?Ljava~lang~String^Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Runtime~~exec~Ljava~lang~Runtime^?Ljava~lang~String^?Ljava~lang~String^Ljava~io~File^~throws;
+ :private: :void: java~lang~Runtime~~init^~Ljava~lang~Runtime^ ( java.lang.Runtime :*: ) :  "Runtime" ;
+:public: java.lang.Process :*: java~lang~Runtime~~exec~Ljava~lang~Runtime^Ljava~lang~String^ ( java.lang.Runtime :*: , java.lang.String :*: ) :  "exec"  :exceptions:  java.io.IOException :*: ;
+:public: java.lang.Process :*: java~lang~Runtime~~exec~Ljava~lang~Runtime^?Ljava~lang~String^ ( java.lang.Runtime :*: , java.lang.String :*: [] ) :  "exec"  :exceptions:  java.io.IOException :*: ;
+:public: java.lang.Process :*: java~lang~Runtime~~exec~Ljava~lang~Runtime^Ljava~lang~String^?Ljava~lang~String^ ( java.lang.Runtime :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "exec"  :exceptions:  java.io.IOException :*: ;
+:public: java.lang.Process :*: java~lang~Runtime~~exec~Ljava~lang~Runtime^?Ljava~lang~String^?Ljava~lang~String^ ( java.lang.Runtime :*: , java.lang.String :*: [] , java.lang.String :*: [] ) :  "exec"  :exceptions:  java.io.IOException :*: ;
+:public: java.lang.Process :*: java~lang~Runtime~~exec~Ljava~lang~Runtime^Ljava~lang~String^?Ljava~lang~String^Ljava~io~File^ ( java.lang.Runtime :*: , java.lang.String :*: , java.lang.String :*: [] , java.io.File :*: ) :  "exec"  :exceptions:  java.io.IOException :*: ;
+:public: java.lang.Process :*: java~lang~Runtime~~exec~Ljava~lang~Runtime^?Ljava~lang~String^?Ljava~lang~String^Ljava~io~File^ ( java.lang.Runtime :*: , java.lang.String :*: [] , java.lang.String :*: [] , java.io.File :*: ) :  "exec"  :exceptions:  java.io.IOException :*: ;
+:public: :static: java.lang.Runtime :*: java~lang~Runtime~~getRuntime~S~ ( ) :  "getRuntime" ;
+}
+	
+:public::class: java.io.BufferedReader :extends: java.io.Reader :"java.io":"BufferedReader"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~BufferedReader~~close~Ljava~io~BufferedReader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~BufferedReader~~ensureOpen~Ljava~io~BufferedReader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~BufferedReader~~fill~Ljava~io~BufferedReader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~BufferedReader~~mark~Ljava~io~BufferedReader^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~BufferedReader~~read~Ljava~io~BufferedReader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~BufferedReader~~read~Ljava~io~BufferedReader^?C^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~BufferedReader~~read1~Ljava~io~BufferedReader^?C^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~BufferedReader~~readLine~Ljava~io~BufferedReader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~BufferedReader~~readLine~Ljava~io~BufferedReader^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~BufferedReader~~ready~Ljava~io~BufferedReader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~BufferedReader~~reset~Ljava~io~BufferedReader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~BufferedReader~~skip~Ljava~io~BufferedReader^J^~throws;
+ :public: :void: java~io~BufferedReader~~init^~Ljava~io~BufferedReader^Ljava~io~Reader^ ( java.io.BufferedReader :*: , java.io.Reader :*: ) :  "BufferedReader" ;
+:public: :void: java~io~BufferedReader~~init^~Ljava~io~BufferedReader^Ljava~io~Reader^I^ ( java.io.BufferedReader :*: , java.io.Reader :*: , :int: ) :  "BufferedReader" ;
+:public: java.lang.String :*: java~io~BufferedReader~~readLine~Ljava~io~BufferedReader^ ( java.io.BufferedReader :*: ) :  "readLine"  :exceptions:  java.io.IOException :*: ;
+java.lang.String :*: java~io~BufferedReader~~readLine~Ljava~io~BufferedReader^Z^ ( java.io.BufferedReader :*: , :boolean: ) :  "readLine"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public::class: java.io.InputStreamReader :extends: java.io.Reader :"java.io":"InputStreamReader"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~InputStreamReader~~init^~Ljava~io~InputStreamReader^Ljava~io~InputStream^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStreamReader~~close~Ljava~io~InputStreamReader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStreamReader~~read~Ljava~io~InputStreamReader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStreamReader~~read~Ljava~io~InputStreamReader^?C^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStreamReader~~ready~Ljava~io~InputStreamReader^~throws;
+ :public: :void: java~io~InputStreamReader~~init^~Ljava~io~InputStreamReader^Ljava~io~InputStream^ ( java.io.InputStreamReader :*: , java.io.InputStream :*: ) :  "InputStreamReader" ;
+:public: :void: java~io~InputStreamReader~~init^~Ljava~io~InputStreamReader^Ljava~io~InputStream^Ljava~lang~String^ ( java.io.InputStreamReader :*: , java.io.InputStream :*: , java.lang.String :*: ) :  "InputStreamReader"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~io~InputStreamReader~~init^~Ljava~io~InputStreamReader^Ljava~io~InputStream^Ljava~nio~charset~Charset^ ( java.io.InputStreamReader :*: , java.io.InputStream :*: , java.nio.charset.Charset :*: ) :  "InputStreamReader" ;
+:public: :void: java~io~InputStreamReader~~init^~Ljava~io~InputStreamReader^Ljava~io~InputStream^Ljava~nio~charset~CharsetDecoder^ ( java.io.InputStreamReader :*: , java.io.InputStream :*: , java.nio.charset.CharsetDecoder :*: ) :  "InputStreamReader" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :final: :static: :long: serialVersionUID :=:  < :long: > 7818375828146090155;
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :final::class: java.lang.Class :extends: java.lang.Object java.io.Serializable java.lang.reflect.GenericDeclaration java.lang.reflect.Type java.lang.reflect.AnnotatedElement :"java.lang":"Class"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName0~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor0~Ljava~lang~Class^?Ljava~lang~Class^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredClasses~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaringClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingConstructor~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingMethod~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField0~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~newInstance~Ljava~lang~Class^~throws;
+ :private: :void: java~lang~Class~~init^~Ljava~lang~Class^Ljava~lang~ClassLoader^ ( java.lang.Class :*: , java.lang.ClassLoader :*: ) :  "Class" ;
+:public: java.lang.String :*: java~lang~Class~~toString~Ljava~lang~Class^ ( java.lang.Class :*: ) :  "toString" ;
+}
+	
+:public: :final::class: org.slf4j.LoggerFactory :extends: java.lang.Object :"org.slf4j":"LoggerFactory"{
+	
+ :private: :void: org~slf4j~LoggerFactory~~init^~Lorg~slf4j~LoggerFactory^ ( org.slf4j.LoggerFactory :*: ) :  "LoggerFactory" ;
+:public: :static: org.slf4j.Logger :*: org~slf4j~LoggerFactory~~getLogger~S~Ljava~lang~String^ ( java.lang.String :*: ) :  "getLogger" ;
+:public: :static: org.slf4j.Logger :*: org~slf4j~LoggerFactory~~getLogger~S~Ljava~lang~Class^ ( java.lang.Class :*: ) :  "getLogger" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+:public: java.lang.String :*: java~lang~Throwable~~toString~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: org.slf4j.Marker :extends: java.io.Serializable :"org.slf4j":"Marker"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+ :public: :abstract: :int: java~lang~CharSequence~~length~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "length" ;
+:public: :abstract: java.lang.String :*: java~lang~CharSequence~~toString~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :final: :static: :long: serialVersionUID :=:  < :long: > 3388685877147921107;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+:public: :synchronized: :int: java~lang~StringBuffer~~length~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "length" ;
+:public: :synchronized: java.lang.String :*: java~lang~StringBuffer~~toString~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :final: :static: :long: serialVersionUID :=:  < :long: > 4383685877147921099;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+:public: java.lang.String :*: java~lang~StringBuilder~~toString~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: java.lang.String :*: java~nio~charset~Charset~~toString~Ljava~nio~charset~Charset^ ( java.nio.charset.Charset :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.time.temporal.Temporal :extends: java.time.temporal.TemporalAccessor :"java.time.temporal":"Temporal"{
+	
+}
+	
+ :public: :interface::class: java.time.temporal.TemporalAdjuster :extends: java.lang.Object :"java.time.temporal":"TemporalAdjuster"{
+	
+}
+	
+ :public: :interface::class: java.time.chrono.ChronoLocalDateTime :extends: java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.lang.Comparable :"java.time.chrono":"ChronoLocalDateTime"{
+	
+ :public: :boolean: java~time~chrono~ChronoLocalDateTime~~isAfter~Ljava~time~chrono~ChronoLocalDateTime^Ljava~time~chrono~ChronoLocalDateTime^ ( java.time.chrono.ChronoLocalDateTime :*: , java.time.chrono.ChronoLocalDateTime :*: ) :  "isAfter" ;
+:public: :boolean: java~time~chrono~ChronoLocalDateTime~~isBefore~Ljava~time~chrono~ChronoLocalDateTime^Ljava~time~chrono~ChronoLocalDateTime^ ( java.time.chrono.ChronoLocalDateTime :*: , java.time.chrono.ChronoLocalDateTime :*: ) :  "isBefore" ;
+:public: :abstract: java.lang.String :*: java~time~chrono~ChronoLocalDateTime~~toString~Ljava~time~chrono~ChronoLocalDateTime^ ( java.time.chrono.ChronoLocalDateTime :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.time.LocalDate :extends: java.lang.Object java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.time.chrono.ChronoLocalDate java.io.Serializable :"java.time":"LocalDate"{
+	
+ :public: :static: java.lang.Throwable :*: java~time~LocalDate~~readExternal~S~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalDate~~readObject~Ljava~time~LocalDate^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalDate~~writeExternal~Ljava~time~LocalDate^Ljava~io~DataOutput^~throws;
+ :private: :void: java~time~LocalDate~~init^~Ljava~time~LocalDate^I^I^I^ ( java.time.LocalDate :*: , :int: , :int: , :int: ) :  "LocalDate" ;
+:public: :boolean: java~time~LocalDate~~isAfter~Ljava~time~LocalDate^Ljava~time~chrono~ChronoLocalDate^ ( java.time.LocalDate :*: , java.time.chrono.ChronoLocalDate :*: ) :  "isAfter" ;
+:public: :boolean: java~time~LocalDate~~isBefore~Ljava~time~LocalDate^Ljava~time~chrono~ChronoLocalDate^ ( java.time.LocalDate :*: , java.time.chrono.ChronoLocalDate :*: ) :  "isBefore" ;
+:public: :static: java.time.LocalDate :*: java~time~LocalDate~~now~S~ ( ) :  "now" ;
+:public: :static: java.time.LocalDate :*: java~time~LocalDate~~now~S~Ljava~time~ZoneId^ ( java.time.ZoneId :*: ) :  "now" ;
+:public: :static: java.time.LocalDate :*: java~time~LocalDate~~now~S~Ljava~time~Clock^ ( java.time.Clock :*: ) :  "now" ;
+:public: java.lang.String :*: java~time~LocalDate~~toString~Ljava~time~LocalDate^ ( java.time.LocalDate :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.time.LocalTime :extends: java.lang.Object java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.lang.Comparable java.io.Serializable :"java.time":"LocalTime"{
+	
+ :public: :static: java.lang.Throwable :*: java~time~LocalTime~~readExternal~S~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalTime~~readObject~Ljava~time~LocalTime^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalTime~~writeExternal~Ljava~time~LocalTime^Ljava~io~DataOutput^~throws;
+ :private: :void: java~time~LocalTime~~init^~Ljava~time~LocalTime^I^I^I^I^ ( java.time.LocalTime :*: , :int: , :int: , :int: , :int: ) :  "LocalTime" ;
+:public: :boolean: java~time~LocalTime~~isAfter~Ljava~time~LocalTime^Ljava~time~LocalTime^ ( java.time.LocalTime :*: , java.time.LocalTime :*: ) :  "isAfter" ;
+:public: :boolean: java~time~LocalTime~~isBefore~Ljava~time~LocalTime^Ljava~time~LocalTime^ ( java.time.LocalTime :*: , java.time.LocalTime :*: ) :  "isBefore" ;
+:public: java.time.LocalTime :*: java~time~LocalTime~~minusMinutes~Ljava~time~LocalTime^J^ ( java.time.LocalTime :*: , :long: ) :  "minusMinutes" ;
+:public: :static: java.time.LocalTime :*: java~time~LocalTime~~now~S~ ( ) :  "now" ;
+:public: :static: java.time.LocalTime :*: java~time~LocalTime~~now~S~Ljava~time~ZoneId^ ( java.time.ZoneId :*: ) :  "now" ;
+:public: :static: java.time.LocalTime :*: java~time~LocalTime~~now~S~Ljava~time~Clock^ ( java.time.Clock :*: ) :  "now" ;
+:public: java.lang.String :*: java~time~LocalTime~~toString~Ljava~time~LocalTime^ ( java.time.LocalTime :*: ) :  "toString" ;
+}
+	
+:public: :abstract::class: java.time.ZoneId :extends: java.lang.Object java.io.Serializable :"java.time":"ZoneId"{
+	
+ :public: :static: java.lang.Throwable :*: java~time~ZoneId~~readObject~Ljava~time~ZoneId^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~ZoneId~~write~Ljava~time~ZoneId^Ljava~io~DataOutput^~throws;
+ :void: java~time~ZoneId~~init^~Ljava~time~ZoneId^ ( java.time.ZoneId :*: ) :  "ZoneId" ;
+:public: java.lang.String :*: java~time~ZoneId~~toString~Ljava~time~ZoneId^ ( java.time.ZoneId :*: ) :  "toString" ;
+}
+	
+:public: :abstract::class: java.time.Clock :extends: java.lang.Object :"java.time":"Clock"{
+	
+ :protected: :void: java~time~Clock~~init^~Ljava~time~Clock^ ( java.time.Clock :*: ) :  "Clock" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+ :public: :abstract: java.lang.String :*: java~lang~annotation~Annotation~~toString~Ljava~lang~annotation~Annotation^ ( java.lang.annotation.Annotation :*: ) :  "toString" ;
+}
+	
+:public: :abstract::class: java.io.InputStream :extends: java.lang.Object java.io.Closeable :"java.io":"InputStream"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~available~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~close~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~read~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~read~Ljava~io~InputStream^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~read~Ljava~io~InputStream^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~reset~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~skip~Ljava~io~InputStream^J^~throws;
+ :public: :void: java~io~InputStream~~init^~Ljava~io~InputStream^ ( java.io.InputStream :*: ) :  "InputStream" ;
+}
+	
+:public: :interface::class: java.io.ObjectInput :extends: java.io.DataInput java.lang.AutoCloseable :"java.io":"ObjectInput"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInput~~available~Ljava~io~ObjectInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInput~~close~Ljava~io~ObjectInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInput~~read~Ljava~io~ObjectInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInput~~read~Ljava~io~ObjectInput^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInput~~read~Ljava~io~ObjectInput^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInput~~readObject~Ljava~io~ObjectInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInput~~skip~Ljava~io~ObjectInput^J^~throws;
+ :public: :abstract: java.lang.Object :*: java~io~ObjectInput~~readObject~Ljava~io~ObjectInput^ ( java.io.ObjectInput :*: ) :  "readObject"  :exceptions:  java.lang.ClassNotFoundException :*: ,  java.io.IOException :*: ;
+}
+	
+:public: :interface::class: java.io.ObjectStreamConstants :extends: java.lang.Object :"java.io":"ObjectStreamConstants"{
+	
+}
+	
+ :public::class: java.lang.SecurityException :extends: java.lang.RuntimeException :"java.lang":"SecurityException"{
+	
+ :public: :void: java~lang~SecurityException~~init^~Ljava~lang~SecurityException^ ( java.lang.SecurityException :*: ) :  "SecurityException" ;
+:public: :void: java~lang~SecurityException~~init^~Ljava~lang~SecurityException^Ljava~lang~String^ ( java.lang.SecurityException :*: , java.lang.String :*: ) :  "SecurityException" ;
+:public: :void: java~lang~SecurityException~~init^~Ljava~lang~SecurityException^Ljava~lang~Throwable^ ( java.lang.SecurityException :*: , java.lang.Throwable :*: ) :  "SecurityException" ;
+:public: :void: java~lang~SecurityException~~init^~Ljava~lang~SecurityException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.SecurityException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "SecurityException" ;
+}
+	
+:public::class: java.lang.ClassNotFoundException :extends: java.lang.ReflectiveOperationException :"java.lang":"ClassNotFoundException"{
+	
+ :public: :void: java~lang~ClassNotFoundException~~init^~Ljava~lang~ClassNotFoundException^ ( java.lang.ClassNotFoundException :*: ) :  "ClassNotFoundException" ;
+:public: :void: java~lang~ClassNotFoundException~~init^~Ljava~lang~ClassNotFoundException^Ljava~lang~String^ ( java.lang.ClassNotFoundException :*: , java.lang.String :*: ) :  "ClassNotFoundException" ;
+:public: :void: java~lang~ClassNotFoundException~~init^~Ljava~lang~ClassNotFoundException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.ClassNotFoundException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "ClassNotFoundException" ;
+}
+	
+:public::class: java.lang.RuntimeException :extends: java.lang.Exception :"java.lang":"RuntimeException"{
+	
+ :final: :static: :long: serialVersionUID :=:  < :long: > -7034897190745766939;
+ :public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^ ( java.lang.RuntimeException :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^ ( java.lang.RuntimeException :*: , java.lang.String :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:protected: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "RuntimeException" ;
+}
+	
+:public::class: java.io.File :extends: java.lang.Object java.io.Serializable java.lang.Comparable :"java.io":"File"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~File~~createNewFile~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~createTempFile~S~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~createTempFile~S~Ljava~lang~String^Ljava~lang~String^Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~getCanonicalFile~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~getCanonicalPath~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~readObject~Ljava~io~File^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~toURL~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~writeObject~Ljava~io~File^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^ ( java.io.File :*: , java.lang.String :*: ) :  "File" ;
+:public: :void: java~io~File~~init^~Ljava~io~File^Ljava~net~URI^ ( java.io.File :*: , java.net.URI :*: ) :  "File" ;
+:private: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^I^ ( java.io.File :*: , java.lang.String :*: , :int: ) :  "File" ;
+:private: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^Ljava~io~File^ ( java.io.File :*: , java.lang.String :*: , java.io.File :*: ) :  "File" ;
+:public: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^Ljava~lang~String^ ( java.io.File :*: , java.lang.String :*: , java.lang.String :*: ) :  "File" ;
+:public: :void: java~io~File~~init^~Ljava~io~File^Ljava~io~File^Ljava~lang~String^ ( java.io.File :*: , java.io.File :*: , java.lang.String :*: ) :  "File" ;
+:public: :long: java~io~File~~length~Ljava~io~File^ ( java.io.File :*: ) :  "length" ;
+:public: java.lang.String :*: java~io~File~~toString~Ljava~io~File^ ( java.io.File :*: ) :  "toString" ;
+}
+	
+:public: :abstract::class: java.io.Reader :extends: java.lang.Object java.lang.Readable java.io.Closeable :"java.io":"Reader"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~close~Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~mark~Ljava~io~Reader^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~read~Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~read~Ljava~io~Reader^Ljava~nio~CharBuffer^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~read~Ljava~io~Reader^?C^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~read~Ljava~io~Reader^?C^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~ready~Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~reset~Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~skip~Ljava~io~Reader^J^~throws;
+ :protected: :void: java~io~Reader~~init^~Ljava~io~Reader^ ( java.io.Reader :*: ) :  "Reader" ;
+:protected: :void: java~io~Reader~~init^~Ljava~io~Reader^Ljava~lang~Object^ ( java.io.Reader :*: , java.lang.Object :*: ) :  "Reader" ;
+}
+	
+:public: :abstract::class: java.nio.charset.CharsetDecoder :extends: java.lang.Object :"java.nio.charset":"CharsetDecoder"{
+	
+ :public: :static: java.lang.Throwable :*: java~nio~charset~CharsetDecoder~~decode~Ljava~nio~charset~CharsetDecoder^Ljava~nio~ByteBuffer^~throws;
+ :protected: :void: java~nio~charset~CharsetDecoder~~init^~Ljava~nio~charset~CharsetDecoder^Ljava~nio~charset~Charset^F^F^ ( java.nio.charset.CharsetDecoder :*: , java.nio.charset.Charset :*: , :float: , :float: ) :  "CharsetDecoder" ;
+:private: :void: java~nio~charset~CharsetDecoder~~init^~Ljava~nio~charset~CharsetDecoder^Ljava~nio~charset~Charset^F^F^Ljava~lang~String^ ( java.nio.charset.CharsetDecoder :*: , java.nio.charset.Charset :*: , :float: , :float: , java.lang.String :*: ) :  "CharsetDecoder" ;
+}
+	
+:public: :interface::class: java.lang.reflect.GenericDeclaration :extends: java.lang.reflect.AnnotatedElement :"java.lang.reflect":"GenericDeclaration"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.Type :extends: java.lang.Object :"java.lang.reflect":"Type"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.AnnotatedElement :extends: java.lang.Object :"java.lang.reflect":"AnnotatedElement"{
+	
+}
+	
+ :public: :abstract::class: java.lang.ClassLoader :extends: java.lang.Object :"java.lang":"ClassLoader"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~nio~ByteBuffer^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~definePackage~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findSystemClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getBootstrapResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getSystemResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClassInternal~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:private: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~Void^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.Void :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+:public: :int: java~lang~AbstractStringBuilder~~length~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "length" ;
+:public: :abstract: java.lang.String :*: java~lang~AbstractStringBuilder~~toString~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.time.temporal.TemporalAccessor :extends: java.lang.Object :"java.time.temporal":"TemporalAccessor"{
+	
+}
+	
+ :public: :interface::class: java.time.chrono.ChronoLocalDate :extends: java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.lang.Comparable :"java.time.chrono":"ChronoLocalDate"{
+	
+ :public: :boolean: java~time~chrono~ChronoLocalDate~~isAfter~Ljava~time~chrono~ChronoLocalDate^Ljava~time~chrono~ChronoLocalDate^ ( java.time.chrono.ChronoLocalDate :*: , java.time.chrono.ChronoLocalDate :*: ) :  "isAfter" ;
+:public: :boolean: java~time~chrono~ChronoLocalDate~~isBefore~Ljava~time~chrono~ChronoLocalDate^Ljava~time~chrono~ChronoLocalDate^ ( java.time.chrono.ChronoLocalDate :*: , java.time.chrono.ChronoLocalDate :*: ) :  "isBefore" ;
+:public: :abstract: java.lang.String :*: java~time~chrono~ChronoLocalDate~~toString~Ljava~time~chrono~ChronoLocalDate^ ( java.time.chrono.ChronoLocalDate :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.io.Closeable :extends: java.lang.AutoCloseable :"java.io":"Closeable"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~Closeable~~close~Ljava~io~Closeable^~throws;
+}
+	
+ :public: :interface::class: java.io.DataInput :extends: java.lang.Object :"java.io":"DataInput"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readBoolean~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readByte~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readChar~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readDouble~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readFloat~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readFully~Ljava~io~DataInput^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readFully~Ljava~io~DataInput^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readInt~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readLine~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readLong~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readShort~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readUTF~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readUnsignedByte~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readUnsignedShort~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~skipBytes~Ljava~io~DataInput^I^~throws;
+ :public: :abstract: java.lang.String :*: java~io~DataInput~~readLine~Ljava~io~DataInput^ ( java.io.DataInput :*: ) :  "readLine"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public: :interface::class: java.lang.AutoCloseable :extends: java.lang.Object :"java.lang":"AutoCloseable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^~throws;
+}
+	
+ :public::class: java.lang.ReflectiveOperationException :extends: java.lang.Exception :"java.lang":"ReflectiveOperationException"{
+	
+ :final: :static: :long: serialVersionUID :=:  < :long: > 123456789;
+ :public: :void: java~lang~ReflectiveOperationException~~init^~Ljava~lang~ReflectiveOperationException^ ( java.lang.ReflectiveOperationException :*: ) :  "ReflectiveOperationException" ;
+:public: :void: java~lang~ReflectiveOperationException~~init^~Ljava~lang~ReflectiveOperationException^Ljava~lang~String^ ( java.lang.ReflectiveOperationException :*: , java.lang.String :*: ) :  "ReflectiveOperationException" ;
+:public: :void: java~lang~ReflectiveOperationException~~init^~Ljava~lang~ReflectiveOperationException^Ljava~lang~Throwable^ ( java.lang.ReflectiveOperationException :*: , java.lang.Throwable :*: ) :  "ReflectiveOperationException" ;
+:public: :void: java~lang~ReflectiveOperationException~~init^~Ljava~lang~ReflectiveOperationException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.ReflectiveOperationException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "ReflectiveOperationException" ;
+}
+	
+:public: :final::class: java.net.URI :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.net":"URI"{
+	
+ :final: :static: :long: serialVersionUID :=:  < :long: > -6052424284110960213;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~checkPath~S~Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~parseServerAuthority~Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~readObject~Ljava~net~URI^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~toURL~Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~writeObject~Ljava~net~URI^Ljava~io~ObjectOutputStream^~throws;
+ :private: :void: java~net~URI~~init^~Ljava~net~URI^ ( java.net.URI :*: ) :  "URI" ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , :int: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: java.lang.String :*: java~net~URI~~toString~Ljava~net~URI^ ( java.net.URI :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.lang.Readable :extends: java.lang.Object :"java.lang":"Readable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Readable~~read~Ljava~lang~Readable^Ljava~nio~CharBuffer^~throws;
+}
+	
+ :public: :final::class: java.lang.Void :extends: java.lang.Object :"java.lang":"Void"{
+	
+ :private: :void: java~lang~Void~~init^~Ljava~lang~Void^ ( java.lang.Void :*: ) :  "Void" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.net.URISyntaxException :extends: java.lang.Exception :"java.net":"URISyntaxException"{
+	
+ :public: :void: java~net~URISyntaxException~~init^~Ljava~net~URISyntaxException^Ljava~lang~String^Ljava~lang~String^ ( java.net.URISyntaxException :*: , java.lang.String :*: , java.lang.String :*: ) :  "URISyntaxException" ;
+:public: :void: java~net~URISyntaxException~~init^~Ljava~net~URISyntaxException^Ljava~lang~String^Ljava~lang~String^I^ ( java.net.URISyntaxException :*: , java.lang.String :*: , java.lang.String :*: , :int: ) :  "URISyntaxException" ;
+}
+	

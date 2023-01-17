@@ -1,0 +1,333 @@
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+#source-type java
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+
+#source-line 33
+ #14# :public::class: org.owasp.webgoat.password_reset.TriedQuestions :extends: java.lang.Object :"org.owasp.webgoat.password_reset":"TriedQuestions"
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+
+#source-line 31
+ #1# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #1# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #1# < org.springframework.stereotype.Component :*: > -~> ~annotation ( ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+
+#source-line 32
+ #1# {
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #1# 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #1# < org.springframework.web.context.annotation.SessionScope :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+
+#source-line 35
+ #25# :private: java.util.Set :*: answeredQuestions;
+ 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+
+#source-line 37
+ #17# :public: :void: org~owasp~webgoat~password_reset~TriedQuestions~~incr~Lorg~owasp~webgoat~password_reset~TriedQuestions^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #17# org.owasp.webgoat.password_reset.TriedQuestions :*: this~ , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #29# java.lang.String :*: question ) :  "incr" 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #39# {
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+
+#source-line 38
+ #9# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #9# 	-~> java~util~Set~~add~Ljava~util~Set^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #9# 	[ org.owasp.webgoat.password_reset.TriedQuestions ] ( this~ ) :.: answeredQuestions , 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #31# 	question ) ;
+
+#source-line 39
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+
+#source-line 41
+ #20# :public: :boolean: org~owasp~webgoat~password_reset~TriedQuestions~~isComplete~Lorg~owasp~webgoat~password_reset~TriedQuestions^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #20# org.owasp.webgoat.password_reset.TriedQuestions :*: this~ ) :  "isComplete" 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #33# {
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+
+#source-line 42
+ #9# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #9# 	:boolean: ~t0 ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #9# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #9# 	~t0 :=: ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #16# 	-~> java~util~Set~~size~Ljava~util~Set^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #16# 	[ org.owasp.webgoat.password_reset.TriedQuestions ] ( this~ ) :.: answeredQuestions ) :>: < :int: >1 ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #9# 	:return: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #9# 	~t0 ;
+
+#source-line 43
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+
+#source-line 33
+ #14# :public: :void: org~owasp~webgoat~password_reset~TriedQuestions~~init^~Lorg~owasp~webgoat~password_reset~TriedQuestions^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #14# org.owasp.webgoat.password_reset.TriedQuestions :*: this~ ) :  "init^" 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #14# {
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #14# 	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #14# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+	
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #14# 	{
+		
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+
+#source-line 35
+ #25# 		{
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #45# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #45# 			java.util.HashSet :*: ~t0 ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #45# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #45# 			~t0 :=: :new: java.util.HashSet ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #45# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #45# 			-~> java~util~HashSet~~init^~Ljava~util~HashSet^ ( 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #45# 			~t0 ) ;
+			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #25# 			
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #25# 			[ org.owasp.webgoat.password_reset.TriedQuestions ] ( this~ ) :.: answeredQuestions :=: 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #45# 			~t0 ;
+		}
+
+#source-line 33
+	}
+}
+
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #14# :public: :static: :void: org~owasp~webgoat~password_reset~TriedQuestions~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\password-reset\src\main\java\org\owasp\webgoat\password_reset\TriedQuestions.java
+ #14# {
+}
+#source-line 33
+}
+	
+:public: :interface::class: java.util.Set :extends: java.util.Collection :"java.util":"Set"{
+	
+ :public: :abstract: :boolean: java~util~Set~~add~Ljava~util~Set^Ljava~lang~Object^ ( java.util.Set :*: , java.lang.Object :*: ) :  "add" ;
+:public: :abstract: :int: java~util~Set~~size~Ljava~util~Set^ ( java.util.Set :*: ) :  "size" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+}
+	
+:public: :annotation::class: org.springframework.stereotype.Component :extends: java.lang.annotation.Annotation :"org.springframework.stereotype":"Component"{
+	
+}
+	
+ :public: :annotation::class: org.springframework.web.context.annotation.SessionScope :extends: java.lang.annotation.Annotation :"org.springframework.web.context.annotation":"SessionScope"{
+	
+}
+	
+ :public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+}
+	
+:public::class: java.util.HashSet :extends: java.util.AbstractSet java.util.Set java.lang.Cloneable java.io.Serializable :"java.util":"HashSet"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~HashSet~~readObject~Ljava~util~HashSet^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~HashSet~~writeObject~Ljava~util~HashSet^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~util~HashSet~~init^~Ljava~util~HashSet^ ( java.util.HashSet :*: ) :  "HashSet" ;
+:public: :void: java~util~HashSet~~init^~Ljava~util~HashSet^Ljava~util~Collection^ ( java.util.HashSet :*: , java.util.Collection :*: ) :  "HashSet" ;
+:public: :void: java~util~HashSet~~init^~Ljava~util~HashSet^I^ ( java.util.HashSet :*: , :int: ) :  "HashSet" ;
+:public: :void: java~util~HashSet~~init^~Ljava~util~HashSet^I^F^ ( java.util.HashSet :*: , :int: , :float: ) :  "HashSet" ;
+:void: java~util~HashSet~~init^~Ljava~util~HashSet^I^F^Z^ ( java.util.HashSet :*: , :int: , :float: , :boolean: ) :  "HashSet" ;
+:public: :boolean: java~util~HashSet~~add~Ljava~util~HashSet^Ljava~lang~Object^ ( java.util.HashSet :*: , java.lang.Object :*: ) :  "add" ;
+:public: :int: java~util~HashSet~~size~Ljava~util~HashSet^ ( java.util.HashSet :*: ) :  "size" ;
+}
+	
+:public: :interface::class: java.util.Collection :extends: java.lang.Iterable :"java.util":"Collection"{
+	
+ :public: :abstract: :boolean: java~util~Collection~~add~Ljava~util~Collection^Ljava~lang~Object^ ( java.util.Collection :*: , java.lang.Object :*: ) :  "add" ;
+:public: :abstract: :int: java~util~Collection~~size~Ljava~util~Collection^ ( java.util.Collection :*: ) :  "size" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+}
+	
+ :public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+}
+	
+ :public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+}
+	
+:public: :abstract::class: java.util.AbstractSet :extends: java.util.AbstractCollection java.util.Set :"java.util":"AbstractSet"{
+	
+ :protected: :void: java~util~AbstractSet~~init^~Ljava~util~AbstractSet^ ( java.util.AbstractSet :*: ) :  "AbstractSet" ;
+}
+	
+:public: :interface::class: java.lang.Cloneable :extends: java.lang.Object :"java.lang":"Cloneable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Iterable :extends: java.lang.Object :"java.lang":"Iterable"{
+	
+}
+	
+ :abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :abstract::class: java.util.AbstractCollection :extends: java.lang.Object java.util.Collection :"java.util":"AbstractCollection"{
+	
+ :protected: :void: java~util~AbstractCollection~~init^~Ljava~util~AbstractCollection^ ( java.util.AbstractCollection :*: ) :  "AbstractCollection" ;
+:public: :boolean: java~util~AbstractCollection~~add~Ljava~util~AbstractCollection^Ljava~lang~Object^ ( java.util.AbstractCollection :*: , java.lang.Object :*: ) :  "add" ;
+:public: :abstract: :int: java~util~AbstractCollection~~size~Ljava~util~AbstractCollection^ ( java.util.AbstractCollection :*: ) :  "size" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+}
+	

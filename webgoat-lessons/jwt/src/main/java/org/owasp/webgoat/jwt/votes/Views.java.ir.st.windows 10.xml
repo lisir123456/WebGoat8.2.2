@@ -1,0 +1,90 @@
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+#source-type java
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+
+#source-line 7
+ #14# :public::class: org.owasp.webgoat.jwt.votes.Views :extends: java.lang.Object :"org.owasp.webgoat.jwt.votes":"Views"{
+	
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #14# :public: :void: org~owasp~webgoat~jwt~votes~Views~~init^~Lorg~owasp~webgoat~jwt~votes~Views^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #14# org.owasp.webgoat.jwt.votes.Views :*: this~ ) :  "init^" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #14# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #14# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #14# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #14# :public: :static: :void: org~owasp~webgoat~jwt~votes~Views~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #14# {
+}
+#source-line 7
+}
+	
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+
+#source-line 8
+ #22# :public: :static: :interface::class: org.owasp.webgoat.jwt.votes.Views$GuestView :extends: java.lang.Object :"org.owasp.webgoat.jwt.votes":"Views$GuestView"{
+	
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #22# :public: :void: org~owasp~webgoat~jwt~votes~Views$GuestView~~init^~Lorg~owasp~webgoat~jwt~votes~Views$GuestView^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #22# org.owasp.webgoat.jwt.votes.Views$GuestView :*: this~ ) :  "init^" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #22# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #22# :public: :static: :void: org~owasp~webgoat~jwt~votes~Views$GuestView~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #22# {
+}
+#source-line 8
+}
+	
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+
+#source-line 11
+ #22# :public: :static: :interface::class: org.owasp.webgoat.jwt.votes.Views$UserView :extends: org.owasp.webgoat.jwt.votes.Views$GuestView :"org.owasp.webgoat.jwt.votes":"Views$UserView"{
+	
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #22# :public: :void: org~owasp~webgoat~jwt~votes~Views$UserView~~init^~Lorg~owasp~webgoat~jwt~votes~Views$UserView^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #22# org.owasp.webgoat.jwt.votes.Views$UserView :*: this~ ) :  "init^" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #22# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #22# :public: :static: :void: org~owasp~webgoat~jwt~votes~Views$UserView~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Views.java
+ #22# {
+}
+#source-line 11
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+}
+	

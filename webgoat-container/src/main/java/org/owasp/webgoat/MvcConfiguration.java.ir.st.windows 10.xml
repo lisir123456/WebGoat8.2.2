@@ -1,0 +1,2207 @@
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+#source-type java
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 62
+ #14# :public::class: org.owasp.webgoat.MvcConfiguration :extends: org.springframework.web.servlet.config.annotation.WebMvcConfigurer java.lang.Object :"org.owasp.webgoat":"MvcConfiguration"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 61
+ #1# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #1# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #1# < org.springframework.context.annotation.Configuration :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 64
+ #30# :private: :final: :static: java.lang.String :*: UTF8 :=:  "UTF-8";
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 67
+ #17# :public: :void: org~owasp~webgoat~MvcConfiguration~~addViewControllers~Lorg~owasp~webgoat~MvcConfiguration^Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistry^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #17# org.owasp.webgoat.MvcConfiguration :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #59# org.springframework.web.servlet.config.annotation.ViewControllerRegistry :*: registry ) :  "addViewControllers"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 66
+ #5# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 67
+ #69# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 68
+ #36# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	~t0 :=: "/login" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	org.springframework.web.servlet.config.annotation.ViewControllerRegistration :*: ~t1 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t1 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ViewControllerRegistry~~addViewController~Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistry^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	registry , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	~t0 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #58# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #58# 	java.lang.String :*: ~t2 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #58# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #58# 	~t2 :=: "login" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ViewControllerRegistration~~setViewName~Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistration^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t1 , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #58# 	~t2 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 69
+ #36# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	java.lang.String :*: ~t3 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	~t3 :=: "/lesson_content" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	org.springframework.web.servlet.config.annotation.ViewControllerRegistration :*: ~t4 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t4 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ViewControllerRegistry~~addViewController~Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistry^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	registry , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	~t3 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #67# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #67# 	java.lang.String :*: ~t5 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #67# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #67# 	~t5 :=: "lesson_content" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ViewControllerRegistration~~setViewName~Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistration^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t4 , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #67# 	~t5 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 70
+ #36# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	java.lang.String :*: ~t6 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	~t6 :=: "/start.mvc" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	org.springframework.web.servlet.config.annotation.ViewControllerRegistration :*: ~t7 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t7 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ViewControllerRegistry~~addViewController~Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistry^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	registry , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	~t6 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #62# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #62# 	java.lang.String :*: ~t8 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #62# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #62# 	~t8 :=: "main_new" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ViewControllerRegistration~~setViewName~Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistration^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t7 , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #62# 	~t8 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 71
+ #36# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	java.lang.String :*: ~t9 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	~t9 :=: "/scoreboard" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	org.springframework.web.servlet.config.annotation.ViewControllerRegistration :*: ~t10 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t10 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ViewControllerRegistry~~addViewController~Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistry^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	registry , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	~t9 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #63# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #63# 	java.lang.String :*: ~t11 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #63# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #63# 	~t11 :=: "scoreboard" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ViewControllerRegistration~~setViewName~Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistration^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t10 , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #63# 	~t11 ) ;
+
+#source-line 73
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 76
+ #25# :public: org.springframework.web.servlet.ViewResolver :*: org~owasp~webgoat~MvcConfiguration~~viewResolver~Lorg~owasp~webgoat~MvcConfiguration^Lorg~thymeleaf~spring5~SpringTemplateEngine^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #25# org.owasp.webgoat.MvcConfiguration :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #59# org.thymeleaf.spring5.SpringTemplateEngine :*: thymeleafTemplateEngine ) :  "viewResolver"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 75
+ #5# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# < org.springframework.context.annotation.Bean :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 76
+ #84# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 77
+ #31# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	org.thymeleaf.spring5.view.ThymeleafViewResolver :*: resolver ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #42# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #42# 	org.thymeleaf.spring5.view.ThymeleafViewResolver :*: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #42# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #42# 	~t0 :=: :new: org.thymeleaf.spring5.view.ThymeleafViewResolver ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #42# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #42# 	-~> org~thymeleaf~spring5~view~ThymeleafViewResolver~~init^~Lorg~thymeleaf~spring5~view~ThymeleafViewResolver^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #42# 	~t0 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	resolver :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #42# 	~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 78
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~spring5~view~ThymeleafViewResolver~~setTemplateEngine~Lorg~thymeleaf~spring5~view~ThymeleafViewResolver^Lorg~thymeleaf~spring5~ISpringTemplateEngine^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	resolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #36# 	thymeleafTemplateEngine ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 79
+ #39# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #39# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #39# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #39# 	~t1 :=: "UTF-8" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~spring5~view~ThymeleafViewResolver~~setCharacterEncoding~Lorg~thymeleaf~spring5~view~ThymeleafViewResolver^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	resolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #39# 	~t1 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 80
+ #9# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	resolver ;
+
+#source-line 81
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 84
+ #30# :public: org.thymeleaf.templateresolver.ITemplateResolver :*: org~owasp~webgoat~MvcConfiguration~~springThymeleafTemplateResolver~Lorg~owasp~webgoat~MvcConfiguration^Lorg~springframework~context~ApplicationContext^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #30# org.owasp.webgoat.MvcConfiguration :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #81# org.springframework.context.ApplicationContext :*: applicationContext ) :  "springThymeleafTemplateResolver"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 83
+ #5# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# < org.springframework.context.annotation.Bean :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 84
+ #101# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 85
+ #40# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #40# 	org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver :*: resolver ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #51# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #51# 	org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver :*: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #51# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #51# 	~t0 :=: :new: org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #51# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #51# 	-~> org~thymeleaf~spring5~templateresolver~SpringResourceTemplateResolver~~init^~Lorg~thymeleaf~spring5~templateresolver~SpringResourceTemplateResolver^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #51# 	~t0 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #40# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #40# 	resolver :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #51# 	~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 86
+ #28# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #28# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #28# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #28# 	~t1 :=: "classpath:/templates/" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~setPrefix~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	resolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #28# 	~t1 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 87
+ #28# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #28# 	java.lang.String :*: ~t2 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #28# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #28# 	~t2 :=: ".html" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~setSuffix~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	resolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #28# 	~t2 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 88
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~setTemplateMode~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^Lorg~thymeleaf~templatemode~TemplateMode^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	resolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #34# 	[ org.thymeleaf.templatemode.TemplateMode ] HTML ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 89
+ #27# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	:int: ~t3 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	~t3 :=: < :int: >2 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~templateresolver~AbstractTemplateResolver~~setOrder~Lorg~thymeleaf~templateresolver~AbstractTemplateResolver^Ljava~lang~Integer^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	resolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	~t3 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 90
+ #31# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	:boolean: ~t4 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	~t4 :=: :false: ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~setCacheable~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^Z^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	resolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	~t4 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 91
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~setCharacterEncoding~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	resolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #39# 	[ org.owasp.webgoat.MvcConfiguration ] UTF8 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 92
+ #9# 	__throwingcall_1 :
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~spring5~templateresolver~SpringResourceTemplateResolver~~setApplicationContext~Lorg~thymeleaf~spring5~templateresolver~SpringResourceTemplateResolver^Lorg~springframework~context~ApplicationContext^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	resolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #40# 	applicationContext ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 		__caught__throwingcall_1 :
+		 :throw:  < org.springframework.beans.BeansException :*: > :null: ;
+	}
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 93
+ #9# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	resolver ;
+
+#source-line 94
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 97
+ #35# :public: org.owasp.webgoat.LessonTemplateResolver :*: org~owasp~webgoat~MvcConfiguration~~lessonTemplateResolver~Lorg~owasp~webgoat~MvcConfiguration^Lorg~springframework~core~io~ResourceLoader^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #35# org.owasp.webgoat.MvcConfiguration :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #73# org.springframework.core.io.ResourceLoader :*: resourceLoader ) :  "lessonTemplateResolver"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 96
+ #5# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# < org.springframework.context.annotation.Bean :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 97
+ #89# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 98
+ #32# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #32# 	org.owasp.webgoat.LessonTemplateResolver :*: resolver ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #43# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #43# 	org.owasp.webgoat.LessonTemplateResolver :*: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #43# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #43# 	~t0 :=: :new: org.owasp.webgoat.LessonTemplateResolver ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #43# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #43# 	-~> org~owasp~webgoat~LessonTemplateResolver~~init^~Lorg~owasp~webgoat~LessonTemplateResolver^Lorg~springframework~core~io~ResourceLoader^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #43# 	~t0 , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #70# 	resourceLoader ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #32# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #32# 	resolver :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #43# 	~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 99
+ #27# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	:int: ~t1 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	~t1 :=: < :int: >0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~templateresolver~AbstractTemplateResolver~~setOrder~Lorg~thymeleaf~templateresolver~AbstractTemplateResolver^Ljava~lang~Integer^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	resolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	~t1 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 100
+ #31# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	:boolean: ~t2 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	~t2 :=: :false: ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~setCacheable~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^Z^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	resolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	~t2 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 101
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~setCharacterEncoding~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	resolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #39# 	[ org.owasp.webgoat.MvcConfiguration ] UTF8 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 102
+ #9# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	resolver ;
+
+#source-line 103
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 106
+ #40# :public: org.owasp.webgoat.AsciiDoctorTemplateResolver :*: org~owasp~webgoat~MvcConfiguration~~asciiDoctorTemplateResolver~Lorg~owasp~webgoat~MvcConfiguration^Lorg~owasp~webgoat~i18n~Language^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #40# org.owasp.webgoat.MvcConfiguration :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #77# org.owasp.webgoat.i18n.Language :*: language ) :  "asciiDoctorTemplateResolver"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 105
+ #5# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# < org.springframework.context.annotation.Bean :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 106
+ #87# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 107
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	org.owasp.webgoat.AsciiDoctorTemplateResolver :*: resolver ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #48# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #48# 	org.owasp.webgoat.AsciiDoctorTemplateResolver :*: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #48# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #48# 	~t0 :=: :new: org.owasp.webgoat.AsciiDoctorTemplateResolver ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #48# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #48# 	-~> org~owasp~webgoat~AsciiDoctorTemplateResolver~~init^~Lorg~owasp~webgoat~AsciiDoctorTemplateResolver^Lorg~owasp~webgoat~i18n~Language^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #48# 	~t0 , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #80# 	language ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	resolver :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #48# 	~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 108
+ #31# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	:boolean: ~t1 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	~t1 :=: :false: ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~setCacheable~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^Z^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	resolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	~t1 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 109
+ #27# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	:int: ~t2 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	~t2 :=: < :int: >1 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~templateresolver~AbstractTemplateResolver~~setOrder~Lorg~thymeleaf~templateresolver~AbstractTemplateResolver^Ljava~lang~Integer^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	resolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	~t2 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 110
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~setCharacterEncoding~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	resolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #39# 	[ org.owasp.webgoat.MvcConfiguration ] UTF8 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 111
+ #9# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	resolver ;
+
+#source-line 112
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 115
+ #33# :public: org.thymeleaf.spring5.SpringTemplateEngine :*: org~owasp~webgoat~MvcConfiguration~~thymeleafTemplateEngine~Lorg~owasp~webgoat~MvcConfiguration^Lorg~thymeleaf~templateresolver~ITemplateResolver^Lorg~owasp~webgoat~LessonTemplateResolver^Lorg~owasp~webgoat~AsciiDoctorTemplateResolver^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #33# org.owasp.webgoat.MvcConfiguration :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #75# org.thymeleaf.templateresolver.ITemplateResolver :*: springThymeleafTemplateResolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 116
+ #80# org.owasp.webgoat.LessonTemplateResolver :*: lessonTemplateResolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 117
+ #85# org.owasp.webgoat.AsciiDoctorTemplateResolver :*: asciiDoctorTemplateResolver ) :  "thymeleafTemplateEngine"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 114
+ #5# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# < org.springframework.context.annotation.Bean :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 117
+ #114# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 118
+ #30# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #30# 	org.thymeleaf.spring5.SpringTemplateEngine :*: engine ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #39# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #39# 	org.thymeleaf.spring5.SpringTemplateEngine :*: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #39# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #39# 	~t0 :=: :new: org.thymeleaf.spring5.SpringTemplateEngine ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #39# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #39# 	-~> org~thymeleaf~spring5~SpringTemplateEngine~~init^~Lorg~thymeleaf~spring5~SpringTemplateEngine^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #39# 	~t0 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #30# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #30# 	engine :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #39# 	~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 119
+ #42# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #42# 	:boolean: ~t1 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #42# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #42# 	~t1 :=: :true: ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~spring5~SpringTemplateEngine~~setEnableSpringELCompiler~Lorg~thymeleaf~spring5~SpringTemplateEngine^Z^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	engine , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #42# 	~t1 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 120
+ #27# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	org.thymeleaf.extras.springsecurity5.dialect.SpringSecurityDialect :*: ~t2 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	~t2 :=: :new: org.thymeleaf.extras.springsecurity5.dialect.SpringSecurityDialect ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	-~> org~thymeleaf~extras~springsecurity5~dialect~SpringSecurityDialect~~init^~Lorg~thymeleaf~extras~springsecurity5~dialect~SpringSecurityDialect^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	~t2 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~TemplateEngine~~addDialect~Lorg~thymeleaf~TemplateEngine^Lorg~thymeleaf~dialect~IDialect^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	engine , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# 	~t2 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 122
+ #17# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #17# 	~Unknown~Type~ :*: ~t3 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #17# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #17# 	~t3 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #17# 	-~> of ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #24# 	lessonTemplateResolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #48# 	asciiDoctorTemplateResolver , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #77# 	springThymeleafTemplateResolver ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 121
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~thymeleaf~TemplateEngine~~setTemplateResolvers~Lorg~thymeleaf~TemplateEngine^Ljava~util~Set^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	engine , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 122
+ #17# 	~t3 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 123
+ #9# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	engine ;
+
+#source-line 124
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 127
+ #17# :public: :void: org~owasp~webgoat~MvcConfiguration~~addResourceHandlers~Lorg~owasp~webgoat~MvcConfiguration^Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistry^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #17# org.owasp.webgoat.MvcConfiguration :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #61# org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry :*: registry ) :  "addResourceHandlers"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 126
+ #5# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 127
+ #71# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 128
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	~t0 :=: "/images/**" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	org.springframework.web.servlet.config.annotation.ResourceHandlerRegistration :*: ~t1 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t1 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ResourceHandlerRegistry~~addResourceHandler~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistry^?Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	registry , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	~t0 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #72# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #72# 	java.lang.String :*: ~t2 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #72# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #72# 	~t2 :=: "classpath:/images/" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ResourceHandlerRegistration~~addResourceLocations~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistration^?Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t1 , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #72# 	~t2 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 129
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	java.lang.String :*: ~t3 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	~t3 :=: "/lesson_js/**" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	org.springframework.web.servlet.config.annotation.ResourceHandlerRegistration :*: ~t4 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t4 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ResourceHandlerRegistry~~addResourceHandler~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistry^?Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	registry , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	~t3 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #75# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #75# 	java.lang.String :*: ~t5 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #75# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #75# 	~t5 :=: "classpath:/js/" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ResourceHandlerRegistration~~addResourceLocations~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistration^?Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t4 , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #75# 	~t5 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 130
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	java.lang.String :*: ~t6 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	~t6 :=: "/lesson_css/**" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	org.springframework.web.servlet.config.annotation.ResourceHandlerRegistration :*: ~t7 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t7 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ResourceHandlerRegistry~~addResourceHandler~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistry^?Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	registry , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	~t6 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #76# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #76# 	java.lang.String :*: ~t8 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #76# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #76# 	~t8 :=: "classpath:/css/" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ResourceHandlerRegistration~~addResourceLocations~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistration^?Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t7 , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #76# 	~t8 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 131
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	java.lang.String :*: ~t9 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	~t9 :=: "/video/**" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	org.springframework.web.servlet.config.annotation.ResourceHandlerRegistration :*: ~t10 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t10 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ResourceHandlerRegistry~~addResourceHandler~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistry^?Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	registry , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	~t9 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #71# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #71# 	java.lang.String :*: ~t11 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #71# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #71# 	~t11 :=: "classpath:/video/" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~web~servlet~config~annotation~ResourceHandlerRegistration~~addResourceLocations~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistration^?Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	~t10 , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #71# 	~t11 ) ;
+
+#source-line 132
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 135
+ #27# :public: org.owasp.webgoat.i18n.PluginMessages :*: org~owasp~webgoat~MvcConfiguration~~pluginMessages~Lorg~owasp~webgoat~MvcConfiguration^Lorg~owasp~webgoat~i18n~Messages^Lorg~owasp~webgoat~i18n~Language^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# org.owasp.webgoat.MvcConfiguration :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #51# org.owasp.webgoat.i18n.Messages :*: messages , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #70# org.owasp.webgoat.i18n.Language :*: language ) :  "pluginMessages"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 134
+ #5# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# < org.springframework.context.annotation.Bean :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 135
+ #80# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 136
+ #24# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #24# 	org.owasp.webgoat.i18n.PluginMessages :*: pluginMessages ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #41# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #41# 	org.owasp.webgoat.i18n.PluginMessages :*: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #41# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #41# 	~t0 :=: :new: org.owasp.webgoat.i18n.PluginMessages ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #41# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #41# 	-~> org~owasp~webgoat~i18n~PluginMessages~~init^~Lorg~owasp~webgoat~i18n~PluginMessages^Lorg~owasp~webgoat~i18n~Messages^Lorg~owasp~webgoat~i18n~Language^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #41# 	~t0 , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #60# 	messages , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #70# 	language ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #24# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #24# 	pluginMessages :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #41# 	~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 137
+ #43# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #43# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #43# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #43# 	~t1 :=: "UTF-8" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~context~support~AbstractResourceBasedMessageSource~~setDefaultEncoding~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	pluginMessages , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #43# 	~t1 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 138
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	java.lang.String :*: ~t2 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	~t2 :=: "i18n/WebGoatLabels" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~context~support~AbstractResourceBasedMessageSource~~setBasenames~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^?Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	pluginMessages , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	~t2 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 139
+ #50# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #50# 	:boolean: ~t3 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #50# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #50# 	~t3 :=: :false: ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~context~support~AbstractResourceBasedMessageSource~~setFallbackToSystemLocale~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^Z^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	pluginMessages , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #50# 	~t3 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 140
+ #9# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	pluginMessages ;
+
+#source-line 141
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 144
+ #21# :public: org.owasp.webgoat.i18n.Language :*: org~owasp~webgoat~MvcConfiguration~~language~Lorg~owasp~webgoat~MvcConfiguration^Lorg~springframework~web~servlet~LocaleResolver^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #21# org.owasp.webgoat.MvcConfiguration :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #45# org.springframework.web.servlet.LocaleResolver :*: localeResolver ) :  "language"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 143
+ #5# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# < org.springframework.context.annotation.Bean :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 144
+ #61# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 145
+ #16# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	org.owasp.webgoat.i18n.Language :*: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	~t0 :=: :new: org.owasp.webgoat.i18n.Language ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	-~> org~owasp~webgoat~i18n~Language~~init^~Lorg~owasp~webgoat~i18n~Language^Lorg~springframework~web~servlet~LocaleResolver^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	~t0 , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #29# 	localeResolver ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	~t0 ;
+
+#source-line 146
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 149
+ #21# :public: org.owasp.webgoat.i18n.Messages :*: org~owasp~webgoat~MvcConfiguration~~messageSource~Lorg~owasp~webgoat~MvcConfiguration^Lorg~owasp~webgoat~i18n~Language^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #21# org.owasp.webgoat.MvcConfiguration :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #44# org.owasp.webgoat.i18n.Language :*: language ) :  "messageSource"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 148
+ #5# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# < org.springframework.context.annotation.Bean :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 149
+ #54# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 150
+ #18# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #18# 	org.owasp.webgoat.i18n.Messages :*: messages ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #29# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #29# 	org.owasp.webgoat.i18n.Messages :*: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #29# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #29# 	~t0 :=: :new: org.owasp.webgoat.i18n.Messages ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #29# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #29# 	-~> org~owasp~webgoat~i18n~Messages~~init^~Lorg~owasp~webgoat~i18n~Messages^Lorg~owasp~webgoat~i18n~Language^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #29# 	~t0 , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #42# 	language ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #18# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #18# 	messages :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #29# 	~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 151
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	~t1 :=: "UTF-8" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~context~support~AbstractResourceBasedMessageSource~~setDefaultEncoding~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	messages , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	~t1 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 152
+ #30# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #30# 	java.lang.String :*: ~t2 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #30# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #30# 	~t2 :=: "classpath:i18n/messages" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~context~support~AbstractResourceBasedMessageSource~~setBasename~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	messages , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #30# 	~t2 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 153
+ #44# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #44# 	:boolean: ~t3 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #44# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #44# 	~t3 :=: :false: ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	-~> org~springframework~context~support~AbstractResourceBasedMessageSource~~setFallbackToSystemLocale~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^Z^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	messages , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #44# 	~t3 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 154
+ #9# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	messages ;
+
+#source-line 155
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 158
+ #27# :public: org.springframework.web.servlet.LocaleResolver :*: org~owasp~webgoat~MvcConfiguration~~localeResolver~Lorg~owasp~webgoat~MvcConfiguration^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #27# org.owasp.webgoat.MvcConfiguration :*: this~ ) :  "localeResolver"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 157
+ #5# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# < org.springframework.context.annotation.Bean :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 158
+ #44# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 159
+ #31# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	org.springframework.web.servlet.i18n.SessionLocaleResolver :*: slr ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	org.springframework.web.servlet.i18n.SessionLocaleResolver :*: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	~t0 :=: :new: org.springframework.web.servlet.i18n.SessionLocaleResolver ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	-~> org~springframework~web~servlet~i18n~SessionLocaleResolver~~init^~Lorg~springframework~web~servlet~i18n~SessionLocaleResolver^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	~t0 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #31# 	slr :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #37# 	~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 160
+ #9# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	slr ;
+
+#source-line 161
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 164
+ #26# :public: org.owasp.webgoat.session.LabelDebugger :*: org~owasp~webgoat~MvcConfiguration~~labelDebugger~Lorg~owasp~webgoat~MvcConfiguration^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #26# org.owasp.webgoat.MvcConfiguration :*: this~ ) :  "labelDebugger"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 163
+ #5# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #5# < org.springframework.context.annotation.Bean :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 164
+ #42# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 165
+ #16# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	org.owasp.webgoat.session.LabelDebugger :*: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	~t0 :=: :new: org.owasp.webgoat.session.LabelDebugger ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	-~> org~owasp~webgoat~session~LabelDebugger~~init^~Lorg~owasp~webgoat~session~LabelDebugger^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	~t0 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #9# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #16# 	~t0 ;
+
+#source-line 166
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 62
+ #14# :public: :void: org~owasp~webgoat~MvcConfiguration~~init^~Lorg~owasp~webgoat~MvcConfiguration^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #14# org.owasp.webgoat.MvcConfiguration :*: this~ ) :  "init^" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #14# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #14# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #14# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #14# :public: :static: :void: org~owasp~webgoat~MvcConfiguration~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #14# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+
+#source-line 64
+ #30# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #30# 		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\MvcConfiguration.java
+ #30# 		[ org.owasp.webgoat.MvcConfiguration ] UTF8 :=: "UTF-8" ;
+	}
+
+#source-line 62
+}
+#source-line 62
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+}
+	
+:public: :interface::class: org.springframework.web.servlet.config.annotation.WebMvcConfigurer :extends: java.lang.Object :"org.springframework.web.servlet.config.annotation":"WebMvcConfigurer"{
+	
+ :public: :void: org~springframework~web~servlet~config~annotation~WebMvcConfigurer~~addResourceHandlers~Lorg~springframework~web~servlet~config~annotation~WebMvcConfigurer^Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistry^ ( org.springframework.web.servlet.config.annotation.WebMvcConfigurer :*: , org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry :*: ) :  "addResourceHandlers" ;
+:public: :void: org~springframework~web~servlet~config~annotation~WebMvcConfigurer~~addViewControllers~Lorg~springframework~web~servlet~config~annotation~WebMvcConfigurer^Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistry^ ( org.springframework.web.servlet.config.annotation.WebMvcConfigurer :*: , org.springframework.web.servlet.config.annotation.ViewControllerRegistry :*: ) :  "addViewControllers" ;
+}
+	
+:public: :annotation::class: org.springframework.context.annotation.Configuration :extends: java.lang.annotation.Annotation :"org.springframework.context.annotation":"Configuration"{
+	
+}
+	
+ :public::class: org.springframework.web.servlet.config.annotation.ViewControllerRegistry :extends: java.lang.Object :"org.springframework.web.servlet.config.annotation":"ViewControllerRegistry"{
+	
+ :public: :void: org~springframework~web~servlet~config~annotation~ViewControllerRegistry~~init^~Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistry^Lorg~springframework~context~ApplicationContext^ ( org.springframework.web.servlet.config.annotation.ViewControllerRegistry :*: , org.springframework.context.ApplicationContext :*: ) :  "ViewControllerRegistry" ;
+:public: org.springframework.web.servlet.config.annotation.ViewControllerRegistration :*: org~springframework~web~servlet~config~annotation~ViewControllerRegistry~~addViewController~Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistry^Ljava~lang~String^ ( org.springframework.web.servlet.config.annotation.ViewControllerRegistry :*: , java.lang.String :*: ) :  "addViewController" ;
+:public: :void: org~springframework~web~servlet~config~annotation~ViewControllerRegistry~~setOrder~Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistry^I^ ( org.springframework.web.servlet.config.annotation.ViewControllerRegistry :*: , :int: ) :  "setOrder" ;
+}
+	
+:public: :annotation::class: java.lang.Override :extends: java.lang.annotation.Annotation :"java.lang":"Override"{
+	
+}
+	
+ :public::class: org.springframework.web.servlet.config.annotation.ViewControllerRegistration :extends: java.lang.Object :"org.springframework.web.servlet.config.annotation":"ViewControllerRegistration"{
+	
+ :public: :void: org~springframework~web~servlet~config~annotation~ViewControllerRegistration~~init^~Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistration^Ljava~lang~String^ ( org.springframework.web.servlet.config.annotation.ViewControllerRegistration :*: , java.lang.String :*: ) :  "ViewControllerRegistration" ;
+:protected: :void: org~springframework~web~servlet~config~annotation~ViewControllerRegistration~~setApplicationContext~Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistration^Lorg~springframework~context~ApplicationContext^ ( org.springframework.web.servlet.config.annotation.ViewControllerRegistration :*: , org.springframework.context.ApplicationContext :*: ) :  "setApplicationContext" ;
+:public: :void: org~springframework~web~servlet~config~annotation~ViewControllerRegistration~~setViewName~Lorg~springframework~web~servlet~config~annotation~ViewControllerRegistration^Ljava~lang~String^ ( org.springframework.web.servlet.config.annotation.ViewControllerRegistration :*: , java.lang.String :*: ) :  "setViewName" ;
+}
+	
+:public: :interface::class: org.springframework.web.servlet.ViewResolver :extends: java.lang.Object :"org.springframework.web.servlet":"ViewResolver"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~web~servlet~ViewResolver~~resolveViewName~Lorg~springframework~web~servlet~ViewResolver^Ljava~lang~String^Ljava~util~Locale^~throws;
+}
+	
+ :public::class: org.thymeleaf.spring5.SpringTemplateEngine :extends: org.thymeleaf.TemplateEngine org.thymeleaf.spring5.ISpringTemplateEngine org.springframework.context.MessageSourceAware :"org.thymeleaf.spring5":"SpringTemplateEngine"{
+	
+ :public: :void: org~thymeleaf~spring5~SpringTemplateEngine~~init^~Lorg~thymeleaf~spring5~SpringTemplateEngine^ ( org.thymeleaf.spring5.SpringTemplateEngine :*: ) :  "SpringTemplateEngine" ;
+:public: :void: org~thymeleaf~spring5~SpringTemplateEngine~~setEnableSpringELCompiler~Lorg~thymeleaf~spring5~SpringTemplateEngine^Z^ ( org.thymeleaf.spring5.SpringTemplateEngine :*: , :boolean: ) :  "setEnableSpringELCompiler" ;
+}
+	
+:public: :annotation::class: org.springframework.context.annotation.Bean :extends: java.lang.annotation.Annotation :"org.springframework.context.annotation":"Bean"{
+	
+}
+	
+ :public::class: org.thymeleaf.spring5.view.ThymeleafViewResolver :extends: org.springframework.web.servlet.view.AbstractCachingViewResolver org.springframework.core.Ordered :"org.thymeleaf.spring5.view":"ThymeleafViewResolver"{
+	
+ :public: :static: java.lang.Throwable :*: org~thymeleaf~spring5~view~ThymeleafViewResolver~~createView~Lorg~thymeleaf~spring5~view~ThymeleafViewResolver^Ljava~lang~String^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~thymeleaf~spring5~view~ThymeleafViewResolver~~loadView~Lorg~thymeleaf~spring5~view~ThymeleafViewResolver^Ljava~lang~String^Ljava~util~Locale^~throws;
+ :public: :void: org~thymeleaf~spring5~view~ThymeleafViewResolver~~init^~Lorg~thymeleaf~spring5~view~ThymeleafViewResolver^ ( org.thymeleaf.spring5.view.ThymeleafViewResolver :*: ) :  "ThymeleafViewResolver" ;
+:public: :void: org~thymeleaf~spring5~view~ThymeleafViewResolver~~setCharacterEncoding~Lorg~thymeleaf~spring5~view~ThymeleafViewResolver^Ljava~lang~String^ ( org.thymeleaf.spring5.view.ThymeleafViewResolver :*: , java.lang.String :*: ) :  "setCharacterEncoding" ;
+:public: :void: org~thymeleaf~spring5~view~ThymeleafViewResolver~~setOrder~Lorg~thymeleaf~spring5~view~ThymeleafViewResolver^I^ ( org.thymeleaf.spring5.view.ThymeleafViewResolver :*: , :int: ) :  "setOrder" ;
+:public: :void: org~thymeleaf~spring5~view~ThymeleafViewResolver~~setTemplateEngine~Lorg~thymeleaf~spring5~view~ThymeleafViewResolver^Lorg~thymeleaf~spring5~ISpringTemplateEngine^ ( org.thymeleaf.spring5.view.ThymeleafViewResolver :*: , org.thymeleaf.spring5.ISpringTemplateEngine :*: ) :  "setTemplateEngine" ;
+}
+	
+:public: :interface::class: org.thymeleaf.templateresolver.ITemplateResolver :extends: java.lang.Object :"org.thymeleaf.templateresolver":"ITemplateResolver"{
+	
+}
+	
+ :public: :interface::class: org.springframework.context.ApplicationContext :extends: org.springframework.core.env.EnvironmentCapable org.springframework.beans.factory.ListableBeanFactory org.springframework.beans.factory.HierarchicalBeanFactory org.springframework.context.MessageSource org.springframework.context.ApplicationEventPublisher org.springframework.core.io.support.ResourcePatternResolver :"org.springframework.context":"ApplicationContext"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~ApplicationContext~~getAutowireCapableBeanFactory~Lorg~springframework~context~ApplicationContext^~throws;
+}
+	
+ :public::class: org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver :extends: org.thymeleaf.templateresolver.AbstractConfigurableTemplateResolver org.springframework.context.ApplicationContextAware :"org.thymeleaf.spring5.templateresolver":"SpringResourceTemplateResolver"{
+	
+ :public: :static: java.lang.Throwable :*: org~thymeleaf~spring5~templateresolver~SpringResourceTemplateResolver~~setApplicationContext~Lorg~thymeleaf~spring5~templateresolver~SpringResourceTemplateResolver^Lorg~springframework~context~ApplicationContext^~throws;
+ :public: :void: org~thymeleaf~spring5~templateresolver~SpringResourceTemplateResolver~~init^~Lorg~thymeleaf~spring5~templateresolver~SpringResourceTemplateResolver^ ( org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver :*: ) :  "SpringResourceTemplateResolver" ;
+:public: :void: org~thymeleaf~spring5~templateresolver~SpringResourceTemplateResolver~~setApplicationContext~Lorg~thymeleaf~spring5~templateresolver~SpringResourceTemplateResolver^Lorg~springframework~context~ApplicationContext^ ( org.thymeleaf.spring5.templateresolver.SpringResourceTemplateResolver :*: , org.springframework.context.ApplicationContext :*: ) :  "setApplicationContext"  :exceptions:  org.springframework.beans.BeansException :*: ;
+}
+	
+:public: :abstract::class: org.thymeleaf.templateresolver.AbstractConfigurableTemplateResolver :extends: org.thymeleaf.templateresolver.AbstractTemplateResolver :"org.thymeleaf.templateresolver":"AbstractConfigurableTemplateResolver"{
+	
+ :public: :void: org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~init^~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^ ( org.thymeleaf.templateresolver.AbstractConfigurableTemplateResolver :*: ) :  "AbstractConfigurableTemplateResolver" ;
+:public: :final: :void: org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~setCacheable~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^Z^ ( org.thymeleaf.templateresolver.AbstractConfigurableTemplateResolver :*: , :boolean: ) :  "setCacheable" ;
+:public: :final: :void: org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~setCharacterEncoding~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^Ljava~lang~String^ ( org.thymeleaf.templateresolver.AbstractConfigurableTemplateResolver :*: , java.lang.String :*: ) :  "setCharacterEncoding" ;
+:public: :final: :void: org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~setPrefix~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^Ljava~lang~String^ ( org.thymeleaf.templateresolver.AbstractConfigurableTemplateResolver :*: , java.lang.String :*: ) :  "setPrefix" ;
+:public: :final: :void: org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~setSuffix~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^Ljava~lang~String^ ( org.thymeleaf.templateresolver.AbstractConfigurableTemplateResolver :*: , java.lang.String :*: ) :  "setSuffix" ;
+:public: :final: :void: org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~setTemplateMode~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^Lorg~thymeleaf~templatemode~TemplateMode^ ( org.thymeleaf.templateresolver.AbstractConfigurableTemplateResolver :*: , org.thymeleaf.templatemode.TemplateMode :*: ) :  "setTemplateMode" ;
+:public: :final: :void: org~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver~~setTemplateMode~Lorg~thymeleaf~templateresolver~AbstractConfigurableTemplateResolver^Ljava~lang~String^ ( org.thymeleaf.templateresolver.AbstractConfigurableTemplateResolver :*: , java.lang.String :*: ) :  "setTemplateMode" ;
+}
+	
+:public: :final: :enum::class: org.thymeleaf.templatemode.TemplateMode :extends: java.lang.Enum java.lang.Enum :"org.thymeleaf.templatemode":"TemplateMode"{
+	
+ :public: :final: :static: org.thymeleaf.templatemode.TemplateMode :*: HTML;
+ :private: :void: org~thymeleaf~templatemode~TemplateMode~~init^~Lorg~thymeleaf~templatemode~TemplateMode^Z^Z^Z^ ( org.thymeleaf.templatemode.TemplateMode :*: , :boolean: , :boolean: , :boolean: ) :  "TemplateMode" ;
+}
+	
+:public: :abstract::class: org.thymeleaf.templateresolver.AbstractTemplateResolver :extends: java.lang.Object org.thymeleaf.templateresolver.ITemplateResolver :"org.thymeleaf.templateresolver":"AbstractTemplateResolver"{
+	
+ :protected: :void: org~thymeleaf~templateresolver~AbstractTemplateResolver~~init^~Lorg~thymeleaf~templateresolver~AbstractTemplateResolver^ ( org.thymeleaf.templateresolver.AbstractTemplateResolver :*: ) :  "AbstractTemplateResolver" ;
+:public: :void: org~thymeleaf~templateresolver~AbstractTemplateResolver~~setOrder~Lorg~thymeleaf~templateresolver~AbstractTemplateResolver^Ljava~lang~Integer^ ( org.thymeleaf.templateresolver.AbstractTemplateResolver :*: , java.lang.Integer :*: ) :  "setOrder" ;
+}
+	
+:public::class: org.owasp.webgoat.LessonTemplateResolver :extends: org.thymeleaf.templateresolver.FileTemplateResolver :"org.owasp.webgoat":"LessonTemplateResolver"{
+	
+ :public: :void: org~owasp~webgoat~LessonTemplateResolver~~init^~Lorg~owasp~webgoat~LessonTemplateResolver^Lorg~springframework~core~io~ResourceLoader^ ( org.owasp.webgoat.LessonTemplateResolver :*: , org.springframework.core.io.ResourceLoader :*: ) :  "LessonTemplateResolver" ;
+}
+	
+:public: :interface::class: org.springframework.core.io.ResourceLoader :extends: java.lang.Object :"org.springframework.core.io":"ResourceLoader"{
+	
+}
+	
+ :public::class: org.owasp.webgoat.AsciiDoctorTemplateResolver :extends: org.thymeleaf.templateresolver.FileTemplateResolver :"org.owasp.webgoat":"AsciiDoctorTemplateResolver"{
+	
+ :public: :void: org~owasp~webgoat~AsciiDoctorTemplateResolver~~init^~Lorg~owasp~webgoat~AsciiDoctorTemplateResolver^Lorg~owasp~webgoat~i18n~Language^ ( org.owasp.webgoat.AsciiDoctorTemplateResolver :*: , org.owasp.webgoat.i18n.Language :*: ) :  "AsciiDoctorTemplateResolver" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.Language :extends: java.lang.Object :"org.owasp.webgoat.i18n":"Language"{
+	
+ :public: :void: org~owasp~webgoat~i18n~Language~~init^~Lorg~owasp~webgoat~i18n~Language^Lorg~springframework~web~servlet~LocaleResolver^ ( org.owasp.webgoat.i18n.Language :*: , org.springframework.web.servlet.LocaleResolver :*: ) :  "Language" ;
+}
+	
+:public::class: org.thymeleaf.extras.springsecurity5.dialect.SpringSecurityDialect :extends: org.thymeleaf.dialect.AbstractDialect org.thymeleaf.dialect.IProcessorDialect org.thymeleaf.dialect.IExpressionObjectDialect org.thymeleaf.dialect.IExecutionAttributeDialect :"org.thymeleaf.extras.springsecurity5.dialect":"SpringSecurityDialect"{
+	
+ :public: :void: org~thymeleaf~extras~springsecurity5~dialect~SpringSecurityDialect~~init^~Lorg~thymeleaf~extras~springsecurity5~dialect~SpringSecurityDialect^ ( org.thymeleaf.extras.springsecurity5.dialect.SpringSecurityDialect :*: ) :  "SpringSecurityDialect" ;
+}
+	
+:public::class: org.thymeleaf.TemplateEngine :extends: java.lang.Object org.thymeleaf.ITemplateEngine :"org.thymeleaf":"TemplateEngine"{
+	
+ :public: :void: org~thymeleaf~TemplateEngine~~init^~Lorg~thymeleaf~TemplateEngine^ ( org.thymeleaf.TemplateEngine :*: ) :  "TemplateEngine" ;
+:public: :void: org~thymeleaf~TemplateEngine~~addDialect~Lorg~thymeleaf~TemplateEngine^Lorg~thymeleaf~dialect~IDialect^ ( org.thymeleaf.TemplateEngine :*: , org.thymeleaf.dialect.IDialect :*: ) :  "addDialect" ;
+:public: :void: org~thymeleaf~TemplateEngine~~addDialect~Lorg~thymeleaf~TemplateEngine^Ljava~lang~String^Lorg~thymeleaf~dialect~IDialect^ ( org.thymeleaf.TemplateEngine :*: , java.lang.String :*: , org.thymeleaf.dialect.IDialect :*: ) :  "addDialect" ;
+:public: :void: org~thymeleaf~TemplateEngine~~setTemplateResolvers~Lorg~thymeleaf~TemplateEngine^Ljava~util~Set^ ( org.thymeleaf.TemplateEngine :*: , java.util.Set :*: ) :  "setTemplateResolvers" ;
+}
+	
+:public::class: org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry :extends: java.lang.Object :"org.springframework.web.servlet.config.annotation":"ResourceHandlerRegistry"{
+	
+ :public: :void: org~springframework~web~servlet~config~annotation~ResourceHandlerRegistry~~init^~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistry^Lorg~springframework~context~ApplicationContext^Ljavax~servlet~ServletContext^ ( org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry :*: , org.springframework.context.ApplicationContext :*: , javax.servlet.ServletContext :*: ) :  "ResourceHandlerRegistry" ;
+:public: :void: org~springframework~web~servlet~config~annotation~ResourceHandlerRegistry~~init^~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistry^Lorg~springframework~context~ApplicationContext^Ljavax~servlet~ServletContext^Lorg~springframework~web~accept~ContentNegotiationManager^ ( org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry :*: , org.springframework.context.ApplicationContext :*: , javax.servlet.ServletContext :*: , org.springframework.web.accept.ContentNegotiationManager :*: ) :  "ResourceHandlerRegistry" ;
+:public: :void: org~springframework~web~servlet~config~annotation~ResourceHandlerRegistry~~init^~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistry^Lorg~springframework~context~ApplicationContext^Ljavax~servlet~ServletContext^Lorg~springframework~web~accept~ContentNegotiationManager^Lorg~springframework~web~util~UrlPathHelper^ ( org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry :*: , org.springframework.context.ApplicationContext :*: , javax.servlet.ServletContext :*: , org.springframework.web.accept.ContentNegotiationManager :*: , org.springframework.web.util.UrlPathHelper :*: ) :  "ResourceHandlerRegistry" ;
+:public: org.springframework.web.servlet.config.annotation.ResourceHandlerRegistration :*: org~springframework~web~servlet~config~annotation~ResourceHandlerRegistry~~addResourceHandler~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistry^?Ljava~lang~String^ ( org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry :*: , java.lang.String :*: [] , ... ) :  "addResourceHandler" ;
+:public: org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry :*: org~springframework~web~servlet~config~annotation~ResourceHandlerRegistry~~setOrder~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistry^I^ ( org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry :*: , :int: ) :  "setOrder" ;
+}
+	
+:public::class: org.springframework.web.servlet.config.annotation.ResourceHandlerRegistration :extends: java.lang.Object :"org.springframework.web.servlet.config.annotation":"ResourceHandlerRegistration"{
+	
+ :public: :void: org~springframework~web~servlet~config~annotation~ResourceHandlerRegistration~~init^~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistration^?Ljava~lang~String^ ( org.springframework.web.servlet.config.annotation.ResourceHandlerRegistration :*: , java.lang.String :*: [] , ... ) :  "ResourceHandlerRegistration" ;
+:public: org.springframework.web.servlet.config.annotation.ResourceHandlerRegistration :*: org~springframework~web~servlet~config~annotation~ResourceHandlerRegistration~~addResourceLocations~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistration^?Ljava~lang~String^ ( org.springframework.web.servlet.config.annotation.ResourceHandlerRegistration :*: , java.lang.String :*: [] , ... ) :  "addResourceLocations" ;
+:public: org.springframework.web.servlet.config.annotation.ResourceHandlerRegistration :*: org~springframework~web~servlet~config~annotation~ResourceHandlerRegistration~~addResourceLocations~Lorg~springframework~web~servlet~config~annotation~ResourceHandlerRegistration^?Lorg~springframework~core~io~Resource^ ( org.springframework.web.servlet.config.annotation.ResourceHandlerRegistration :*: , org.springframework.core.io.Resource :*: [] , ... ) :  "addResourceLocations" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.PluginMessages :extends: org.springframework.context.support.ReloadableResourceBundleMessageSource :"org.owasp.webgoat.i18n":"PluginMessages"{
+	
+ :public: :void: org~owasp~webgoat~i18n~PluginMessages~~init^~Lorg~owasp~webgoat~i18n~PluginMessages^Lorg~owasp~webgoat~i18n~Messages^Lorg~owasp~webgoat~i18n~Language^ ( org.owasp.webgoat.i18n.PluginMessages :*: , org.owasp.webgoat.i18n.Messages :*: , org.owasp.webgoat.i18n.Language :*: ) :  "PluginMessages" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.Messages :extends: org.springframework.context.support.ReloadableResourceBundleMessageSource :"org.owasp.webgoat.i18n":"Messages"{
+	
+ :public: :void: org~owasp~webgoat~i18n~Messages~~init^~Lorg~owasp~webgoat~i18n~Messages^Lorg~owasp~webgoat~i18n~Language^ ( org.owasp.webgoat.i18n.Messages :*: , org.owasp.webgoat.i18n.Language :*: ) :  "Messages" ;
+}
+	
+:public: :abstract::class: org.springframework.context.support.AbstractResourceBasedMessageSource :extends: org.springframework.context.support.AbstractMessageSource :"org.springframework.context.support":"AbstractResourceBasedMessageSource"{
+	
+ :public: :void: org~springframework~context~support~AbstractResourceBasedMessageSource~~init^~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^ ( org.springframework.context.support.AbstractResourceBasedMessageSource :*: ) :  "AbstractResourceBasedMessageSource" ;
+:public: :void: org~springframework~context~support~AbstractResourceBasedMessageSource~~setBasename~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^Ljava~lang~String^ ( org.springframework.context.support.AbstractResourceBasedMessageSource :*: , java.lang.String :*: ) :  "setBasename" ;
+:public: :void: org~springframework~context~support~AbstractResourceBasedMessageSource~~setBasenames~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^?Ljava~lang~String^ ( org.springframework.context.support.AbstractResourceBasedMessageSource :*: , java.lang.String :*: [] , ... ) :  "setBasenames" ;
+:public: :void: org~springframework~context~support~AbstractResourceBasedMessageSource~~setDefaultEncoding~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^Ljava~lang~String^ ( org.springframework.context.support.AbstractResourceBasedMessageSource :*: , java.lang.String :*: ) :  "setDefaultEncoding" ;
+:public: :void: org~springframework~context~support~AbstractResourceBasedMessageSource~~setFallbackToSystemLocale~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^Z^ ( org.springframework.context.support.AbstractResourceBasedMessageSource :*: , :boolean: ) :  "setFallbackToSystemLocale" ;
+}
+	
+:public: :interface::class: org.springframework.web.servlet.LocaleResolver :extends: java.lang.Object :"org.springframework.web.servlet":"LocaleResolver"{
+	
+}
+	
+ :public::class: org.springframework.web.servlet.i18n.SessionLocaleResolver :extends: org.springframework.web.servlet.i18n.AbstractLocaleContextResolver :"org.springframework.web.servlet.i18n":"SessionLocaleResolver"{
+	
+ :public: :void: org~springframework~web~servlet~i18n~SessionLocaleResolver~~init^~Lorg~springframework~web~servlet~i18n~SessionLocaleResolver^ ( org.springframework.web.servlet.i18n.SessionLocaleResolver :*: ) :  "SessionLocaleResolver" ;
+}
+	
+:public::class: org.owasp.webgoat.session.LabelDebugger :extends: java.lang.Object java.io.Serializable :"org.owasp.webgoat.session":"LabelDebugger"{
+	
+ :public: :void: org~owasp~webgoat~session~LabelDebugger~~init^~Lorg~owasp~webgoat~session~LabelDebugger^ ( org.owasp.webgoat.session.LabelDebugger :*: ) :  "LabelDebugger" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+}
+	
+ :public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+}
+	
+ :public: :interface::class: org.thymeleaf.spring5.ISpringTemplateEngine :extends: org.thymeleaf.ITemplateEngine :"org.thymeleaf.spring5":"ISpringTemplateEngine"{
+	
+}
+	
+ :public: :interface::class: org.springframework.context.MessageSourceAware :extends: org.springframework.beans.factory.Aware :"org.springframework.context":"MessageSourceAware"{
+	
+}
+	
+ :public: :abstract::class: org.springframework.web.servlet.view.AbstractCachingViewResolver :extends: org.springframework.web.context.support.WebApplicationObjectSupport org.springframework.web.servlet.ViewResolver :"org.springframework.web.servlet.view":"AbstractCachingViewResolver"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~web~servlet~view~AbstractCachingViewResolver~~createView~Lorg~springframework~web~servlet~view~AbstractCachingViewResolver^Ljava~lang~String^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~servlet~view~AbstractCachingViewResolver~~loadView~Lorg~springframework~web~servlet~view~AbstractCachingViewResolver^Ljava~lang~String^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~servlet~view~AbstractCachingViewResolver~~resolveViewName~Lorg~springframework~web~servlet~view~AbstractCachingViewResolver^Ljava~lang~String^Ljava~util~Locale^~throws;
+ :public: :void: org~springframework~web~servlet~view~AbstractCachingViewResolver~~init^~Lorg~springframework~web~servlet~view~AbstractCachingViewResolver^ ( org.springframework.web.servlet.view.AbstractCachingViewResolver :*: ) :  "AbstractCachingViewResolver" ;
+}
+	
+:public: :interface::class: org.springframework.core.Ordered :extends: java.lang.Object :"org.springframework.core":"Ordered"{
+	
+}
+	
+ :public: :interface::class: org.springframework.core.env.EnvironmentCapable :extends: java.lang.Object :"org.springframework.core.env":"EnvironmentCapable"{
+	
+}
+	
+ :public: :interface::class: org.springframework.beans.factory.ListableBeanFactory :extends: org.springframework.beans.factory.BeanFactory :"org.springframework.beans.factory":"ListableBeanFactory"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~ListableBeanFactory~~findAnnotationOnBean~Lorg~springframework~beans~factory~ListableBeanFactory^Ljava~lang~String^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~ListableBeanFactory~~getBeansOfType~Lorg~springframework~beans~factory~ListableBeanFactory^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~ListableBeanFactory~~getBeansOfType~Lorg~springframework~beans~factory~ListableBeanFactory^Ljava~lang~Class^Z^Z^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~ListableBeanFactory~~getBeansWithAnnotation~Lorg~springframework~beans~factory~ListableBeanFactory^Ljava~lang~Class^~throws;
+}
+	
+ :public: :interface::class: org.springframework.beans.factory.HierarchicalBeanFactory :extends: org.springframework.beans.factory.BeanFactory :"org.springframework.beans.factory":"HierarchicalBeanFactory"{
+	
+}
+	
+ :public: :interface::class: org.springframework.context.MessageSource :extends: java.lang.Object :"org.springframework.context":"MessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^~throws;
+}
+	
+ :public: :interface::class: org.springframework.context.ApplicationEventPublisher :extends: java.lang.Object :"org.springframework.context":"ApplicationEventPublisher"{
+	
+}
+	
+ :public: :interface::class: org.springframework.core.io.support.ResourcePatternResolver :extends: org.springframework.core.io.ResourceLoader :"org.springframework.core.io.support":"ResourcePatternResolver"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~core~io~support~ResourcePatternResolver~~getResources~Lorg~springframework~core~io~support~ResourcePatternResolver^Ljava~lang~String^~throws;
+}
+	
+ :public: :interface::class: org.springframework.context.ApplicationContextAware :extends: org.springframework.beans.factory.Aware :"org.springframework.context":"ApplicationContextAware"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~ApplicationContextAware~~setApplicationContext~Lorg~springframework~context~ApplicationContextAware^Lorg~springframework~context~ApplicationContext^~throws;
+ :public: :abstract: :void: org~springframework~context~ApplicationContextAware~~setApplicationContext~Lorg~springframework~context~ApplicationContextAware^Lorg~springframework~context~ApplicationContext^ ( org.springframework.context.ApplicationContextAware :*: , org.springframework.context.ApplicationContext :*: ) :  "setApplicationContext"  :exceptions:  org.springframework.beans.BeansException :*: ;
+}
+	
+:public: :abstract::class: org.springframework.beans.BeansException :extends: org.springframework.core.NestedRuntimeException :"org.springframework.beans":"BeansException"{
+	
+ :public: :void: org~springframework~beans~BeansException~~init^~Lorg~springframework~beans~BeansException^Ljava~lang~String^ ( org.springframework.beans.BeansException :*: , java.lang.String :*: ) :  "BeansException" ;
+:public: :void: org~springframework~beans~BeansException~~init^~Lorg~springframework~beans~BeansException^Ljava~lang~String^Ljava~lang~Throwable^ ( org.springframework.beans.BeansException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "BeansException" ;
+}
+	
+:public: :abstract::class: java.lang.Enum :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.lang":"Enum"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~clone~Ljava~lang~Enum^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObject~Ljava~lang~Enum^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObjectNoData~Ljava~lang~Enum^~throws;
+ :protected: :void: java~lang~Enum~~init^~Ljava~lang~Enum^Ljava~lang~String^I^ ( java.lang.Enum :*: , java.lang.String :*: , :int: ) :  "Enum" ;
+}
+	
+:public: :final::class: java.lang.Integer :extends: java.lang.Number java.lang.Comparable :"java.lang":"Integer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~init^~Ljava~lang~Integer^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~decode~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseInt~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseInt~S~Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseUnsignedInt~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~parseUnsignedInt~S~Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~valueOf~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Integer~~valueOf~S~Ljava~lang~String^I^~throws;
+ :public: :void: java~lang~Integer~~init^~Ljava~lang~Integer^I^ ( java.lang.Integer :*: , :int: ) :  "Integer" ;
+:public: :void: java~lang~Integer~~init^~Ljava~lang~Integer^Ljava~lang~String^ ( java.lang.Integer :*: , java.lang.String :*: ) :  "Integer"  :exceptions:  java.lang.NumberFormatException :*: ;
+}
+	
+:public::class: org.thymeleaf.templateresolver.FileTemplateResolver :extends: org.thymeleaf.templateresolver.AbstractConfigurableTemplateResolver :"org.thymeleaf.templateresolver":"FileTemplateResolver"{
+	
+ :public: :void: org~thymeleaf~templateresolver~FileTemplateResolver~~init^~Lorg~thymeleaf~templateresolver~FileTemplateResolver^ ( org.thymeleaf.templateresolver.FileTemplateResolver :*: ) :  "FileTemplateResolver" ;
+}
+	
+:public::class: org.thymeleaf.dialect.AbstractDialect :extends: java.lang.Object org.thymeleaf.dialect.IDialect :"org.thymeleaf.dialect":"AbstractDialect"{
+	
+ :protected: :void: org~thymeleaf~dialect~AbstractDialect~~init^~Lorg~thymeleaf~dialect~AbstractDialect^Ljava~lang~String^ ( org.thymeleaf.dialect.AbstractDialect :*: , java.lang.String :*: ) :  "AbstractDialect" ;
+}
+	
+:public: :interface::class: org.thymeleaf.dialect.IProcessorDialect :extends: org.thymeleaf.dialect.IDialect :"org.thymeleaf.dialect":"IProcessorDialect"{
+	
+}
+	
+ :public: :interface::class: org.thymeleaf.dialect.IExpressionObjectDialect :extends: org.thymeleaf.dialect.IDialect :"org.thymeleaf.dialect":"IExpressionObjectDialect"{
+	
+}
+	
+ :public: :interface::class: org.thymeleaf.dialect.IExecutionAttributeDialect :extends: org.thymeleaf.dialect.IDialect :"org.thymeleaf.dialect":"IExecutionAttributeDialect"{
+	
+}
+	
+ :public: :interface::class: org.thymeleaf.ITemplateEngine :extends: java.lang.Object :"org.thymeleaf":"ITemplateEngine"{
+	
+}
+	
+ :public: :interface::class: org.thymeleaf.dialect.IDialect :extends: java.lang.Object :"org.thymeleaf.dialect":"IDialect"{
+	
+}
+	
+ :public: :interface::class: java.util.Set :extends: java.util.Collection :"java.util":"Set"{
+	
+}
+	
+ :public: :interface::class: javax.servlet.ServletContext :extends: java.lang.Object :"javax.servlet":"ServletContext"{
+	
+ :public: :static: java.lang.Throwable :*: javax~servlet~ServletContext~~createFilter~Ljavax~servlet~ServletContext^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~ServletContext~~createListener~Ljavax~servlet~ServletContext^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~ServletContext~~createServlet~Ljavax~servlet~ServletContext^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~ServletContext~~getResource~Ljavax~servlet~ServletContext^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~ServletContext~~getServlet~Ljavax~servlet~ServletContext^Ljava~lang~String^~throws;
+}
+	
+ :public::class: org.springframework.web.accept.ContentNegotiationManager :extends: java.lang.Object org.springframework.web.accept.ContentNegotiationStrategy org.springframework.web.accept.MediaTypeFileExtensionResolver :"org.springframework.web.accept":"ContentNegotiationManager"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~web~accept~ContentNegotiationManager~~resolveMediaTypes~Lorg~springframework~web~accept~ContentNegotiationManager^Lorg~springframework~web~context~request~NativeWebRequest^~throws;
+ :public: :void: org~springframework~web~accept~ContentNegotiationManager~~init^~Lorg~springframework~web~accept~ContentNegotiationManager^ ( org.springframework.web.accept.ContentNegotiationManager :*: ) :  "ContentNegotiationManager" ;
+:public: :void: org~springframework~web~accept~ContentNegotiationManager~~init^~Lorg~springframework~web~accept~ContentNegotiationManager^?Lorg~springframework~web~accept~ContentNegotiationStrategy^ ( org.springframework.web.accept.ContentNegotiationManager :*: , org.springframework.web.accept.ContentNegotiationStrategy :*: [] , ... ) :  "ContentNegotiationManager" ;
+:public: :void: org~springframework~web~accept~ContentNegotiationManager~~init^~Lorg~springframework~web~accept~ContentNegotiationManager^Ljava~util~Collection^ ( org.springframework.web.accept.ContentNegotiationManager :*: , java.util.Collection :*: ) :  "ContentNegotiationManager" ;
+}
+	
+:public::class: org.springframework.web.util.UrlPathHelper :extends: java.lang.Object :"org.springframework.web.util":"UrlPathHelper"{
+	
+ :public: :void: org~springframework~web~util~UrlPathHelper~~init^~Lorg~springframework~web~util~UrlPathHelper^ ( org.springframework.web.util.UrlPathHelper :*: ) :  "UrlPathHelper" ;
+:public: :void: org~springframework~web~util~UrlPathHelper~~setDefaultEncoding~Lorg~springframework~web~util~UrlPathHelper^Ljava~lang~String^ ( org.springframework.web.util.UrlPathHelper :*: , java.lang.String :*: ) :  "setDefaultEncoding" ;
+}
+	
+:public: :interface::class: org.springframework.core.io.Resource :extends: org.springframework.core.io.InputStreamSource :"org.springframework.core.io":"Resource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~core~io~Resource~~contentLength~Lorg~springframework~core~io~Resource^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~core~io~Resource~~createRelative~Lorg~springframework~core~io~Resource^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~core~io~Resource~~getFile~Lorg~springframework~core~io~Resource^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~core~io~Resource~~getURI~Lorg~springframework~core~io~Resource^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~core~io~Resource~~getURL~Lorg~springframework~core~io~Resource^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~core~io~Resource~~lastModified~Lorg~springframework~core~io~Resource^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~core~io~Resource~~readableChannel~Lorg~springframework~core~io~Resource^~throws;
+}
+	
+ :public::class: org.springframework.context.support.ReloadableResourceBundleMessageSource :extends: org.springframework.context.support.AbstractResourceBasedMessageSource org.springframework.context.ResourceLoaderAware :"org.springframework.context.support":"ReloadableResourceBundleMessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~ReloadableResourceBundleMessageSource~~loadProperties~Lorg~springframework~context~support~ReloadableResourceBundleMessageSource^Lorg~springframework~core~io~Resource^Ljava~lang~String^~throws;
+ :public: :void: org~springframework~context~support~ReloadableResourceBundleMessageSource~~init^~Lorg~springframework~context~support~ReloadableResourceBundleMessageSource^ ( org.springframework.context.support.ReloadableResourceBundleMessageSource :*: ) :  "ReloadableResourceBundleMessageSource" ;
+}
+	
+:public: :abstract::class: org.springframework.context.support.AbstractMessageSource :extends: org.springframework.context.support.MessageSourceSupport org.springframework.context.HierarchicalMessageSource :"org.springframework.context.support":"AbstractMessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^~throws;
+ :public: :void: org~springframework~context~support~AbstractMessageSource~~init^~Lorg~springframework~context~support~AbstractMessageSource^ ( org.springframework.context.support.AbstractMessageSource :*: ) :  "AbstractMessageSource" ;
+}
+	
+:public: :abstract::class: org.springframework.web.servlet.i18n.AbstractLocaleContextResolver :extends: org.springframework.web.servlet.i18n.AbstractLocaleResolver org.springframework.web.servlet.LocaleContextResolver :"org.springframework.web.servlet.i18n":"AbstractLocaleContextResolver"{
+	
+ :public: :void: org~springframework~web~servlet~i18n~AbstractLocaleContextResolver~~init^~Lorg~springframework~web~servlet~i18n~AbstractLocaleContextResolver^ ( org.springframework.web.servlet.i18n.AbstractLocaleContextResolver :*: ) :  "AbstractLocaleContextResolver" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :interface::class: org.springframework.beans.factory.Aware :extends: java.lang.Object :"org.springframework.beans.factory":"Aware"{
+	
+}
+	
+ :public: :abstract::class: org.springframework.web.context.support.WebApplicationObjectSupport :extends: org.springframework.context.support.ApplicationObjectSupport org.springframework.web.context.ServletContextAware :"org.springframework.web.context.support":"WebApplicationObjectSupport"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~web~context~support~WebApplicationObjectSupport~~getServletContext~Lorg~springframework~web~context~support~WebApplicationObjectSupport^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~context~support~WebApplicationObjectSupport~~getTempDir~Lorg~springframework~web~context~support~WebApplicationObjectSupport^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~web~context~support~WebApplicationObjectSupport~~getWebApplicationContext~Lorg~springframework~web~context~support~WebApplicationObjectSupport^~throws;
+ :public: :void: org~springframework~web~context~support~WebApplicationObjectSupport~~init^~Lorg~springframework~web~context~support~WebApplicationObjectSupport^ ( org.springframework.web.context.support.WebApplicationObjectSupport :*: ) :  "WebApplicationObjectSupport" ;
+}
+	
+:public: :interface::class: org.springframework.beans.factory.BeanFactory :extends: java.lang.Object :"org.springframework.beans.factory":"BeanFactory"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~getBean~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~getBean~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~getBean~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~getBean~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~getBean~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~Class^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~getType~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~getType~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~isPrototype~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~isSingleton~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~isTypeMatch~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^Lorg~springframework~core~ResolvableType^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~beans~factory~BeanFactory~~isTypeMatch~Lorg~springframework~beans~factory~BeanFactory^Ljava~lang~String^Ljava~lang~Class^~throws;
+}
+	
+ :public: :abstract::class: org.springframework.core.NestedRuntimeException :extends: java.lang.RuntimeException :"org.springframework.core":"NestedRuntimeException"{
+	
+ :public: :void: org~springframework~core~NestedRuntimeException~~init^~Lorg~springframework~core~NestedRuntimeException^Ljava~lang~String^ ( org.springframework.core.NestedRuntimeException :*: , java.lang.String :*: ) :  "NestedRuntimeException" ;
+:public: :void: org~springframework~core~NestedRuntimeException~~init^~Lorg~springframework~core~NestedRuntimeException^Ljava~lang~String^Ljava~lang~Throwable^ ( org.springframework.core.NestedRuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "NestedRuntimeException" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+}
+	
+:public: :abstract::class: java.lang.Number :extends: java.lang.Object java.io.Serializable :"java.lang":"Number"{
+	
+ :public: :void: java~lang~Number~~init^~Ljava~lang~Number^ ( java.lang.Number :*: ) :  "Number" ;
+}
+	
+:public::class: java.lang.NumberFormatException :extends: java.lang.IllegalArgumentException :"java.lang":"NumberFormatException"{
+	
+ :public: :void: java~lang~NumberFormatException~~init^~Ljava~lang~NumberFormatException^ ( java.lang.NumberFormatException :*: ) :  "NumberFormatException" ;
+:public: :void: java~lang~NumberFormatException~~init^~Ljava~lang~NumberFormatException^Ljava~lang~String^ ( java.lang.NumberFormatException :*: , java.lang.String :*: ) :  "NumberFormatException" ;
+}
+	
+:public: :interface::class: java.util.Collection :extends: java.lang.Iterable :"java.util":"Collection"{
+	
+}
+	
+ :public: :interface::class: org.springframework.web.accept.ContentNegotiationStrategy :extends: java.lang.Object :"org.springframework.web.accept":"ContentNegotiationStrategy"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~web~accept~ContentNegotiationStrategy~~resolveMediaTypes~Lorg~springframework~web~accept~ContentNegotiationStrategy^Lorg~springframework~web~context~request~NativeWebRequest^~throws;
+}
+	
+ :public: :interface::class: org.springframework.web.accept.MediaTypeFileExtensionResolver :extends: java.lang.Object :"org.springframework.web.accept":"MediaTypeFileExtensionResolver"{
+	
+}
+	
+ :public: :interface::class: org.springframework.core.io.InputStreamSource :extends: java.lang.Object :"org.springframework.core.io":"InputStreamSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~core~io~InputStreamSource~~getInputStream~Lorg~springframework~core~io~InputStreamSource^~throws;
+}
+	
+ :public: :interface::class: org.springframework.context.ResourceLoaderAware :extends: org.springframework.beans.factory.Aware :"org.springframework.context":"ResourceLoaderAware"{
+	
+}
+	
+ :public: :abstract::class: org.springframework.context.support.MessageSourceSupport :extends: java.lang.Object :"org.springframework.context.support":"MessageSourceSupport"{
+	
+ :public: :void: org~springframework~context~support~MessageSourceSupport~~init^~Lorg~springframework~context~support~MessageSourceSupport^ ( org.springframework.context.support.MessageSourceSupport :*: ) :  "MessageSourceSupport" ;
+}
+	
+:public: :interface::class: org.springframework.context.HierarchicalMessageSource :extends: org.springframework.context.MessageSource :"org.springframework.context":"HierarchicalMessageSource"{
+	
+}
+	
+ :public: :abstract::class: org.springframework.web.servlet.i18n.AbstractLocaleResolver :extends: java.lang.Object org.springframework.web.servlet.LocaleResolver :"org.springframework.web.servlet.i18n":"AbstractLocaleResolver"{
+	
+ :public: :void: org~springframework~web~servlet~i18n~AbstractLocaleResolver~~init^~Lorg~springframework~web~servlet~i18n~AbstractLocaleResolver^ ( org.springframework.web.servlet.i18n.AbstractLocaleResolver :*: ) :  "AbstractLocaleResolver" ;
+}
+	
+:public: :interface::class: org.springframework.web.servlet.LocaleContextResolver :extends: org.springframework.web.servlet.LocaleResolver :"org.springframework.web.servlet":"LocaleContextResolver"{
+	
+}
+	
+ :public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public: :abstract::class: org.springframework.context.support.ApplicationObjectSupport :extends: java.lang.Object org.springframework.context.ApplicationContextAware :"org.springframework.context.support":"ApplicationObjectSupport"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~ApplicationObjectSupport~~getApplicationContext~Lorg~springframework~context~support~ApplicationObjectSupport^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~ApplicationObjectSupport~~getMessageSourceAccessor~Lorg~springframework~context~support~ApplicationObjectSupport^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~ApplicationObjectSupport~~initApplicationContext~Lorg~springframework~context~support~ApplicationObjectSupport^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~ApplicationObjectSupport~~initApplicationContext~Lorg~springframework~context~support~ApplicationObjectSupport^Lorg~springframework~context~ApplicationContext^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~ApplicationObjectSupport~~setApplicationContext~Lorg~springframework~context~support~ApplicationObjectSupport^Lorg~springframework~context~ApplicationContext^~throws;
+ :public: :void: org~springframework~context~support~ApplicationObjectSupport~~init^~Lorg~springframework~context~support~ApplicationObjectSupport^ ( org.springframework.context.support.ApplicationObjectSupport :*: ) :  "ApplicationObjectSupport" ;
+:public: :final: :void: org~springframework~context~support~ApplicationObjectSupport~~setApplicationContext~Lorg~springframework~context~support~ApplicationObjectSupport^Lorg~springframework~context~ApplicationContext^ ( org.springframework.context.support.ApplicationObjectSupport :*: , org.springframework.context.ApplicationContext :*: ) :  "setApplicationContext"  :exceptions:  org.springframework.beans.BeansException :*: ;
+}
+	
+:public: :interface::class: org.springframework.web.context.ServletContextAware :extends: org.springframework.beans.factory.Aware :"org.springframework.web.context":"ServletContextAware"{
+	
+}
+	
+ :public::class: java.lang.RuntimeException :extends: java.lang.Exception :"java.lang":"RuntimeException"{
+	
+ :public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^ ( java.lang.RuntimeException :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^ ( java.lang.RuntimeException :*: , java.lang.String :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:protected: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "RuntimeException" ;
+}
+	
+:public::class: java.lang.IllegalArgumentException :extends: java.lang.RuntimeException :"java.lang":"IllegalArgumentException"{
+	
+ :public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^ ( java.lang.IllegalArgumentException :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+}
+	
+:public: :interface::class: java.lang.Iterable :extends: java.lang.Object :"java.lang":"Iterable"{
+	
+}
+	

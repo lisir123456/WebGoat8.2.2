@@ -1,0 +1,265 @@
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+#source-type java
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+
+#source-line 13
+ #19# :public: :annotation::class: org.owasp.webgoat.assignments.AssignmentHints:"org.owasp.webgoat.assignments":"AssignmentHints"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+
+#source-line 11
+ #1# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #1# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #1# < java.lang.annotation.Target :*: > -~> ~annotation ( value:  
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #9# [ java.lang.annotation.ElementType ] TYPE ):]]:
+
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+
+#source-line 12
+ #1# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #1# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #1# < java.lang.annotation.Retention :*: > -~> ~annotation ( value:  
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #12# [ java.lang.annotation.RetentionPolicy ] RUNTIME ):]]:
+{
+	
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+
+#source-line 15
+ #14# java.lang.String :*: [] value;
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #14# :public: java.lang.String :*: [] org~owasp~webgoat~assignments~AssignmentHints~~value~Lorg~owasp~webgoat~assignments~AssignmentHints^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #14# org.owasp.webgoat.assignments.AssignmentHints :*: this~ ) :  "value" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #14# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #14# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #14# 	[ org.owasp.webgoat.assignments.AssignmentHints ] ( this~ ) :.: value ;
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+
+#source-line 13
+ #19# :public: :void: org~owasp~webgoat~assignments~AssignmentHints~~init^~Lorg~owasp~webgoat~assignments~AssignmentHints^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #19# org.owasp.webgoat.assignments.AssignmentHints :*: this~ ) :  "init^" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #19# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #19# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+
+#source-line 15
+ #30# 		{
+			
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #30# 			
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #30# 			java.lang.String :*: [] ~t0 ;
+			
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #30# 			
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #30# 			~t0 :=: :new: java.lang.String [ < :int: >0 ] ;
+			
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #30# 			
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #30# 			~t0 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #30# 			-~> __array_init ( ) ;
+			
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #14# 			
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #14# 			[ org.owasp.webgoat.assignments.AssignmentHints ] ( this~ ) :.: value :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #30# 			~t0 ;
+		}
+
+#source-line 13
+	}
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #19# :public: :static: :void: org~owasp~webgoat~assignments~AssignmentHints~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\assignments\AssignmentHints.java
+ #19# {
+}
+#source-line 13
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+}
+	
+ :public: :annotation::class: java.lang.annotation.Target :extends: java.lang.annotation.Annotation :"java.lang.annotation":"Target"{
+	
+ :public: :abstract: java.lang.annotation.ElementType :*: [] java~lang~annotation~Target~~value~Ljava~lang~annotation~Target^ ( java.lang.annotation.Target :*: ) :  "value" ;
+}
+	
+:public: :final: :enum::class: java.lang.annotation.ElementType :extends: java.lang.Enum java.lang.Enum :"java.lang.annotation":"ElementType"{
+	
+ :public: :final: :static: java.lang.annotation.ElementType :*: TYPE;
+ :private: :void: java~lang~annotation~ElementType~~init^~Ljava~lang~annotation~ElementType^ ( java.lang.annotation.ElementType :*: ) :  "ElementType" ;
+}
+	
+:public: :annotation::class: java.lang.annotation.Retention :extends: java.lang.annotation.Annotation :"java.lang.annotation":"Retention"{
+	
+ :public: :abstract: java.lang.annotation.RetentionPolicy :*: java~lang~annotation~Retention~~value~Ljava~lang~annotation~Retention^ ( java.lang.annotation.Retention :*: ) :  "value" ;
+}
+	
+:public: :final: :enum::class: java.lang.annotation.RetentionPolicy :extends: java.lang.Enum java.lang.Enum :"java.lang.annotation":"RetentionPolicy"{
+	
+ :public: :final: :static: java.lang.annotation.RetentionPolicy :*: RUNTIME;
+ :private: :void: java~lang~annotation~RetentionPolicy~~init^~Ljava~lang~annotation~RetentionPolicy^ ( java.lang.annotation.RetentionPolicy :*: ) :  "RetentionPolicy" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+}
+	
+ :public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+}
+	
+:public: :abstract::class: java.lang.Enum :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.lang":"Enum"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~clone~Ljava~lang~Enum^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObject~Ljava~lang~Enum^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObjectNoData~Ljava~lang~Enum^~throws;
+ :protected: :void: java~lang~Enum~~init^~Ljava~lang~Enum^Ljava~lang~String^I^ ( java.lang.Enum :*: , java.lang.String :*: , :int: ) :  "Enum" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :char: [] value;
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+}
+	

@@ -1,0 +1,534 @@
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+#source-type java
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 43
+ #14# :public::class: org.owasp.webgoat.xxe.Comment :extends: java.lang.Object :"org.owasp.webgoat.xxe":"Comment"
+	:[[: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 37
+ #1# {
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# < lombok.Getter :*: > -~> ~annotation ( ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 38
+ #1# {
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# < lombok.Setter :*: > -~> ~annotation ( ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 39
+ #1# {
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# < lombok.AllArgsConstructor :*: > -~> ~annotation ( ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 40
+ #1# {
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# < lombok.NoArgsConstructor :*: > -~> ~annotation ( ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 41
+ #1# {
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# < javax.xml.bind.annotation.XmlRootElement :*: > -~> ~annotation ( ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 42
+ #1# {
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# < lombok.ToString :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 45
+ #20# :private: java.lang.String :*: dateTime;
+ 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 46
+ #20# :private: java.lang.String :*: text;
+ 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 44
+ #20# :private: java.lang.String :*: user;
+ 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# :public: java.lang.String :*: org~owasp~webgoat~xxe~Comment~~getUser~Lorg~owasp~webgoat~xxe~Comment^ ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# org.owasp.webgoat.xxe.Comment :*: this~ ) :  "getUser" 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# {
+	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	:return: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	[ org.owasp.webgoat.xxe.Comment ] ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	this~ ) :.: user ;
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 45
+ #20# :public: java.lang.String :*: org~owasp~webgoat~xxe~Comment~~getDateTime~Lorg~owasp~webgoat~xxe~Comment^ ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# org.owasp.webgoat.xxe.Comment :*: this~ ) :  "getDateTime" 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# {
+	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	:return: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	[ org.owasp.webgoat.xxe.Comment ] ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	this~ ) :.: dateTime ;
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 46
+ #20# :public: java.lang.String :*: org~owasp~webgoat~xxe~Comment~~getText~Lorg~owasp~webgoat~xxe~Comment^ ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# org.owasp.webgoat.xxe.Comment :*: this~ ) :  "getText" 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# {
+	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	:return: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	[ org.owasp.webgoat.xxe.Comment ] ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	this~ ) :.: text ;
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 44
+ #20# :public: :void: org~owasp~webgoat~xxe~Comment~~setUser~Lorg~owasp~webgoat~xxe~Comment^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# org.owasp.webgoat.xxe.Comment :*: this~ , 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# java.lang.String :*: user ) :  "setUser" 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# {
+	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	[ org.owasp.webgoat.xxe.Comment ] ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	this~ ) :.: user :=: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	user ;
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 45
+ #20# :public: :void: org~owasp~webgoat~xxe~Comment~~setDateTime~Lorg~owasp~webgoat~xxe~Comment^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# org.owasp.webgoat.xxe.Comment :*: this~ , 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# java.lang.String :*: dateTime ) :  "setDateTime" 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# {
+	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	[ org.owasp.webgoat.xxe.Comment ] ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	this~ ) :.: dateTime :=: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	dateTime ;
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 46
+ #20# :public: :void: org~owasp~webgoat~xxe~Comment~~setText~Lorg~owasp~webgoat~xxe~Comment^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# org.owasp.webgoat.xxe.Comment :*: this~ , 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# java.lang.String :*: text ) :  "setText" 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# {
+	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	[ org.owasp.webgoat.xxe.Comment ] ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	this~ ) :.: text :=: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	text ;
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 42
+ #1# :public: java.lang.String :*: org~owasp~webgoat~xxe~Comment~~toString~Lorg~owasp~webgoat~xxe~Comment^ ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# org.owasp.webgoat.xxe.Comment :*: this~ ) :  "toString"
+	:[[: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# {
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# {
+	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 	~t0 :=: ( ( ( ( ( ( "Comment(user=" :+: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 	-~> org~owasp~webgoat~xxe~Comment~~getUser~Lorg~owasp~webgoat~xxe~Comment^ ( this~ ) ) :+: ", dateTime=" ) :+: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 	-~> org~owasp~webgoat~xxe~Comment~~getDateTime~Lorg~owasp~webgoat~xxe~Comment^ ( this~ ) ) :+: ", text=" ) :+: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 	-~> org~owasp~webgoat~xxe~Comment~~getText~Lorg~owasp~webgoat~xxe~Comment^ ( this~ ) ) :+: ")" ) ;
+	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 	:return: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 	~t0 ;
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 39
+ #1# :public: :void: org~owasp~webgoat~xxe~Comment~~init^~Lorg~owasp~webgoat~xxe~Comment^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# org.owasp.webgoat.xxe.Comment :*: this~ , 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# java.lang.String :*: user , 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# java.lang.String :*: dateTime , 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# java.lang.String :*: text ) :  "init^"
+	:[[: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# {
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# < java.lang.SuppressWarnings :*: > -~> ~annotation ( value:  "all" ):]]:
+ 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# {
+	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 44
+ #20# 	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	[ org.owasp.webgoat.xxe.Comment ] ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	this~ ) :.: user :=: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	user ;
+	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 45
+ #20# 	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	[ org.owasp.webgoat.xxe.Comment ] ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	this~ ) :.: dateTime :=: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	dateTime ;
+	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 46
+ #20# 	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	[ org.owasp.webgoat.xxe.Comment ] ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	this~ ) :.: text :=: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #20# 	text ;
+
+#source-line 39
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 40
+ #1# :public: :void: org~owasp~webgoat~xxe~Comment~~init^~Lorg~owasp~webgoat~xxe~Comment^ ( 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# org.owasp.webgoat.xxe.Comment :*: this~ ) :  "init^"
+	:[[: 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# {
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# < java.lang.SuppressWarnings :*: > -~> ~annotation ( value:  "all" ):]]:
+ 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# {
+	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 	
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #1# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+}
+
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+
+#source-line 43
+ #14# :public: :static: :void: org~owasp~webgoat~xxe~Comment~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\xxe\src\main\java\org\owasp\webgoat\xxe\Comment.java
+ #14# {
+}
+#source-line 43
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: java.lang.String :*: java~lang~String~~toString~Ljava~lang~String^ ( java.lang.String :*: ) :  "toString" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+:public: java.lang.String :*: java~lang~Object~~toString~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "toString" ;
+}
+	
+:public: :annotation::class: lombok.Getter :extends: java.lang.annotation.Annotation :"lombok":"Getter"{
+	
+ :public: :abstract: lombok.AccessLevel :*: lombok~Getter~~value~Llombok~Getter^ ( lombok.Getter :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: lombok.Setter :extends: java.lang.annotation.Annotation :"lombok":"Setter"{
+	
+ :public: :abstract: lombok.AccessLevel :*: lombok~Setter~~value~Llombok~Setter^ ( lombok.Setter :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: lombok.AllArgsConstructor :extends: java.lang.annotation.Annotation :"lombok":"AllArgsConstructor"{
+	
+}
+	
+ :public: :annotation::class: lombok.NoArgsConstructor :extends: java.lang.annotation.Annotation :"lombok":"NoArgsConstructor"{
+	
+}
+	
+ :public: :annotation::class: javax.xml.bind.annotation.XmlRootElement :extends: java.lang.annotation.Annotation :"javax.xml.bind.annotation":"XmlRootElement"{
+	
+}
+	
+ :public: :annotation::class: lombok.ToString :extends: java.lang.annotation.Annotation :"lombok":"ToString"{
+	
+}
+	
+ :public: :annotation::class: java.lang.Override :extends: java.lang.annotation.Annotation :"java.lang":"Override"{
+	
+}
+	
+ :public: :annotation::class: java.lang.SuppressWarnings :extends: java.lang.annotation.Annotation :"java.lang":"SuppressWarnings"{
+	
+ :public: :abstract: java.lang.String :*: [] java~lang~SuppressWarnings~~value~Ljava~lang~SuppressWarnings^ ( java.lang.SuppressWarnings :*: ) :  "value" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+ :public: :abstract: java.lang.String :*: java~lang~CharSequence~~toString~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+:public: :synchronized: java.lang.String :*: java~lang~StringBuffer~~toString~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+:public: java.lang.String :*: java~lang~StringBuilder~~toString~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: java.lang.String :*: java~nio~charset~Charset~~toString~Ljava~nio~charset~Charset^ ( java.nio.charset.Charset :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+ :public: :abstract: java.lang.String :*: java~lang~annotation~Annotation~~toString~Ljava~lang~annotation~Annotation^ ( java.lang.annotation.Annotation :*: ) :  "toString" ;
+}
+	
+:public: :final: :enum::class: lombok.AccessLevel :extends: java.lang.Enum java.lang.Enum :"lombok":"AccessLevel"{
+	
+ :private: :void: lombok~AccessLevel~~init^~Llombok~AccessLevel^ ( lombok.AccessLevel :*: ) :  "AccessLevel" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :char: [] value;
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+:public: :abstract: java.lang.String :*: java~lang~AbstractStringBuilder~~toString~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :abstract::class: java.lang.Enum :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.lang":"Enum"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~clone~Ljava~lang~Enum^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObject~Ljava~lang~Enum^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObjectNoData~Ljava~lang~Enum^~throws;
+ :protected: :void: java~lang~Enum~~init^~Ljava~lang~Enum^Ljava~lang~String^I^ ( java.lang.Enum :*: , java.lang.String :*: , :int: ) :  "Enum" ;
+:public: java.lang.String :*: java~lang~Enum~~toString~Ljava~lang~Enum^ ( java.lang.Enum :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+:public: java.lang.String :*: java~lang~Throwable~~toString~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "toString" ;
+}
+	

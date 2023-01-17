@@ -1,0 +1,1437 @@
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+#source-type java
+
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 34
+ #14# :public::class: org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest :extends: java.lang.Object :"org.owasp.webgoat.vulnerable_components":"VulnerableComponentsLessonTest"{
+	
+ 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 47
+ #9# java.lang.String :*: contact;
+ 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 36
+ #9# java.lang.String :*: strangeContact;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest~~testTransformation~Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest~~testIllegalTransformation~Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest~~testIllegalPayload~Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest^~throws;
+ 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 51
+ #17# :public: :void: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest~~testTransformation~Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #17# org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest :*: this~ ) :  "testTransformation"  :exceptions:  java.lang.Exception :*:
+	:[[: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 50
+ #5# {
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #5# 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #5# < org.junit.jupiter.api.Test :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 51
+ #55# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 52
+ #14# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# 	com.thoughtworks.xstream.XStream :*: xstream ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	com.thoughtworks.xstream.XStream :*: ~t0 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	~t0 :=: :new: com.thoughtworks.xstream.XStream ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	-~> com~thoughtworks~xstream~XStream~~init^~Lcom~thoughtworks~xstream~XStream^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	~t0 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# 	xstream :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	~t0 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 53
+ #32# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	java.lang.Class :*: ~t1 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	~t1 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	< java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.vulnerable_components.Contact :*: > :null: ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	java.lang.ClassLoader :*: ~t2 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	~t2 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	-~> java~lang~Class~~getClassLoader~Ljava~lang~Class^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	~t1 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	-~> com~thoughtworks~xstream~XStream~~setClassLoader~Lcom~thoughtworks~xstream~XStream^Ljava~lang~ClassLoader^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	xstream , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	~t2 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 54
+ #23# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	java.lang.String :*: ~t3 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	~t3 :=: "contact" ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	java.lang.Class :*: ~t4 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	~t4 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	< java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.vulnerable_components.ContactImpl :*: > :null: ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	-~> com~thoughtworks~xstream~XStream~~alias~Lcom~thoughtworks~xstream~XStream^Ljava~lang~String^Ljava~lang~Class^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	xstream , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	~t3 , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	~t4 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 55
+ #9# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	-~> com~thoughtworks~xstream~XStream~~ignoreUnknownElements~Lcom~thoughtworks~xstream~XStream^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	xstream ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 56
+ #23# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	java.lang.Object :*: ~t5 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	~t5 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	-~> com~thoughtworks~xstream~XStream~~fromXML~Lcom~thoughtworks~xstream~XStream^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	xstream , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #39# 	[ org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest ] ( this~ ) :.: contact ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	-~> org~junit~jupiter~api~Assertions~~assertNotNull~S~Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	~t5 ) ;
+
+#source-line 57
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 61
+ #17# :public: :void: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest~~testIllegalTransformation~Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #17# org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest :*: this~ ) :  "testIllegalTransformation"  :exceptions:  java.lang.Exception :*:
+	:[[: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 59
+ #5# {
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #5# 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #5# < org.junit.jupiter.api.Test :*: > -~> ~annotation ( ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 60
+ #5# {
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #5# 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #5# < org.junit.jupiter.api.Disabled :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 61
+ #62# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 62
+ #14# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# 	com.thoughtworks.xstream.XStream :*: xstream ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	com.thoughtworks.xstream.XStream :*: ~t0 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	~t0 :=: :new: com.thoughtworks.xstream.XStream ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	-~> com~thoughtworks~xstream~XStream~~init^~Lcom~thoughtworks~xstream~XStream^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	~t0 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# 	xstream :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	~t0 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 63
+ #32# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	java.lang.Class :*: ~t1 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	~t1 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	< java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.vulnerable_components.Contact :*: > :null: ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	java.lang.ClassLoader :*: ~t2 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	~t2 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	-~> java~lang~Class~~getClassLoader~Ljava~lang~Class^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	~t1 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	-~> com~thoughtworks~xstream~XStream~~setClassLoader~Lcom~thoughtworks~xstream~XStream^Ljava~lang~ClassLoader^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	xstream , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	~t2 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 64
+ #23# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	java.lang.String :*: ~t3 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	~t3 :=: "contact" ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	java.lang.Class :*: ~t4 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	~t4 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	< java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.vulnerable_components.ContactImpl :*: > :null: ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	-~> com~thoughtworks~xstream~XStream~~alias~Lcom~thoughtworks~xstream~XStream^Ljava~lang~String^Ljava~lang~Class^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	xstream , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	~t3 , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	~t4 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 65
+ #9# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	-~> com~thoughtworks~xstream~XStream~~ignoreUnknownElements~Lcom~thoughtworks~xstream~XStream^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	xstream ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 66
+ #19# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #19# 	java.lang.Exception :*: e ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #36# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #36# 	java.lang.Class :*: ~t5 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #36# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #36# 	~t5 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #36# 	< java.lang.Class :*: > -~> ~classliteral ( < java.lang.RuntimeException :*: > :null: ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~53f02243~1 :*: ~t6 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	~t6 :=: :new: org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~53f02243~1 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	-~> org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~53f02243~1~~innerinit^~Lcom~thoughtworks~xstream~XStream^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	~t6 , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	xstream ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	-~> org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~53f02243~1~~init^~Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~53f02243~1^Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	~t6 , this~ ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #19# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #19# 	e :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	-~> org~junit~jupiter~api~Assertions~~assertThrows~S~Ljava~lang~Class^Lorg~junit~jupiter~api~function~Executable^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #36# 	~t5 , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	~t6 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 67
+ #20# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	java.lang.Throwable :*: ~t7 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	~t7 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	-~> java~lang~Throwable~~getCause~Ljava~lang~Throwable^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	e ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	java.lang.String :*: ~t8 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	~t8 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	-~> java~lang~Throwable~~getMessage~Ljava~lang~Throwable^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	~t7 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #55# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #55# 	java.lang.String :*: ~t9 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #55# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #55# 	~t9 :=: "calc.exe" ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	:boolean: ~t10 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	~t10 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	-~> java~lang~String~~contains~Ljava~lang~String^Ljava~lang~CharSequence^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	~t8 , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #55# 	~t9 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	-~> org~junit~jupiter~api~Assertions~~assertTrue~S~Z^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	~t10 ) ;
+
+#source-line 68
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 71
+ #17# :public: :void: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest~~testIllegalPayload~Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #17# org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest :*: this~ ) :  "testIllegalPayload"  :exceptions:  java.lang.Exception :*:
+	:[[: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 70
+ #5# {
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #5# 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #5# < org.junit.jupiter.api.Test :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 71
+ #55# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 72
+ #14# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# 	com.thoughtworks.xstream.XStream :*: xstream ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	com.thoughtworks.xstream.XStream :*: ~t0 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	~t0 :=: :new: com.thoughtworks.xstream.XStream ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	-~> com~thoughtworks~xstream~XStream~~init^~Lcom~thoughtworks~xstream~XStream^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	~t0 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# 	xstream :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #24# 	~t0 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 73
+ #32# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	java.lang.Class :*: ~t1 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	~t1 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	< java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.vulnerable_components.Contact :*: > :null: ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	java.lang.ClassLoader :*: ~t2 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	~t2 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	-~> java~lang~Class~~getClassLoader~Ljava~lang~Class^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	~t1 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	-~> com~thoughtworks~xstream~XStream~~setClassLoader~Lcom~thoughtworks~xstream~XStream^Ljava~lang~ClassLoader^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	xstream , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #32# 	~t2 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 74
+ #23# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	java.lang.String :*: ~t3 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	~t3 :=: "contact" ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	java.lang.Class :*: ~t4 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	~t4 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	< java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.vulnerable_components.ContactImpl :*: > :null: ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	-~> com~thoughtworks~xstream~XStream~~alias~Lcom~thoughtworks~xstream~XStream^Ljava~lang~String^Ljava~lang~Class^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	xstream , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	~t3 , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #34# 	~t4 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 75
+ #9# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	-~> com~thoughtworks~xstream~XStream~~ignoreUnknownElements~Lcom~thoughtworks~xstream~XStream^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	xstream ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 76
+ #19# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #19# 	java.lang.Exception :*: e ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #36# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #36# 	java.lang.Class :*: ~t5 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #36# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #36# 	~t5 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #36# 	< java.lang.Class :*: > -~> ~classliteral ( < com.thoughtworks.xstream.io.StreamException :*: > :null: ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~1360a36b~1 :*: ~t6 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	~t6 :=: :new: org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~1360a36b~1 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	-~> org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~1360a36b~1~~innerinit^~Lcom~thoughtworks~xstream~XStream^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	~t6 , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	xstream ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	-~> org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~1360a36b~1~~init^~Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~1360a36b~1^Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	~t6 , this~ ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #19# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #19# 	e :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #23# 	-~> org~junit~jupiter~api~Assertions~~assertThrows~S~Ljava~lang~Class^Lorg~junit~jupiter~api~function~Executable^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #36# 	~t5 , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	~t6 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 77
+ #20# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	java.lang.Throwable :*: ~t7 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	~t7 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	-~> java~lang~Throwable~~getCause~Ljava~lang~Throwable^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	e ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	java.lang.String :*: ~t8 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	~t8 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	-~> java~lang~Throwable~~getMessage~Ljava~lang~Throwable^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	~t7 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #55# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #55# 	java.lang.String :*: ~t9 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #55# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #55# 	~t9 :=: "START_DOCUMENT" ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	:boolean: ~t10 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	~t10 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	-~> java~lang~String~~contains~Ljava~lang~String^Ljava~lang~CharSequence^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	~t8 , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #55# 	~t9 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 	-~> org~junit~jupiter~api~Assertions~~assertTrue~S~Z^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #20# 	~t10 ) ;
+
+#source-line 78
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 34
+ #14# :public: :void: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest~~init^~Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest :*: this~ ) :  "init^" 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# 	{
+		
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 36
+ #9# 		{
+			
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 			
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 			[ org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest ] ( this~ ) :.: strangeContact :=: "<contact class='dynamic-proxy'>
+<interface>org.owasp.webgoat.vulnerable_components.Contact</interface>
+  <handler class='java.beans.EventHandler'>
+    <target class='java.lang.ProcessBuilder'>
+      <command>
+        <string>calc.exe</string>
+      </command>
+    </target>
+    <action>start</action>
+  </handler>
+</contact>" ;
+
+#source-line 46
+		}
+		
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 47
+ #9# 		{
+			
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 			
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #9# 			[ org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest ] ( this~ ) :.: contact :=: "<contact>
+</contact>" ;
+
+#source-line 48
+		}
+
+#source-line 34
+	}
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# :public: :static: :void: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #14# {
+}
+#source-line 34
+}
+	
+
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 66
+ #60# :private: :final::class: org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~53f02243~1 :extends: org.junit.jupiter.api.function.Executable :"org.owasp.webgoat.vulnerable_components":"VulnerableComponentsLessonTest$Lambda~1"{
+	
+ 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# :private: org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest :*: outer~this;
+ 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# :private: com.thoughtworks.xstream.XStream :*: outer~xstream;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~53f02243~1~~execute~Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~53f02243~1^~throws;
+ 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# :public: :void: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~53f02243~1~~execute~Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~53f02243~1^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~53f02243~1 :*: this~ ) :  "execute"  :overrides:  org~junit~jupiter~api~function~Executable~~execute~Lorg~junit~jupiter~api~function~Executable^  :exceptions:  java.lang.Throwable :*: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #74# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #74# 	org.owasp.webgoat.vulnerable_components.Contact :*: ~t0 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #74# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #74# 	~t0 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #74# 	< org.owasp.webgoat.vulnerable_components.Contact :*: > -~> com~thoughtworks~xstream~XStream~~fromXML~Lcom~thoughtworks~xstream~XStream^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #74# 	[ org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~53f02243~1 ] ( this~ ) :.: outer~xstream , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #90# 	[ org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest ] ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #90# 	[ org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~53f02243~1 ] ( this~ ) :.: outer~this ) :.: strangeContact ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #64# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #64# 	-~> org~owasp~webgoat~vulnerable_components~Contact~~getFirstName~Lorg~owasp~webgoat~vulnerable_components~Contact^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #74# 	~t0 ) ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# :public: :void: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~53f02243~1~~innerinit^~Lcom~thoughtworks~xstream~XStream^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~53f02243~1 :*: this~ , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# com.thoughtworks.xstream.XStream :*: xstream ) :  "innerinit^" 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	[ org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~53f02243~1 ] ( this~ ) :.: outer~xstream :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	xstream ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# :public: :void: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~53f02243~1~~init^~Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~53f02243~1^Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~53f02243~1 :*: this~ , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest :*: outer~this ) :  "init^" 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	[ org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~53f02243~1 ] ( this~ ) :.: outer~this :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #60# 	outer~this ;
+}
+#source-line 66
+}
+	
+
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+
+#source-line 76
+ #59# :private: :final::class: org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~1360a36b~1 :extends: org.junit.jupiter.api.function.Executable :"org.owasp.webgoat.vulnerable_components":"VulnerableComponentsLessonTest$Lambda~2"{
+	
+ 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# :private: org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest :*: outer~this;
+ 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# :private: com.thoughtworks.xstream.XStream :*: outer~xstream;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~1360a36b~1~~execute~Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~1360a36b~1^~throws;
+ 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# :public: :void: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~1360a36b~1~~execute~Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~1360a36b~1^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~1360a36b~1 :*: this~ ) :  "execute"  :overrides:  org~junit~jupiter~api~function~Executable~~execute~Lorg~junit~jupiter~api~function~Executable^  :exceptions:  java.lang.Throwable :*: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #89# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #89# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #89# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #89# 	~t0 :=: "bullssjfs" ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #73# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #73# 	org.owasp.webgoat.vulnerable_components.Contact :*: ~t1 ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #73# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #73# 	~t1 :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #73# 	< org.owasp.webgoat.vulnerable_components.Contact :*: > -~> com~thoughtworks~xstream~XStream~~fromXML~Lcom~thoughtworks~xstream~XStream^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #73# 	[ org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~1360a36b~1 ] ( this~ ) :.: outer~xstream , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #89# 	~t0 ) ;
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #63# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #63# 	-~> org~owasp~webgoat~vulnerable_components~Contact~~getFirstName~Lorg~owasp~webgoat~vulnerable_components~Contact^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #73# 	~t1 ) ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# :public: :void: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~1360a36b~1~~innerinit^~Lcom~thoughtworks~xstream~XStream^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~1360a36b~1 :*: this~ , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# com.thoughtworks.xstream.XStream :*: xstream ) :  "innerinit^" 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	[ org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~1360a36b~1 ] ( this~ ) :.: outer~xstream :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	xstream ;
+}
+
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# :public: :void: org~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~1360a36b~1~~init^~Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest$Lambda~1360a36b~1^Lorg~owasp~webgoat~vulnerable_components~VulnerableComponentsLessonTest^ ( 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~1360a36b~1 :*: this~ , 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest :*: outer~this ) :  "init^" 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# {
+	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	[ org.owasp.webgoat.vulnerable_components.VulnerableComponentsLessonTest$Lambda~1360a36b~1 ] ( this~ ) :.: outer~this :=: 
+#source-file webgoat-lessons\vulnerable-components\src\test\java\org\owasp\webgoat\vulnerable_components\VulnerableComponentsLessonTest.java
+ #59# 	outer~this ;
+}
+#source-line 76
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: :boolean: java~lang~String~~contains~Ljava~lang~String^Ljava~lang~CharSequence^ ( java.lang.String :*: , java.lang.CharSequence :*: ) :  "contains" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+}
+	
+:public::class: com.thoughtworks.xstream.XStream :extends: java.lang.Object :"com.thoughtworks.xstream":"XStream"{
+	
+ :public: :static: java.lang.Throwable :*: com~thoughtworks~xstream~XStream~~createObjectInputStream~Lcom~thoughtworks~xstream~XStream^Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: com~thoughtworks~xstream~XStream~~createObjectInputStream~Lcom~thoughtworks~xstream~XStream^Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: com~thoughtworks~xstream~XStream~~createObjectInputStream~Lcom~thoughtworks~xstream~XStream^Lcom~thoughtworks~xstream~io~HierarchicalStreamReader^~throws;
+ :public: :static: java.lang.Throwable :*: com~thoughtworks~xstream~XStream~~createObjectOutputStream~Lcom~thoughtworks~xstream~XStream^Ljava~io~Writer^~throws;
+ :public: :static: java.lang.Throwable :*: com~thoughtworks~xstream~XStream~~createObjectOutputStream~Lcom~thoughtworks~xstream~XStream^Lcom~thoughtworks~xstream~io~HierarchicalStreamWriter^~throws;
+ :public: :static: java.lang.Throwable :*: com~thoughtworks~xstream~XStream~~createObjectOutputStream~Lcom~thoughtworks~xstream~XStream^Ljava~io~OutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: com~thoughtworks~xstream~XStream~~createObjectOutputStream~Lcom~thoughtworks~xstream~XStream^Ljava~io~Writer^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: com~thoughtworks~xstream~XStream~~createObjectOutputStream~Lcom~thoughtworks~xstream~XStream^Ljava~io~OutputStream^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: com~thoughtworks~xstream~XStream~~createObjectOutputStream~Lcom~thoughtworks~xstream~XStream^Lcom~thoughtworks~xstream~io~HierarchicalStreamWriter^Ljava~lang~String^~throws;
+ :public: :void: com~thoughtworks~xstream~XStream~~init^~Lcom~thoughtworks~xstream~XStream^ ( com.thoughtworks.xstream.XStream :*: ) :  "XStream" ;
+:public: :void: com~thoughtworks~xstream~XStream~~init^~Lcom~thoughtworks~xstream~XStream^Lcom~thoughtworks~xstream~converters~reflection~ReflectionProvider^ ( com.thoughtworks.xstream.XStream :*: , com.thoughtworks.xstream.converters.reflection.ReflectionProvider :*: ) :  "XStream" ;
+:public: :void: com~thoughtworks~xstream~XStream~~init^~Lcom~thoughtworks~xstream~XStream^Lcom~thoughtworks~xstream~io~HierarchicalStreamDriver^ ( com.thoughtworks.xstream.XStream :*: , com.thoughtworks.xstream.io.HierarchicalStreamDriver :*: ) :  "XStream" ;
+:public: :void: com~thoughtworks~xstream~XStream~~init^~Lcom~thoughtworks~xstream~XStream^Lcom~thoughtworks~xstream~converters~reflection~ReflectionProvider^Lcom~thoughtworks~xstream~io~HierarchicalStreamDriver^ ( com.thoughtworks.xstream.XStream :*: , com.thoughtworks.xstream.converters.reflection.ReflectionProvider :*: , com.thoughtworks.xstream.io.HierarchicalStreamDriver :*: ) :  "XStream" ;
+:public: :void: com~thoughtworks~xstream~XStream~~init^~Lcom~thoughtworks~xstream~XStream^Lcom~thoughtworks~xstream~converters~reflection~ReflectionProvider^Lcom~thoughtworks~xstream~mapper~Mapper^Lcom~thoughtworks~xstream~io~HierarchicalStreamDriver^ ( com.thoughtworks.xstream.XStream :*: , com.thoughtworks.xstream.converters.reflection.ReflectionProvider :*: , com.thoughtworks.xstream.mapper.Mapper :*: , com.thoughtworks.xstream.io.HierarchicalStreamDriver :*: ) :  "XStream" ;
+:public: :void: com~thoughtworks~xstream~XStream~~init^~Lcom~thoughtworks~xstream~XStream^Lcom~thoughtworks~xstream~converters~reflection~ReflectionProvider^Lcom~thoughtworks~xstream~io~HierarchicalStreamDriver^Lcom~thoughtworks~xstream~core~ClassLoaderReference^ ( com.thoughtworks.xstream.XStream :*: , com.thoughtworks.xstream.converters.reflection.ReflectionProvider :*: , com.thoughtworks.xstream.io.HierarchicalStreamDriver :*: , com.thoughtworks.xstream.core.ClassLoaderReference :*: ) :  "XStream" ;
+:public: :void: com~thoughtworks~xstream~XStream~~init^~Lcom~thoughtworks~xstream~XStream^Lcom~thoughtworks~xstream~converters~reflection~ReflectionProvider^Lcom~thoughtworks~xstream~io~HierarchicalStreamDriver^Ljava~lang~ClassLoader^ ( com.thoughtworks.xstream.XStream :*: , com.thoughtworks.xstream.converters.reflection.ReflectionProvider :*: , com.thoughtworks.xstream.io.HierarchicalStreamDriver :*: , java.lang.ClassLoader :*: ) :  "XStream" ;
+:public: :void: com~thoughtworks~xstream~XStream~~init^~Lcom~thoughtworks~xstream~XStream^Lcom~thoughtworks~xstream~converters~reflection~ReflectionProvider^Lcom~thoughtworks~xstream~io~HierarchicalStreamDriver^Ljava~lang~ClassLoader^Lcom~thoughtworks~xstream~mapper~Mapper^ ( com.thoughtworks.xstream.XStream :*: , com.thoughtworks.xstream.converters.reflection.ReflectionProvider :*: , com.thoughtworks.xstream.io.HierarchicalStreamDriver :*: , java.lang.ClassLoader :*: , com.thoughtworks.xstream.mapper.Mapper :*: ) :  "XStream" ;
+:public: :void: com~thoughtworks~xstream~XStream~~init^~Lcom~thoughtworks~xstream~XStream^Lcom~thoughtworks~xstream~converters~reflection~ReflectionProvider^Lcom~thoughtworks~xstream~io~HierarchicalStreamDriver^Lcom~thoughtworks~xstream~core~ClassLoaderReference^Lcom~thoughtworks~xstream~mapper~Mapper^ ( com.thoughtworks.xstream.XStream :*: , com.thoughtworks.xstream.converters.reflection.ReflectionProvider :*: , com.thoughtworks.xstream.io.HierarchicalStreamDriver :*: , com.thoughtworks.xstream.core.ClassLoaderReference :*: , com.thoughtworks.xstream.mapper.Mapper :*: ) :  "XStream" ;
+:private: :void: com~thoughtworks~xstream~XStream~~init^~Lcom~thoughtworks~xstream~XStream^Lcom~thoughtworks~xstream~converters~reflection~ReflectionProvider^Lcom~thoughtworks~xstream~io~HierarchicalStreamDriver^Lcom~thoughtworks~xstream~core~ClassLoaderReference^Lcom~thoughtworks~xstream~mapper~Mapper^Lcom~thoughtworks~xstream~core~DefaultConverterLookup^ ( com.thoughtworks.xstream.XStream :*: , com.thoughtworks.xstream.converters.reflection.ReflectionProvider :*: , com.thoughtworks.xstream.io.HierarchicalStreamDriver :*: , com.thoughtworks.xstream.core.ClassLoaderReference :*: , com.thoughtworks.xstream.mapper.Mapper :*: , com.thoughtworks.xstream.core.DefaultConverterLookup :*: ) :  "XStream" ;
+:public: :void: com~thoughtworks~xstream~XStream~~init^~Lcom~thoughtworks~xstream~XStream^Lcom~thoughtworks~xstream~converters~reflection~ReflectionProvider^Lcom~thoughtworks~xstream~io~HierarchicalStreamDriver^Ljava~lang~ClassLoader^Lcom~thoughtworks~xstream~mapper~Mapper^Lcom~thoughtworks~xstream~converters~ConverterLookup^Lcom~thoughtworks~xstream~converters~ConverterRegistry^ ( com.thoughtworks.xstream.XStream :*: , com.thoughtworks.xstream.converters.reflection.ReflectionProvider :*: , com.thoughtworks.xstream.io.HierarchicalStreamDriver :*: , java.lang.ClassLoader :*: , com.thoughtworks.xstream.mapper.Mapper :*: , com.thoughtworks.xstream.converters.ConverterLookup :*: , com.thoughtworks.xstream.converters.ConverterRegistry :*: ) :  "XStream" ;
+:public: :void: com~thoughtworks~xstream~XStream~~init^~Lcom~thoughtworks~xstream~XStream^Lcom~thoughtworks~xstream~converters~reflection~ReflectionProvider^Lcom~thoughtworks~xstream~io~HierarchicalStreamDriver^Lcom~thoughtworks~xstream~core~ClassLoaderReference^Lcom~thoughtworks~xstream~mapper~Mapper^Lcom~thoughtworks~xstream~converters~ConverterLookup^Lcom~thoughtworks~xstream~converters~ConverterRegistry^ ( com.thoughtworks.xstream.XStream :*: , com.thoughtworks.xstream.converters.reflection.ReflectionProvider :*: , com.thoughtworks.xstream.io.HierarchicalStreamDriver :*: , com.thoughtworks.xstream.core.ClassLoaderReference :*: , com.thoughtworks.xstream.mapper.Mapper :*: , com.thoughtworks.xstream.converters.ConverterLookup :*: , com.thoughtworks.xstream.converters.ConverterRegistry :*: ) :  "XStream" ;
+:public: :void: com~thoughtworks~xstream~XStream~~alias~Lcom~thoughtworks~xstream~XStream^Ljava~lang~String^Ljava~lang~Class^ ( com.thoughtworks.xstream.XStream :*: , java.lang.String :*: , java.lang.Class :*: ) :  "alias" ;
+:public: :void: com~thoughtworks~xstream~XStream~~alias~Lcom~thoughtworks~xstream~XStream^Ljava~lang~String^Ljava~lang~Class^Ljava~lang~Class^ ( com.thoughtworks.xstream.XStream :*: , java.lang.String :*: , java.lang.Class :*: , java.lang.Class :*: ) :  "alias" ;
+:public: java.lang.Object :*: com~thoughtworks~xstream~XStream~~fromXML~Lcom~thoughtworks~xstream~XStream^Ljava~lang~String^ ( com.thoughtworks.xstream.XStream :*: , java.lang.String :*: ) :  "fromXML" ;
+:public: java.lang.Object :*: com~thoughtworks~xstream~XStream~~fromXML~Lcom~thoughtworks~xstream~XStream^Ljava~io~Reader^ ( com.thoughtworks.xstream.XStream :*: , java.io.Reader :*: ) :  "fromXML" ;
+:public: java.lang.Object :*: com~thoughtworks~xstream~XStream~~fromXML~Lcom~thoughtworks~xstream~XStream^Ljava~io~InputStream^ ( com.thoughtworks.xstream.XStream :*: , java.io.InputStream :*: ) :  "fromXML" ;
+:public: java.lang.Object :*: com~thoughtworks~xstream~XStream~~fromXML~Lcom~thoughtworks~xstream~XStream^Ljava~net~URL^ ( com.thoughtworks.xstream.XStream :*: , java.net.URL :*: ) :  "fromXML" ;
+:public: java.lang.Object :*: com~thoughtworks~xstream~XStream~~fromXML~Lcom~thoughtworks~xstream~XStream^Ljava~io~File^ ( com.thoughtworks.xstream.XStream :*: , java.io.File :*: ) :  "fromXML" ;
+:public: java.lang.Object :*: com~thoughtworks~xstream~XStream~~fromXML~Lcom~thoughtworks~xstream~XStream^Ljava~lang~String^Ljava~lang~Object^ ( com.thoughtworks.xstream.XStream :*: , java.lang.String :*: , java.lang.Object :*: ) :  "fromXML" ;
+:public: java.lang.Object :*: com~thoughtworks~xstream~XStream~~fromXML~Lcom~thoughtworks~xstream~XStream^Ljava~io~Reader^Ljava~lang~Object^ ( com.thoughtworks.xstream.XStream :*: , java.io.Reader :*: , java.lang.Object :*: ) :  "fromXML" ;
+:public: java.lang.Object :*: com~thoughtworks~xstream~XStream~~fromXML~Lcom~thoughtworks~xstream~XStream^Ljava~net~URL^Ljava~lang~Object^ ( com.thoughtworks.xstream.XStream :*: , java.net.URL :*: , java.lang.Object :*: ) :  "fromXML" ;
+:public: java.lang.Object :*: com~thoughtworks~xstream~XStream~~fromXML~Lcom~thoughtworks~xstream~XStream^Ljava~io~File^Ljava~lang~Object^ ( com.thoughtworks.xstream.XStream :*: , java.io.File :*: , java.lang.Object :*: ) :  "fromXML" ;
+:public: java.lang.Object :*: com~thoughtworks~xstream~XStream~~fromXML~Lcom~thoughtworks~xstream~XStream^Ljava~io~InputStream^Ljava~lang~Object^ ( com.thoughtworks.xstream.XStream :*: , java.io.InputStream :*: , java.lang.Object :*: ) :  "fromXML" ;
+:public: java.lang.ClassLoader :*: com~thoughtworks~xstream~XStream~~getClassLoader~Lcom~thoughtworks~xstream~XStream^ ( com.thoughtworks.xstream.XStream :*: ) :  "getClassLoader" ;
+:public: :void: com~thoughtworks~xstream~XStream~~ignoreUnknownElements~Lcom~thoughtworks~xstream~XStream^ ( com.thoughtworks.xstream.XStream :*: ) :  "ignoreUnknownElements" ;
+:public: :void: com~thoughtworks~xstream~XStream~~ignoreUnknownElements~Lcom~thoughtworks~xstream~XStream^Ljava~lang~String^ ( com.thoughtworks.xstream.XStream :*: , java.lang.String :*: ) :  "ignoreUnknownElements" ;
+:public: :void: com~thoughtworks~xstream~XStream~~setClassLoader~Lcom~thoughtworks~xstream~XStream^Ljava~lang~ClassLoader^ ( com.thoughtworks.xstream.XStream :*: , java.lang.ClassLoader :*: ) :  "setClassLoader" ;
+}
+	
+:public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public: :annotation::class: org.junit.jupiter.api.Test :extends: java.lang.annotation.Annotation :"org.junit.jupiter.api":"Test"{
+	
+}
+	
+ :public: :final::class: java.lang.Class :extends: java.lang.Object java.io.Serializable java.lang.reflect.GenericDeclaration java.lang.reflect.Type java.lang.reflect.AnnotatedElement :"java.lang":"Class"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName0~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor0~Ljava~lang~Class^?Ljava~lang~Class^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredClasses~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaringClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingConstructor~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingMethod~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField0~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~newInstance~Ljava~lang~Class^~throws;
+ :private: :void: java~lang~Class~~init^~Ljava~lang~Class^Ljava~lang~ClassLoader^ ( java.lang.Class :*: , java.lang.ClassLoader :*: ) :  "Class" ;
+:public: java.lang.ClassLoader :*: java~lang~Class~~getClassLoader~Ljava~lang~Class^ ( java.lang.Class :*: ) :  "getClassLoader" ;
+}
+	
+:public: :interface::class: org.owasp.webgoat.vulnerable_components.Contact :extends: java.lang.Object :"org.owasp.webgoat.vulnerable_components":"Contact"{
+	
+ :public: :abstract: java.lang.String :*: org~owasp~webgoat~vulnerable_components~Contact~~getFirstName~Lorg~owasp~webgoat~vulnerable_components~Contact^ ( org.owasp.webgoat.vulnerable_components.Contact :*: ) :  "getFirstName" ;
+}
+	
+:public: :abstract::class: java.lang.ClassLoader :extends: java.lang.Object :"java.lang":"ClassLoader"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~nio~ByteBuffer^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~definePackage~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findSystemClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getBootstrapResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getSystemResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClassInternal~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:private: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~Void^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.Void :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:static: java.lang.ClassLoader :*: java~lang~ClassLoader~~getClassLoader~S~Ljava~lang~Class^ ( java.lang.Class :*: ) :  "getClassLoader" ;
+}
+	
+:public::class: org.owasp.webgoat.vulnerable_components.ContactImpl :extends: java.lang.Object org.owasp.webgoat.vulnerable_components.Contact :"org.owasp.webgoat.vulnerable_components":"ContactImpl"{
+	
+ :public: :void: org~owasp~webgoat~vulnerable_components~ContactImpl~~init^~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( org.owasp.webgoat.vulnerable_components.ContactImpl :*: ) :  "ContactImpl" ;
+:public: java.lang.String :*: org~owasp~webgoat~vulnerable_components~ContactImpl~~getFirstName~Lorg~owasp~webgoat~vulnerable_components~ContactImpl^ ( org.owasp.webgoat.vulnerable_components.ContactImpl :*: ) :  "getFirstName" ;
+}
+	
+:public::class: org.junit.jupiter.api.Assertions :extends: java.lang.Object :"org.junit.jupiter.api":"Assertions"{
+	
+ :public: :static: java.lang.Throwable :*: org~junit~jupiter~api~Assertions~~assertAll~S~?Lorg~junit~jupiter~api~function~Executable^~throws;
+ :public: :static: java.lang.Throwable :*: org~junit~jupiter~api~Assertions~~assertAll~S~Ljava~util~Collection^~throws;
+ :public: :static: java.lang.Throwable :*: org~junit~jupiter~api~Assertions~~assertAll~S~Ljava~util~stream~Stream^~throws;
+ :public: :static: java.lang.Throwable :*: org~junit~jupiter~api~Assertions~~assertAll~S~Ljava~lang~String^?Lorg~junit~jupiter~api~function~Executable^~throws;
+ :public: :static: java.lang.Throwable :*: org~junit~jupiter~api~Assertions~~assertAll~S~Ljava~lang~String^Ljava~util~Collection^~throws;
+ :public: :static: java.lang.Throwable :*: org~junit~jupiter~api~Assertions~~assertAll~S~Ljava~lang~String^Ljava~util~stream~Stream^~throws;
+ :protected: :void: org~junit~jupiter~api~Assertions~~init^~Lorg~junit~jupiter~api~Assertions^ ( org.junit.jupiter.api.Assertions :*: ) :  "Assertions" ;
+:public: :static: :void: org~junit~jupiter~api~Assertions~~assertNotNull~S~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "assertNotNull" ;
+:public: :static: :void: org~junit~jupiter~api~Assertions~~assertNotNull~S~Ljava~lang~Object^Ljava~lang~String^ ( java.lang.Object :*: , java.lang.String :*: ) :  "assertNotNull" ;
+:public: :static: :void: org~junit~jupiter~api~Assertions~~assertNotNull~S~Ljava~lang~Object^Ljava~util~function~Supplier^ ( java.lang.Object :*: , java.util.function.Supplier :*: ) :  "assertNotNull" ;
+:public: :static: java.lang.Throwable :*: org~junit~jupiter~api~Assertions~~assertThrows~S~Ljava~lang~Class^Lorg~junit~jupiter~api~function~Executable^ ( java.lang.Class :*: , org.junit.jupiter.api.function.Executable :*: ) :  "assertThrows" ;
+:public: :static: java.lang.Throwable :*: org~junit~jupiter~api~Assertions~~assertThrows~S~Ljava~lang~Class^Lorg~junit~jupiter~api~function~Executable^Ljava~lang~String^ ( java.lang.Class :*: , org.junit.jupiter.api.function.Executable :*: , java.lang.String :*: ) :  "assertThrows" ;
+:public: :static: java.lang.Throwable :*: org~junit~jupiter~api~Assertions~~assertThrows~S~Ljava~lang~Class^Lorg~junit~jupiter~api~function~Executable^Ljava~util~function~Supplier^ ( java.lang.Class :*: , org.junit.jupiter.api.function.Executable :*: , java.util.function.Supplier :*: ) :  "assertThrows" ;
+:public: :static: :void: org~junit~jupiter~api~Assertions~~assertTrue~S~Z^ ( :boolean: ) :  "assertTrue" ;
+:public: :static: :void: org~junit~jupiter~api~Assertions~~assertTrue~S~Ljava~util~function~BooleanSupplier^ ( java.util.function.BooleanSupplier :*: ) :  "assertTrue" ;
+:public: :static: :void: org~junit~jupiter~api~Assertions~~assertTrue~S~Z^Ljava~util~function~Supplier^ ( :boolean: , java.util.function.Supplier :*: ) :  "assertTrue" ;
+:public: :static: :void: org~junit~jupiter~api~Assertions~~assertTrue~S~Ljava~util~function~BooleanSupplier^Ljava~lang~String^ ( java.util.function.BooleanSupplier :*: , java.lang.String :*: ) :  "assertTrue" ;
+:public: :static: :void: org~junit~jupiter~api~Assertions~~assertTrue~S~Z^Ljava~lang~String^ ( :boolean: , java.lang.String :*: ) :  "assertTrue" ;
+:public: :static: :void: org~junit~jupiter~api~Assertions~~assertTrue~S~Ljava~util~function~BooleanSupplier^Ljava~util~function~Supplier^ ( java.util.function.BooleanSupplier :*: , java.util.function.Supplier :*: ) :  "assertTrue" ;
+}
+	
+:public: :annotation::class: org.junit.jupiter.api.Disabled :extends: java.lang.annotation.Annotation :"org.junit.jupiter.api":"Disabled"{
+	
+}
+	
+ :public::class: java.lang.RuntimeException :extends: java.lang.Exception :"java.lang":"RuntimeException"{
+	
+ :public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^ ( java.lang.RuntimeException :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^ ( java.lang.RuntimeException :*: , java.lang.String :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:protected: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "RuntimeException" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+:public: :synchronized: java.lang.Throwable :*: java~lang~Throwable~~getCause~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "getCause" ;
+:public: java.lang.String :*: java~lang~Throwable~~getMessage~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "getMessage" ;
+}
+	
+:public::class: com.thoughtworks.xstream.io.StreamException :extends: com.thoughtworks.xstream.XStreamException :"com.thoughtworks.xstream.io":"StreamException"{
+	
+ :public: :void: com~thoughtworks~xstream~io~StreamException~~init^~Lcom~thoughtworks~xstream~io~StreamException^Ljava~lang~Throwable^ ( com.thoughtworks.xstream.io.StreamException :*: , java.lang.Throwable :*: ) :  "StreamException" ;
+:public: :void: com~thoughtworks~xstream~io~StreamException~~init^~Lcom~thoughtworks~xstream~io~StreamException^Ljava~lang~String^ ( com.thoughtworks.xstream.io.StreamException :*: , java.lang.String :*: ) :  "StreamException" ;
+:public: :void: com~thoughtworks~xstream~io~StreamException~~init^~Lcom~thoughtworks~xstream~io~StreamException^Ljava~lang~String^Ljava~lang~Throwable^ ( com.thoughtworks.xstream.io.StreamException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "StreamException" ;
+}
+	
+:public: :interface::class: org.junit.jupiter.api.function.Executable :extends: java.lang.Object :"org.junit.jupiter.api.function":"Executable"{
+	
+ :public: :static: java.lang.Throwable :*: org~junit~jupiter~api~function~Executable~~execute~Lorg~junit~jupiter~api~function~Executable^~throws;
+ :public: :abstract: :void: org~junit~jupiter~api~function~Executable~~execute~Lorg~junit~jupiter~api~function~Executable^ ( org.junit.jupiter.api.function.Executable :*: ) :  "execute"  :exceptions:  java.lang.Throwable :*: ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+}
+	
+ :public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :abstract: :boolean: java~nio~charset~Charset~~contains~Ljava~nio~charset~Charset^Ljava~nio~charset~Charset^ ( java.nio.charset.Charset :*: , java.nio.charset.Charset :*: ) :  "contains" ;
+}
+	
+:public: :interface::class: com.thoughtworks.xstream.converters.reflection.ReflectionProvider :extends: java.lang.Object :"com.thoughtworks.xstream.converters.reflection":"ReflectionProvider"{
+	
+}
+	
+ :public: :interface::class: com.thoughtworks.xstream.io.HierarchicalStreamDriver :extends: java.lang.Object :"com.thoughtworks.xstream.io":"HierarchicalStreamDriver"{
+	
+}
+	
+ :public: :interface::class: com.thoughtworks.xstream.mapper.Mapper :extends: java.lang.Object :"com.thoughtworks.xstream.mapper":"Mapper"{
+	
+}
+	
+ :public: :final::class: com.thoughtworks.xstream.core.ClassLoaderReference :extends: java.lang.Object :"com.thoughtworks.xstream.core":"ClassLoaderReference"{
+	
+ :public: :void: com~thoughtworks~xstream~core~ClassLoaderReference~~init^~Lcom~thoughtworks~xstream~core~ClassLoaderReference^Ljava~lang~ClassLoader^ ( com.thoughtworks.xstream.core.ClassLoaderReference :*: , java.lang.ClassLoader :*: ) :  "ClassLoaderReference" ;
+}
+	
+:public::class: com.thoughtworks.xstream.core.DefaultConverterLookup :extends: java.lang.Object com.thoughtworks.xstream.converters.ConverterLookup com.thoughtworks.xstream.converters.ConverterRegistry com.thoughtworks.xstream.core.Caching :"com.thoughtworks.xstream.core":"DefaultConverterLookup"{
+	
+ :public: :void: com~thoughtworks~xstream~core~DefaultConverterLookup~~init^~Lcom~thoughtworks~xstream~core~DefaultConverterLookup^ ( com.thoughtworks.xstream.core.DefaultConverterLookup :*: ) :  "DefaultConverterLookup" ;
+:public: :void: com~thoughtworks~xstream~core~DefaultConverterLookup~~init^~Lcom~thoughtworks~xstream~core~DefaultConverterLookup^Lcom~thoughtworks~xstream~mapper~Mapper^ ( com.thoughtworks.xstream.core.DefaultConverterLookup :*: , com.thoughtworks.xstream.mapper.Mapper :*: ) :  "DefaultConverterLookup" ;
+}
+	
+:public: :interface::class: com.thoughtworks.xstream.converters.ConverterLookup :extends: java.lang.Object :"com.thoughtworks.xstream.converters":"ConverterLookup"{
+	
+}
+	
+ :public: :interface::class: com.thoughtworks.xstream.converters.ConverterRegistry :extends: java.lang.Object :"com.thoughtworks.xstream.converters":"ConverterRegistry"{
+	
+}
+	
+ :public: :abstract::class: java.io.Reader :extends: java.lang.Object java.lang.Readable java.io.Closeable :"java.io":"Reader"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~close~Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~mark~Ljava~io~Reader^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~read~Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~read~Ljava~io~Reader^Ljava~nio~CharBuffer^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~read~Ljava~io~Reader^?C^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~read~Ljava~io~Reader^?C^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~ready~Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~reset~Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~Reader~~skip~Ljava~io~Reader^J^~throws;
+ :protected: :void: java~io~Reader~~init^~Ljava~io~Reader^ ( java.io.Reader :*: ) :  "Reader" ;
+:protected: :void: java~io~Reader~~init^~Ljava~io~Reader^Ljava~lang~Object^ ( java.io.Reader :*: , java.lang.Object :*: ) :  "Reader" ;
+}
+	
+:public: :abstract::class: java.io.InputStream :extends: java.lang.Object java.io.Closeable :"java.io":"InputStream"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~available~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~close~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~read~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~read~Ljava~io~InputStream^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~read~Ljava~io~InputStream^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~reset~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~skip~Ljava~io~InputStream^J^~throws;
+ :public: :void: java~io~InputStream~~init^~Ljava~io~InputStream^ ( java.io.InputStream :*: ) :  "InputStream" ;
+}
+	
+:public: :final::class: java.net.URL :extends: java.lang.Object java.io.Serializable :"java.net":"URL"{
+	
+ :public: :static: java.lang.Throwable :*: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~init^~Ljava~net~URL^Ljava~net~URL^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~init^~Ljava~net~URL^Ljava~net~URL^Ljava~lang~String^Ljava~net~URLStreamHandler^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~net~URLStreamHandler^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~fabricateNewURL~Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~getContent~Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~getContent~Ljava~net~URL^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~openConnection~Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~openConnection~Ljava~net~URL^Ljava~net~Proxy^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~openStream~Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~readObject~Ljava~net~URL^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~readResolve~Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~toURI~Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URL~~writeObject~Ljava~net~URL^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^ ( java.net.URL :*: , java.lang.String :*: ) :  "URL"  :exceptions:  java.net.MalformedURLException :*: ;
+:public: :void: java~net~URL~~init^~Ljava~net~URL^Ljava~net~URL^Ljava~lang~String^ ( java.net.URL :*: , java.net.URL :*: , java.lang.String :*: ) :  "URL"  :exceptions:  java.net.MalformedURLException :*: ;
+:public: :void: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URL :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URL"  :exceptions:  java.net.MalformedURLException :*: ;
+:public: :void: java~net~URL~~init^~Ljava~net~URL^Ljava~net~URL^Ljava~lang~String^Ljava~net~URLStreamHandler^ ( java.net.URL :*: , java.net.URL :*: , java.lang.String :*: , java.net.URLStreamHandler :*: ) :  "URL"  :exceptions:  java.net.MalformedURLException :*: ;
+:public: :void: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^ ( java.net.URL :*: , java.lang.String :*: , java.lang.String :*: , :int: , java.lang.String :*: ) :  "URL"  :exceptions:  java.net.MalformedURLException :*: ;
+:public: :void: java~net~URL~~init^~Ljava~net~URL^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~net~URLStreamHandler^ ( java.net.URL :*: , java.lang.String :*: , java.lang.String :*: , :int: , java.lang.String :*: , java.net.URLStreamHandler :*: ) :  "URL"  :exceptions:  java.net.MalformedURLException :*: ;
+}
+	
+:public::class: java.io.File :extends: java.lang.Object java.io.Serializable java.lang.Comparable :"java.io":"File"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~File~~createNewFile~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~createTempFile~S~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~createTempFile~S~Ljava~lang~String^Ljava~lang~String^Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~getCanonicalFile~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~getCanonicalPath~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~readObject~Ljava~io~File^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~toURL~Ljava~io~File^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~File~~writeObject~Ljava~io~File^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^ ( java.io.File :*: , java.lang.String :*: ) :  "File" ;
+:public: :void: java~io~File~~init^~Ljava~io~File^Ljava~net~URI^ ( java.io.File :*: , java.net.URI :*: ) :  "File" ;
+:private: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^I^ ( java.io.File :*: , java.lang.String :*: , :int: ) :  "File" ;
+:private: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^Ljava~io~File^ ( java.io.File :*: , java.lang.String :*: , java.io.File :*: ) :  "File" ;
+:public: :void: java~io~File~~init^~Ljava~io~File^Ljava~lang~String^Ljava~lang~String^ ( java.io.File :*: , java.lang.String :*: , java.lang.String :*: ) :  "File" ;
+:public: :void: java~io~File~~init^~Ljava~io~File^Ljava~io~File^Ljava~lang~String^ ( java.io.File :*: , java.io.File :*: , java.lang.String :*: ) :  "File" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.GenericDeclaration :extends: java.lang.reflect.AnnotatedElement :"java.lang.reflect":"GenericDeclaration"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.Type :extends: java.lang.Object :"java.lang.reflect":"Type"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.AnnotatedElement :extends: java.lang.Object :"java.lang.reflect":"AnnotatedElement"{
+	
+}
+	
+ :public: :final::class: java.lang.Void :extends: java.lang.Object :"java.lang":"Void"{
+	
+ :private: :void: java~lang~Void~~init^~Ljava~lang~Void^ ( java.lang.Void :*: ) :  "Void" ;
+}
+	
+:public: :interface::class: java.util.function.Supplier :extends: java.lang.Object :"java.util.function":"Supplier"{
+	
+}
+	
+ :public: :interface::class: java.util.function.BooleanSupplier :extends: java.lang.Object :"java.util.function":"BooleanSupplier"{
+	
+}
+	
+ :public::class: com.thoughtworks.xstream.XStreamException :extends: com.thoughtworks.xstream.core.BaseException :"com.thoughtworks.xstream":"XStreamException"{
+	
+ :protected: :void: com~thoughtworks~xstream~XStreamException~~init^~Lcom~thoughtworks~xstream~XStreamException^ ( com.thoughtworks.xstream.XStreamException :*: ) :  "XStreamException" ;
+:public: :void: com~thoughtworks~xstream~XStreamException~~init^~Lcom~thoughtworks~xstream~XStreamException^Ljava~lang~String^ ( com.thoughtworks.xstream.XStreamException :*: , java.lang.String :*: ) :  "XStreamException" ;
+:public: :void: com~thoughtworks~xstream~XStreamException~~init^~Lcom~thoughtworks~xstream~XStreamException^Ljava~lang~Throwable^ ( com.thoughtworks.xstream.XStreamException :*: , java.lang.Throwable :*: ) :  "XStreamException" ;
+:public: :void: com~thoughtworks~xstream~XStreamException~~init^~Lcom~thoughtworks~xstream~XStreamException^Ljava~lang~String^Ljava~lang~Throwable^ ( com.thoughtworks.xstream.XStreamException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "XStreamException" ;
+:public: java.lang.Throwable :*: com~thoughtworks~xstream~XStreamException~~getCause~Lcom~thoughtworks~xstream~XStreamException^ ( com.thoughtworks.xstream.XStreamException :*: ) :  "getCause" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :interface::class: com.thoughtworks.xstream.core.Caching :extends: java.lang.Object :"com.thoughtworks.xstream.core":"Caching"{
+	
+}
+	
+ :public: :interface::class: java.lang.Readable :extends: java.lang.Object :"java.lang":"Readable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Readable~~read~Ljava~lang~Readable^Ljava~nio~CharBuffer^~throws;
+}
+	
+ :public: :interface::class: java.io.Closeable :extends: java.lang.AutoCloseable :"java.io":"Closeable"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~Closeable~~close~Ljava~io~Closeable^~throws;
+}
+	
+ :public::class: java.net.MalformedURLException :extends: java.io.IOException :"java.net":"MalformedURLException"{
+	
+ :public: :void: java~net~MalformedURLException~~init^~Ljava~net~MalformedURLException^ ( java.net.MalformedURLException :*: ) :  "MalformedURLException" ;
+:public: :void: java~net~MalformedURLException~~init^~Ljava~net~MalformedURLException^Ljava~lang~String^ ( java.net.MalformedURLException :*: , java.lang.String :*: ) :  "MalformedURLException" ;
+}
+	
+:public: :abstract::class: java.net.URLStreamHandler :extends: java.lang.Object :"java.net":"URLStreamHandler"{
+	
+ :public: :static: java.lang.Throwable :*: java~net~URLStreamHandler~~openConnection~Ljava~net~URLStreamHandler^Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URLStreamHandler~~openConnection~Ljava~net~URLStreamHandler^Ljava~net~URL^Ljava~net~Proxy^~throws;
+ :public: :void: java~net~URLStreamHandler~~init^~Ljava~net~URLStreamHandler^ ( java.net.URLStreamHandler :*: ) :  "URLStreamHandler" ;
+}
+	
+:public: :final::class: java.net.URI :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.net":"URI"{
+	
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~checkPath~S~Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~parseServerAuthority~Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~readObject~Ljava~net~URI^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~toURL~Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~writeObject~Ljava~net~URI^Ljava~io~ObjectOutputStream^~throws;
+ :private: :void: java~net~URI~~init^~Ljava~net~URI^ ( java.net.URI :*: ) :  "URI" ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , :int: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+}
+	
+:public: :abstract::class: com.thoughtworks.xstream.core.BaseException :extends: java.lang.RuntimeException :"com.thoughtworks.xstream.core":"BaseException"{
+	
+ :protected: :void: com~thoughtworks~xstream~core~BaseException~~init^~Lcom~thoughtworks~xstream~core~BaseException^Ljava~lang~String^ ( com.thoughtworks.xstream.core.BaseException :*: , java.lang.String :*: ) :  "BaseException" ;
+:public: :abstract: java.lang.Throwable :*: com~thoughtworks~xstream~core~BaseException~~getCause~Lcom~thoughtworks~xstream~core~BaseException^ ( com.thoughtworks.xstream.core.BaseException :*: ) :  "getCause" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public: :interface::class: java.lang.AutoCloseable :extends: java.lang.Object :"java.lang":"AutoCloseable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^~throws;
+}
+	
+ :public::class: java.net.URISyntaxException :extends: java.lang.Exception :"java.net":"URISyntaxException"{
+	
+ :public: :void: java~net~URISyntaxException~~init^~Ljava~net~URISyntaxException^Ljava~lang~String^Ljava~lang~String^ ( java.net.URISyntaxException :*: , java.lang.String :*: , java.lang.String :*: ) :  "URISyntaxException" ;
+:public: :void: java~net~URISyntaxException~~init^~Ljava~net~URISyntaxException^Ljava~lang~String^Ljava~lang~String^I^ ( java.net.URISyntaxException :*: , java.lang.String :*: , java.lang.String :*: , :int: ) :  "URISyntaxException" ;
+:public: java.lang.String :*: java~net~URISyntaxException~~getMessage~Ljava~net~URISyntaxException^ ( java.net.URISyntaxException :*: ) :  "getMessage" ;
+}
+	

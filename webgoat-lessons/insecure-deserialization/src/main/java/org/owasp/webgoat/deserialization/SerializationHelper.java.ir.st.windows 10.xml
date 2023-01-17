@@ -1,0 +1,1291 @@
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+#source-type java
+
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 12
+ #14# :public::class: org.owasp.webgoat.deserialization.SerializationHelper :extends: java.lang.Object :"org.owasp.webgoat.deserialization":"SerializationHelper"{
+	
+ 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 14
+ #33# :private: :final: :static: :char: [] hexArray;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~deserialization~SerializationHelper~~fromString~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~deserialization~SerializationHelper~~toString~S~Ljava~io~Serializable^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~deserialization~SerializationHelper~~show~S~~throws;
+ 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 16
+ #26# :public: :static: java.lang.Object :*: org~owasp~webgoat~deserialization~SerializationHelper~~fromString~S~Ljava~lang~String^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #44# java.lang.String :*: s ) :  "fromString"  :exceptions:  java.io.IOException :*: ,  java.lang.ClassNotFoundException :*: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 17
+ #36# {
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 18
+ #16# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	:byte: [] data ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #23# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #23# 	java.util.Base64$Decoder :*: ~t0 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #23# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #23# 	~t0 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #23# 	-~> java~util~Base64~~getDecoder~S~ ( ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	data :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #23# 	-~> java~util~Base64$Decoder~~decode~Ljava~util~Base64$Decoder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #23# 	~t0 , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #50# 	s ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 19
+ #27# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #27# 	java.io.ObjectInputStream :*: ois ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #33# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #33# 	java.io.ObjectInputStream :*: ~t1 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #33# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #33# 	~t1 :=: :new: java.io.ObjectInputStream ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 20
+ #17# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #17# 	java.io.ByteArrayInputStream :*: ~t2 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #17# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #17# 	~t2 :=: :new: java.io.ByteArrayInputStream ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #17# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #17# 	-~> java~io~ByteArrayInputStream~~init^~Ljava~io~ByteArrayInputStream^?B^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #17# 	~t2 , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #42# 	data ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 19
+ #33# 	__throwingcall_1 :
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #33# 	-~> java~io~ObjectInputStream~~init^~Ljava~io~ObjectInputStream^Ljava~io~InputStream^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #33# 	~t1 , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 20
+ #17# 	~t2 ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 19
+ #33# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #33# 	{
+		[ org.owasp.webgoat.deserialization.SerializationHelper ] org~owasp~webgoat~deserialization~SerializationHelper~~fromString~S~Ljava~lang~String^~throws :=: < java.io.IOException :*: > :null: ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #33# 		__caught__throwingcall_1 :
+		 :throw:  < java.io.IOException :*: > :null: ;
+
+#source-line 20
+	}
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 19
+ #27# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #27# 	ois :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #33# 	~t1 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 21
+ #16# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	java.lang.Object :*: o ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #20# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #20# 	ANYTYPE ~t~j~1 ;
+	__throwingcall_2 :
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #20# 	~t~j~1 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #20# 	-~> java~io~ObjectInputStream~~readObject~Ljava~io~ObjectInputStream^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #20# 	ois ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #20# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #20# 	{
+		[ org.owasp.webgoat.deserialization.SerializationHelper ] org~owasp~webgoat~deserialization~SerializationHelper~~fromString~S~Ljava~lang~String^~throws :=: < java.io.IOException :*: > :null: ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #20# 		__caught__throwingcall_2 :
+		 :throw:  < java.io.IOException :*: > :null: ;
+	}
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	o :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #20# 	~t~j~1 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 22
+ #9# 	__throwingcall_3 :
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	-~> java~io~ObjectInputStream~~close~Ljava~io~ObjectInputStream^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	ois ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	{
+		[ org.owasp.webgoat.deserialization.SerializationHelper ] org~owasp~webgoat~deserialization~SerializationHelper~~fromString~S~Ljava~lang~String^~throws :=: < java.io.IOException :*: > :null: ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 		__caught__throwingcall_3 :
+		 :throw:  < java.io.IOException :*: > :null: ;
+	}
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 23
+ #9# 	:return: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	o ;
+
+#source-line 24
+}
+
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 26
+ #26# :public: :static: java.lang.String :*: org~owasp~webgoat~deserialization~SerializationHelper~~toString~S~Ljava~io~Serializable^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #48# java.io.Serializable :*: o ) :  "toString"  :exceptions:  java.io.IOException :*: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #70# {
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 28
+ #31# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #31# 	java.io.ByteArrayOutputStream :*: baos ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	java.io.ByteArrayOutputStream :*: ~t0 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	~t0 :=: :new: java.io.ByteArrayOutputStream ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	-~> java~io~ByteArrayOutputStream~~init^~Ljava~io~ByteArrayOutputStream^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	~t0 ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #31# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #31# 	baos :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	~t0 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 29
+ #28# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #28# 	java.io.ObjectOutputStream :*: oos ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #34# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #34# 	java.io.ObjectOutputStream :*: ~t1 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #34# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #34# 	~t1 :=: :new: java.io.ObjectOutputStream ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #34# 	__throwingcall_1 :
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #34# 	-~> java~io~ObjectOutputStream~~init^~Ljava~io~ObjectOutputStream^Ljava~io~OutputStream^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #34# 	~t1 , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #57# 	baos ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #34# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #34# 	{
+		[ org.owasp.webgoat.deserialization.SerializationHelper ] org~owasp~webgoat~deserialization~SerializationHelper~~toString~S~Ljava~io~Serializable^~throws :=: < java.io.IOException :*: > :null: ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #34# 		__caught__throwingcall_1 :
+		 :throw:  < java.io.IOException :*: > :null: ;
+	}
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #28# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #28# 	oos :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #34# 	~t1 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 30
+ #9# 	__throwingcall_2 :
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	-~> java~io~ObjectOutputStream~~writeObject~Ljava~io~ObjectOutputStream^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	oos , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #25# 	o ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	{
+		[ org.owasp.webgoat.deserialization.SerializationHelper ] org~owasp~webgoat~deserialization~SerializationHelper~~toString~S~Ljava~io~Serializable^~throws :=: < java.io.IOException :*: > :null: ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 		__caught__throwingcall_2 :
+		 :throw:  < java.io.IOException :*: > :null: ;
+	}
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 31
+ #9# 	__throwingcall_3 :
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	-~> java~io~ObjectOutputStream~~close~Ljava~io~ObjectOutputStream^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	oos ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	{
+		[ org.owasp.webgoat.deserialization.SerializationHelper ] org~owasp~webgoat~deserialization~SerializationHelper~~toString~S~Ljava~io~Serializable^~throws :=: < java.io.IOException :*: > :null: ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 		__caught__throwingcall_3 :
+		 :throw:  < java.io.IOException :*: > :null: ;
+	}
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 32
+ #16# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	java.util.Base64$Encoder :*: ~t2 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	~t2 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	-~> java~util~Base64~~getEncoder~S~ ( ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #51# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #51# 	:byte: [] ~t3 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #51# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #51# 	~t3 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #51# 	-~> java~io~ByteArrayOutputStream~~toByteArray~Ljava~io~ByteArrayOutputStream^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #51# 	baos ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	java.lang.String :*: ~t4 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	~t4 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	-~> java~util~Base64$Encoder~~encodeToString~Ljava~util~Base64$Encoder^?B^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	~t2 , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #51# 	~t3 ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	:return: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	~t4 ;
+
+#source-line 33
+}
+
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 35
+ #26# :public: :static: java.lang.String :*: org~owasp~webgoat~deserialization~SerializationHelper~~show~S~ ( ) :  "show"  :exceptions:  java.io.IOException :*: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #52# {
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 36
+ #31# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #31# 	java.io.ByteArrayOutputStream :*: baos ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	java.io.ByteArrayOutputStream :*: ~t0 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	~t0 :=: :new: java.io.ByteArrayOutputStream ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	-~> java~io~ByteArrayOutputStream~~init^~Ljava~io~ByteArrayOutputStream^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	~t0 ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #31# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #31# 	baos :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #38# 	~t0 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 37
+ #26# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #26# 	java.io.DataOutputStream :*: dos ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #32# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #32# 	java.io.DataOutputStream :*: ~t1 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #32# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #32# 	~t1 :=: :new: java.io.DataOutputStream ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #32# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #32# 	-~> java~io~DataOutputStream~~init^~Ljava~io~DataOutputStream^Ljava~io~OutputStream^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #32# 	~t1 , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #53# 	baos ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #26# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #26# 	dos :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #32# 	~t1 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 38
+ #23# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #23# 	:long: ~t2 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #23# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #23# 	~t2 :=: ( < :int: >0 :-: < :long: > 8699352886133051976 ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	__throwingcall_1 :
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	-~> java~io~DataOutputStream~~writeLong~Ljava~io~DataOutputStream^J^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	dos , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #23# 	~t2 ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	{
+		[ org.owasp.webgoat.deserialization.SerializationHelper ] org~owasp~webgoat~deserialization~SerializationHelper~~show~S~~throws :=: < java.io.IOException :*: > :null: ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 		__caught__throwingcall_1 :
+		 :throw:  < java.io.IOException :*: > :null: ;
+	}
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 39
+ #9# 	__throwingcall_2 :
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	-~> java~io~FilterOutputStream~~close~Ljava~io~FilterOutputStream^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	dos ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	{
+		[ org.owasp.webgoat.deserialization.SerializationHelper ] org~owasp~webgoat~deserialization~SerializationHelper~~show~S~~throws :=: < java.io.IOException :*: > :null: ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 		__caught__throwingcall_2 :
+		 :throw:  < java.io.IOException :*: > :null: ;
+	}
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 40
+ #16# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	:byte: [] longBytes ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	longBytes :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #28# 	-~> java~io~ByteArrayOutputStream~~toByteArray~Ljava~io~ByteArrayOutputStream^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #28# 	baos ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 41
+ #9# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	java.lang.String :*: ~t3 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	~t3 :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	-~> org~owasp~webgoat~deserialization~SerializationHelper~~bytesToHex~S~?B^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #27# 	longBytes ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	:return: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	~t3 ;
+
+#source-line 42
+}
+
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 44
+ #26# :public: :static: java.lang.String :*: org~owasp~webgoat~deserialization~SerializationHelper~~bytesToHex~S~?B^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #44# :byte: [] bytes ) :  "bytesToHex" 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #51# {
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 45
+ #16# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	:char: [] hexChars ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #36# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #36# 	:int: ~t0 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #36# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #36# 	~t0 :=: ( ( :`: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #36# 	bytes ) :*: < :int: >2 ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	hexChars :=: :new: :char: [ 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #36# 	~t0 ] ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 46
+ #9# 	{
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #18# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #18# 		:int: j ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #18# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #18# 		j :=: < :int: >0 ;
+		__L__0~753f6cc5 :
+		;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 		:while: ( ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #25# 		j :<: ( :`: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #29# 		bytes ) ) ) 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #48# 		{
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 47
+ #17# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #17# 			:int: v ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #17# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #17# 			v :=: ( ( ( :*: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #21# 			bytes ) ) [ 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #27# 			j ] ) :&: < :int: >255 ) ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 48
+ #22# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #22# 			:int: ~t1 ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #22# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #22# 			~t1 :=: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #22# 			j :*: < :int: >2 ) ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #40# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #40# 			:int: ~t2 ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #40# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #40# 			~t2 :=: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #40# 			v :>>>: < :int: >4 ) ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #13# 			( ( :*: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #13# 			hexChars ) ) [ 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #22# 			~t1 ] ) :=: ( ( :*: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #31# 			[ org.owasp.webgoat.deserialization.SerializationHelper ] hexArray ) ) [ 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #40# 			~t2 ] ) ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 49
+ #22# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #22# 			:int: ~t3 ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #22# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #22# 			~t3 :=: ( ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #22# 			j :*: < :int: >2 ) :+: < :int: >1 ) ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #44# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #44# 			:int: ~t4 ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #44# 			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #44# 			~t4 :=: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #44# 			v :&: < :int: >15 ) ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #13# 			( ( :*: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #13# 			hexChars ) ) [ 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #22# 			~t3 ] ) :=: ( ( :*: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #35# 			[ org.owasp.webgoat.deserialization.SerializationHelper ] hexArray ) ) [ 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #44# 			~t4 ] ) ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 46
+ #43# 			__L__0~753f6cc5c :
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #43# 			j :=: ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #43# 			j :+: < :int: >1 ) ;
+			
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 			:goto: __L__0~753f6cc5 ;
+
+#source-line 50
+		}
+	}
+	__L__0~753f6cc5b :
+	;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 51
+ #16# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	java.lang.String :*: ~t5 ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	~t5 :=: :new: java.lang.String ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	-~> java~lang~String~~init^~Ljava~lang~String^?C^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	~t5 , 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #27# 	hexChars ) ;
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #9# 	:return: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #16# 	~t5 ;
+
+#source-line 52
+}
+
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 12
+ #14# :public: :void: org~owasp~webgoat~deserialization~SerializationHelper~~init^~Lorg~owasp~webgoat~deserialization~SerializationHelper^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #14# org.owasp.webgoat.deserialization.SerializationHelper :*: this~ ) :  "init^" 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #14# {
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #14# 	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #14# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+}
+
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #14# :public: :static: :void: org~owasp~webgoat~deserialization~SerializationHelper~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #14# {
+	
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+
+#source-line 14
+ #33# 	{
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #44# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #44# 		java.lang.String :*: ~t0 ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #44# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #44# 		~t0 :=: "0123456789ABCDEF" ;
+		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #33# 		
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #33# 		[ org.owasp.webgoat.deserialization.SerializationHelper ] hexArray :=: 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #44# 		-~> java~lang~String~~toCharArray~Ljava~lang~String^ ( 
+#source-file webgoat-lessons\insecure-deserialization\src\main\java\org\owasp\webgoat\deserialization\SerializationHelper.java
+ #44# 		~t0 ) ;
+	}
+
+#source-line 12
+}
+#source-line 12
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+:public: java.lang.String :*: java~lang~Object~~toString~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: :char: [] java~lang~String~~toCharArray~Ljava~lang~String^ ( java.lang.String :*: ) :  "toCharArray" ;
+:public: java.lang.String :*: java~lang~String~~toString~Ljava~lang~String^ ( java.lang.String :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public::class: java.lang.ClassNotFoundException :extends: java.lang.ReflectiveOperationException :"java.lang":"ClassNotFoundException"{
+	
+ :public: :void: java~lang~ClassNotFoundException~~init^~Ljava~lang~ClassNotFoundException^ ( java.lang.ClassNotFoundException :*: ) :  "ClassNotFoundException" ;
+:public: :void: java~lang~ClassNotFoundException~~init^~Ljava~lang~ClassNotFoundException^Ljava~lang~String^ ( java.lang.ClassNotFoundException :*: , java.lang.String :*: ) :  "ClassNotFoundException" ;
+:public: :void: java~lang~ClassNotFoundException~~init^~Ljava~lang~ClassNotFoundException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.ClassNotFoundException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "ClassNotFoundException" ;
+}
+	
+:public: :static::class: java.util.Base64$Decoder :extends: java.lang.Object :"java.util":"Base64$Decoder"{
+	
+ :private: :void: java~util~Base64$Decoder~~init^~Ljava~util~Base64$Decoder^Z^Z^ ( java.util.Base64$Decoder :*: , :boolean: , :boolean: ) :  "Decoder" ;
+:public: :byte: [] java~util~Base64$Decoder~~decode~Ljava~util~Base64$Decoder^?B^ ( java.util.Base64$Decoder :*: , :byte: [] ) :  "decode" ;
+:public: :byte: [] java~util~Base64$Decoder~~decode~Ljava~util~Base64$Decoder^Ljava~lang~String^ ( java.util.Base64$Decoder :*: , java.lang.String :*: ) :  "decode" ;
+:public: java.nio.ByteBuffer :*: java~util~Base64$Decoder~~decode~Ljava~util~Base64$Decoder^Ljava~nio~ByteBuffer^ ( java.util.Base64$Decoder :*: , java.nio.ByteBuffer :*: ) :  "decode" ;
+:public: :int: java~util~Base64$Decoder~~decode~Ljava~util~Base64$Decoder^?B^?B^ ( java.util.Base64$Decoder :*: , :byte: [] , :byte: [] ) :  "decode" ;
+}
+	
+:public::class: java.util.Base64 :extends: java.lang.Object :"java.util":"Base64"{
+	
+ :private: :void: java~util~Base64~~init^~Ljava~util~Base64^ ( java.util.Base64 :*: ) :  "Base64" ;
+:public: :static: java.util.Base64$Decoder :*: java~util~Base64~~getDecoder~S~ ( ) :  "getDecoder" ;
+:public: :static: java.util.Base64$Encoder :*: java~util~Base64~~getEncoder~S~ ( ) :  "getEncoder" ;
+}
+	
+:public::class: java.io.ObjectInputStream :extends: java.io.InputStream java.io.ObjectInput java.io.ObjectStreamConstants :"java.io":"ObjectInputStream"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~init^~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~init^~Ljava~io~ObjectInputStream^Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~available~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~checkArray~Ljava~io~ObjectInputStream^Ljava~lang~Class^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~checkResolve~Ljava~io~ObjectInputStream^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~close~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~defaultReadFields~Ljava~io~ObjectInputStream^Ljava~lang~Object^Ljava~io~ObjectStreamClass^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~defaultReadObject~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~enableResolveObject~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~filterCheck~Ljava~io~ObjectInputStream^Ljava~lang~Class^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~handleReset~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~read~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~read~Ljava~io~ObjectInputStream^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readArray~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readBoolean~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readByte~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readChar~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readClass~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readClassDesc~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readClassDescriptor~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readDouble~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readEnum~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readExternalData~Ljava~io~ObjectInputStream^Ljava~io~Externalizable^Ljava~io~ObjectStreamClass^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readFatalException~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readFields~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readFloat~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readFully~Ljava~io~ObjectInputStream^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readFully~Ljava~io~ObjectInputStream^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readHandle~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readInt~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readLine~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readLong~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readNonProxyDesc~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readNull~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readObject~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readObject0~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readObjectOverride~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readOrdinaryObject~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readProxyDesc~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readSerialData~Ljava~io~ObjectInputStream^Ljava~lang~Object^Ljava~io~ObjectStreamClass^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readShort~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readStreamHeader~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readString~Ljava~io~ObjectInputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readTypeString~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readUTF~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readUnshared~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readUnsignedByte~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~readUnsignedShort~Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~registerValidation~Ljava~io~ObjectInputStream^Ljava~io~ObjectInputValidation^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~resolveClass~Ljava~io~ObjectInputStream^Ljava~io~ObjectStreamClass^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~resolveObject~Ljava~io~ObjectInputStream^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~resolveProxyClass~Ljava~io~ObjectInputStream^?Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~skipBytes~Ljava~io~ObjectInputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInputStream~~skipCustomData~Ljava~io~ObjectInputStream^~throws;
+ :protected: :void: java~io~ObjectInputStream~~init^~Ljava~io~ObjectInputStream^ ( java.io.ObjectInputStream :*: ) :  "ObjectInputStream"  :exceptions:  java.io.IOException :*: ,  java.lang.SecurityException :*: ;
+:public: :void: java~io~ObjectInputStream~~init^~Ljava~io~ObjectInputStream^Ljava~io~InputStream^ ( java.io.ObjectInputStream :*: , java.io.InputStream :*: ) :  "ObjectInputStream"  :exceptions:  java.io.IOException :*: ;
+:public: :void: java~io~ObjectInputStream~~close~Ljava~io~ObjectInputStream^ ( java.io.ObjectInputStream :*: ) :  "close"  :exceptions:  java.io.IOException :*: ;
+:public: :final: java.lang.Object :*: java~io~ObjectInputStream~~readObject~Ljava~io~ObjectInputStream^ ( java.io.ObjectInputStream :*: ) :  "readObject"  :exceptions:  java.io.IOException :*: ,  java.lang.ClassNotFoundException :*: ;
+}
+	
+:public::class: java.io.ByteArrayInputStream :extends: java.io.InputStream :"java.io":"ByteArrayInputStream"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~ByteArrayInputStream~~close~Ljava~io~ByteArrayInputStream^~throws;
+ :public: :void: java~io~ByteArrayInputStream~~init^~Ljava~io~ByteArrayInputStream^?B^ ( java.io.ByteArrayInputStream :*: , :byte: [] ) :  "ByteArrayInputStream" ;
+:public: :void: java~io~ByteArrayInputStream~~init^~Ljava~io~ByteArrayInputStream^?B^I^I^ ( java.io.ByteArrayInputStream :*: , :byte: [] , :int: , :int: ) :  "ByteArrayInputStream" ;
+:public: :void: java~io~ByteArrayInputStream~~close~Ljava~io~ByteArrayInputStream^ ( java.io.ByteArrayInputStream :*: ) :  "close"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public::class: java.io.ByteArrayOutputStream :extends: java.io.OutputStream :"java.io":"ByteArrayOutputStream"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~ByteArrayOutputStream~~close~Ljava~io~ByteArrayOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ByteArrayOutputStream~~toString~Ljava~io~ByteArrayOutputStream^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ByteArrayOutputStream~~writeTo~Ljava~io~ByteArrayOutputStream^Ljava~io~OutputStream^~throws;
+ :public: :void: java~io~ByteArrayOutputStream~~init^~Ljava~io~ByteArrayOutputStream^ ( java.io.ByteArrayOutputStream :*: ) :  "ByteArrayOutputStream" ;
+:public: :void: java~io~ByteArrayOutputStream~~init^~Ljava~io~ByteArrayOutputStream^I^ ( java.io.ByteArrayOutputStream :*: , :int: ) :  "ByteArrayOutputStream" ;
+:public: :void: java~io~ByteArrayOutputStream~~close~Ljava~io~ByteArrayOutputStream^ ( java.io.ByteArrayOutputStream :*: ) :  "close"  :exceptions:  java.io.IOException :*: ;
+:public: :synchronized: :byte: [] java~io~ByteArrayOutputStream~~toByteArray~Ljava~io~ByteArrayOutputStream^ ( java.io.ByteArrayOutputStream :*: ) :  "toByteArray" ;
+:public: :synchronized: java.lang.String :*: java~io~ByteArrayOutputStream~~toString~Ljava~io~ByteArrayOutputStream^ ( java.io.ByteArrayOutputStream :*: ) :  "toString" ;
+:public: :synchronized: java.lang.String :*: java~io~ByteArrayOutputStream~~toString~Ljava~io~ByteArrayOutputStream^Ljava~lang~String^ ( java.io.ByteArrayOutputStream :*: , java.lang.String :*: ) :  "toString"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :synchronized: java.lang.String :*: java~io~ByteArrayOutputStream~~toString~Ljava~io~ByteArrayOutputStream^I^ ( java.io.ByteArrayOutputStream :*: , :int: ) :  "toString" ;
+}
+	
+:public::class: java.io.ObjectOutputStream :extends: java.io.OutputStream java.io.ObjectOutput java.io.ObjectStreamConstants :"java.io":"ObjectOutputStream"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~init^~Ljava~io~ObjectOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~init^~Ljava~io~ObjectOutputStream^Ljava~io~OutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~annotateClass~Ljava~io~ObjectOutputStream^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~annotateProxyClass~Ljava~io~ObjectOutputStream^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~close~Ljava~io~ObjectOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~defaultWriteFields~Ljava~io~ObjectOutputStream^Ljava~lang~Object^Ljava~io~ObjectStreamClass^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~defaultWriteObject~Ljava~io~ObjectOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~drain~Ljava~io~ObjectOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~enableReplaceObject~Ljava~io~ObjectOutputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~flush~Ljava~io~ObjectOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~putFields~Ljava~io~ObjectOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~replaceObject~Ljava~io~ObjectOutputStream^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~reset~Ljava~io~ObjectOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~useProtocolVersion~Ljava~io~ObjectOutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~write~Ljava~io~ObjectOutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~write~Ljava~io~ObjectOutputStream^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~write~Ljava~io~ObjectOutputStream^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeArray~Ljava~io~ObjectOutputStream^Ljava~lang~Object^Ljava~io~ObjectStreamClass^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeBoolean~Ljava~io~ObjectOutputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeByte~Ljava~io~ObjectOutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeBytes~Ljava~io~ObjectOutputStream^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeChar~Ljava~io~ObjectOutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeChars~Ljava~io~ObjectOutputStream^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeClass~Ljava~io~ObjectOutputStream^Ljava~lang~Class^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeClassDesc~Ljava~io~ObjectOutputStream^Ljava~io~ObjectStreamClass^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeClassDescriptor~Ljava~io~ObjectOutputStream^Ljava~io~ObjectStreamClass^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeDouble~Ljava~io~ObjectOutputStream^D^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeEnum~Ljava~io~ObjectOutputStream^Ljava~lang~Enum^Ljava~io~ObjectStreamClass^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeExternalData~Ljava~io~ObjectOutputStream^Ljava~io~Externalizable^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeFatalException~Ljava~io~ObjectOutputStream^Ljava~io~IOException^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeFields~Ljava~io~ObjectOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeFloat~Ljava~io~ObjectOutputStream^F^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeHandle~Ljava~io~ObjectOutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeInt~Ljava~io~ObjectOutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeLong~Ljava~io~ObjectOutputStream^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeNonProxyDesc~Ljava~io~ObjectOutputStream^Ljava~io~ObjectStreamClass^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeNull~Ljava~io~ObjectOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeObject~Ljava~io~ObjectOutputStream^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeObject0~Ljava~io~ObjectOutputStream^Ljava~lang~Object^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeObjectOverride~Ljava~io~ObjectOutputStream^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeOrdinaryObject~Ljava~io~ObjectOutputStream^Ljava~lang~Object^Ljava~io~ObjectStreamClass^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeProxyDesc~Ljava~io~ObjectOutputStream^Ljava~io~ObjectStreamClass^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeSerialData~Ljava~io~ObjectOutputStream^Ljava~lang~Object^Ljava~io~ObjectStreamClass^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeShort~Ljava~io~ObjectOutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeStreamHeader~Ljava~io~ObjectOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeString~Ljava~io~ObjectOutputStream^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeTypeString~Ljava~io~ObjectOutputStream^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeUTF~Ljava~io~ObjectOutputStream^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutputStream~~writeUnshared~Ljava~io~ObjectOutputStream^Ljava~lang~Object^~throws;
+ :protected: :void: java~io~ObjectOutputStream~~init^~Ljava~io~ObjectOutputStream^ ( java.io.ObjectOutputStream :*: ) :  "ObjectOutputStream"  :exceptions:  java.io.IOException :*: ,  java.lang.SecurityException :*: ;
+:public: :void: java~io~ObjectOutputStream~~init^~Ljava~io~ObjectOutputStream^Ljava~io~OutputStream^ ( java.io.ObjectOutputStream :*: , java.io.OutputStream :*: ) :  "ObjectOutputStream"  :exceptions:  java.io.IOException :*: ;
+:public: :void: java~io~ObjectOutputStream~~close~Ljava~io~ObjectOutputStream^ ( java.io.ObjectOutputStream :*: ) :  "close"  :exceptions:  java.io.IOException :*: ;
+:public: :void: java~io~ObjectOutputStream~~writeLong~Ljava~io~ObjectOutputStream^J^ ( java.io.ObjectOutputStream :*: , :long: ) :  "writeLong"  :exceptions:  java.io.IOException :*: ;
+:public: :final: :void: java~io~ObjectOutputStream~~writeObject~Ljava~io~ObjectOutputStream^Ljava~lang~Object^ ( java.io.ObjectOutputStream :*: , java.lang.Object :*: ) :  "writeObject"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public: :static::class: java.util.Base64$Encoder :extends: java.lang.Object :"java.util":"Base64$Encoder"{
+	
+ :private: :void: java~util~Base64$Encoder~~init^~Ljava~util~Base64$Encoder^Z^?B^I^Z^ ( java.util.Base64$Encoder :*: , :boolean: , :byte: [] , :int: , :boolean: ) :  "Encoder" ;
+:public: java.lang.String :*: java~util~Base64$Encoder~~encodeToString~Ljava~util~Base64$Encoder^?B^ ( java.util.Base64$Encoder :*: , :byte: [] ) :  "encodeToString" ;
+}
+	
+:public::class: java.io.DataOutputStream :extends: java.io.FilterOutputStream java.io.DataOutput :"java.io":"DataOutputStream"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~DataOutputStream~~flush~Ljava~io~DataOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutputStream~~write~Ljava~io~DataOutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutputStream~~write~Ljava~io~DataOutputStream^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutputStream~~writeBoolean~Ljava~io~DataOutputStream^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutputStream~~writeByte~Ljava~io~DataOutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutputStream~~writeBytes~Ljava~io~DataOutputStream^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutputStream~~writeChar~Ljava~io~DataOutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutputStream~~writeChars~Ljava~io~DataOutputStream^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutputStream~~writeDouble~Ljava~io~DataOutputStream^D^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutputStream~~writeFloat~Ljava~io~DataOutputStream^F^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutputStream~~writeInt~Ljava~io~DataOutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutputStream~~writeLong~Ljava~io~DataOutputStream^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutputStream~~writeShort~Ljava~io~DataOutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutputStream~~writeUTF~Ljava~io~DataOutputStream^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutputStream~~writeUTF~S~Ljava~lang~String^Ljava~io~DataOutput^~throws;
+ :public: :void: java~io~DataOutputStream~~init^~Ljava~io~DataOutputStream^Ljava~io~OutputStream^ ( java.io.DataOutputStream :*: , java.io.OutputStream :*: ) :  "DataOutputStream" ;
+:public: :final: :void: java~io~DataOutputStream~~writeLong~Ljava~io~DataOutputStream^J^ ( java.io.DataOutputStream :*: , :long: ) :  "writeLong"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public::class: java.io.FilterOutputStream :extends: java.io.OutputStream :"java.io":"FilterOutputStream"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~FilterOutputStream~~close~Ljava~io~FilterOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~FilterOutputStream~~flush~Ljava~io~FilterOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~FilterOutputStream~~write~Ljava~io~FilterOutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~FilterOutputStream~~write~Ljava~io~FilterOutputStream^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~FilterOutputStream~~write~Ljava~io~FilterOutputStream^?B^I^I^~throws;
+ :public: :void: java~io~FilterOutputStream~~init^~Ljava~io~FilterOutputStream^Ljava~io~OutputStream^ ( java.io.FilterOutputStream :*: , java.io.OutputStream :*: ) :  "FilterOutputStream" ;
+:public: :void: java~io~FilterOutputStream~~close~Ljava~io~FilterOutputStream^ ( java.io.FilterOutputStream :*: ) :  "close"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+ :public: :abstract: java.lang.String :*: java~lang~CharSequence~~toString~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+:public: :synchronized: java.lang.String :*: java~lang~StringBuffer~~toString~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+:public: java.lang.String :*: java~lang~StringBuilder~~toString~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: java.nio.CharBuffer :*: java~nio~charset~Charset~~decode~Ljava~nio~charset~Charset^Ljava~nio~ByteBuffer^ ( java.nio.charset.Charset :*: , java.nio.ByteBuffer :*: ) :  "decode" ;
+:public: :final: java.lang.String :*: java~nio~charset~Charset~~toString~Ljava~nio~charset~Charset^ ( java.nio.charset.Charset :*: ) :  "toString" ;
+}
+	
+:public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+:public: java.lang.String :*: java~lang~Throwable~~toString~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "toString" ;
+}
+	
+:public::class: java.lang.ReflectiveOperationException :extends: java.lang.Exception :"java.lang":"ReflectiveOperationException"{
+	
+ :public: :void: java~lang~ReflectiveOperationException~~init^~Ljava~lang~ReflectiveOperationException^ ( java.lang.ReflectiveOperationException :*: ) :  "ReflectiveOperationException" ;
+:public: :void: java~lang~ReflectiveOperationException~~init^~Ljava~lang~ReflectiveOperationException^Ljava~lang~String^ ( java.lang.ReflectiveOperationException :*: , java.lang.String :*: ) :  "ReflectiveOperationException" ;
+:public: :void: java~lang~ReflectiveOperationException~~init^~Ljava~lang~ReflectiveOperationException^Ljava~lang~Throwable^ ( java.lang.ReflectiveOperationException :*: , java.lang.Throwable :*: ) :  "ReflectiveOperationException" ;
+:public: :void: java~lang~ReflectiveOperationException~~init^~Ljava~lang~ReflectiveOperationException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.ReflectiveOperationException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "ReflectiveOperationException" ;
+}
+	
+:public: :abstract::class: java.nio.ByteBuffer :extends: java.nio.Buffer java.lang.Comparable :"java.nio":"ByteBuffer"{
+	
+ :void: java~nio~ByteBuffer~~init^~Ljava~nio~ByteBuffer^I^I^I^I^ ( java.nio.ByteBuffer :*: , :int: , :int: , :int: , :int: ) :  "ByteBuffer" ;
+:void: java~nio~ByteBuffer~~init^~Ljava~nio~ByteBuffer^I^I^I^I^?B^I^ ( java.nio.ByteBuffer :*: , :int: , :int: , :int: , :int: , :byte: [] , :int: ) :  "ByteBuffer" ;
+:public: java.lang.String :*: java~nio~ByteBuffer~~toString~Ljava~nio~ByteBuffer^ ( java.nio.ByteBuffer :*: ) :  "toString" ;
+}
+	
+:public: :abstract::class: java.io.InputStream :extends: java.lang.Object java.io.Closeable :"java.io":"InputStream"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~available~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~close~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~read~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~read~Ljava~io~InputStream^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~read~Ljava~io~InputStream^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~reset~Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~InputStream~~skip~Ljava~io~InputStream^J^~throws;
+ :public: :void: java~io~InputStream~~init^~Ljava~io~InputStream^ ( java.io.InputStream :*: ) :  "InputStream" ;
+:public: :void: java~io~InputStream~~close~Ljava~io~InputStream^ ( java.io.InputStream :*: ) :  "close"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public: :interface::class: java.io.ObjectInput :extends: java.io.DataInput java.lang.AutoCloseable :"java.io":"ObjectInput"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInput~~available~Ljava~io~ObjectInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInput~~close~Ljava~io~ObjectInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInput~~read~Ljava~io~ObjectInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInput~~read~Ljava~io~ObjectInput^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInput~~read~Ljava~io~ObjectInput^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInput~~readObject~Ljava~io~ObjectInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectInput~~skip~Ljava~io~ObjectInput^J^~throws;
+ :public: :abstract: :void: java~io~ObjectInput~~close~Ljava~io~ObjectInput^ ( java.io.ObjectInput :*: ) :  "close"  :exceptions:  java.io.IOException :*: ;
+:public: :abstract: java.lang.Object :*: java~io~ObjectInput~~readObject~Ljava~io~ObjectInput^ ( java.io.ObjectInput :*: ) :  "readObject"  :exceptions:  java.lang.ClassNotFoundException :*: ,  java.io.IOException :*: ;
+}
+	
+:public: :interface::class: java.io.ObjectStreamConstants :extends: java.lang.Object :"java.io":"ObjectStreamConstants"{
+	
+}
+	
+ :public::class: java.lang.SecurityException :extends: java.lang.RuntimeException :"java.lang":"SecurityException"{
+	
+ :public: :void: java~lang~SecurityException~~init^~Ljava~lang~SecurityException^ ( java.lang.SecurityException :*: ) :  "SecurityException" ;
+:public: :void: java~lang~SecurityException~~init^~Ljava~lang~SecurityException^Ljava~lang~String^ ( java.lang.SecurityException :*: , java.lang.String :*: ) :  "SecurityException" ;
+:public: :void: java~lang~SecurityException~~init^~Ljava~lang~SecurityException^Ljava~lang~Throwable^ ( java.lang.SecurityException :*: , java.lang.Throwable :*: ) :  "SecurityException" ;
+:public: :void: java~lang~SecurityException~~init^~Ljava~lang~SecurityException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.SecurityException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "SecurityException" ;
+}
+	
+:public: :abstract::class: java.io.OutputStream :extends: java.lang.Object java.io.Closeable java.io.Flushable :"java.io":"OutputStream"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~OutputStream~~close~Ljava~io~OutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~OutputStream~~flush~Ljava~io~OutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~OutputStream~~write~Ljava~io~OutputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~OutputStream~~write~Ljava~io~OutputStream^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~OutputStream~~write~Ljava~io~OutputStream^?B^I^I^~throws;
+ :public: :void: java~io~OutputStream~~init^~Ljava~io~OutputStream^ ( java.io.OutputStream :*: ) :  "OutputStream" ;
+:public: :void: java~io~OutputStream~~close~Ljava~io~OutputStream^ ( java.io.OutputStream :*: ) :  "close"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public: :interface::class: java.io.ObjectOutput :extends: java.io.DataOutput java.lang.AutoCloseable :"java.io":"ObjectOutput"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutput~~close~Ljava~io~ObjectOutput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutput~~flush~Ljava~io~ObjectOutput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutput~~write~Ljava~io~ObjectOutput^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutput~~write~Ljava~io~ObjectOutput^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutput~~write~Ljava~io~ObjectOutput^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~ObjectOutput~~writeObject~Ljava~io~ObjectOutput^Ljava~lang~Object^~throws;
+ :public: :abstract: :void: java~io~ObjectOutput~~close~Ljava~io~ObjectOutput^ ( java.io.ObjectOutput :*: ) :  "close"  :exceptions:  java.io.IOException :*: ;
+:public: :abstract: :void: java~io~ObjectOutput~~writeObject~Ljava~io~ObjectOutput^Ljava~lang~Object^ ( java.io.ObjectOutput :*: , java.lang.Object :*: ) :  "writeObject"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public: :interface::class: java.io.DataOutput :extends: java.lang.Object :"java.io":"DataOutput"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~DataOutput~~write~Ljava~io~DataOutput^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutput~~write~Ljava~io~DataOutput^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutput~~write~Ljava~io~DataOutput^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutput~~writeBoolean~Ljava~io~DataOutput^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutput~~writeByte~Ljava~io~DataOutput^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutput~~writeBytes~Ljava~io~DataOutput^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutput~~writeChar~Ljava~io~DataOutput^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutput~~writeChars~Ljava~io~DataOutput^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutput~~writeDouble~Ljava~io~DataOutput^D^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutput~~writeFloat~Ljava~io~DataOutput^F^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutput~~writeInt~Ljava~io~DataOutput^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutput~~writeLong~Ljava~io~DataOutput^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutput~~writeShort~Ljava~io~DataOutput^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataOutput~~writeUTF~Ljava~io~DataOutput^Ljava~lang~String^~throws;
+ :public: :abstract: :void: java~io~DataOutput~~writeLong~Ljava~io~DataOutput^J^ ( java.io.DataOutput :*: , :long: ) :  "writeLong"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+:public: :abstract: java.lang.String :*: java~lang~AbstractStringBuilder~~toString~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "toString" ;
+}
+	
+:public: :abstract::class: java.nio.CharBuffer :extends: java.nio.Buffer java.lang.Comparable java.lang.Appendable java.lang.CharSequence java.lang.Readable :"java.nio":"CharBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~nio~CharBuffer~~read~Ljava~nio~CharBuffer^Ljava~nio~CharBuffer^~throws;
+ :void: java~nio~CharBuffer~~init^~Ljava~nio~CharBuffer^I^I^I^I^ ( java.nio.CharBuffer :*: , :int: , :int: , :int: , :int: ) :  "CharBuffer" ;
+:void: java~nio~CharBuffer~~init^~Ljava~nio~CharBuffer^I^I^I^I^?C^I^ ( java.nio.CharBuffer :*: , :int: , :int: , :int: , :int: , :char: [] , :int: ) :  "CharBuffer" ;
+:public: java.lang.String :*: java~nio~CharBuffer~~toString~Ljava~nio~CharBuffer^ ( java.nio.CharBuffer :*: ) :  "toString" ;
+:abstract: java.lang.String :*: java~nio~CharBuffer~~toString~Ljava~nio~CharBuffer^I^I^ ( java.nio.CharBuffer :*: , :int: , :int: ) :  "toString" ;
+}
+	
+:public: :abstract::class: java.nio.Buffer :extends: java.lang.Object :"java.nio":"Buffer"{
+	
+ :void: java~nio~Buffer~~init^~Ljava~nio~Buffer^I^I^I^I^ ( java.nio.Buffer :*: , :int: , :int: , :int: , :int: ) :  "Buffer" ;
+}
+	
+:public: :interface::class: java.io.Closeable :extends: java.lang.AutoCloseable :"java.io":"Closeable"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~Closeable~~close~Ljava~io~Closeable^~throws;
+ :public: :abstract: :void: java~io~Closeable~~close~Ljava~io~Closeable^ ( java.io.Closeable :*: ) :  "close"  :exceptions:  java.io.IOException :*: ;
+}
+	
+:public: :interface::class: java.io.DataInput :extends: java.lang.Object :"java.io":"DataInput"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readBoolean~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readByte~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readChar~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readDouble~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readFloat~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readFully~Ljava~io~DataInput^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readFully~Ljava~io~DataInput^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readInt~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readLine~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readLong~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readShort~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readUTF~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readUnsignedByte~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~readUnsignedShort~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~io~DataInput~~skipBytes~Ljava~io~DataInput^I^~throws;
+}
+	
+ :public: :interface::class: java.lang.AutoCloseable :extends: java.lang.Object :"java.lang":"AutoCloseable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^~throws;
+ :public: :abstract: :void: java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^ ( java.lang.AutoCloseable :*: ) :  "close"  :exceptions:  java.lang.Exception :*: ;
+}
+	
+:public::class: java.lang.RuntimeException :extends: java.lang.Exception :"java.lang":"RuntimeException"{
+	
+ :public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^ ( java.lang.RuntimeException :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^ ( java.lang.RuntimeException :*: , java.lang.String :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:protected: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "RuntimeException" ;
+}
+	
+:public: :interface::class: java.io.Flushable :extends: java.lang.Object :"java.io":"Flushable"{
+	
+ :public: :static: java.lang.Throwable :*: java~io~Flushable~~flush~Ljava~io~Flushable^~throws;
+}
+	
+ :public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public: :interface::class: java.lang.Readable :extends: java.lang.Object :"java.lang":"Readable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Readable~~read~Ljava~lang~Readable^Ljava~nio~CharBuffer^~throws;
+}
+	

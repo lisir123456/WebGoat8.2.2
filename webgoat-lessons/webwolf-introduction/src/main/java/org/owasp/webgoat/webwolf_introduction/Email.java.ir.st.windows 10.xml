@@ -1,0 +1,1498 @@
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+#source-type java
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 10
+ #14# :public::class: org.owasp.webgoat.webwolf_introduction.Email :extends: java.io.Serializable java.lang.Object :"org.owasp.webgoat.webwolf_introduction":"Email"
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 8
+ #1# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# < lombok.Builder :*: > -~> ~annotation ( ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 9
+ #1# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# < lombok.Data :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 12
+ #20# :private: java.lang.String :*: contents;
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 15
+ #20# :private: java.lang.String :*: recipient;
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 13
+ #20# :private: java.lang.String :*: sender;
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 14
+ #20# :private: java.lang.String :*: title;
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 8
+ #1# :public: :static: org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder :*: org~owasp~webgoat~webwolf_introduction~Email~~builder~S~ ( ) :  "builder"
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# < java.lang.SuppressWarnings :*: > -~> ~annotation ( value:  "all" ):]]:
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder :*: ~t0 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t0 :=: :new: org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email$EmailBuilder~~init^~Lorg~owasp~webgoat~webwolf_introduction~Email$EmailBuilder^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t0 ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:return: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t0 ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 12
+ #20# :public: java.lang.String :*: org~owasp~webgoat~webwolf_introduction~Email~~getContents~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# org.owasp.webgoat.webwolf_introduction.Email :*: this~ ) :  "getContents" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	:return: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: contents ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 13
+ #20# :public: java.lang.String :*: org~owasp~webgoat~webwolf_introduction~Email~~getSender~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# org.owasp.webgoat.webwolf_introduction.Email :*: this~ ) :  "getSender" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	:return: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: sender ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 14
+ #20# :public: java.lang.String :*: org~owasp~webgoat~webwolf_introduction~Email~~getTitle~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# org.owasp.webgoat.webwolf_introduction.Email :*: this~ ) :  "getTitle" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	:return: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: title ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 15
+ #20# :public: java.lang.String :*: org~owasp~webgoat~webwolf_introduction~Email~~getRecipient~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# org.owasp.webgoat.webwolf_introduction.Email :*: this~ ) :  "getRecipient" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	:return: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: recipient ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 12
+ #20# :public: :void: org~owasp~webgoat~webwolf_introduction~Email~~setContents~Lorg~owasp~webgoat~webwolf_introduction~Email^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# org.owasp.webgoat.webwolf_introduction.Email :*: this~ , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# java.lang.String :*: contents ) :  "setContents" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: contents :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	contents ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 13
+ #20# :public: :void: org~owasp~webgoat~webwolf_introduction~Email~~setSender~Lorg~owasp~webgoat~webwolf_introduction~Email^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# org.owasp.webgoat.webwolf_introduction.Email :*: this~ , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# java.lang.String :*: sender ) :  "setSender" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: sender :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	sender ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 14
+ #20# :public: :void: org~owasp~webgoat~webwolf_introduction~Email~~setTitle~Lorg~owasp~webgoat~webwolf_introduction~Email^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# org.owasp.webgoat.webwolf_introduction.Email :*: this~ , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# java.lang.String :*: title ) :  "setTitle" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: title :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	title ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 15
+ #20# :public: :void: org~owasp~webgoat~webwolf_introduction~Email~~setRecipient~Lorg~owasp~webgoat~webwolf_introduction~Email^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# org.owasp.webgoat.webwolf_introduction.Email :*: this~ , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# java.lang.String :*: recipient ) :  "setRecipient" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: recipient :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	recipient ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 9
+ #1# :public: :boolean: org~owasp~webgoat~webwolf_introduction~Email~~equals~Lorg~owasp~webgoat~webwolf_introduction~Email^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# org.owasp.webgoat.webwolf_introduction.Email :*: this~ , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# java.lang.Object :*: o ) :  "equals"
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	o :==: this~ ) ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		:return: :true: ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:boolean: ~t0 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t0 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> __instanceof ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	o , < org.owasp.webgoat.webwolf_introduction.Email :*: > :null: ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:if: ( ( :!: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t0 ) ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		:return: :false: ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	org.owasp.webgoat.webwolf_introduction.Email :*: other ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	other :=: < org.owasp.webgoat.webwolf_introduction.Email :*: > 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	o ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:if: ( ( :!: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~canEqual~Lorg~owasp~webgoat~webwolf_introduction~Email^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	other , < java.lang.Object :*: > this~ ) ) ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		:return: :false: ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	java.lang.Object :*: this$contents ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	this$contents :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getContents~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( this~ ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	java.lang.Object :*: other$contents ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	other$contents :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getContents~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	other ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:boolean: ~t1 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	this$contents :==: :null: ) ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t1 :=: ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		other$contents :!=: :null: ) ;
+	}
+	:else: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t1 :=: ( :!: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		-~> java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		this$contents , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		other$contents ) ) ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:if: ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t1 ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		:return: :false: ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	java.lang.Object :*: this$sender ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	this$sender :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getSender~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( this~ ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	java.lang.Object :*: other$sender ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	other$sender :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getSender~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	other ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:boolean: ~t2 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	this$sender :==: :null: ) ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t2 :=: ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		other$sender :!=: :null: ) ;
+	}
+	:else: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t2 :=: ( :!: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		-~> java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		this$sender , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		other$sender ) ) ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:if: ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t2 ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		:return: :false: ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	java.lang.Object :*: this$title ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	this$title :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getTitle~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( this~ ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	java.lang.Object :*: other$title ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	other$title :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getTitle~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	other ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:boolean: ~t3 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	this$title :==: :null: ) ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t3 :=: ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		other$title :!=: :null: ) ;
+	}
+	:else: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t3 :=: ( :!: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		-~> java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		this$title , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		other$title ) ) ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:if: ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t3 ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		:return: :false: ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	java.lang.Object :*: this$recipient ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	this$recipient :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getRecipient~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( this~ ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	java.lang.Object :*: other$recipient ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	other$recipient :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getRecipient~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	other ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:boolean: ~t4 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	this$recipient :==: :null: ) ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t4 :=: ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		other$recipient :!=: :null: ) ;
+	}
+	:else: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t4 :=: ( :!: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		-~> java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		this$recipient , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		other$recipient ) ) ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:if: ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t4 ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		:return: :false: ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:return: :true: ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# :protected: :boolean: org~owasp~webgoat~webwolf_introduction~Email~~canEqual~Lorg~owasp~webgoat~webwolf_introduction~Email^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# org.owasp.webgoat.webwolf_introduction.Email :*: this~ , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# java.lang.Object :*: other ) :  "canEqual"
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# < java.lang.SuppressWarnings :*: > -~> ~annotation ( value:  "all" ):]]:
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:boolean: ~t0 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t0 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> __instanceof ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	other , < org.owasp.webgoat.webwolf_introduction.Email :*: > :null: ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:return: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t0 ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# :public: :int: org~owasp~webgoat~webwolf_introduction~Email~~hashCode~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# org.owasp.webgoat.webwolf_introduction.Email :*: this~ ) :  "hashCode"
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:int: PRIME ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	PRIME :=: < :int: >59 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:int: result ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	result :=: < :int: >1 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	java.lang.Object :*: $contents ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	$contents :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getContents~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( this~ ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:int: ~t0 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	$contents :==: :null: ) ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t0 :=: < :int: >43 ;
+	}
+	:else: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t0 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		-~> java~lang~Object~~hashCode~Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		$contents ) ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	result :=: ( ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	result :*: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	PRIME ) :+: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t0 ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	java.lang.Object :*: $sender ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	$sender :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getSender~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( this~ ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:int: ~t1 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	$sender :==: :null: ) ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t1 :=: < :int: >43 ;
+	}
+	:else: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t1 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		-~> java~lang~Object~~hashCode~Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		$sender ) ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	result :=: ( ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	result :*: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	PRIME ) :+: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t1 ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	java.lang.Object :*: $title ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	$title :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getTitle~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( this~ ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:int: ~t2 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	$title :==: :null: ) ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t2 :=: < :int: >43 ;
+	}
+	:else: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t2 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		-~> java~lang~Object~~hashCode~Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		$title ) ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	result :=: ( ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	result :*: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	PRIME ) :+: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t2 ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	java.lang.Object :*: $recipient ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	$recipient :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getRecipient~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( this~ ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:int: ~t3 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:if: ( ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	$recipient :==: :null: ) ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t3 :=: < :int: >43 ;
+	}
+	:else: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		~t3 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		-~> java~lang~Object~~hashCode~Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 		$recipient ) ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	result :=: ( ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	result :*: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	PRIME ) :+: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t3 ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:return: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	result ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# :public: java.lang.String :*: org~owasp~webgoat~webwolf_introduction~Email~~toString~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# org.owasp.webgoat.webwolf_introduction.Email :*: this~ ) :  "toString"
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t0 :=: ( ( ( ( ( ( ( ( "Email(contents=" :+: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getContents~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( this~ ) ) :+: ", sender=" ) :+: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getSender~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( this~ ) ) :+: ", title=" ) :+: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getTitle~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( this~ ) ) :+: ", recipient=" ) :+: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~getRecipient~Lorg~owasp~webgoat~webwolf_introduction~Email^ ( this~ ) ) :+: ")" ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	:return: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t0 ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 8
+ #1# :void: org~owasp~webgoat~webwolf_introduction~Email~~init^~Lorg~owasp~webgoat~webwolf_introduction~Email^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# org.owasp.webgoat.webwolf_introduction.Email :*: this~ , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# java.lang.String :*: contents , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# java.lang.String :*: sender , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# java.lang.String :*: title , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# java.lang.String :*: recipient ) :  "init^"
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# < java.lang.SuppressWarnings :*: > -~> ~annotation ( value:  "all" ):]]:
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 12
+ #20# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: contents :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	contents ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 13
+ #20# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: sender :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	sender ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 14
+ #20# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: title :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	title ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 15
+ #20# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: recipient :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	recipient ;
+
+#source-line 8
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 10
+ #14# :public: :static: :void: org~owasp~webgoat~webwolf_introduction~Email~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #14# {
+}
+#source-line 10
+}
+	
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 8
+ #1# :public: :static::class: org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder :extends: java.lang.Object :"org.owasp.webgoat.webwolf_introduction":"Email$EmailBuilder"
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# < java.lang.SuppressWarnings :*: > -~> ~annotation ( value:  "all" ):]]:
+{
+	
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 12
+ #20# :private: java.lang.String :*: contents;
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 15
+ #20# :private: java.lang.String :*: recipient;
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 13
+ #20# :private: java.lang.String :*: sender;
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 14
+ #20# :private: java.lang.String :*: title;
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 12
+ #20# :public: org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder :*: org~owasp~webgoat~webwolf_introduction~Email$EmailBuilder~~contents~Lorg~owasp~webgoat~webwolf_introduction~Email$EmailBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder :*: this~ , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# java.lang.String :*: contents ) :  "contents" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: contents :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	contents ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	:return: this~ ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 13
+ #20# :public: org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder :*: org~owasp~webgoat~webwolf_introduction~Email$EmailBuilder~~sender~Lorg~owasp~webgoat~webwolf_introduction~Email$EmailBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder :*: this~ , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# java.lang.String :*: sender ) :  "sender" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: sender :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	sender ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	:return: this~ ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 14
+ #20# :public: org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder :*: org~owasp~webgoat~webwolf_introduction~Email$EmailBuilder~~title~Lorg~owasp~webgoat~webwolf_introduction~Email$EmailBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder :*: this~ , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# java.lang.String :*: title ) :  "title" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: title :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	title ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	:return: this~ ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 15
+ #20# :public: org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder :*: org~owasp~webgoat~webwolf_introduction~Email$EmailBuilder~~recipient~Lorg~owasp~webgoat~webwolf_introduction~Email$EmailBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder :*: this~ , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# java.lang.String :*: recipient ) :  "recipient" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: recipient :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	recipient ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	:return: this~ ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 8
+ #1# :public: org.owasp.webgoat.webwolf_introduction.Email :*: org~owasp~webgoat~webwolf_introduction~Email$EmailBuilder~~build~Lorg~owasp~webgoat~webwolf_introduction~Email$EmailBuilder^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder :*: this~ ) :  "build"
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# < java.lang.SuppressWarnings :*: > -~> ~annotation ( value:  "all" ):]]:
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	org.owasp.webgoat.webwolf_introduction.Email :*: ~t0 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t0 :=: :new: org.owasp.webgoat.webwolf_introduction.Email ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> org~owasp~webgoat~webwolf_introduction~Email~~init^~Lorg~owasp~webgoat~webwolf_introduction~Email^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t0 , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 12
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: contents , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 13
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: sender , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 14
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: title , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 15
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: recipient ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 8
+ #1# 	:return: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t0 ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# :public: java.lang.String :*: org~owasp~webgoat~webwolf_introduction~Email$EmailBuilder~~toString~Lorg~owasp~webgoat~webwolf_introduction~Email$EmailBuilder^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder :*: this~ ) :  "toString"
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t0 :=: ( ( ( ( ( ( ( ( "Email.EmailBuilder(contents=" :+: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 12
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: contents ) :+: ", sender=" ) :+: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 13
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: sender ) :+: ", title=" ) :+: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 14
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: title ) :+: ", recipient=" ) :+: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 15
+ #20# 	[ org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder ] ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #20# 	this~ ) :.: recipient ) :+: ")" ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+
+#source-line 8
+ #1# 	:return: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	~t0 ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# :void: org~owasp~webgoat~webwolf_introduction~Email$EmailBuilder~~init^~Lorg~owasp~webgoat~webwolf_introduction~Email$EmailBuilder^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# org.owasp.webgoat.webwolf_introduction.Email$EmailBuilder :*: this~ ) :  "init^"
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# < java.lang.SuppressWarnings :*: > -~> ~annotation ( value:  "all" ):]]:
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# :public: :static: :void: org~owasp~webgoat~webwolf_introduction~Email$EmailBuilder~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\Email.java
+ #1# {
+}
+#source-line 8
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: :boolean: java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( java.lang.String :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :int: java~lang~String~~hashCode~Ljava~lang~String^ ( java.lang.String :*: ) :  "hashCode" ;
+:public: java.lang.String :*: java~lang~String~~toString~Ljava~lang~String^ ( java.lang.String :*: ) :  "toString" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+:public: :boolean: java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( java.lang.Object :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :native: :int: java~lang~Object~~hashCode~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "hashCode" ;
+:public: java.lang.String :*: java~lang~Object~~toString~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :annotation::class: lombok.Builder :extends: java.lang.annotation.Annotation :"lombok":"Builder"{
+	
+}
+	
+ :public: :annotation::class: lombok.Data :extends: java.lang.annotation.Annotation :"lombok":"Data"{
+	
+}
+	
+ :public: :annotation::class: java.lang.SuppressWarnings :extends: java.lang.annotation.Annotation :"java.lang":"SuppressWarnings"{
+	
+ :public: :abstract: java.lang.String :*: [] java~lang~SuppressWarnings~~value~Ljava~lang~SuppressWarnings^ ( java.lang.SuppressWarnings :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: java.lang.Override :extends: java.lang.annotation.Annotation :"java.lang":"Override"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+ :public: :abstract: java.lang.String :*: java~lang~CharSequence~~toString~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+:public: :synchronized: java.lang.String :*: java~lang~StringBuffer~~toString~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+:public: java.lang.String :*: java~lang~StringBuilder~~toString~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: :boolean: java~nio~charset~Charset~~equals~Ljava~nio~charset~Charset^Ljava~lang~Object^ ( java.nio.charset.Charset :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :final: :int: java~nio~charset~Charset~~hashCode~Ljava~nio~charset~Charset^ ( java.nio.charset.Charset :*: ) :  "hashCode" ;
+:public: :final: java.lang.String :*: java~nio~charset~Charset~~toString~Ljava~nio~charset~Charset^ ( java.nio.charset.Charset :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+ :public: :abstract: :boolean: java~lang~annotation~Annotation~~equals~Ljava~lang~annotation~Annotation^Ljava~lang~Object^ ( java.lang.annotation.Annotation :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :abstract: :int: java~lang~annotation~Annotation~~hashCode~Ljava~lang~annotation~Annotation^ ( java.lang.annotation.Annotation :*: ) :  "hashCode" ;
+:public: :abstract: java.lang.String :*: java~lang~annotation~Annotation~~toString~Ljava~lang~annotation~Annotation^ ( java.lang.annotation.Annotation :*: ) :  "toString" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :char: [] value;
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+:public: :abstract: java.lang.String :*: java~lang~AbstractStringBuilder~~toString~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+:public: java.lang.String :*: java~lang~Throwable~~toString~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "toString" ;
+}
+	

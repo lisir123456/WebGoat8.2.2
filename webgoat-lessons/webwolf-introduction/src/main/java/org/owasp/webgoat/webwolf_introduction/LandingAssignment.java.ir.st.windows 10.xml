@@ -1,0 +1,844 @@
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+#source-type java
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 44
+ #14# :public::class: org.owasp.webgoat.webwolf_introduction.LandingAssignment :extends: org.owasp.webgoat.assignments.AssignmentEndpoint :"org.owasp.webgoat.webwolf_introduction":"LandingAssignment"
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 43
+ #1# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #1# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #1# < org.springframework.web.bind.annotation.RestController :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 47
+ #20# :private: java.lang.String :*: landingPageUrl
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 46
+ #5# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #5# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #5# < org.springframework.beans.factory.annotation.Value :*: > -~> ~annotation ( value:  "${webwolf.url.landingpage}" ):]]:
+;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~webwolf_introduction~LandingAssignment~~openPasswordReset~Lorg~owasp~webgoat~webwolf_introduction~LandingAssignment^Ljavax~servlet~http~HttpServletRequest^~throws;
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 51
+ #25# :public: org.owasp.webgoat.assignments.AttackResult :*: org~owasp~webgoat~webwolf_introduction~LandingAssignment~~click~Lorg~owasp~webgoat~webwolf_introduction~LandingAssignment^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #25# org.owasp.webgoat.webwolf_introduction.LandingAssignment :*: this~ , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #38# java.lang.String :*: uniqueCode ) :  "click"
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 49
+ #5# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #5# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #5# < org.springframework.web.bind.annotation.PostMapping :*: > -~> ~annotation ( value:  "/WebWolf/landing" ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 50
+ #5# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #5# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #5# < org.springframework.web.bind.annotation.ResponseBody :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 51
+ #50# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 52
+ #33# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #33# 	org.owasp.webgoat.session.WebSession :*: ~t0 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #33# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #33# 	~t0 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #33# 	-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~getWebSession~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #33# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #33# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #33# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #33# 	~t1 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #33# 	-~> org~owasp~webgoat~session~WebSession~~getUserName~Lorg~owasp~webgoat~session~WebSession^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #33# 	~t0 ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 	java.lang.String :*: ~t2 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 	~t2 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 	-~> org~apache~commons~lang3~StringUtils~~reverse~S~Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #33# 	~t1 ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	:if: ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 	-~> java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 	~t2 , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #71# 	uniqueCode ) ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #84# 	{
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 53
+ #20# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #20# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t3 ;
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #20# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #20# 		~t3 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #20# 		-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~success~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 		org.owasp.webgoat.assignments.AttackResult :*: ~t4 ;
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 		~t4 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #20# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #20# 		~t3 ) ;
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 		:return: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 		~t4 ;
+
+#source-line 54
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 55
+ #16# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #16# 	org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t5 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #16# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #16# 	~t5 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #16# 	-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~failed~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #38# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #38# 	java.lang.String :*: ~t6 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #38# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #38# 	~t6 :=: "webwolf.landing_wrong" ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #16# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #16# 	org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t7 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #16# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #16# 	~t7 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #16# 	-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #16# 	~t5 , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #38# 	~t6 ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	org.owasp.webgoat.assignments.AttackResult :*: ~t8 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	~t8 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #16# 	-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #16# 	~t7 ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	:return: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	~t8 ;
+
+#source-line 56
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 60
+ #25# :public: org.springframework.web.servlet.ModelAndView :*: org~owasp~webgoat~webwolf_introduction~LandingAssignment~~openPasswordReset~Lorg~owasp~webgoat~webwolf_introduction~LandingAssignment^Ljavax~servlet~http~HttpServletRequest^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #25# org.owasp.webgoat.webwolf_introduction.LandingAssignment :*: this~ , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #62# javax.servlet.http.HttpServletRequest :*: request ) :  "openPasswordReset"  :exceptions:  java.net.URISyntaxException :*:
+	:[[: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 59
+ #5# {
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #5# 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #5# < org.springframework.web.bind.annotation.GetMapping :*: > -~> ~annotation ( value:  "/WebWolf/landing/password-reset" ):]]:
+ 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 60
+ #97# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 61
+ #13# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 	java.net.URI :*: uri ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #19# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #19# 	java.net.URI :*: ~t0 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #19# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #19# 	~t0 :=: :new: java.net.URI ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #27# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #27# 	java.lang.StringBuffer :*: ~t1 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #27# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #27# 	~t1 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #27# 	-~> javax~servlet~http~HttpServletRequest~~getRequestURL~Ljavax~servlet~http~HttpServletRequest^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #27# 	request ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #19# 	__throwingcall_1 :
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #19# 	-~> java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #19# 	~t0 , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #27# 	-~> java~lang~StringBuffer~~toString~Ljava~lang~StringBuffer^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #27# 	~t1 ) ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #19# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #19# 	{
+		[ org.owasp.webgoat.webwolf_introduction.LandingAssignment ] org~owasp~webgoat~webwolf_introduction~LandingAssignment~~openPasswordReset~Lorg~owasp~webgoat~webwolf_introduction~LandingAssignment^Ljavax~servlet~http~HttpServletRequest^~throws :=: < java.net.URISyntaxException :*: > :null: ;
+		
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #19# 		__caught__throwingcall_1 :
+		 :throw:  < java.net.URISyntaxException :*: > :null: ;
+	}
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #13# 	uri :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #19# 	~t0 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 62
+ #22# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #22# 	org.springframework.web.servlet.ModelAndView :*: modelAndView ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #37# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #37# 	org.springframework.web.servlet.ModelAndView :*: ~t2 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #37# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #37# 	~t2 :=: :new: org.springframework.web.servlet.ModelAndView ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #37# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #37# 	-~> org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #37# 	~t2 ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #22# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #22# 	modelAndView :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #37# 	~t2 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 63
+ #32# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #32# 	java.lang.String :*: ~t3 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #32# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #32# 	~t3 :=: "webwolfUrl" ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	-~> org~springframework~web~servlet~ModelAndView~~addObject~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	modelAndView , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #32# 	~t3 , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #46# 	[ org.owasp.webgoat.webwolf_introduction.LandingAssignment ] ( this~ ) :.: landingPageUrl ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 64
+ #32# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #32# 	java.lang.String :*: ~t4 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #32# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #32# 	~t4 :=: "uniqueCode" ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #66# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #66# 	org.owasp.webgoat.session.WebSession :*: ~t5 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #66# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #66# 	~t5 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #66# 	-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~getWebSession~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #66# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #66# 	java.lang.String :*: ~t6 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #66# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #66# 	~t6 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #66# 	-~> org~owasp~webgoat~session~WebSession~~getUserName~Lorg~owasp~webgoat~session~WebSession^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #66# 	~t5 ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #46# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #46# 	java.lang.String :*: ~t7 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #46# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #46# 	~t7 :=: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #46# 	-~> org~apache~commons~lang3~StringUtils~~reverse~S~Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #66# 	~t6 ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	-~> org~springframework~web~servlet~ModelAndView~~addObject~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	modelAndView , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #32# 	~t4 , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #46# 	~t7 ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 66
+ #34# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #34# 	java.lang.String :*: ~t8 ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #34# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #34# 	~t8 :=: "webwolfPasswordReset" ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	-~> org~springframework~web~servlet~ModelAndView~~setViewName~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #9# 	modelAndView , 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #34# 	~t8 ) ;
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 67
+ #9# 	:return: 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #16# 	modelAndView ;
+
+#source-line 68
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+
+#source-line 44
+ #14# :public: :void: org~owasp~webgoat~webwolf_introduction~LandingAssignment~~init^~Lorg~owasp~webgoat~webwolf_introduction~LandingAssignment^ ( 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #14# org.owasp.webgoat.webwolf_introduction.LandingAssignment :*: this~ ) :  "init^" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #14# {
+	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #14# 	
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #14# 	-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~init^~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ ) ;
+}
+
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #14# :public: :static: :void: org~owasp~webgoat~webwolf_introduction~LandingAssignment~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\webwolf-introduction\src\main\java\org\owasp\webgoat\webwolf_introduction\LandingAssignment.java
+ #14# {
+}
+#source-line 44
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: :boolean: java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( java.lang.String :*: , java.lang.Object :*: ) :  "equals" ;
+:public: java.lang.String :*: java~lang~String~~toString~Ljava~lang~String^ ( java.lang.String :*: ) :  "toString" ;
+}
+	
+:public: :abstract::class: org.owasp.webgoat.assignments.AssignmentEndpoint :extends: java.lang.Object :"org.owasp.webgoat.assignments":"AssignmentEndpoint"{
+	
+ :public: :void: org~owasp~webgoat~assignments~AssignmentEndpoint~~init^~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "AssignmentEndpoint" ;
+:protected: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AssignmentEndpoint~~failed~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: , org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "failed" ;
+:protected: org.owasp.webgoat.session.WebSession :*: org~owasp~webgoat~assignments~AssignmentEndpoint~~getWebSession~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "getWebSession" ;
+:protected: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AssignmentEndpoint~~success~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: , org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "success" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.RestController :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"RestController"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~web~bind~annotation~RestController~~value~Lorg~springframework~web~bind~annotation~RestController^ ( org.springframework.web.bind.annotation.RestController :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: org.springframework.beans.factory.annotation.Value :extends: java.lang.annotation.Annotation :"org.springframework.beans.factory.annotation":"Value"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~beans~factory~annotation~Value~~value~Lorg~springframework~beans~factory~annotation~Value^ ( org.springframework.beans.factory.annotation.Value :*: ) :  "value" ;
+}
+	
+:public::class: org.owasp.webgoat.assignments.AttackResult :extends: java.lang.Object :"org.owasp.webgoat.assignments":"AttackResult"{
+	
+ :public: :void: org~owasp~webgoat~assignments~AttackResult~~init^~Lorg~owasp~webgoat~assignments~AttackResult^Z^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Z^ ( org.owasp.webgoat.assignments.AttackResult :*: , :boolean: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , :boolean: ) :  "AttackResult" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.PostMapping :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"PostMapping"{
+	
+ :public: :abstract: java.lang.String :*: [] org~springframework~web~bind~annotation~PostMapping~~value~Lorg~springframework~web~bind~annotation~PostMapping^ ( org.springframework.web.bind.annotation.PostMapping :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.ResponseBody :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"ResponseBody"{
+	
+}
+	
+ :public::class: org.owasp.webgoat.session.WebSession :extends: java.lang.Object java.io.Serializable :"org.owasp.webgoat.session":"WebSession"{
+	
+ :public: :void: org~owasp~webgoat~session~WebSession~~init^~Lorg~owasp~webgoat~session~WebSession^ ( org.owasp.webgoat.session.WebSession :*: ) :  "WebSession" ;
+:public: java.lang.String :*: org~owasp~webgoat~session~WebSession~~getUserName~Lorg~owasp~webgoat~session~WebSession^ ( org.owasp.webgoat.session.WebSession :*: ) :  "getUserName" ;
+}
+	
+:public::class: org.apache.commons.lang3.StringUtils :extends: java.lang.Object :"org.apache.commons.lang3":"StringUtils"{
+	
+ :public: :static: java.lang.Throwable :*: org~apache~commons~lang3~StringUtils~~toString~S~?B^Ljava~lang~String^~throws;
+ :public: :void: org~apache~commons~lang3~StringUtils~~init^~Lorg~apache~commons~lang3~StringUtils^ ( org.apache.commons.lang3.StringUtils :*: ) :  "StringUtils" ;
+:public: :static: :boolean: org~apache~commons~lang3~StringUtils~~equals~S~Ljava~lang~CharSequence^Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: , java.lang.CharSequence :*: ) :  "equals" ;
+:public: :static: java.lang.String :*: org~apache~commons~lang3~StringUtils~~reverse~S~Ljava~lang~String^ ( java.lang.String :*: ) :  "reverse" ;
+:public: :static: java.lang.String :*: org~apache~commons~lang3~StringUtils~~toString~S~?B^Ljava~lang~String^ ( :byte: [] , java.lang.String :*: ) :  "toString"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+}
+	
+:public: :static::class: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :extends: java.lang.Object :"org.owasp.webgoat.assignments":"AttackResult$AttackResultBuilder"{
+	
+ :public: :void: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~init^~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Lorg~owasp~webgoat~i18n~PluginMessages^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: , org.owasp.webgoat.i18n.PluginMessages :*: ) :  "AttackResultBuilder" ;
+:public: org.owasp.webgoat.assignments.AttackResult :*: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ) :  "build" ;
+:public: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: , java.lang.String :*: ) :  "feedback" ;
+}
+	
+:public::class: org.springframework.web.servlet.ModelAndView :extends: java.lang.Object :"org.springframework.web.servlet":"ModelAndView"{
+	
+ :public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^ ( org.springframework.web.servlet.ModelAndView :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.String :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Lorg~springframework~web~servlet~View^ ( org.springframework.web.servlet.ModelAndView :*: , org.springframework.web.servlet.View :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^Ljava~util~Map^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.String :*: , java.util.Map :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Lorg~springframework~web~servlet~View^Ljava~util~Map^ ( org.springframework.web.servlet.ModelAndView :*: , org.springframework.web.servlet.View :*: , java.util.Map :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^Lorg~springframework~http~HttpStatus^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.String :*: , org.springframework.http.HttpStatus :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^Ljava~util~Map^Lorg~springframework~http~HttpStatus^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.String :*: , java.util.Map :*: , org.springframework.http.HttpStatus :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^Ljava~lang~String^Ljava~lang~Object^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.String :*: , java.lang.String :*: , java.lang.Object :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Lorg~springframework~web~servlet~View^Ljava~lang~String^Ljava~lang~Object^ ( org.springframework.web.servlet.ModelAndView :*: , org.springframework.web.servlet.View :*: , java.lang.String :*: , java.lang.Object :*: ) :  "ModelAndView" ;
+:public: org.springframework.web.servlet.ModelAndView :*: org~springframework~web~servlet~ModelAndView~~addObject~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~Object^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.Object :*: ) :  "addObject" ;
+:public: org.springframework.web.servlet.ModelAndView :*: org~springframework~web~servlet~ModelAndView~~addObject~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^Ljava~lang~Object^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.String :*: , java.lang.Object :*: ) :  "addObject" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~setViewName~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.String :*: ) :  "setViewName" ;
+:public: java.lang.String :*: org~springframework~web~servlet~ModelAndView~~toString~Lorg~springframework~web~servlet~ModelAndView^ ( org.springframework.web.servlet.ModelAndView :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: javax.servlet.http.HttpServletRequest :extends: javax.servlet.ServletRequest :"javax.servlet.http":"HttpServletRequest"{
+	
+ :public: :static: java.lang.Throwable :*: javax~servlet~http~HttpServletRequest~~authenticate~Ljavax~servlet~http~HttpServletRequest^Ljavax~servlet~http~HttpServletResponse^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~http~HttpServletRequest~~getPart~Ljavax~servlet~http~HttpServletRequest^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~http~HttpServletRequest~~getParts~Ljavax~servlet~http~HttpServletRequest^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~http~HttpServletRequest~~login~Ljavax~servlet~http~HttpServletRequest^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~http~HttpServletRequest~~logout~Ljavax~servlet~http~HttpServletRequest^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~http~HttpServletRequest~~upgrade~Ljavax~servlet~http~HttpServletRequest^Ljava~lang~Class^~throws;
+ :public: :abstract: java.lang.StringBuffer :*: javax~servlet~http~HttpServletRequest~~getRequestURL~Ljavax~servlet~http~HttpServletRequest^ ( javax.servlet.http.HttpServletRequest :*: ) :  "getRequestURL" ;
+}
+	
+:public::class: java.net.URISyntaxException :extends: java.lang.Exception :"java.net":"URISyntaxException"{
+	
+ :public: :void: java~net~URISyntaxException~~init^~Ljava~net~URISyntaxException^Ljava~lang~String^Ljava~lang~String^ ( java.net.URISyntaxException :*: , java.lang.String :*: , java.lang.String :*: ) :  "URISyntaxException" ;
+:public: :void: java~net~URISyntaxException~~init^~Ljava~net~URISyntaxException^Ljava~lang~String^Ljava~lang~String^I^ ( java.net.URISyntaxException :*: , java.lang.String :*: , java.lang.String :*: , :int: ) :  "URISyntaxException" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.GetMapping :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"GetMapping"{
+	
+ :public: :abstract: java.lang.String :*: [] org~springframework~web~bind~annotation~GetMapping~~value~Lorg~springframework~web~bind~annotation~GetMapping^ ( org.springframework.web.bind.annotation.GetMapping :*: ) :  "value" ;
+}
+	
+:public: :final::class: java.net.URI :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.net":"URI"{
+	
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~checkPath~S~Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~parseServerAuthority~Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~readObject~Ljava~net~URI^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~toURL~Ljava~net~URI^~throws;
+ :public: :static: java.lang.Throwable :*: java~net~URI~~writeObject~Ljava~net~URI^Ljava~io~ObjectOutputStream^~throws;
+ :private: :void: java~net~URI~~init^~Ljava~net~URI^ ( java.net.URI :*: ) :  "URI" ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :void: java~net~URI~~init^~Ljava~net~URI^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.net.URI :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , :int: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "URI"  :exceptions:  java.net.URISyntaxException :*: ;
+:public: :boolean: java~net~URI~~equals~Ljava~net~URI^Ljava~lang~Object^ ( java.net.URI :*: , java.lang.Object :*: ) :  "equals" ;
+:public: java.lang.String :*: java~net~URI~~toString~Ljava~net~URI^ ( java.net.URI :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+:public: :synchronized: java.lang.StringBuffer :*: java~lang~StringBuffer~~reverse~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "reverse" ;
+:public: :synchronized: java.lang.String :*: java~lang~StringBuffer~~toString~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "toString" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+:public: :boolean: java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( java.lang.Object :*: , java.lang.Object :*: ) :  "equals" ;
+:public: java.lang.String :*: java~lang~Object~~toString~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+ :public: :abstract: java.lang.String :*: java~lang~CharSequence~~toString~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+:public: java.lang.StringBuilder :*: java~lang~StringBuilder~~reverse~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "reverse" ;
+:public: java.lang.String :*: java~lang~StringBuilder~~toString~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: :boolean: java~nio~charset~Charset~~equals~Ljava~nio~charset~Charset^Ljava~lang~Object^ ( java.nio.charset.Charset :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :final: java.lang.String :*: java~nio~charset~Charset~~toString~Ljava~nio~charset~Charset^ ( java.nio.charset.Charset :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+ :public: :abstract: :boolean: java~lang~annotation~Annotation~~equals~Ljava~lang~annotation~Annotation^Ljava~lang~Object^ ( java.lang.annotation.Annotation :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :abstract: java.lang.String :*: java~lang~annotation~Annotation~~toString~Ljava~lang~annotation~Annotation^ ( java.lang.annotation.Annotation :*: ) :  "toString" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.PluginMessages :extends: org.springframework.context.support.ReloadableResourceBundleMessageSource :"org.owasp.webgoat.i18n":"PluginMessages"{
+	
+ :public: :void: org~owasp~webgoat~i18n~PluginMessages~~init^~Lorg~owasp~webgoat~i18n~PluginMessages^Lorg~owasp~webgoat~i18n~Messages^Lorg~owasp~webgoat~i18n~Language^ ( org.owasp.webgoat.i18n.PluginMessages :*: , org.owasp.webgoat.i18n.Messages :*: , org.owasp.webgoat.i18n.Language :*: ) :  "PluginMessages" ;
+}
+	
+:public: :interface::class: org.springframework.web.servlet.View :extends: java.lang.Object :"org.springframework.web.servlet":"View"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~web~servlet~View~~render~Lorg~springframework~web~servlet~View^Ljava~util~Map^Ljavax~servlet~http~HttpServletRequest^Ljavax~servlet~http~HttpServletResponse^~throws;
+}
+	
+ :public: :interface::class: java.util.Map :extends: java.lang.Object :"java.util":"Map"{
+	
+ :public: :abstract: :boolean: java~util~Map~~equals~Ljava~util~Map^Ljava~lang~Object^ ( java.util.Map :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :final: :enum::class: org.springframework.http.HttpStatus :extends: java.lang.Enum java.lang.Enum :"org.springframework.http":"HttpStatus"{
+	
+ :private: :void: org~springframework~http~HttpStatus~~init^~Lorg~springframework~http~HttpStatus^I^Lorg~springframework~http~HttpStatus$Series^Ljava~lang~String^ ( org.springframework.http.HttpStatus :*: , :int: , org.springframework.http.HttpStatus$Series :*: , java.lang.String :*: ) :  "HttpStatus" ;
+:public: java.lang.String :*: org~springframework~http~HttpStatus~~toString~Lorg~springframework~http~HttpStatus^ ( org.springframework.http.HttpStatus :*: ) :  "toString" ;
+:public: :int: org~springframework~http~HttpStatus~~value~Lorg~springframework~http~HttpStatus^ ( org.springframework.http.HttpStatus :*: ) :  "value" ;
+}
+	
+:public: :interface::class: javax.servlet.ServletRequest :extends: java.lang.Object :"javax.servlet":"ServletRequest"{
+	
+ :public: :static: java.lang.Throwable :*: javax~servlet~ServletRequest~~getInputStream~Ljavax~servlet~ServletRequest^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~ServletRequest~~getReader~Ljavax~servlet~ServletRequest^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~ServletRequest~~setCharacterEncoding~Ljavax~servlet~ServletRequest^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~ServletRequest~~startAsync~Ljavax~servlet~ServletRequest^~throws;
+ :public: :static: java.lang.Throwable :*: javax~servlet~ServletRequest~~startAsync~Ljavax~servlet~ServletRequest^Ljavax~servlet~ServletRequest^Ljavax~servlet~ServletResponse^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :char: [] value;
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+:public: java.lang.AbstractStringBuilder :*: java~lang~AbstractStringBuilder~~reverse~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "reverse" ;
+:public: :abstract: java.lang.String :*: java~lang~AbstractStringBuilder~~toString~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public::class: org.springframework.context.support.ReloadableResourceBundleMessageSource :extends: org.springframework.context.support.AbstractResourceBasedMessageSource org.springframework.context.ResourceLoaderAware :"org.springframework.context.support":"ReloadableResourceBundleMessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~ReloadableResourceBundleMessageSource~~loadProperties~Lorg~springframework~context~support~ReloadableResourceBundleMessageSource^Lorg~springframework~core~io~Resource^Ljava~lang~String^~throws;
+ :public: :void: org~springframework~context~support~ReloadableResourceBundleMessageSource~~init^~Lorg~springframework~context~support~ReloadableResourceBundleMessageSource^ ( org.springframework.context.support.ReloadableResourceBundleMessageSource :*: ) :  "ReloadableResourceBundleMessageSource" ;
+:public: java.lang.String :*: org~springframework~context~support~ReloadableResourceBundleMessageSource~~toString~Lorg~springframework~context~support~ReloadableResourceBundleMessageSource^ ( org.springframework.context.support.ReloadableResourceBundleMessageSource :*: ) :  "toString" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.Messages :extends: org.springframework.context.support.ReloadableResourceBundleMessageSource :"org.owasp.webgoat.i18n":"Messages"{
+	
+ :public: :void: org~owasp~webgoat~i18n~Messages~~init^~Lorg~owasp~webgoat~i18n~Messages^Lorg~owasp~webgoat~i18n~Language^ ( org.owasp.webgoat.i18n.Messages :*: , org.owasp.webgoat.i18n.Language :*: ) :  "Messages" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.Language :extends: java.lang.Object :"org.owasp.webgoat.i18n":"Language"{
+	
+ :public: :void: org~owasp~webgoat~i18n~Language~~init^~Lorg~owasp~webgoat~i18n~Language^Lorg~springframework~web~servlet~LocaleResolver^ ( org.owasp.webgoat.i18n.Language :*: , org.springframework.web.servlet.LocaleResolver :*: ) :  "Language" ;
+}
+	
+:public: :abstract::class: java.lang.Enum :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.lang":"Enum"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~clone~Ljava~lang~Enum^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObject~Ljava~lang~Enum^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObjectNoData~Ljava~lang~Enum^~throws;
+ :protected: :void: java~lang~Enum~~init^~Ljava~lang~Enum^Ljava~lang~String^I^ ( java.lang.Enum :*: , java.lang.String :*: , :int: ) :  "Enum" ;
+:public: :final: :boolean: java~lang~Enum~~equals~Ljava~lang~Enum^Ljava~lang~Object^ ( java.lang.Enum :*: , java.lang.Object :*: ) :  "equals" ;
+:public: java.lang.String :*: java~lang~Enum~~toString~Ljava~lang~Enum^ ( java.lang.Enum :*: ) :  "toString" ;
+}
+	
+:public: :final: :static: :enum::class: org.springframework.http.HttpStatus$Series :extends: java.lang.Enum java.lang.Enum :"org.springframework.http":"HttpStatus$Series"{
+	
+ :private: :void: org~springframework~http~HttpStatus$Series~~init^~Lorg~springframework~http~HttpStatus$Series^I^ ( org.springframework.http.HttpStatus$Series :*: , :int: ) :  "Series" ;
+:public: :int: org~springframework~http~HttpStatus$Series~~value~Lorg~springframework~http~HttpStatus$Series^ ( org.springframework.http.HttpStatus$Series :*: ) :  "value" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+:public: java.lang.String :*: java~lang~Throwable~~toString~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public: :abstract::class: org.springframework.context.support.AbstractResourceBasedMessageSource :extends: org.springframework.context.support.AbstractMessageSource :"org.springframework.context.support":"AbstractResourceBasedMessageSource"{
+	
+ :public: :void: org~springframework~context~support~AbstractResourceBasedMessageSource~~init^~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^ ( org.springframework.context.support.AbstractResourceBasedMessageSource :*: ) :  "AbstractResourceBasedMessageSource" ;
+}
+	
+:public: :interface::class: org.springframework.context.ResourceLoaderAware :extends: org.springframework.beans.factory.Aware :"org.springframework.context":"ResourceLoaderAware"{
+	
+}
+	
+ :public: :interface::class: org.springframework.web.servlet.LocaleResolver :extends: java.lang.Object :"org.springframework.web.servlet":"LocaleResolver"{
+	
+}
+	
+ :public: :abstract::class: org.springframework.context.support.AbstractMessageSource :extends: org.springframework.context.support.MessageSourceSupport org.springframework.context.HierarchicalMessageSource :"org.springframework.context.support":"AbstractMessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^~throws;
+ :public: :void: org~springframework~context~support~AbstractMessageSource~~init^~Lorg~springframework~context~support~AbstractMessageSource^ ( org.springframework.context.support.AbstractMessageSource :*: ) :  "AbstractMessageSource" ;
+}
+	
+:public: :interface::class: org.springframework.beans.factory.Aware :extends: java.lang.Object :"org.springframework.beans.factory":"Aware"{
+	
+}
+	
+ :public: :abstract::class: org.springframework.context.support.MessageSourceSupport :extends: java.lang.Object :"org.springframework.context.support":"MessageSourceSupport"{
+	
+ :public: :void: org~springframework~context~support~MessageSourceSupport~~init^~Lorg~springframework~context~support~MessageSourceSupport^ ( org.springframework.context.support.MessageSourceSupport :*: ) :  "MessageSourceSupport" ;
+}
+	
+:public: :interface::class: org.springframework.context.HierarchicalMessageSource :extends: org.springframework.context.MessageSource :"org.springframework.context":"HierarchicalMessageSource"{
+	
+}
+	
+ :public: :interface::class: org.springframework.context.MessageSource :extends: java.lang.Object :"org.springframework.context":"MessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^~throws;
+}
+	

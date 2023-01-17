@@ -1,0 +1,1543 @@
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+#source-type java
+
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 41
+ #14# :public::class: org.owasp.webgoat.jwt.TokenTest :extends: java.lang.Object :"org.owasp.webgoat.jwt":"TokenTest"
+	:[[: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 40
+ #1# {
+}
+
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #1# 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #1# < lombok.extern.slf4j.Slf4j :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #1# :private: :final: :static: org.slf4j.Logger :*: log;
+ 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 44
+ #17# :public: :void: org~owasp~webgoat~jwt~TokenTest~~test~Lorg~owasp~webgoat~jwt~TokenTest^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #17# org.owasp.webgoat.jwt.TokenTest :*: this~ ) :  "test"
+	:[[: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 43
+ #5# {
+}
+
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #5# 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #5# < org.junit.jupiter.api.Test :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 44
+ #24# {
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 45
+ #16# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #16# 	java.lang.String :*: key ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #16# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #16# 	key :=: "qwertyqwerty1234" ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 46
+ #29# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #29# 	java.util.Map :*: claims ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #45# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #45# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #45# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #45# 	~t0 :=: "username" ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #57# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #57# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #57# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #57# 	~t1 :=: "Jerry" ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #66# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #66# 	java.lang.String :*: ~t2 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #66# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #66# 	~t2 :=: "aud" ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #73# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #73# 	java.lang.String :*: ~t3 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #73# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #73# 	~t3 :=: "webgoat.org" ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #88# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #88# 	java.lang.String :*: ~t4 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #88# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #88# 	~t4 :=: "email" ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #97# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #97# 	java.lang.String :*: ~t5 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #97# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #97# 	~t5 :=: "jerry@webgoat.com" ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #29# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #29# 	claims :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #38# 	-~> of ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #45# 	~t0 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #57# 	~t1 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #66# 	~t2 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #73# 	~t3 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #88# 	~t4 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #97# 	~t5 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 47
+ #16# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #16# 	java.lang.String :*: token ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	io.jsonwebtoken.JwtBuilder :*: ~t6 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t6 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	-~> io~jsonwebtoken~Jwts~~builder~S~ ( ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 48
+ #33# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #33# 	java.lang.String :*: ~t7 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #33# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #33# 	~t7 :=: "kid" ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #40# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #40# 	java.lang.String :*: ~t8 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #40# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #40# 	~t8 :=: "webgoat_key" ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 47
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	io.jsonwebtoken.JwtBuilder :*: ~t9 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t9 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	-~> io~jsonwebtoken~JwtBuilder~~setHeaderParam~Lio~jsonwebtoken~JwtBuilder^Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t6 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 48
+ #33# 	~t7 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #40# 	~t8 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 49
+ #30# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #30# 	java.util.Date :*: ~t10 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #30# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #30# 	~t10 :=: :new: java.util.Date ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #89# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #89# 	:int: ~t11 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #89# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #89# 	~t11 :=: < :int: >10 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #30# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #30# 	-~> java~util~Date~~init^~Ljava~util~Date^J^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #30# 	~t10 , ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #39# 	-~> java~lang~System~~currentTimeMillis~S~ ( ) :+: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #68# 	-~> java~util~concurrent~TimeUnit~~toDays~Ljava~util~concurrent~TimeUnit^J^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #68# 	[ java.util.concurrent.TimeUnit ] DAYS , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #89# 	~t11 ) ) ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 47
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	io.jsonwebtoken.JwtBuilder :*: ~t12 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t12 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	-~> io~jsonwebtoken~JwtBuilder~~setIssuedAt~Lio~jsonwebtoken~JwtBuilder^Ljava~util~Date^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t9 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 49
+ #30# 	~t10 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 47
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	io.jsonwebtoken.JwtBuilder :*: ~t13 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t13 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	-~> io~jsonwebtoken~JwtBuilder~~setClaims~Lio~jsonwebtoken~JwtBuilder^Ljava~util~Map^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t12 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 50
+ #28# 	claims ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 47
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	io.jsonwebtoken.JwtBuilder :*: ~t14 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t14 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	-~> io~jsonwebtoken~JwtBuilder~~signWith~Lio~jsonwebtoken~JwtBuilder^Lio~jsonwebtoken~SignatureAlgorithm^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t13 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 51
+ #27# 	[ io.jsonwebtoken.SignatureAlgorithm ] HS512 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #69# 	key ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 47
+ #16# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #16# 	token :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	-~> io~jsonwebtoken~JwtBuilder~~compact~Lio~jsonwebtoken~JwtBuilder^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t14 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 52
+ #9# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #9# 	-~> org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #9# 	[ org.owasp.webgoat.jwt.TokenTest ] log , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	token ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 53
+ #13# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #13# 	io.jsonwebtoken.Jwt :*: jwt ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	io.jsonwebtoken.JwtParser :*: ~t15 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	~t15 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	-~> io~jsonwebtoken~Jwts~~parser~S~ ( ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #47# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #47# 	java.lang.String :*: ~t16 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #47# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #47# 	~t16 :=: "qwertyqwerty1234" ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	io.jsonwebtoken.JwtParser :*: ~t17 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	~t17 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	-~> io~jsonwebtoken~JwtParser~~setSigningKey~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	~t15 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #47# 	~t16 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	ANYTYPE ~t~j~1 ;
+	__throwingcall_1 :
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	~t~j~1 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	-~> io~jsonwebtoken~JwtParser~~parse~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	~t17 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #73# 	token ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	{
+		
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 		__caught__throwingcall_1 :
+		 :throw:  < io.jsonwebtoken.ExpiredJwtException :*: > :null: ;
+	}
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #13# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #13# 	jwt :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	~t~j~1 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 54
+ #15# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	io.jsonwebtoken.JwtParser :*: ~t18 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	~t18 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	-~> io~jsonwebtoken~Jwts~~parser~S~ ( ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	org.owasp.webgoat.jwt.TokenTest$AnonymousClass~bccb9473~1 :*: ~t19 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	~t19 :=: :new: org.owasp.webgoat.jwt.TokenTest$AnonymousClass~bccb9473~1 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	-~> org~owasp~webgoat~jwt~TokenTest$AnonymousClass~bccb9473~1~~innerinit^~Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	~t19 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	key ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	-~> org~owasp~webgoat~jwt~TokenTest$AnonymousClass~bccb9473~1~~init^~Lorg~owasp~webgoat~jwt~TokenTest$AnonymousClass~bccb9473~1^Lorg~owasp~webgoat~jwt~TokenTest^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	~t19 , this~ ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	io.jsonwebtoken.JwtParser :*: ~t20 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	~t20 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	-~> io~jsonwebtoken~JwtParser~~setSigningKeyResolver~Lio~jsonwebtoken~JwtParser^Lio~jsonwebtoken~SigningKeyResolver^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	~t18 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	~t19 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	ANYTYPE ~t~j~2 ;
+	__throwingcall_2 :
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	~t~j~2 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	-~> io~jsonwebtoken~JwtParser~~parse~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	~t20 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 59
+ #18# 	token ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 54
+ #15# 	:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	{
+		
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 		__caught__throwingcall_2 :
+		 :throw:  < io.jsonwebtoken.ExpiredJwtException :*: > :null: ;
+
+#source-line 59
+	}
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 54
+ #9# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #9# 	jwt :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #15# 	~t~j~2 ;
+
+#source-line 61
+}
+
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 64
+ #17# :public: :void: org~owasp~webgoat~jwt~TokenTest~~testRefresh~Lorg~owasp~webgoat~jwt~TokenTest^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #17# org.owasp.webgoat.jwt.TokenTest :*: this~ ) :  "testRefresh"
+	:[[: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 63
+ #5# {
+}
+
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #5# 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #5# < org.junit.jupiter.api.Test :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 64
+ #31# {
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 65
+ #17# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #17# 	java.time.Instant :*: now ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #17# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #17# 	now :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #23# 	-~> java~time~Instant~~now~S~ ( ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 66
+ #16# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #16# 	io.jsonwebtoken.Claims :*: claims ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #25# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #25# 	io.jsonwebtoken.Claims :*: ~t0 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #25# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #25# 	~t0 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #25# 	-~> io~jsonwebtoken~Jwts~~claims~S~ ( ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #87# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #87# 	:int: ~t1 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #87# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #87# 	~t1 :=: < :int: >10 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #71# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #71# 	java.time.Duration :*: ~t2 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #71# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #71# 	~t2 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #71# 	-~> java~time~Duration~~ofDays~S~J^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #87# 	~t1 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #61# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #61# 	java.time.Instant :*: ~t3 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #61# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #61# 	~t3 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #61# 	-~> java~time~Instant~~minus~Ljava~time~Instant^Ljava~time~temporal~TemporalAmount^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #61# 	now , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #71# 	~t2 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	java.util.Date :*: ~t4 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	~t4 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	-~> java~util~Date~~from~S~Ljava~time~Instant^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #61# 	~t3 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #16# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #16# 	claims :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #25# 	-~> io~jsonwebtoken~Claims~~setIssuedAt~Lio~jsonwebtoken~Claims^Ljava~util~Date^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #25# 	~t0 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #51# 	~t4 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 67
+ #66# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #66# 	:int: ~t5 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #66# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #66# 	~t5 :=: < :int: >9 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #50# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #50# 	java.time.Duration :*: ~t6 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #50# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #50# 	~t6 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #50# 	-~> java~time~Duration~~ofDays~S~J^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #66# 	~t5 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #40# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #40# 	java.time.Instant :*: ~t7 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #40# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #40# 	~t7 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #40# 	-~> java~time~Instant~~minus~Ljava~time~Instant^Ljava~time~temporal~TemporalAmount^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #40# 	now , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #50# 	~t6 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #30# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #30# 	java.util.Date :*: ~t8 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #30# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #30# 	~t8 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #30# 	-~> java~util~Date~~from~S~Ljava~time~Instant^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #40# 	~t7 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #9# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #9# 	-~> io~jsonwebtoken~Claims~~setExpiration~Lio~jsonwebtoken~Claims^Ljava~util~Date^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #9# 	claims , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #30# 	~t8 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 68
+ #20# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #20# 	java.lang.String :*: ~t9 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #20# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #20# 	~t9 :=: "admin" ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #29# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #29# 	java.lang.String :*: ~t10 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #29# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #29# 	~t10 :=: "false" ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #9# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #9# 	-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #9# 	claims , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #20# 	~t9 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #29# 	~t10 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 69
+ #20# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #20# 	java.lang.String :*: ~t11 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #20# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #20# 	~t11 :=: "user" ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #28# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #28# 	java.lang.String :*: ~t12 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #28# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #28# 	~t12 :=: "Tom" ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #9# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #9# 	-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #9# 	claims , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #20# 	~t11 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #28# 	~t12 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 70
+ #16# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #16# 	java.lang.String :*: token ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	io.jsonwebtoken.JwtBuilder :*: ~t13 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t13 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	-~> io~jsonwebtoken~Jwts~~builder~S~ ( ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	io.jsonwebtoken.JwtBuilder :*: ~t14 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t14 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	-~> io~jsonwebtoken~JwtBuilder~~setClaims~Lio~jsonwebtoken~JwtBuilder^Lio~jsonwebtoken~Claims^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t13 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #49# 	claims ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 71
+ #69# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #69# 	java.lang.String :*: ~t15 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #69# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #69# 	~t15 :=: "bm5n3SkxCX4kKRy4" ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 70
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	io.jsonwebtoken.JwtBuilder :*: ~t16 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t16 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	-~> io~jsonwebtoken~JwtBuilder~~signWith~Lio~jsonwebtoken~JwtBuilder^Lio~jsonwebtoken~SignatureAlgorithm^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t14 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 71
+ #27# 	[ io.jsonwebtoken.SignatureAlgorithm ] HS512 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #69# 	~t15 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 70
+ #16# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #16# 	token :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	-~> io~jsonwebtoken~JwtBuilder~~compact~Lio~jsonwebtoken~JwtBuilder^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	~t16 ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 73
+ #9# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #9# 	-~> org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #9# 	[ org.owasp.webgoat.jwt.TokenTest ] log , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #19# 	token ) ;
+
+#source-line 74
+}
+
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 41
+ #14# :public: :void: org~owasp~webgoat~jwt~TokenTest~~init^~Lorg~owasp~webgoat~jwt~TokenTest^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #14# org.owasp.webgoat.jwt.TokenTest :*: this~ ) :  "init^" 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #14# {
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #14# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #14# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+}
+
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #14# :public: :static: :void: org~owasp~webgoat~jwt~TokenTest~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #14# {
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 40
+ #1# 	{
+		
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #1# 		
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #1# 		java.lang.Class :*: ~t0 ;
+		
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #1# 		
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #1# 		~t0 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #1# 		< java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.jwt.TokenTest :*: > :null: ) ;
+		
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #1# 		
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #1# 		[ org.owasp.webgoat.jwt.TokenTest ] log :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #1# 		-~> org~slf4j~LoggerFactory~~getLogger~S~Ljava~lang~Class^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #1# 		~t0 ) ;
+	}
+
+#source-line 41
+}
+#source-line 41
+}
+	
+
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 54
+ #83# :class: org.owasp.webgoat.jwt.TokenTest$AnonymousClass~bccb9473~1 :extends: io.jsonwebtoken.SigningKeyResolverAdapter :"org.owasp.webgoat.jwt":"TokenTest$AnonymousClass~1"{
+	
+
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# :private: org.owasp.webgoat.jwt.TokenTest :*: outer~this;
+ :private: java.lang.String :*: outer~key;
+ 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 56
+ #27# :public: :byte: [] org~owasp~webgoat~jwt~TokenTest$AnonymousClass~bccb9473~1~~resolveSigningKeyBytes~Lorg~owasp~webgoat~jwt~TokenTest$AnonymousClass~bccb9473~1^Lio~jsonwebtoken~JwsHeader^Lio~jsonwebtoken~Claims^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #27# org.owasp.webgoat.jwt.TokenTest$AnonymousClass~bccb9473~1 :*: this~ , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #60# io.jsonwebtoken.JwsHeader :*: header , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #75# io.jsonwebtoken.Claims :*: claims ) :  "resolveSigningKeyBytes"
+	:[[: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 55
+ #13# {
+}
+
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #13# 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #13# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 56
+ #83# {
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 57
+ #17# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #17# 	:byte: [] ~t0 ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #17# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #17# 	~t0 :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	-~> io~jsonwebtoken~impl~TextCodec~~decode~Lio~jsonwebtoken~impl~TextCodec^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #24# 	[ io.jsonwebtoken.impl.TextCodec ] BASE64 , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #48# 	[ org.owasp.webgoat.jwt.TokenTest$AnonymousClass~bccb9473~1 ] ( this~ ) :.: outer~key ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #17# 	:return: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #17# 	~t0 ;
+
+#source-line 58
+}
+
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 54
+ #83# :public: :void: org~owasp~webgoat~jwt~TokenTest$AnonymousClass~bccb9473~1~~innerinit^~Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# org.owasp.webgoat.jwt.TokenTest$AnonymousClass~bccb9473~1 :*: this~ , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# java.lang.String :*: key ) :  "innerinit^" 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# {
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# 	[ org.owasp.webgoat.jwt.TokenTest$AnonymousClass~bccb9473~1 ] ( this~ ) :.: outer~key :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# 	key ;
+
+#source-line 59
+}
+
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 54
+ #83# :public: :void: org~owasp~webgoat~jwt~TokenTest$AnonymousClass~bccb9473~1~~init^~Lorg~owasp~webgoat~jwt~TokenTest$AnonymousClass~bccb9473~1^Lorg~owasp~webgoat~jwt~TokenTest^ ( 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# org.owasp.webgoat.jwt.TokenTest$AnonymousClass~bccb9473~1 :*: this~ , 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# org.owasp.webgoat.jwt.TokenTest :*: outer~this ) :  "init^" 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# {
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# 	-~> io~jsonwebtoken~SigningKeyResolverAdapter~~init^~Lio~jsonwebtoken~SigningKeyResolverAdapter^ ( this~ ) ;
+	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# 	
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# 	[ org.owasp.webgoat.jwt.TokenTest$AnonymousClass~bccb9473~1 ] ( this~ ) :.: outer~this :=: 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# 	outer~this ;
+
+#source-line 59
+}
+
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+
+#source-line 54
+ #83# :public: :static: :void: org~owasp~webgoat~jwt~TokenTest$AnonymousClass~bccb9473~1~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\jwt\src\test\java\org\owasp\webgoat\jwt\TokenTest.java
+ #83# {
+
+#source-line 59
+}
+#source-line 59
+}
+	
+:public: :interface::class: org.slf4j.Logger :extends: java.lang.Object :"org.slf4j":"Logger"{
+	
+ :public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Ljava~lang~String^ ( org.slf4j.Logger :*: , java.lang.String :*: ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Ljava~lang~String^?Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Throwable^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Object^ ( org.slf4j.Logger :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^?Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Throwable^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "debug" ;
+:public: :abstract: :void: org~slf4j~Logger~~debug~Lorg~slf4j~Logger^Lorg~slf4j~Marker^Ljava~lang~String^Ljava~lang~Object^Ljava~lang~Object^ ( org.slf4j.Logger :*: , org.slf4j.Marker :*: , java.lang.String :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "debug" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+}
+	
+:public::class: io.jsonwebtoken.SigningKeyResolverAdapter :extends: java.lang.Object io.jsonwebtoken.SigningKeyResolver :"io.jsonwebtoken":"SigningKeyResolverAdapter"{
+	
+ :public: :void: io~jsonwebtoken~SigningKeyResolverAdapter~~init^~Lio~jsonwebtoken~SigningKeyResolverAdapter^ ( io.jsonwebtoken.SigningKeyResolverAdapter :*: ) :  "SigningKeyResolverAdapter" ;
+:public: :byte: [] io~jsonwebtoken~SigningKeyResolverAdapter~~resolveSigningKeyBytes~Lio~jsonwebtoken~SigningKeyResolverAdapter^Lio~jsonwebtoken~JwsHeader^Lio~jsonwebtoken~Claims^ ( io.jsonwebtoken.SigningKeyResolverAdapter :*: , io.jsonwebtoken.JwsHeader :*: , io.jsonwebtoken.Claims :*: ) :  "resolveSigningKeyBytes" ;
+:public: :byte: [] io~jsonwebtoken~SigningKeyResolverAdapter~~resolveSigningKeyBytes~Lio~jsonwebtoken~SigningKeyResolverAdapter^Lio~jsonwebtoken~JwsHeader^Ljava~lang~String^ ( io.jsonwebtoken.SigningKeyResolverAdapter :*: , io.jsonwebtoken.JwsHeader :*: , java.lang.String :*: ) :  "resolveSigningKeyBytes" ;
+}
+	
+:public: :annotation::class: lombok.extern.slf4j.Slf4j :extends: java.lang.annotation.Annotation :"lombok.extern.slf4j":"Slf4j"{
+	
+}
+	
+ :public: :annotation::class: org.junit.jupiter.api.Test :extends: java.lang.annotation.Annotation :"org.junit.jupiter.api":"Test"{
+	
+}
+	
+ :public: :interface::class: java.util.Map :extends: java.lang.Object :"java.util":"Map"{
+	
+ :public: :abstract: java.lang.Object :*: java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( java.util.Map :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "put" ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.JwtBuilder :extends: io.jsonwebtoken.ClaimsMutator :"io.jsonwebtoken":"JwtBuilder"{
+	
+ :public: :abstract: java.lang.String :*: io~jsonwebtoken~JwtBuilder~~compact~Lio~jsonwebtoken~JwtBuilder^ ( io.jsonwebtoken.JwtBuilder :*: ) :  "compact" ;
+:public: :abstract: io.jsonwebtoken.JwtBuilder :*: io~jsonwebtoken~JwtBuilder~~setClaims~Lio~jsonwebtoken~JwtBuilder^Lio~jsonwebtoken~Claims^ ( io.jsonwebtoken.JwtBuilder :*: , io.jsonwebtoken.Claims :*: ) :  "setClaims" ;
+:public: :abstract: io.jsonwebtoken.JwtBuilder :*: io~jsonwebtoken~JwtBuilder~~setClaims~Lio~jsonwebtoken~JwtBuilder^Ljava~util~Map^ ( io.jsonwebtoken.JwtBuilder :*: , java.util.Map :*: ) :  "setClaims" ;
+:public: :abstract: io.jsonwebtoken.JwtBuilder :*: io~jsonwebtoken~JwtBuilder~~setExpiration~Lio~jsonwebtoken~JwtBuilder^Ljava~util~Date^ ( io.jsonwebtoken.JwtBuilder :*: , java.util.Date :*: ) :  "setExpiration" ;
+:public: :abstract: io.jsonwebtoken.JwtBuilder :*: io~jsonwebtoken~JwtBuilder~~setHeaderParam~Lio~jsonwebtoken~JwtBuilder^Ljava~lang~String^Ljava~lang~Object^ ( io.jsonwebtoken.JwtBuilder :*: , java.lang.String :*: , java.lang.Object :*: ) :  "setHeaderParam" ;
+:public: :abstract: io.jsonwebtoken.JwtBuilder :*: io~jsonwebtoken~JwtBuilder~~setIssuedAt~Lio~jsonwebtoken~JwtBuilder^Ljava~util~Date^ ( io.jsonwebtoken.JwtBuilder :*: , java.util.Date :*: ) :  "setIssuedAt" ;
+:public: :abstract: io.jsonwebtoken.JwtBuilder :*: io~jsonwebtoken~JwtBuilder~~signWith~Lio~jsonwebtoken~JwtBuilder^Lio~jsonwebtoken~SignatureAlgorithm^?B^ ( io.jsonwebtoken.JwtBuilder :*: , io.jsonwebtoken.SignatureAlgorithm :*: , :byte: [] ) :  "signWith" ;
+:public: :abstract: io.jsonwebtoken.JwtBuilder :*: io~jsonwebtoken~JwtBuilder~~signWith~Lio~jsonwebtoken~JwtBuilder^Lio~jsonwebtoken~SignatureAlgorithm^Ljava~lang~String^ ( io.jsonwebtoken.JwtBuilder :*: , io.jsonwebtoken.SignatureAlgorithm :*: , java.lang.String :*: ) :  "signWith" ;
+:public: :abstract: io.jsonwebtoken.JwtBuilder :*: io~jsonwebtoken~JwtBuilder~~signWith~Lio~jsonwebtoken~JwtBuilder^Lio~jsonwebtoken~SignatureAlgorithm^Ljava~security~Key^ ( io.jsonwebtoken.JwtBuilder :*: , io.jsonwebtoken.SignatureAlgorithm :*: , java.security.Key :*: ) :  "signWith" ;
+}
+	
+:public: :final::class: io.jsonwebtoken.Jwts :extends: java.lang.Object :"io.jsonwebtoken":"Jwts"{
+	
+ :private: :void: io~jsonwebtoken~Jwts~~init^~Lio~jsonwebtoken~Jwts^ ( io.jsonwebtoken.Jwts :*: ) :  "Jwts" ;
+:public: :static: io.jsonwebtoken.JwtBuilder :*: io~jsonwebtoken~Jwts~~builder~S~ ( ) :  "builder" ;
+:public: :static: io.jsonwebtoken.Claims :*: io~jsonwebtoken~Jwts~~claims~S~ ( ) :  "claims" ;
+:public: :static: io.jsonwebtoken.Claims :*: io~jsonwebtoken~Jwts~~claims~S~Ljava~util~Map^ ( java.util.Map :*: ) :  "claims" ;
+:public: :static: io.jsonwebtoken.JwtParser :*: io~jsonwebtoken~Jwts~~parser~S~ ( ) :  "parser" ;
+}
+	
+:public::class: java.util.Date :extends: java.lang.Object java.io.Serializable java.lang.Cloneable java.lang.Comparable :"java.util":"Date"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~Date~~readObject~Ljava~util~Date^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Date~~writeObject~Ljava~util~Date^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~util~Date~~init^~Ljava~util~Date^ ( java.util.Date :*: ) :  "Date" ;
+:public: :void: java~util~Date~~init^~Ljava~util~Date^J^ ( java.util.Date :*: , :long: ) :  "Date" ;
+:public: :void: java~util~Date~~init^~Ljava~util~Date^Ljava~lang~String^ ( java.util.Date :*: , java.lang.String :*: ) :  "Date" ;
+:public: :void: java~util~Date~~init^~Ljava~util~Date^I^I^I^ ( java.util.Date :*: , :int: , :int: , :int: ) :  "Date" ;
+:public: :void: java~util~Date~~init^~Ljava~util~Date^I^I^I^I^I^ ( java.util.Date :*: , :int: , :int: , :int: , :int: , :int: ) :  "Date" ;
+:public: :void: java~util~Date~~init^~Ljava~util~Date^I^I^I^I^I^I^ ( java.util.Date :*: , :int: , :int: , :int: , :int: , :int: , :int: ) :  "Date" ;
+:public: :static: java.util.Date :*: java~util~Date~~from~S~Ljava~time~Instant^ ( java.time.Instant :*: ) :  "from" ;
+:public: :static: :long: java~util~Date~~parse~S~Ljava~lang~String^ ( java.lang.String :*: ) :  "parse" ;
+}
+	
+:public: :final::class: java.lang.System :extends: java.lang.Object :"java.lang":"System"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~System~~inheritedChannel~S~~throws;
+ :private: :void: java~lang~System~~init^~Ljava~lang~System^ ( java.lang.System :*: ) :  "System" ;
+:public: :static: :native: :long: java~lang~System~~currentTimeMillis~S~ ( ) :  "currentTimeMillis" ;
+}
+	
+:public: :abstract: :enum::class: java.util.concurrent.TimeUnit :extends: java.lang.Enum java.lang.Enum :"java.util.concurrent":"TimeUnit"{
+	
+ :public: :final: :static: java.util.concurrent.TimeUnit :*: DAYS;
+ :public: :static: java.lang.Throwable :*: java~util~concurrent~TimeUnit~~sleep~Ljava~util~concurrent~TimeUnit^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~concurrent~TimeUnit~~timedJoin~Ljava~util~concurrent~TimeUnit^Ljava~lang~Thread^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~concurrent~TimeUnit~~timedWait~Ljava~util~concurrent~TimeUnit^Ljava~lang~Object^J^~throws;
+ :private: :void: java~util~concurrent~TimeUnit~~init^~Ljava~util~concurrent~TimeUnit^ ( java.util.concurrent.TimeUnit :*: ) :  "TimeUnit" ;
+:public: :long: java~util~concurrent~TimeUnit~~toDays~Ljava~util~concurrent~TimeUnit^J^ ( java.util.concurrent.TimeUnit :*: , :long: ) :  "toDays" ;
+}
+	
+:public: :final: :enum::class: io.jsonwebtoken.SignatureAlgorithm :extends: java.lang.Enum java.lang.Enum :"io.jsonwebtoken":"SignatureAlgorithm"{
+	
+ :public: :final: :static: io.jsonwebtoken.SignatureAlgorithm :*: HS512;
+ :public: :static: java.lang.Throwable :*: io~jsonwebtoken~SignatureAlgorithm~~forName~S~Ljava~lang~String^~throws;
+ :private: :void: io~jsonwebtoken~SignatureAlgorithm~~init^~Lio~jsonwebtoken~SignatureAlgorithm^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Z^ ( io.jsonwebtoken.SignatureAlgorithm :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , :boolean: ) :  "SignatureAlgorithm" ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.Jwt :extends: java.lang.Object :"io.jsonwebtoken":"Jwt"{
+	
+}
+	
+ :public: :interface::class: io.jsonwebtoken.JwtParser :extends: java.lang.Object :"io.jsonwebtoken":"JwtParser"{
+	
+ :public: :static: java.lang.Throwable :*: io~jsonwebtoken~JwtParser~~parse~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: io~jsonwebtoken~JwtParser~~parse~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^Lio~jsonwebtoken~JwtHandler^~throws;
+ :public: :static: java.lang.Throwable :*: io~jsonwebtoken~JwtParser~~parseClaimsJws~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: io~jsonwebtoken~JwtParser~~parseClaimsJwt~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: io~jsonwebtoken~JwtParser~~parsePlaintextJws~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: io~jsonwebtoken~JwtParser~~parsePlaintextJwt~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^~throws;
+ :public: :abstract: io.jsonwebtoken.Jwt :*: io~jsonwebtoken~JwtParser~~parse~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^ ( io.jsonwebtoken.JwtParser :*: , java.lang.String :*: ) :  "parse"  :exceptions:  io.jsonwebtoken.ExpiredJwtException :*: ,  io.jsonwebtoken.MalformedJwtException :*: ,  io.jsonwebtoken.SignatureException :*: ,  java.lang.IllegalArgumentException :*: ;
+:public: :abstract: java.lang.Object :*: io~jsonwebtoken~JwtParser~~parse~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^Lio~jsonwebtoken~JwtHandler^ ( io.jsonwebtoken.JwtParser :*: , java.lang.String :*: , io.jsonwebtoken.JwtHandler :*: ) :  "parse"  :exceptions:  io.jsonwebtoken.ExpiredJwtException :*: ,  io.jsonwebtoken.UnsupportedJwtException :*: ,  io.jsonwebtoken.MalformedJwtException :*: ,  io.jsonwebtoken.SignatureException :*: ,  java.lang.IllegalArgumentException :*: ;
+:public: :abstract: io.jsonwebtoken.JwtParser :*: io~jsonwebtoken~JwtParser~~setSigningKey~Lio~jsonwebtoken~JwtParser^?B^ ( io.jsonwebtoken.JwtParser :*: , :byte: [] ) :  "setSigningKey" ;
+:public: :abstract: io.jsonwebtoken.JwtParser :*: io~jsonwebtoken~JwtParser~~setSigningKey~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^ ( io.jsonwebtoken.JwtParser :*: , java.lang.String :*: ) :  "setSigningKey" ;
+:public: :abstract: io.jsonwebtoken.JwtParser :*: io~jsonwebtoken~JwtParser~~setSigningKey~Lio~jsonwebtoken~JwtParser^Ljava~security~Key^ ( io.jsonwebtoken.JwtParser :*: , java.security.Key :*: ) :  "setSigningKey" ;
+:public: :abstract: io.jsonwebtoken.JwtParser :*: io~jsonwebtoken~JwtParser~~setSigningKeyResolver~Lio~jsonwebtoken~JwtParser^Lio~jsonwebtoken~SigningKeyResolver^ ( io.jsonwebtoken.JwtParser :*: , io.jsonwebtoken.SigningKeyResolver :*: ) :  "setSigningKeyResolver" ;
+}
+	
+:public: :final::class: java.time.Instant :extends: java.lang.Object java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.lang.Comparable java.io.Serializable :"java.time":"Instant"{
+	
+ :public: :static: java.lang.Throwable :*: java~time~Instant~~readExternal~S~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~Instant~~readObject~Ljava~time~Instant^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~Instant~~writeExternal~Ljava~time~Instant^Ljava~io~DataOutput^~throws;
+ :private: :void: java~time~Instant~~init^~Ljava~time~Instant^J^I^ ( java.time.Instant :*: , :long: , :int: ) :  "Instant" ;
+:public: :static: java.time.Instant :*: java~time~Instant~~from~S~Ljava~time~temporal~TemporalAccessor^ ( java.time.temporal.TemporalAccessor :*: ) :  "from" ;
+:public: java.time.Instant :*: java~time~Instant~~minus~Ljava~time~Instant^Ljava~time~temporal~TemporalAmount^ ( java.time.Instant :*: , java.time.temporal.TemporalAmount :*: ) :  "minus" ;
+:public: java.time.Instant :*: java~time~Instant~~minus~Ljava~time~Instant^J^Ljava~time~temporal~TemporalUnit^ ( java.time.Instant :*: , :long: , java.time.temporal.TemporalUnit :*: ) :  "minus" ;
+:public: :static: java.time.Instant :*: java~time~Instant~~now~S~ ( ) :  "now" ;
+:public: :static: java.time.Instant :*: java~time~Instant~~now~S~Ljava~time~Clock^ ( java.time.Clock :*: ) :  "now" ;
+:public: :static: java.time.Instant :*: java~time~Instant~~parse~S~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "parse" ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.Claims :extends: java.util.Map io.jsonwebtoken.ClaimsMutator :"io.jsonwebtoken":"Claims"{
+	
+ :public: :abstract: io.jsonwebtoken.Claims :*: io~jsonwebtoken~Claims~~setExpiration~Lio~jsonwebtoken~Claims^Ljava~util~Date^ ( io.jsonwebtoken.Claims :*: , java.util.Date :*: ) :  "setExpiration" ;
+:public: :abstract: io.jsonwebtoken.Claims :*: io~jsonwebtoken~Claims~~setIssuedAt~Lio~jsonwebtoken~Claims^Ljava~util~Date^ ( io.jsonwebtoken.Claims :*: , java.util.Date :*: ) :  "setIssuedAt" ;
+}
+	
+:public: :final::class: java.time.Duration :extends: java.lang.Object java.time.temporal.TemporalAmount java.lang.Comparable java.io.Serializable :"java.time":"Duration"{
+	
+ :public: :static: java.lang.Throwable :*: java~time~Duration~~readExternal~S~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~Duration~~readObject~Ljava~time~Duration^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~Duration~~writeExternal~Ljava~time~Duration^Ljava~io~DataOutput^~throws;
+ :private: :void: java~time~Duration~~init^~Ljava~time~Duration^J^I^ ( java.time.Duration :*: , :long: , :int: ) :  "Duration" ;
+:public: :static: java.time.Duration :*: java~time~Duration~~from~S~Ljava~time~temporal~TemporalAmount^ ( java.time.temporal.TemporalAmount :*: ) :  "from" ;
+:public: java.time.Duration :*: java~time~Duration~~minus~Ljava~time~Duration^Ljava~time~Duration^ ( java.time.Duration :*: , java.time.Duration :*: ) :  "minus" ;
+:public: java.time.Duration :*: java~time~Duration~~minus~Ljava~time~Duration^J^Ljava~time~temporal~TemporalUnit^ ( java.time.Duration :*: , :long: , java.time.temporal.TemporalUnit :*: ) :  "minus" ;
+:public: :static: java.time.Duration :*: java~time~Duration~~of~S~J^Ljava~time~temporal~TemporalUnit^ ( :long: , java.time.temporal.TemporalUnit :*: ) :  "of" ;
+:public: :static: java.time.Duration :*: java~time~Duration~~ofDays~S~J^ ( :long: ) :  "ofDays" ;
+:public: :static: java.time.Duration :*: java~time~Duration~~parse~S~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "parse" ;
+:public: :long: java~time~Duration~~toDays~Ljava~time~Duration^ ( java.time.Duration :*: ) :  "toDays" ;
+}
+	
+:public: :final::class: java.lang.Class :extends: java.lang.Object java.io.Serializable java.lang.reflect.GenericDeclaration java.lang.reflect.Type java.lang.reflect.AnnotatedElement :"java.lang":"Class"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName0~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor0~Ljava~lang~Class^?Ljava~lang~Class^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredClasses~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaringClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingConstructor~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingMethod~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField0~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~newInstance~Ljava~lang~Class^~throws;
+ :private: :void: java~lang~Class~~init^~Ljava~lang~Class^Ljava~lang~ClassLoader^ ( java.lang.Class :*: , java.lang.ClassLoader :*: ) :  "Class" ;
+}
+	
+:public: :final::class: org.slf4j.LoggerFactory :extends: java.lang.Object :"org.slf4j":"LoggerFactory"{
+	
+ :private: :void: org~slf4j~LoggerFactory~~init^~Lorg~slf4j~LoggerFactory^ ( org.slf4j.LoggerFactory :*: ) :  "LoggerFactory" ;
+:public: :static: org.slf4j.Logger :*: org~slf4j~LoggerFactory~~getLogger~S~Ljava~lang~String^ ( java.lang.String :*: ) :  "getLogger" ;
+:public: :static: org.slf4j.Logger :*: org~slf4j~LoggerFactory~~getLogger~S~Ljava~lang~Class^ ( java.lang.Class :*: ) :  "getLogger" ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.JwsHeader :extends: io.jsonwebtoken.Header :"io.jsonwebtoken":"JwsHeader"{
+	
+}
+	
+ :public: :annotation::class: java.lang.Override :extends: java.lang.annotation.Annotation :"java.lang":"Override"{
+	
+}
+	
+ :public: :interface::class: io.jsonwebtoken.impl.TextCodec :extends: java.lang.Object :"io.jsonwebtoken.impl":"TextCodec"{
+	
+ :public: :final: :static: io.jsonwebtoken.impl.TextCodec :*: BASE64;
+ :public: :abstract: :byte: [] io~jsonwebtoken~impl~TextCodec~~decode~Lio~jsonwebtoken~impl~TextCodec^Ljava~lang~String^ ( io.jsonwebtoken.impl.TextCodec :*: , java.lang.String :*: ) :  "decode" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+}
+	
+:public: :interface::class: org.slf4j.Marker :extends: java.io.Serializable :"org.slf4j":"Marker"{
+	
+}
+	
+ :public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+}
+	
+ :public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: java.nio.CharBuffer :*: java~nio~charset~Charset~~decode~Ljava~nio~charset~Charset^Ljava~nio~ByteBuffer^ ( java.nio.charset.Charset :*: , java.nio.ByteBuffer :*: ) :  "decode" ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.SigningKeyResolver :extends: java.lang.Object :"io.jsonwebtoken":"SigningKeyResolver"{
+	
+}
+	
+ :public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+}
+	
+ :public: :interface::class: io.jsonwebtoken.ClaimsMutator :extends: java.lang.Object :"io.jsonwebtoken":"ClaimsMutator"{
+	
+ :public: :abstract: io.jsonwebtoken.ClaimsMutator :*: io~jsonwebtoken~ClaimsMutator~~setExpiration~Lio~jsonwebtoken~ClaimsMutator^Ljava~util~Date^ ( io.jsonwebtoken.ClaimsMutator :*: , java.util.Date :*: ) :  "setExpiration" ;
+:public: :abstract: io.jsonwebtoken.ClaimsMutator :*: io~jsonwebtoken~ClaimsMutator~~setIssuedAt~Lio~jsonwebtoken~ClaimsMutator^Ljava~util~Date^ ( io.jsonwebtoken.ClaimsMutator :*: , java.util.Date :*: ) :  "setIssuedAt" ;
+}
+	
+:public: :interface::class: java.security.Key :extends: java.io.Serializable :"java.security":"Key"{
+	
+}
+	
+ :public: :interface::class: java.lang.Cloneable :extends: java.lang.Object :"java.lang":"Cloneable"{
+	
+}
+	
+ :public: :abstract::class: java.lang.Enum :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.lang":"Enum"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~clone~Ljava~lang~Enum^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObject~Ljava~lang~Enum^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObjectNoData~Ljava~lang~Enum^~throws;
+ :protected: :void: java~lang~Enum~~init^~Ljava~lang~Enum^Ljava~lang~String^I^ ( java.lang.Enum :*: , java.lang.String :*: , :int: ) :  "Enum" ;
+}
+	
+:public::class: io.jsonwebtoken.ExpiredJwtException :extends: io.jsonwebtoken.ClaimJwtException :"io.jsonwebtoken":"ExpiredJwtException"{
+	
+ :public: :void: io~jsonwebtoken~ExpiredJwtException~~init^~Lio~jsonwebtoken~ExpiredJwtException^Lio~jsonwebtoken~Header^Lio~jsonwebtoken~Claims^Ljava~lang~String^ ( io.jsonwebtoken.ExpiredJwtException :*: , io.jsonwebtoken.Header :*: , io.jsonwebtoken.Claims :*: , java.lang.String :*: ) :  "ExpiredJwtException" ;
+:public: :void: io~jsonwebtoken~ExpiredJwtException~~init^~Lio~jsonwebtoken~ExpiredJwtException^Lio~jsonwebtoken~Header^Lio~jsonwebtoken~Claims^Ljava~lang~String^Ljava~lang~Throwable^ ( io.jsonwebtoken.ExpiredJwtException :*: , io.jsonwebtoken.Header :*: , io.jsonwebtoken.Claims :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "ExpiredJwtException" ;
+}
+	
+:public::class: io.jsonwebtoken.MalformedJwtException :extends: io.jsonwebtoken.JwtException :"io.jsonwebtoken":"MalformedJwtException"{
+	
+ :public: :void: io~jsonwebtoken~MalformedJwtException~~init^~Lio~jsonwebtoken~MalformedJwtException^Ljava~lang~String^ ( io.jsonwebtoken.MalformedJwtException :*: , java.lang.String :*: ) :  "MalformedJwtException" ;
+:public: :void: io~jsonwebtoken~MalformedJwtException~~init^~Lio~jsonwebtoken~MalformedJwtException^Ljava~lang~String^Ljava~lang~Throwable^ ( io.jsonwebtoken.MalformedJwtException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "MalformedJwtException" ;
+}
+	
+:public::class: io.jsonwebtoken.SignatureException :extends: io.jsonwebtoken.JwtException :"io.jsonwebtoken":"SignatureException"{
+	
+ :public: :void: io~jsonwebtoken~SignatureException~~init^~Lio~jsonwebtoken~SignatureException^Ljava~lang~String^ ( io.jsonwebtoken.SignatureException :*: , java.lang.String :*: ) :  "SignatureException" ;
+:public: :void: io~jsonwebtoken~SignatureException~~init^~Lio~jsonwebtoken~SignatureException^Ljava~lang~String^Ljava~lang~Throwable^ ( io.jsonwebtoken.SignatureException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "SignatureException" ;
+}
+	
+:public::class: java.lang.IllegalArgumentException :extends: java.lang.RuntimeException :"java.lang":"IllegalArgumentException"{
+	
+ :public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^ ( java.lang.IllegalArgumentException :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.JwtHandler :extends: java.lang.Object :"io.jsonwebtoken":"JwtHandler"{
+	
+}
+	
+ :public::class: io.jsonwebtoken.UnsupportedJwtException :extends: io.jsonwebtoken.JwtException :"io.jsonwebtoken":"UnsupportedJwtException"{
+	
+ :public: :void: io~jsonwebtoken~UnsupportedJwtException~~init^~Lio~jsonwebtoken~UnsupportedJwtException^Ljava~lang~String^ ( io.jsonwebtoken.UnsupportedJwtException :*: , java.lang.String :*: ) :  "UnsupportedJwtException" ;
+:public: :void: io~jsonwebtoken~UnsupportedJwtException~~init^~Lio~jsonwebtoken~UnsupportedJwtException^Ljava~lang~String^Ljava~lang~Throwable^ ( io.jsonwebtoken.UnsupportedJwtException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "UnsupportedJwtException" ;
+}
+	
+:public: :interface::class: java.time.temporal.Temporal :extends: java.time.temporal.TemporalAccessor :"java.time.temporal":"Temporal"{
+	
+ :public: java.time.temporal.Temporal :*: java~time~temporal~Temporal~~minus~Ljava~time~temporal~Temporal^Ljava~time~temporal~TemporalAmount^ ( java.time.temporal.Temporal :*: , java.time.temporal.TemporalAmount :*: ) :  "minus" ;
+:public: java.time.temporal.Temporal :*: java~time~temporal~Temporal~~minus~Ljava~time~temporal~Temporal^J^Ljava~time~temporal~TemporalUnit^ ( java.time.temporal.Temporal :*: , :long: , java.time.temporal.TemporalUnit :*: ) :  "minus" ;
+}
+	
+:public: :interface::class: java.time.temporal.TemporalAdjuster :extends: java.lang.Object :"java.time.temporal":"TemporalAdjuster"{
+	
+}
+	
+ :public: :interface::class: java.time.temporal.TemporalAccessor :extends: java.lang.Object :"java.time.temporal":"TemporalAccessor"{
+	
+}
+	
+ :public: :interface::class: java.time.temporal.TemporalAmount :extends: java.lang.Object :"java.time.temporal":"TemporalAmount"{
+	
+}
+	
+ :public: :interface::class: java.time.temporal.TemporalUnit :extends: java.lang.Object :"java.time.temporal":"TemporalUnit"{
+	
+}
+	
+ :public: :abstract::class: java.time.Clock :extends: java.lang.Object :"java.time":"Clock"{
+	
+ :protected: :void: java~time~Clock~~init^~Ljava~time~Clock^ ( java.time.Clock :*: ) :  "Clock" ;
+}
+	
+:public: :interface::class: java.lang.reflect.GenericDeclaration :extends: java.lang.reflect.AnnotatedElement :"java.lang.reflect":"GenericDeclaration"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.Type :extends: java.lang.Object :"java.lang.reflect":"Type"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.AnnotatedElement :extends: java.lang.Object :"java.lang.reflect":"AnnotatedElement"{
+	
+}
+	
+ :public: :abstract::class: java.lang.ClassLoader :extends: java.lang.Object :"java.lang":"ClassLoader"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~nio~ByteBuffer^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~definePackage~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findSystemClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getBootstrapResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getSystemResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClassInternal~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:private: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~Void^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.Void :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.Header :extends: java.util.Map :"io.jsonwebtoken":"Header"{
+	
+}
+	
+ :abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :abstract::class: java.nio.CharBuffer :extends: java.nio.Buffer java.lang.Comparable java.lang.Appendable java.lang.CharSequence java.lang.Readable :"java.nio":"CharBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~nio~CharBuffer~~read~Ljava~nio~CharBuffer^Ljava~nio~CharBuffer^~throws;
+ :void: java~nio~CharBuffer~~init^~Ljava~nio~CharBuffer^I^I^I^I^ ( java.nio.CharBuffer :*: , :int: , :int: , :int: , :int: ) :  "CharBuffer" ;
+:void: java~nio~CharBuffer~~init^~Ljava~nio~CharBuffer^I^I^I^I^?C^I^ ( java.nio.CharBuffer :*: , :int: , :int: , :int: , :int: , :char: [] , :int: ) :  "CharBuffer" ;
+:public: :abstract: java.nio.CharBuffer :*: java~nio~CharBuffer~~compact~Ljava~nio~CharBuffer^ ( java.nio.CharBuffer :*: ) :  "compact" ;
+:public: :abstract: java.nio.CharBuffer :*: java~nio~CharBuffer~~put~Ljava~nio~CharBuffer^C^ ( java.nio.CharBuffer :*: , :char: ) :  "put" ;
+:public: java.nio.CharBuffer :*: java~nio~CharBuffer~~put~Ljava~nio~CharBuffer^Ljava~nio~CharBuffer^ ( java.nio.CharBuffer :*: , java.nio.CharBuffer :*: ) :  "put" ;
+:public: :final: java.nio.CharBuffer :*: java~nio~CharBuffer~~put~Ljava~nio~CharBuffer^?C^ ( java.nio.CharBuffer :*: , :char: [] ) :  "put" ;
+:public: :final: java.nio.CharBuffer :*: java~nio~CharBuffer~~put~Ljava~nio~CharBuffer^Ljava~lang~String^ ( java.nio.CharBuffer :*: , java.lang.String :*: ) :  "put" ;
+:public: :abstract: java.nio.CharBuffer :*: java~nio~CharBuffer~~put~Ljava~nio~CharBuffer^I^C^ ( java.nio.CharBuffer :*: , :int: , :char: ) :  "put" ;
+:public: java.nio.CharBuffer :*: java~nio~CharBuffer~~put~Ljava~nio~CharBuffer^?C^I^I^ ( java.nio.CharBuffer :*: , :char: [] , :int: , :int: ) :  "put" ;
+:public: java.nio.CharBuffer :*: java~nio~CharBuffer~~put~Ljava~nio~CharBuffer^Ljava~lang~String^I^I^ ( java.nio.CharBuffer :*: , java.lang.String :*: , :int: , :int: ) :  "put" ;
+}
+	
+:public: :abstract::class: java.nio.ByteBuffer :extends: java.nio.Buffer java.lang.Comparable :"java.nio":"ByteBuffer"{
+	
+ :void: java~nio~ByteBuffer~~init^~Ljava~nio~ByteBuffer^I^I^I^I^ ( java.nio.ByteBuffer :*: , :int: , :int: , :int: , :int: ) :  "ByteBuffer" ;
+:void: java~nio~ByteBuffer~~init^~Ljava~nio~ByteBuffer^I^I^I^I^?B^I^ ( java.nio.ByteBuffer :*: , :int: , :int: , :int: , :int: , :byte: [] , :int: ) :  "ByteBuffer" ;
+:public: :abstract: java.nio.ByteBuffer :*: java~nio~ByteBuffer~~compact~Ljava~nio~ByteBuffer^ ( java.nio.ByteBuffer :*: ) :  "compact" ;
+:public: :abstract: java.nio.ByteBuffer :*: java~nio~ByteBuffer~~put~Ljava~nio~ByteBuffer^B^ ( java.nio.ByteBuffer :*: , :byte: ) :  "put" ;
+:public: java.nio.ByteBuffer :*: java~nio~ByteBuffer~~put~Ljava~nio~ByteBuffer^Ljava~nio~ByteBuffer^ ( java.nio.ByteBuffer :*: , java.nio.ByteBuffer :*: ) :  "put" ;
+:public: :final: java.nio.ByteBuffer :*: java~nio~ByteBuffer~~put~Ljava~nio~ByteBuffer^?B^ ( java.nio.ByteBuffer :*: , :byte: [] ) :  "put" ;
+:public: :abstract: java.nio.ByteBuffer :*: java~nio~ByteBuffer~~put~Ljava~nio~ByteBuffer^I^B^ ( java.nio.ByteBuffer :*: , :int: , :byte: ) :  "put" ;
+:public: java.nio.ByteBuffer :*: java~nio~ByteBuffer~~put~Ljava~nio~ByteBuffer^?B^I^I^ ( java.nio.ByteBuffer :*: , :byte: [] , :int: , :int: ) :  "put" ;
+}
+	
+:public: :abstract::class: io.jsonwebtoken.ClaimJwtException :extends: io.jsonwebtoken.JwtException :"io.jsonwebtoken":"ClaimJwtException"{
+	
+ :protected: :void: io~jsonwebtoken~ClaimJwtException~~init^~Lio~jsonwebtoken~ClaimJwtException^Lio~jsonwebtoken~Header^Lio~jsonwebtoken~Claims^Ljava~lang~String^ ( io.jsonwebtoken.ClaimJwtException :*: , io.jsonwebtoken.Header :*: , io.jsonwebtoken.Claims :*: , java.lang.String :*: ) :  "ClaimJwtException" ;
+:protected: :void: io~jsonwebtoken~ClaimJwtException~~init^~Lio~jsonwebtoken~ClaimJwtException^Lio~jsonwebtoken~Header^Lio~jsonwebtoken~Claims^Ljava~lang~String^Ljava~lang~Throwable^ ( io.jsonwebtoken.ClaimJwtException :*: , io.jsonwebtoken.Header :*: , io.jsonwebtoken.Claims :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "ClaimJwtException" ;
+}
+	
+:public::class: io.jsonwebtoken.JwtException :extends: java.lang.RuntimeException :"io.jsonwebtoken":"JwtException"{
+	
+ :public: :void: io~jsonwebtoken~JwtException~~init^~Lio~jsonwebtoken~JwtException^Ljava~lang~String^ ( io.jsonwebtoken.JwtException :*: , java.lang.String :*: ) :  "JwtException" ;
+:public: :void: io~jsonwebtoken~JwtException~~init^~Lio~jsonwebtoken~JwtException^Ljava~lang~String^Ljava~lang~Throwable^ ( io.jsonwebtoken.JwtException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "JwtException" ;
+}
+	
+:public::class: java.lang.RuntimeException :extends: java.lang.Exception :"java.lang":"RuntimeException"{
+	
+ :public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^ ( java.lang.RuntimeException :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^ ( java.lang.RuntimeException :*: , java.lang.String :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:protected: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "RuntimeException" ;
+}
+	
+:public: :final::class: java.lang.Void :extends: java.lang.Object :"java.lang":"Void"{
+	
+ :private: :void: java~lang~Void~~init^~Ljava~lang~Void^ ( java.lang.Void :*: ) :  "Void" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public: :abstract::class: java.nio.Buffer :extends: java.lang.Object :"java.nio":"Buffer"{
+	
+ :void: java~nio~Buffer~~init^~Ljava~nio~Buffer^I^I^I^I^ ( java.nio.Buffer :*: , :int: , :int: , :int: , :int: ) :  "Buffer" ;
+}
+	
+:public: :interface::class: java.lang.Readable :extends: java.lang.Object :"java.lang":"Readable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Readable~~read~Ljava~lang~Readable^Ljava~nio~CharBuffer^~throws;
+}
+	

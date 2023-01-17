@@ -1,0 +1,895 @@
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+#source-type java
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 31
+ #14# :public::class: org.owasp.webgoat.idor.UserProfile :extends: java.lang.Object :"org.owasp.webgoat.idor":"UserProfile"{
+	
+ 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 34
+ #20# :private: java.lang.String :*: color;
+ 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 36
+ #21# :private: :boolean: isAdmin;
+ 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 33
+ #20# :private: java.lang.String :*: name;
+ 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 37
+ #17# :private: :int: role;
+ 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 35
+ #20# :private: java.lang.String :*: size;
+ 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 32
+ #20# :private: java.lang.String :*: userId;
+ 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 46
+ #18# :private: :void: org~owasp~webgoat~idor~UserProfile~~setProfileFromId~Lorg~owasp~webgoat~idor~UserProfile^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #18# org.owasp.webgoat.idor.UserProfile :*: this~ , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #42# java.lang.String :*: id ) :  "setProfileFromId" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #46# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 48
+ #23# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #23# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #23# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #23# 	~t0 :=: "2342384" ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	:if: ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #13# 	-~> java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #13# 	id , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #23# 	~t0 ) ) 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #35# 	{
+		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 49
+ #13# 		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #13# 		[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: userId :=: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #27# 		id ;
+		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 50
+ #13# 		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #13# 		[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: color :=: "yellow" ;
+		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 51
+ #13# 		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #13# 		[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: name :=: "Tom Cat" ;
+		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 52
+ #13# 		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #13# 		[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: size :=: "small" ;
+		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 53
+ #13# 		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #13# 		[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: isAdmin :=: :false: ;
+		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 54
+ #13# 		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #13# 		[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: role :=: < :int: >3 ;
+
+#source-line 55
+	}
+	:else: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #16# 	{
+		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #30# 		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #30# 		java.lang.String :*: ~t1 ;
+		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #30# 		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #30# 		~t1 :=: "2342388" ;
+		
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #16# 		:if: ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #20# 		-~> java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #20# 		id , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #30# 		~t1 ) ) 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #42# 		{
+			
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 56
+ #13# 			
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #13# 			[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: userId :=: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #27# 			id ;
+			
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 57
+ #13# 			
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #13# 			[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: color :=: "brown" ;
+			
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 58
+ #13# 			
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #13# 			[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: name :=: "Buffalo Bill" ;
+			
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 59
+ #13# 			
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #13# 			[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: size :=: "large" ;
+			
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 60
+ #13# 			
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #13# 			[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: isAdmin :=: :false: ;
+			
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 61
+ #13# 			
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #13# 			[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: role :=: < :int: >3 ;
+
+#source-line 62
+		}
+		:else: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #16# 		{
+
+#source-line 64
+		}
+	}
+
+#source-line 66
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 68
+ #32# :public: java.util.Map :*: org~owasp~webgoat~idor~UserProfile~~profileToMap~Lorg~owasp~webgoat~idor~UserProfile^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #32# org.owasp.webgoat.idor.UserProfile :*: this~ ) :  "profileToMap" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #48# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 69
+ #28# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #28# 	java.util.Map :*: profileMap ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #41# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #41# 	java.util.HashMap :*: ~t0 ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #41# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #41# 	~t0 :=: :new: java.util.HashMap ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #41# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #41# 	-~> java~util~HashMap~~init^~Ljava~util~HashMap^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #41# 	~t0 ) ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #28# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #28# 	profileMap :=: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #41# 	~t0 ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 70
+ #24# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	java.lang.String :*: ~t1 ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	~t1 :=: "userId" ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	profileMap , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	~t1 , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #34# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: userId ) ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 71
+ #24# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	java.lang.String :*: ~t2 ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	~t2 :=: "name" ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	profileMap , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	~t2 , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #32# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: name ) ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 72
+ #24# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	java.lang.String :*: ~t3 ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	~t3 :=: "color" ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	profileMap , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	~t3 , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #33# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: color ) ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 73
+ #24# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	java.lang.String :*: ~t4 ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	~t4 :=: "size" ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	profileMap , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	~t4 , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #32# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: size ) ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 74
+ #24# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	java.lang.String :*: ~t5 ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	~t5 :=: "role" ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	-~> java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	profileMap , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #24# 	~t5 , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #32# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: role ) ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 75
+ #9# 	:return: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #16# 	profileMap ;
+
+#source-line 76
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 78
+ #19# :public: java.lang.String :*: org~owasp~webgoat~idor~UserProfile~~toHTMLString~Lorg~owasp~webgoat~idor~UserProfile^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #19# org.owasp.webgoat.idor.UserProfile :*: this~ ) :  "toHTMLString" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #34# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 79
+ #16# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #16# 	java.lang.String :*: htmlBreak ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #16# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #16# 	htmlBreak :=: "<br/>" ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 80
+ #9# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	~t0 :=: ( ( ( ( ( ( ( ( ( ( ( ( ( "userId" :+: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #27# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: userId ) :+: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #41# 	htmlBreak ) :+: "name" ) :+: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 81
+ #26# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: name ) :+: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #38# 	htmlBreak ) :+: "size" ) :+: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 82
+ #26# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: size ) :+: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #38# 	htmlBreak ) :+: "role" ) :+: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 83
+ #26# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: role ) :+: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #38# 	htmlBreak ) :+: "isAdmin" ) :+: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 84
+ #29# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: isAdmin ) ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 80
+ #9# 	:return: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	~t0 ;
+
+#source-line 85
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 88
+ #19# :public: java.lang.String :*: org~owasp~webgoat~idor~UserProfile~~getUserId~Lorg~owasp~webgoat~idor~UserProfile^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #19# org.owasp.webgoat.idor.UserProfile :*: this~ ) :  "getUserId" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #31# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 89
+ #9# 	:return: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #16# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: userId ;
+
+#source-line 90
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 92
+ #17# :public: :void: org~owasp~webgoat~idor~UserProfile~~setUserId~Lorg~owasp~webgoat~idor~UserProfile^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #17# org.owasp.webgoat.idor.UserProfile :*: this~ , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #34# java.lang.String :*: userId ) :  "setUserId" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #42# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 93
+ #9# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: userId :=: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #23# 	userId ;
+
+#source-line 94
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 96
+ #19# :public: java.lang.String :*: org~owasp~webgoat~idor~UserProfile~~getName~Lorg~owasp~webgoat~idor~UserProfile^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #19# org.owasp.webgoat.idor.UserProfile :*: this~ ) :  "getName" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #29# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 97
+ #9# 	:return: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #16# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: name ;
+
+#source-line 98
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 100
+ #17# :public: :void: org~owasp~webgoat~idor~UserProfile~~setName~Lorg~owasp~webgoat~idor~UserProfile^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #17# org.owasp.webgoat.idor.UserProfile :*: this~ , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #32# java.lang.String :*: name ) :  "setName" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #38# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 101
+ #9# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: name :=: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #21# 	name ;
+
+#source-line 102
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 104
+ #19# :public: java.lang.String :*: org~owasp~webgoat~idor~UserProfile~~getColor~Lorg~owasp~webgoat~idor~UserProfile^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #19# org.owasp.webgoat.idor.UserProfile :*: this~ ) :  "getColor" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #30# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 105
+ #9# 	:return: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #16# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: color ;
+
+#source-line 106
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 108
+ #17# :public: :void: org~owasp~webgoat~idor~UserProfile~~setColor~Lorg~owasp~webgoat~idor~UserProfile^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #17# org.owasp.webgoat.idor.UserProfile :*: this~ , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #33# java.lang.String :*: color ) :  "setColor" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #40# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 109
+ #9# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: color :=: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #22# 	color ;
+
+#source-line 110
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 112
+ #19# :public: java.lang.String :*: org~owasp~webgoat~idor~UserProfile~~getSize~Lorg~owasp~webgoat~idor~UserProfile^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #19# org.owasp.webgoat.idor.UserProfile :*: this~ ) :  "getSize" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #29# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 113
+ #9# 	:return: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #16# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: size ;
+
+#source-line 114
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 116
+ #17# :public: :void: org~owasp~webgoat~idor~UserProfile~~setSize~Lorg~owasp~webgoat~idor~UserProfile^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #17# org.owasp.webgoat.idor.UserProfile :*: this~ , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #32# java.lang.String :*: size ) :  "setSize" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #38# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 117
+ #9# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: size :=: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #21# 	size ;
+
+#source-line 118
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 120
+ #20# :public: :boolean: org~owasp~webgoat~idor~UserProfile~~isAdmin~Lorg~owasp~webgoat~idor~UserProfile^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #20# org.owasp.webgoat.idor.UserProfile :*: this~ ) :  "isAdmin" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #30# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 121
+ #9# 	:return: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #16# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: isAdmin ;
+
+#source-line 122
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 124
+ #17# :public: :void: org~owasp~webgoat~idor~UserProfile~~setAdmin~Lorg~owasp~webgoat~idor~UserProfile^Z^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #17# org.owasp.webgoat.idor.UserProfile :*: this~ , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #34# :boolean: admin ) :  "setAdmin" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #41# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 125
+ #9# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: isAdmin :=: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #19# 	admin ;
+
+#source-line 126
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 128
+ #16# :public: :int: org~owasp~webgoat~idor~UserProfile~~getRole~Lorg~owasp~webgoat~idor~UserProfile^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #16# org.owasp.webgoat.idor.UserProfile :*: this~ ) :  "getRole" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #26# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 129
+ #9# 	:return: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #16# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: role ;
+
+#source-line 130
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 132
+ #17# :public: :void: org~owasp~webgoat~idor~UserProfile~~setRole~Lorg~owasp~webgoat~idor~UserProfile^I^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #17# org.owasp.webgoat.idor.UserProfile :*: this~ , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #29# :int: role ) :  "setRole" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #35# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 133
+ #9# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	[ org.owasp.webgoat.idor.UserProfile ] ( this~ ) :.: role :=: 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #21# 	role ;
+
+#source-line 134
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 39
+ #12# :public: :void: org~owasp~webgoat~idor~UserProfile~~init^~Lorg~owasp~webgoat~idor~UserProfile^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #12# org.owasp.webgoat.idor.UserProfile :*: this~ ) :  "init^" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #12# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #12# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #12# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 41
+ #12# :public: :void: org~owasp~webgoat~idor~UserProfile~~init^~Lorg~owasp~webgoat~idor~UserProfile^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #12# org.owasp.webgoat.idor.UserProfile :*: this~ , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #31# java.lang.String :*: id ) :  "init^" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #12# {
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #12# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #12# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 42
+ #9# 	
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #9# 	-~> org~owasp~webgoat~idor~UserProfile~~setProfileFromId~Lorg~owasp~webgoat~idor~UserProfile^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #26# 	id ) ;
+
+#source-line 41
+}
+
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+
+#source-line 31
+ #14# :public: :static: :void: org~owasp~webgoat~idor~UserProfile~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\idor\src\main\java\org\owasp\webgoat\idor\UserProfile.java
+ #14# {
+}
+#source-line 31
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: :boolean: java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( java.lang.String :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+:public: :boolean: java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( java.lang.Object :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :interface::class: java.util.Map :extends: java.lang.Object :"java.util":"Map"{
+	
+ :public: :abstract: :boolean: java~util~Map~~equals~Ljava~util~Map^Ljava~lang~Object^ ( java.util.Map :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :abstract: java.lang.Object :*: java~util~Map~~put~Ljava~util~Map^Ljava~lang~Object^Ljava~lang~Object^ ( java.util.Map :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "put" ;
+}
+	
+:public::class: java.util.HashMap :extends: java.util.AbstractMap java.util.Map java.lang.Cloneable java.io.Serializable :"java.util":"HashMap"{
+	
+ :transient: :int: size;
+ :public: :static: java.lang.Throwable :*: java~util~HashMap~~internalWriteEntries~Ljava~util~HashMap^Ljava~io~ObjectOutputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~HashMap~~readObject~Ljava~util~HashMap^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~HashMap~~writeObject~Ljava~util~HashMap^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~util~HashMap~~init^~Ljava~util~HashMap^ ( java.util.HashMap :*: ) :  "HashMap" ;
+:public: :void: java~util~HashMap~~init^~Ljava~util~HashMap^I^ ( java.util.HashMap :*: , :int: ) :  "HashMap" ;
+:public: :void: java~util~HashMap~~init^~Ljava~util~HashMap^Ljava~util~Map^ ( java.util.HashMap :*: , java.util.Map :*: ) :  "HashMap" ;
+:public: :void: java~util~HashMap~~init^~Ljava~util~HashMap^I^F^ ( java.util.HashMap :*: , :int: , :float: ) :  "HashMap" ;
+:public: java.lang.Object :*: java~util~HashMap~~put~Ljava~util~HashMap^Ljava~lang~Object^Ljava~lang~Object^ ( java.util.HashMap :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "put" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+}
+	
+ :public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: :boolean: java~nio~charset~Charset~~equals~Ljava~nio~charset~Charset^Ljava~lang~Object^ ( java.nio.charset.Charset :*: , java.lang.Object :*: ) :  "equals" ;
+}
+	
+:public: :abstract::class: java.util.AbstractMap :extends: java.lang.Object java.util.Map :"java.util":"AbstractMap"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~AbstractMap~~clone~Ljava~util~AbstractMap^~throws;
+ :protected: :void: java~util~AbstractMap~~init^~Ljava~util~AbstractMap^ ( java.util.AbstractMap :*: ) :  "AbstractMap" ;
+:public: :boolean: java~util~AbstractMap~~equals~Ljava~util~AbstractMap^Ljava~lang~Object^ ( java.util.AbstractMap :*: , java.lang.Object :*: ) :  "equals" ;
+:public: java.lang.Object :*: java~util~AbstractMap~~put~Ljava~util~AbstractMap^Ljava~lang~Object^Ljava~lang~Object^ ( java.util.AbstractMap :*: , java.lang.Object :*: , java.lang.Object :*: ) :  "put" ;
+}
+	
+:public: :interface::class: java.lang.Cloneable :extends: java.lang.Object :"java.lang":"Cloneable"{
+	
+}
+	
+ :abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+}
+	

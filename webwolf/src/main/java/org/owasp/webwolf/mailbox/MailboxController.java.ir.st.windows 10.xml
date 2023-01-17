@@ -1,0 +1,1070 @@
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+#source-type java
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 1
+ #1# 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 46
+ #14# :public::class: org.owasp.webwolf.mailbox.MailboxController :extends: java.lang.Object :"org.owasp.webwolf.mailbox":"MailboxController"
+	:[[: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 43
+ #1# {
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# < org.springframework.web.bind.annotation.RestController :*: > -~> ~annotation ( ):]]:
+
+	:[[: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 44
+ #1# {
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# < lombok.AllArgsConstructor :*: > -~> ~annotation ( ):]]:
+
+	:[[: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 45
+ #1# {
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# < lombok.extern.slf4j.Slf4j :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# :private: :final: :static: org.slf4j.Logger :*: log;
+ 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 48
+ #37# :private: :final: org.owasp.webwolf.mailbox.MailboxRepository :*: mailboxRepository;
+ 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 51
+ #25# :public: org.springframework.web.servlet.ModelAndView :*: org~owasp~webwolf~mailbox~MailboxController~~mail~Lorg~owasp~webwolf~mailbox~MailboxController^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #25# org.owasp.webwolf.mailbox.MailboxController :*: this~ ) :  "mail"
+	:[[: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 50
+ #5# {
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #5# 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #5# < org.springframework.web.bind.annotation.GetMapping :*: > -~> ~annotation ( value:  "/WebWolf/mail" ):]]:
+ 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 51
+ #32# {
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 52
+ #21# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #21# 	org.springframework.security.core.userdetails.UserDetails :*: user ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #42# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #42# 	org.springframework.security.core.context.SecurityContext :*: ~t0 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #42# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #42# 	~t0 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #42# 	-~> org~springframework~security~core~context~SecurityContextHolder~~getContext~S~ ( ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #42# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #42# 	org.springframework.security.core.Authentication :*: ~t1 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #42# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #42# 	~t1 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #42# 	-~> org~springframework~security~core~context~SecurityContext~~getAuthentication~Lorg~springframework~security~core~context~SecurityContext^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #42# 	~t0 ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #21# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #21# 	user :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #42# 	< org.springframework.security.core.userdetails.UserDetails :*: > -~> org~springframework~security~core~Authentication~~getPrincipal~Lorg~springframework~security~core~Authentication^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #42# 	~t1 ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 53
+ #22# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #22# 	org.springframework.web.servlet.ModelAndView :*: modelAndView ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #37# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #37# 	org.springframework.web.servlet.ModelAndView :*: ~t2 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #37# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #37# 	~t2 :=: :new: org.springframework.web.servlet.ModelAndView ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #37# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #37# 	-~> org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #37# 	~t2 ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #22# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #22# 	modelAndView :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #37# 	~t2 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 54
+ #21# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #21# 	java.util.List :*: emails ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #79# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #79# 	java.lang.String :*: ~t3 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #79# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #79# 	~t3 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #79# 	-~> org~springframework~security~core~userdetails~UserDetails~~getUsername~Lorg~springframework~security~core~userdetails~UserDetails^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #79# 	user ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #21# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #21# 	emails :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #30# 	-~> org~owasp~webwolf~mailbox~MailboxRepository~~findByRecipientOrderByTimeDesc~Lorg~owasp~webwolf~mailbox~MailboxRepository^Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #30# 	[ org.owasp.webwolf.mailbox.MailboxController ] ( this~ ) :.: mailboxRepository , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #79# 	~t3 ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 55
+ #13# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	:boolean: ~t4 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	~t4 :=: :false: ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	:if: ( ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	emails :!=: :null: ) ) {
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #31# 		:if: ( ( :!: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #32# 		-~> java~util~List~~isEmpty~Ljava~util~List^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #32# 		emails ) ) ) {
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 			
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 			~t4 :=: :true: ;
+			
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 			:goto: S~~__L__~t4 ;
+		}
+	}
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	:goto: F~~__L__~t4 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #9# 	F~~__L__~t4 :
+	:if: ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	~t4 ) 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #50# 	{
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 56
+ #36# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #36# 		java.lang.String :*: ~t5 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #36# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #36# 		~t5 :=: "total" ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #45# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #45# 		:int: ~t6 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #45# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #45# 		~t6 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #45# 		-~> java~util~List~~size~Ljava~util~List^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #45# 		emails ) ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 		-~> org~springframework~web~servlet~ModelAndView~~addObject~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 		modelAndView , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #36# 		~t5 , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #45# 		~t6 ) ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 57
+ #36# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #36# 		java.lang.String :*: ~t7 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #36# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #36# 		~t7 :=: "emails" ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 		-~> org~springframework~web~servlet~ModelAndView~~addObject~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 		modelAndView , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #36# 		~t7 , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #46# 		emails ) ;
+
+#source-line 58
+	}
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 59
+ #34# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #34# 	java.lang.String :*: ~t8 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #34# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #34# 	~t8 :=: "mailbox" ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #9# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #9# 	-~> org~springframework~web~servlet~ModelAndView~~setViewName~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #9# 	modelAndView , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #34# 	~t8 ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 60
+ #9# 	:return: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	modelAndView ;
+
+#source-line 61
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 64
+ #40# :public: java.util.concurrent.Callable :*: org~owasp~webwolf~mailbox~MailboxController~~sendEmail~Lorg~owasp~webwolf~mailbox~MailboxController^Lorg~owasp~webwolf~mailbox~Email^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #40# org.owasp.webwolf.mailbox.MailboxController :*: this~ , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #69# org.owasp.webwolf.mailbox.Email :*: email
+	:[[: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #50# {
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #50# 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #50# < org.springframework.web.bind.annotation.RequestBody :*: > -~> ~annotation ( ):]]:
+ ) :  "sendEmail"
+	:[[: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 63
+ #5# {
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #5# 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #5# < org.springframework.web.bind.annotation.PostMapping :*: > -~> ~annotation ( value:  "/mail" ):]]:
+ 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 64
+ #76# {
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 65
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	org.owasp.webwolf.mailbox.MailboxController$Lambda~8575aaee~1 :*: ~t0 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	~t0 :=: :new: org.owasp.webwolf.mailbox.MailboxController$Lambda~8575aaee~1 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	-~> org~owasp~webwolf~mailbox~MailboxController$Lambda~8575aaee~1~~innerinit^~Lorg~owasp~webwolf~mailbox~Email^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	~t0 , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	email ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	-~> org~owasp~webwolf~mailbox~MailboxController$Lambda~8575aaee~1~~init^~Lorg~owasp~webwolf~mailbox~MailboxController$Lambda~8575aaee~1^Lorg~owasp~webwolf~mailbox~MailboxController^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	~t0 , this~ ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #9# 	:return: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	~t0 ;
+
+#source-line 69
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 44
+ #1# :public: :void: org~owasp~webwolf~mailbox~MailboxController~~init^~Lorg~owasp~webwolf~mailbox~MailboxController^Lorg~owasp~webwolf~mailbox~MailboxRepository^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# org.owasp.webwolf.mailbox.MailboxController :*: this~ , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# org.owasp.webwolf.mailbox.MailboxRepository :*: mailboxRepository ) :  "init^"
+	:[[: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# {
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# < java.lang.SuppressWarnings :*: > -~> ~annotation ( value:  "all" ):]]:
+ 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# {
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 48
+ #37# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #37# 	[ org.owasp.webwolf.mailbox.MailboxController ] ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #37# 	this~ ) :.: mailboxRepository :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #37# 	mailboxRepository ;
+
+#source-line 44
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 46
+ #14# :public: :static: :void: org~owasp~webwolf~mailbox~MailboxController~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #14# {
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 45
+ #1# 	{
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# 		java.lang.Class :*: ~t0 ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# 		~t0 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# 		< java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webwolf.mailbox.MailboxController :*: > :null: ) ;
+		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# 		
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# 		[ org.owasp.webwolf.mailbox.MailboxController ] log :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# 		-~> org~slf4j~LoggerFactory~~getLogger~S~Ljava~lang~Class^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #1# 		~t0 ) ;
+	}
+
+#source-line 46
+}
+#source-line 46
+}
+	
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 65
+ #16# :private: :final::class: org.owasp.webwolf.mailbox.MailboxController$Lambda~8575aaee~1 :extends: java.util.concurrent.Callable :"org.owasp.webwolf.mailbox":"MailboxController$Lambda~1"{
+	
+ 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# :private: org.owasp.webwolf.mailbox.MailboxController :*: outer~this;
+ 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# :private: org.owasp.webwolf.mailbox.Email :*: outer~email;
+ :public: :static: java.lang.Throwable :*: org~owasp~webwolf~mailbox~MailboxController$Lambda~8575aaee~1~~call~Lorg~owasp~webwolf~mailbox~MailboxController$Lambda~8575aaee~1^~throws;
+ 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# :public: org.springframework.http.ResponseEntity :*: org~owasp~webwolf~mailbox~MailboxController$Lambda~8575aaee~1~~call~Lorg~owasp~webwolf~mailbox~MailboxController$Lambda~8575aaee~1^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# org.owasp.webwolf.mailbox.MailboxController$Lambda~8575aaee~1 :*: this~ ) :  "call"  :overrides:  java~util~concurrent~Callable~~call~Ljava~util~concurrent~Callable^  :exceptions:  java.lang.Exception :*: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# {
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 66
+ #13# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	-~> org~springframework~data~repository~CrudRepository~~save~Lorg~springframework~data~repository~CrudRepository^Ljava~lang~Object^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	[ org.owasp.webwolf.mailbox.MailboxController ] ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	[ org.owasp.webwolf.mailbox.MailboxController$Lambda~8575aaee~1 ] ( this~ ) :.: outer~this ) :.: mailboxRepository , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #36# 	[ org.owasp.webwolf.mailbox.MailboxController$Lambda~8575aaee~1 ] ( this~ ) :.: outer~email ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 67
+ #20# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #20# 	org.springframework.http.ResponseEntity$BodyBuilder :*: ~t0 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #20# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #20# 	~t0 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #20# 	-~> org~springframework~http~ResponseEntity~~status~S~Lorg~springframework~http~HttpStatus^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #42# 	[ org.springframework.http.HttpStatus ] CREATED ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	org.springframework.http.ResponseEntity :*: ~t1 ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	~t1 :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #20# 	-~> org~springframework~http~ResponseEntity$HeadersBuilder~~build~Lorg~springframework~http~ResponseEntity$HeadersBuilder^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #20# 	~t0 ) ;
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	:return: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #13# 	~t1 ;
+
+#source-line 68
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 65
+ #16# :public: :void: org~owasp~webwolf~mailbox~MailboxController$Lambda~8575aaee~1~~innerinit^~Lorg~owasp~webwolf~mailbox~Email^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# org.owasp.webwolf.mailbox.MailboxController$Lambda~8575aaee~1 :*: this~ , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# org.owasp.webwolf.mailbox.Email :*: email ) :  "innerinit^" 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# {
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	[ org.owasp.webwolf.mailbox.MailboxController$Lambda~8575aaee~1 ] ( this~ ) :.: outer~email :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	email ;
+
+#source-line 68
+}
+
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+
+#source-line 65
+ #16# :public: :void: org~owasp~webwolf~mailbox~MailboxController$Lambda~8575aaee~1~~init^~Lorg~owasp~webwolf~mailbox~MailboxController$Lambda~8575aaee~1^Lorg~owasp~webwolf~mailbox~MailboxController^ ( 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# org.owasp.webwolf.mailbox.MailboxController$Lambda~8575aaee~1 :*: this~ , 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# org.owasp.webwolf.mailbox.MailboxController :*: outer~this ) :  "init^" 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# {
+	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	[ org.owasp.webwolf.mailbox.MailboxController$Lambda~8575aaee~1 ] ( this~ ) :.: outer~this :=: 
+#source-file webwolf\src\main\java\org\owasp\webwolf\mailbox\MailboxController.java
+ #16# 	outer~this ;
+
+#source-line 68
+}
+#source-line 68
+}
+	
+:public: :interface::class: org.slf4j.Logger :extends: java.lang.Object :"org.slf4j":"Logger"{
+	
+}
+	
+ :public: :interface::class: org.owasp.webwolf.mailbox.MailboxRepository :extends: org.springframework.data.jpa.repository.JpaRepository :"org.owasp.webwolf.mailbox":"MailboxRepository"{
+	
+ :public: :abstract: java.util.List :*: org~owasp~webwolf~mailbox~MailboxRepository~~findByRecipientOrderByTimeDesc~Lorg~owasp~webwolf~mailbox~MailboxRepository^Ljava~lang~String^ ( org.owasp.webwolf.mailbox.MailboxRepository :*: , java.lang.String :*: ) :  "findByRecipientOrderByTimeDesc" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+}
+	
+:public::class: org.owasp.webwolf.mailbox.Email :extends: java.lang.Object java.io.Serializable :"org.owasp.webwolf.mailbox":"Email"{
+	
+ :public: :void: org~owasp~webwolf~mailbox~Email~~init^~Lorg~owasp~webwolf~mailbox~Email^Ljava~lang~Long^Ljava~time~LocalDateTime^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( org.owasp.webwolf.mailbox.Email :*: , java.lang.Long :*: , java.time.LocalDateTime :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "Email" ;
+:public: :void: org~owasp~webwolf~mailbox~Email~~init^~Lorg~owasp~webwolf~mailbox~Email^ ( org.owasp.webwolf.mailbox.Email :*: ) :  "Email" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.RestController :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"RestController"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~web~bind~annotation~RestController~~value~Lorg~springframework~web~bind~annotation~RestController^ ( org.springframework.web.bind.annotation.RestController :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: lombok.AllArgsConstructor :extends: java.lang.annotation.Annotation :"lombok":"AllArgsConstructor"{
+	
+}
+	
+ :public: :annotation::class: lombok.extern.slf4j.Slf4j :extends: java.lang.annotation.Annotation :"lombok.extern.slf4j":"Slf4j"{
+	
+}
+	
+ :public::class: org.springframework.web.servlet.ModelAndView :extends: java.lang.Object :"org.springframework.web.servlet":"ModelAndView"{
+	
+ :public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^ ( org.springframework.web.servlet.ModelAndView :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.String :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Lorg~springframework~web~servlet~View^ ( org.springframework.web.servlet.ModelAndView :*: , org.springframework.web.servlet.View :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^Ljava~util~Map^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.String :*: , java.util.Map :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Lorg~springframework~web~servlet~View^Ljava~util~Map^ ( org.springframework.web.servlet.ModelAndView :*: , org.springframework.web.servlet.View :*: , java.util.Map :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^Lorg~springframework~http~HttpStatus^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.String :*: , org.springframework.http.HttpStatus :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^Ljava~util~Map^Lorg~springframework~http~HttpStatus^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.String :*: , java.util.Map :*: , org.springframework.http.HttpStatus :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^Ljava~lang~String^Ljava~lang~Object^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.String :*: , java.lang.String :*: , java.lang.Object :*: ) :  "ModelAndView" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~init^~Lorg~springframework~web~servlet~ModelAndView^Lorg~springframework~web~servlet~View^Ljava~lang~String^Ljava~lang~Object^ ( org.springframework.web.servlet.ModelAndView :*: , org.springframework.web.servlet.View :*: , java.lang.String :*: , java.lang.Object :*: ) :  "ModelAndView" ;
+:public: org.springframework.web.servlet.ModelAndView :*: org~springframework~web~servlet~ModelAndView~~addObject~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~Object^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.Object :*: ) :  "addObject" ;
+:public: org.springframework.web.servlet.ModelAndView :*: org~springframework~web~servlet~ModelAndView~~addObject~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^Ljava~lang~Object^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.String :*: , java.lang.Object :*: ) :  "addObject" ;
+:public: :boolean: org~springframework~web~servlet~ModelAndView~~isEmpty~Lorg~springframework~web~servlet~ModelAndView^ ( org.springframework.web.servlet.ModelAndView :*: ) :  "isEmpty" ;
+:public: :void: org~springframework~web~servlet~ModelAndView~~setViewName~Lorg~springframework~web~servlet~ModelAndView^Ljava~lang~String^ ( org.springframework.web.servlet.ModelAndView :*: , java.lang.String :*: ) :  "setViewName" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.GetMapping :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"GetMapping"{
+	
+ :public: :abstract: java.lang.String :*: [] org~springframework~web~bind~annotation~GetMapping~~value~Lorg~springframework~web~bind~annotation~GetMapping^ ( org.springframework.web.bind.annotation.GetMapping :*: ) :  "value" ;
+}
+	
+:public: :interface::class: org.springframework.security.core.userdetails.UserDetails :extends: java.io.Serializable :"org.springframework.security.core.userdetails":"UserDetails"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~security~core~userdetails~UserDetails~~getUsername~Lorg~springframework~security~core~userdetails~UserDetails^ ( org.springframework.security.core.userdetails.UserDetails :*: ) :  "getUsername" ;
+}
+	
+:public: :interface::class: org.springframework.security.core.context.SecurityContext :extends: java.io.Serializable :"org.springframework.security.core.context":"SecurityContext"{
+	
+ :public: :abstract: org.springframework.security.core.Authentication :*: org~springframework~security~core~context~SecurityContext~~getAuthentication~Lorg~springframework~security~core~context~SecurityContext^ ( org.springframework.security.core.context.SecurityContext :*: ) :  "getAuthentication" ;
+}
+	
+:public::class: org.springframework.security.core.context.SecurityContextHolder :extends: java.lang.Object :"org.springframework.security.core.context":"SecurityContextHolder"{
+	
+ :public: :void: org~springframework~security~core~context~SecurityContextHolder~~init^~Lorg~springframework~security~core~context~SecurityContextHolder^ ( org.springframework.security.core.context.SecurityContextHolder :*: ) :  "SecurityContextHolder" ;
+:public: :static: org.springframework.security.core.context.SecurityContext :*: org~springframework~security~core~context~SecurityContextHolder~~getContext~S~ ( ) :  "getContext" ;
+}
+	
+:public: :interface::class: org.springframework.security.core.Authentication :extends: java.security.Principal java.io.Serializable :"org.springframework.security.core":"Authentication"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~security~core~Authentication~~setAuthenticated~Lorg~springframework~security~core~Authentication^Z^~throws;
+ :public: :abstract: java.lang.Object :*: org~springframework~security~core~Authentication~~getPrincipal~Lorg~springframework~security~core~Authentication^ ( org.springframework.security.core.Authentication :*: ) :  "getPrincipal" ;
+}
+	
+:public: :interface::class: java.util.List :extends: java.util.Collection :"java.util":"List"{
+	
+ :public: :abstract: :boolean: java~util~List~~isEmpty~Ljava~util~List^ ( java.util.List :*: ) :  "isEmpty" ;
+:public: :abstract: :int: java~util~List~~size~Ljava~util~List^ ( java.util.List :*: ) :  "size" ;
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: :boolean: java~lang~String~~isEmpty~Ljava~lang~String^ ( java.lang.String :*: ) :  "isEmpty" ;
+}
+	
+:public: :interface::class: java.util.concurrent.Callable :extends: java.lang.Object :"java.util.concurrent":"Callable"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~concurrent~Callable~~call~Ljava~util~concurrent~Callable^~throws;
+ :public: :abstract: java.lang.Object :*: java~util~concurrent~Callable~~call~Ljava~util~concurrent~Callable^ ( java.util.concurrent.Callable :*: ) :  "call"  :exceptions:  java.lang.Exception :*: ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.RequestBody :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"RequestBody"{
+	
+}
+	
+ :public: :annotation::class: org.springframework.web.bind.annotation.PostMapping :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"PostMapping"{
+	
+ :public: :abstract: java.lang.String :*: [] org~springframework~web~bind~annotation~PostMapping~~value~Lorg~springframework~web~bind~annotation~PostMapping^ ( org.springframework.web.bind.annotation.PostMapping :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: java.lang.SuppressWarnings :extends: java.lang.annotation.Annotation :"java.lang":"SuppressWarnings"{
+	
+ :public: :abstract: java.lang.String :*: [] java~lang~SuppressWarnings~~value~Ljava~lang~SuppressWarnings^ ( java.lang.SuppressWarnings :*: ) :  "value" ;
+}
+	
+:public: :final::class: java.lang.Class :extends: java.lang.Object java.io.Serializable java.lang.reflect.GenericDeclaration java.lang.reflect.Type java.lang.reflect.AnnotatedElement :"java.lang":"Class"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName0~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor0~Ljava~lang~Class^?Ljava~lang~Class^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredClasses~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaringClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingConstructor~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingMethod~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField0~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~newInstance~Ljava~lang~Class^~throws;
+ :private: :void: java~lang~Class~~init^~Ljava~lang~Class^Ljava~lang~ClassLoader^ ( java.lang.Class :*: , java.lang.ClassLoader :*: ) :  "Class" ;
+}
+	
+:public: :final::class: org.slf4j.LoggerFactory :extends: java.lang.Object :"org.slf4j":"LoggerFactory"{
+	
+ :private: :void: org~slf4j~LoggerFactory~~init^~Lorg~slf4j~LoggerFactory^ ( org.slf4j.LoggerFactory :*: ) :  "LoggerFactory" ;
+:public: :static: org.slf4j.Logger :*: org~slf4j~LoggerFactory~~getLogger~S~Ljava~lang~String^ ( java.lang.String :*: ) :  "getLogger" ;
+:public: :static: org.slf4j.Logger :*: org~slf4j~LoggerFactory~~getLogger~S~Ljava~lang~Class^ ( java.lang.Class :*: ) :  "getLogger" ;
+}
+	
+:public::class: org.springframework.http.ResponseEntity :extends: org.springframework.http.HttpEntity :"org.springframework.http":"ResponseEntity"{
+	
+ :public: :void: org~springframework~http~ResponseEntity~~init^~Lorg~springframework~http~ResponseEntity^Lorg~springframework~http~HttpStatus^ ( org.springframework.http.ResponseEntity :*: , org.springframework.http.HttpStatus :*: ) :  "ResponseEntity" ;
+:public: :void: org~springframework~http~ResponseEntity~~init^~Lorg~springframework~http~ResponseEntity^Ljava~lang~Object^Lorg~springframework~http~HttpStatus^ ( org.springframework.http.ResponseEntity :*: , java.lang.Object :*: , org.springframework.http.HttpStatus :*: ) :  "ResponseEntity" ;
+:public: :void: org~springframework~http~ResponseEntity~~init^~Lorg~springframework~http~ResponseEntity^Lorg~springframework~util~MultiValueMap^Lorg~springframework~http~HttpStatus^ ( org.springframework.http.ResponseEntity :*: , org.springframework.util.MultiValueMap :*: , org.springframework.http.HttpStatus :*: ) :  "ResponseEntity" ;
+:public: :void: org~springframework~http~ResponseEntity~~init^~Lorg~springframework~http~ResponseEntity^Ljava~lang~Object^Lorg~springframework~util~MultiValueMap^Lorg~springframework~http~HttpStatus^ ( org.springframework.http.ResponseEntity :*: , java.lang.Object :*: , org.springframework.util.MultiValueMap :*: , org.springframework.http.HttpStatus :*: ) :  "ResponseEntity" ;
+:public: :void: org~springframework~http~ResponseEntity~~init^~Lorg~springframework~http~ResponseEntity^Ljava~lang~Object^Lorg~springframework~util~MultiValueMap^I^ ( org.springframework.http.ResponseEntity :*: , java.lang.Object :*: , org.springframework.util.MultiValueMap :*: , :int: ) :  "ResponseEntity" ;
+:private: :void: org~springframework~http~ResponseEntity~~init^~Lorg~springframework~http~ResponseEntity^Ljava~lang~Object^Lorg~springframework~util~MultiValueMap^Ljava~lang~Object^ ( org.springframework.http.ResponseEntity :*: , java.lang.Object :*: , org.springframework.util.MultiValueMap :*: , java.lang.Object :*: ) :  "ResponseEntity" ;
+:public: :static: org.springframework.http.ResponseEntity$BodyBuilder :*: org~springframework~http~ResponseEntity~~status~S~Lorg~springframework~http~HttpStatus^ ( org.springframework.http.HttpStatus :*: ) :  "status" ;
+:public: :static: org.springframework.http.ResponseEntity$BodyBuilder :*: org~springframework~http~ResponseEntity~~status~S~I^ ( :int: ) :  "status" ;
+}
+	
+:public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public: :interface::class: org.springframework.data.repository.CrudRepository :extends: org.springframework.data.repository.Repository :"org.springframework.data.repository":"CrudRepository"{
+	
+ :public: :abstract: java.lang.Object :*: org~springframework~data~repository~CrudRepository~~save~Lorg~springframework~data~repository~CrudRepository^Ljava~lang~Object^ ( org.springframework.data.repository.CrudRepository :*: , java.lang.Object :*: ) :  "save" ;
+}
+	
+:public: :static: :interface::class: org.springframework.http.ResponseEntity$BodyBuilder :extends: org.springframework.http.ResponseEntity$HeadersBuilder :"org.springframework.http":"ResponseEntity$BodyBuilder"{
+	
+}
+	
+ :public: :final: :enum::class: org.springframework.http.HttpStatus :extends: java.lang.Enum java.lang.Enum :"org.springframework.http":"HttpStatus"{
+	
+ :public: :final: :static: org.springframework.http.HttpStatus :*: CREATED;
+ :private: :void: org~springframework~http~HttpStatus~~init^~Lorg~springframework~http~HttpStatus^I^Lorg~springframework~http~HttpStatus$Series^Ljava~lang~String^ ( org.springframework.http.HttpStatus :*: , :int: , org.springframework.http.HttpStatus$Series :*: , java.lang.String :*: ) :  "HttpStatus" ;
+:public: :int: org~springframework~http~HttpStatus~~value~Lorg~springframework~http~HttpStatus^ ( org.springframework.http.HttpStatus :*: ) :  "value" ;
+}
+	
+:public: :static: :interface::class: org.springframework.http.ResponseEntity$HeadersBuilder :extends: java.lang.Object :"org.springframework.http":"ResponseEntity$HeadersBuilder"{
+	
+ :public: :abstract: org.springframework.http.ResponseEntity :*: org~springframework~http~ResponseEntity$HeadersBuilder~~build~Lorg~springframework~http~ResponseEntity$HeadersBuilder^ ( org.springframework.http.ResponseEntity$HeadersBuilder :*: ) :  "build" ;
+}
+	
+:public: :interface::class: org.springframework.data.jpa.repository.JpaRepository :extends: org.springframework.data.repository.PagingAndSortingRepository org.springframework.data.repository.query.QueryByExampleExecutor :"org.springframework.data.jpa.repository":"JpaRepository"{
+	
+}
+	
+ :public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :final::class: java.lang.Long :extends: java.lang.Number java.lang.Comparable :"java.lang":"Long"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Long~~init^~Ljava~lang~Long^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Long~~decode~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Long~~parseLong~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Long~~parseLong~S~Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Long~~parseUnsignedLong~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Long~~parseUnsignedLong~S~Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Long~~valueOf~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Long~~valueOf~S~Ljava~lang~String^I^~throws;
+ :public: :void: java~lang~Long~~init^~Ljava~lang~Long^J^ ( java.lang.Long :*: , :long: ) :  "Long" ;
+:public: :void: java~lang~Long~~init^~Ljava~lang~Long^Ljava~lang~String^ ( java.lang.Long :*: , java.lang.String :*: ) :  "Long"  :exceptions:  java.lang.NumberFormatException :*: ;
+}
+	
+:public: :final::class: java.time.LocalDateTime :extends: java.lang.Object java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.time.chrono.ChronoLocalDateTime java.io.Serializable :"java.time":"LocalDateTime"{
+	
+ :public: :static: java.lang.Throwable :*: java~time~LocalDateTime~~readExternal~S~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalDateTime~~readObject~Ljava~time~LocalDateTime^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalDateTime~~writeExternal~Ljava~time~LocalDateTime^Ljava~io~DataOutput^~throws;
+ :private: :void: java~time~LocalDateTime~~init^~Ljava~time~LocalDateTime^Ljava~time~LocalDate^Ljava~time~LocalTime^ ( java.time.LocalDateTime :*: , java.time.LocalDate :*: , java.time.LocalTime :*: ) :  "LocalDateTime" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+}
+	
+ :public: :interface::class: org.springframework.web.servlet.View :extends: java.lang.Object :"org.springframework.web.servlet":"View"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~web~servlet~View~~render~Lorg~springframework~web~servlet~View^Ljava~util~Map^Ljavax~servlet~http~HttpServletRequest^Ljavax~servlet~http~HttpServletResponse^~throws;
+}
+	
+ :public: :interface::class: java.util.Map :extends: java.lang.Object :"java.util":"Map"{
+	
+ :public: :abstract: :boolean: java~util~Map~~isEmpty~Ljava~util~Map^ ( java.util.Map :*: ) :  "isEmpty" ;
+:public: :abstract: :int: java~util~Map~~size~Ljava~util~Map^ ( java.util.Map :*: ) :  "size" ;
+}
+	
+:public: :interface::class: java.security.Principal :extends: java.lang.Object :"java.security":"Principal"{
+	
+}
+	
+ :public: :interface::class: java.util.Collection :extends: java.lang.Iterable :"java.util":"Collection"{
+	
+ :public: :abstract: :boolean: java~util~Collection~~isEmpty~Ljava~util~Collection^ ( java.util.Collection :*: ) :  "isEmpty" ;
+:public: :abstract: :int: java~util~Collection~~size~Ljava~util~Collection^ ( java.util.Collection :*: ) :  "size" ;
+}
+	
+:public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+}
+	
+ :public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+}
+	
+:public: :interface::class: java.lang.reflect.GenericDeclaration :extends: java.lang.reflect.AnnotatedElement :"java.lang.reflect":"GenericDeclaration"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.Type :extends: java.lang.Object :"java.lang.reflect":"Type"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.AnnotatedElement :extends: java.lang.Object :"java.lang.reflect":"AnnotatedElement"{
+	
+}
+	
+ :public: :abstract::class: java.lang.ClassLoader :extends: java.lang.Object :"java.lang":"ClassLoader"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~nio~ByteBuffer^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~definePackage~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findSystemClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getBootstrapResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getSystemResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClassInternal~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:private: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~Void^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.Void :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+}
+	
+:public::class: org.springframework.http.HttpEntity :extends: java.lang.Object :"org.springframework.http":"HttpEntity"{
+	
+ :protected: :void: org~springframework~http~HttpEntity~~init^~Lorg~springframework~http~HttpEntity^ ( org.springframework.http.HttpEntity :*: ) :  "HttpEntity" ;
+:public: :void: org~springframework~http~HttpEntity~~init^~Lorg~springframework~http~HttpEntity^Ljava~lang~Object^ ( org.springframework.http.HttpEntity :*: , java.lang.Object :*: ) :  "HttpEntity" ;
+:public: :void: org~springframework~http~HttpEntity~~init^~Lorg~springframework~http~HttpEntity^Lorg~springframework~util~MultiValueMap^ ( org.springframework.http.HttpEntity :*: , org.springframework.util.MultiValueMap :*: ) :  "HttpEntity" ;
+:public: :void: org~springframework~http~HttpEntity~~init^~Lorg~springframework~http~HttpEntity^Ljava~lang~Object^Lorg~springframework~util~MultiValueMap^ ( org.springframework.http.HttpEntity :*: , java.lang.Object :*: , org.springframework.util.MultiValueMap :*: ) :  "HttpEntity" ;
+}
+	
+:public: :interface::class: org.springframework.util.MultiValueMap :extends: java.util.Map :"org.springframework.util":"MultiValueMap"{
+	
+}
+	
+ :public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+}
+	
+:public: :interface::class: org.springframework.data.repository.Repository :extends: java.lang.Object :"org.springframework.data.repository":"Repository"{
+	
+}
+	
+ :public: :abstract::class: java.lang.Enum :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.lang":"Enum"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~clone~Ljava~lang~Enum^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObject~Ljava~lang~Enum^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObjectNoData~Ljava~lang~Enum^~throws;
+ :protected: :void: java~lang~Enum~~init^~Ljava~lang~Enum^Ljava~lang~String^I^ ( java.lang.Enum :*: , java.lang.String :*: , :int: ) :  "Enum" ;
+}
+	
+:public: :final: :static: :enum::class: org.springframework.http.HttpStatus$Series :extends: java.lang.Enum java.lang.Enum :"org.springframework.http":"HttpStatus$Series"{
+	
+ :private: :void: org~springframework~http~HttpStatus$Series~~init^~Lorg~springframework~http~HttpStatus$Series^I^ ( org.springframework.http.HttpStatus$Series :*: , :int: ) :  "Series" ;
+:public: :int: org~springframework~http~HttpStatus$Series~~value~Lorg~springframework~http~HttpStatus$Series^ ( org.springframework.http.HttpStatus$Series :*: ) :  "value" ;
+}
+	
+:public: :interface::class: org.springframework.data.repository.PagingAndSortingRepository :extends: org.springframework.data.repository.CrudRepository :"org.springframework.data.repository":"PagingAndSortingRepository"{
+	
+}
+	
+ :public: :interface::class: org.springframework.data.repository.query.QueryByExampleExecutor :extends: java.lang.Object :"org.springframework.data.repository.query":"QueryByExampleExecutor"{
+	
+}
+	
+ :public: :abstract::class: java.lang.Number :extends: java.lang.Object java.io.Serializable :"java.lang":"Number"{
+	
+ :public: :void: java~lang~Number~~init^~Ljava~lang~Number^ ( java.lang.Number :*: ) :  "Number" ;
+}
+	
+:public::class: java.lang.NumberFormatException :extends: java.lang.IllegalArgumentException :"java.lang":"NumberFormatException"{
+	
+ :public: :void: java~lang~NumberFormatException~~init^~Ljava~lang~NumberFormatException^ ( java.lang.NumberFormatException :*: ) :  "NumberFormatException" ;
+:public: :void: java~lang~NumberFormatException~~init^~Ljava~lang~NumberFormatException^Ljava~lang~String^ ( java.lang.NumberFormatException :*: , java.lang.String :*: ) :  "NumberFormatException" ;
+}
+	
+:public: :interface::class: java.time.temporal.Temporal :extends: java.time.temporal.TemporalAccessor :"java.time.temporal":"Temporal"{
+	
+}
+	
+ :public: :interface::class: java.time.temporal.TemporalAdjuster :extends: java.lang.Object :"java.time.temporal":"TemporalAdjuster"{
+	
+}
+	
+ :public: :interface::class: java.time.chrono.ChronoLocalDateTime :extends: java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.lang.Comparable :"java.time.chrono":"ChronoLocalDateTime"{
+	
+}
+	
+ :public: :final::class: java.time.LocalDate :extends: java.lang.Object java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.time.chrono.ChronoLocalDate java.io.Serializable :"java.time":"LocalDate"{
+	
+ :public: :static: java.lang.Throwable :*: java~time~LocalDate~~readExternal~S~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalDate~~readObject~Ljava~time~LocalDate^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalDate~~writeExternal~Ljava~time~LocalDate^Ljava~io~DataOutput^~throws;
+ :private: :void: java~time~LocalDate~~init^~Ljava~time~LocalDate^I^I^I^ ( java.time.LocalDate :*: , :int: , :int: , :int: ) :  "LocalDate" ;
+}
+	
+:public: :final::class: java.time.LocalTime :extends: java.lang.Object java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.lang.Comparable java.io.Serializable :"java.time":"LocalTime"{
+	
+ :public: :static: java.lang.Throwable :*: java~time~LocalTime~~readExternal~S~Ljava~io~DataInput^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalTime~~readObject~Ljava~time~LocalTime^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~time~LocalTime~~writeExternal~Ljava~time~LocalTime^Ljava~io~DataOutput^~throws;
+ :private: :void: java~time~LocalTime~~init^~Ljava~time~LocalTime^I^I^I^I^ ( java.time.LocalTime :*: , :int: , :int: , :int: , :int: ) :  "LocalTime" ;
+}
+	
+:public: :interface::class: java.lang.Iterable :extends: java.lang.Object :"java.lang":"Iterable"{
+	
+}
+	
+ :abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :char: [] value;
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :final::class: java.lang.Void :extends: java.lang.Object :"java.lang":"Void"{
+	
+ :private: :void: java~lang~Void~~init^~Ljava~lang~Void^ ( java.lang.Void :*: ) :  "Void" ;
+}
+	
+:public::class: java.lang.IllegalArgumentException :extends: java.lang.RuntimeException :"java.lang":"IllegalArgumentException"{
+	
+ :public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^ ( java.lang.IllegalArgumentException :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+}
+	
+:public: :interface::class: java.time.temporal.TemporalAccessor :extends: java.lang.Object :"java.time.temporal":"TemporalAccessor"{
+	
+}
+	
+ :public: :interface::class: java.time.chrono.ChronoLocalDate :extends: java.time.temporal.Temporal java.time.temporal.TemporalAdjuster java.lang.Comparable :"java.time.chrono":"ChronoLocalDate"{
+	
+}
+	
+ :public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.lang.RuntimeException :extends: java.lang.Exception :"java.lang":"RuntimeException"{
+	
+ :public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^ ( java.lang.RuntimeException :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^ ( java.lang.RuntimeException :*: , java.lang.String :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:protected: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "RuntimeException" ;
+}
+	

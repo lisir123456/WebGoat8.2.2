@@ -1,0 +1,2740 @@
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+#source-type java
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 63
+ #14# :public::class: org.owasp.webgoat.jwt.JWTFinalEndpoint :extends: org.owasp.webgoat.assignments.AssignmentEndpoint :"org.owasp.webgoat.jwt":"JWTFinalEndpoint"
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 61
+ #1# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #1# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #1# < org.springframework.web.bind.annotation.RestController :*: > -~> ~annotation ( ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 62
+ #1# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #18# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #18# 	java.lang.String :*: [] ~t0 ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #18# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #18# 	~t0 :=: :new: java.lang.String [ < :int: >6 ] ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #18# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #18# 	~t0 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #18# 	-~> __array_init ( "jwt-final-hint1" , "jwt-final-hint2" , "jwt-final-hint3" , "jwt-final-hint4" , "jwt-final-hint5" , "jwt-final-hint6" ) ;
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #1# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #1# < org.owasp.webgoat.assignments.AssignmentHints :*: > -~> ~annotation ( value:  
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #18# ~t0 ):]]:
+{
+	
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 65
+ #36# :private: :final: org.owasp.webgoat.LessonDataSource :*: dataSource;
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 73
+ #12# :public: java.lang.String :*: org~owasp~webgoat~jwt~JWTFinalEndpoint~~follow~Lorg~owasp~webgoat~jwt~JWTFinalEndpoint^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #12# org.owasp.webgoat.jwt.JWTFinalEndpoint :*: this~ , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #48# java.lang.String :*: user
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #19# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #19# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #19# < org.springframework.web.bind.annotation.PathVariable :*: > -~> ~annotation ( value:  "user" ):]]:
+ ) :  "follow"
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 71
+ #5# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #5# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #5# < org.springframework.web.bind.annotation.PostMapping :*: > -~> ~annotation ( value:  "/JWT/final/follow/{user}" ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 72
+ #12# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #12# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #12# < org.springframework.web.bind.annotation.ResponseBody :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 73
+ #54# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 74
+ #13# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# 	~t0 :=: "Jerry" ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #9# 	:if: ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# 	-~> java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# 	~t0 , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 	user ) ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #35# 	{
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 75
+ #13# 		:return: "Following yourself seems redundant" ;
+
+#source-line 76
+	}
+	:else: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #16# 	{
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 77
+ #13# 		:return: "You are now following Tom" ;
+
+#source-line 78
+	}
+
+#source-line 79
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 83
+ #18# :public: org.owasp.webgoat.assignments.AttackResult :*: org~owasp~webgoat~jwt~JWTFinalEndpoint~~resetVotes~Lorg~owasp~webgoat~jwt~JWTFinalEndpoint^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #18# org.owasp.webgoat.jwt.JWTFinalEndpoint :*: this~ , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #59# java.lang.String :*: token
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #29# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #29# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #29# < org.springframework.web.bind.annotation.RequestParam :*: > -~> ~annotation ( value:  "token" ):]]:
+ ) :  "resetVotes"
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 81
+ #5# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #5# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #5# < org.springframework.web.bind.annotation.PostMapping :*: > -~> ~annotation ( value:  "/JWT/final/delete" ):]]:
+
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 82
+ #12# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #12# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #12# < org.springframework.web.bind.annotation.ResponseBody :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 83
+ #66# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 84
+ #9# 	:if: ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# 	-~> org~apache~commons~lang3~StringUtils~~isEmpty~S~Ljava~lang~CharSequence^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #33# 	token ) ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #41# 	{
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 85
+ #20# 		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #20# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t0 ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #20# 		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #20# 		~t0 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #20# 		-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~failed~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #42# 		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #42# 		java.lang.String :*: ~t1 ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #42# 		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #42# 		~t1 :=: "jwt-invalid-token" ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #20# 		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #20# 		org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t2 ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #20# 		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #20# 		~t2 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #20# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #20# 		~t0 , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #42# 		~t1 ) ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# 		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# 		org.owasp.webgoat.assignments.AttackResult :*: ~t3 ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# 		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# 		~t3 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #20# 		-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #20# 		~t2 ) ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# 		:return: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# 		~t3 ;
+
+#source-line 86
+	}
+	:else: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #16# 	{
+		java.lang.Throwable ~t~try~1 ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 87
+ #17# 		__try____L__1~eba80d43 :
+		{
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #17# 			{
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #17# 				:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #17# 				{
+					__caught__throwingcall_1 :
+					:goto: __catch____L__2~eba80d43 ;
+
+#source-line 117
+				}
+			}
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 88
+ #32# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #32# 			:final: java.lang.String :*: [] errorMessage ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 			java.lang.String :*: [] ~t4 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 			~t4 :=: :new: java.lang.String [ < :int: >1 ] ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 			~t4 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 			-~> __array_init ( :null: ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #32# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #32# 			errorMessage :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 			~t4 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 89
+ #21# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 			io.jsonwebtoken.Jwt :*: jwt ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			io.jsonwebtoken.JwtParser :*: ~t5 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			~t5 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			-~> io~jsonwebtoken~Jwts~~parser~S~ ( ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #63# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #63# 			org.owasp.webgoat.jwt.JWTFinalEndpoint$AnonymousClass~eba80d43~1 :*: ~t6 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #63# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #63# 			~t6 :=: :new: org.owasp.webgoat.jwt.JWTFinalEndpoint$AnonymousClass~eba80d43~1 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #63# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #63# 			-~> org~owasp~webgoat~jwt~JWTFinalEndpoint$AnonymousClass~eba80d43~1~~innerinit^~?Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #63# 			~t6 , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #63# 			errorMessage ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #63# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #63# 			-~> org~owasp~webgoat~jwt~JWTFinalEndpoint$AnonymousClass~eba80d43~1~~init^~Lorg~owasp~webgoat~jwt~JWTFinalEndpoint$AnonymousClass~eba80d43~1^Lorg~owasp~webgoat~jwt~JWTFinalEndpoint^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #63# 			~t6 , this~ ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			io.jsonwebtoken.JwtParser :*: ~t7 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			~t7 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			-~> io~jsonwebtoken~JwtParser~~setSigningKeyResolver~Lio~jsonwebtoken~JwtParser^Lio~jsonwebtoken~SigningKeyResolver^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			~t5 , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #63# 			~t6 ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			ANYTYPE ~t~j~1 ;
+			__throwingcall_2 :
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			~t~j~1 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			-~> io~jsonwebtoken~JwtParser~~parseClaimsJws~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			~t7 , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 103
+ #35# 			token ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 89
+ #27# 			{
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 				:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 				{
+					~t~try~1 :=: [ io.jsonwebtoken.JwtParser ] io~jsonwebtoken~JwtParser~~parseClaimsJws~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^~throws ;
+					__caught__throwingcall_2 :
+					:goto: __catch____L__2~eba80d43 ;
+
+#source-line 103
+				}
+			}
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 89
+ #27# 			:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			{
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 				__caught__throwingcall_2 :
+				 :throw:  < java.lang.IllegalArgumentException :*: > :null: ;
+
+#source-line 103
+			}
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 89
+ #21# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 			jwt :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 			~t~j~1 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 104
+ #17# 			:if: ( ( ( ( :*: ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 			errorMessage ) ) [ < :int: >0 ] ) :!=: :null: ) ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #46# 			{
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 105
+ #28# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t8 ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				~t8 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~failed~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t9 ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				~t9 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~output~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				~t8 , ( ( :*: ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #48# 				errorMessage ) ) [ < :int: >0 ] ) ) ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				org.owasp.webgoat.assignments.AttackResult :*: ~t10 ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				~t10 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				~t9 ) ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				:return: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				~t10 ;
+
+#source-line 106
+			}
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 107
+ #24# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			io.jsonwebtoken.Claims :*: claims ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			claims :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #42# 			< io.jsonwebtoken.Claims :*: > -~> io~jsonwebtoken~Jwt~~getBody~Lio~jsonwebtoken~Jwt^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #42# 			jwt ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 108
+ #24# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			java.lang.String :*: username ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #55# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #55# 			java.lang.String :*: ~t11 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #55# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #55# 			~t11 :=: "username" ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			username :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #44# 			< java.lang.String :*: > -~> java~util~Map~~get~Ljava~util~Map^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #44# 			claims , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #55# 			~t11 ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 109
+ #21# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 			java.lang.String :*: ~t12 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 			~t12 :=: "Jerry" ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #17# 			:if: ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 			-~> java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 			~t12 , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #36# 			username ) ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 			{
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 110
+ #28# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t13 ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				~t13 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~failed~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #50# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #50# 				java.lang.String :*: ~t14 ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #50# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #50# 				~t14 :=: "jwt-final-jerry-account" ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t15 ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				~t15 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				~t13 , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #50# 				~t14 ) ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				org.owasp.webgoat.assignments.AttackResult :*: ~t16 ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				~t16 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				~t15 ) ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				:return: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				~t16 ;
+
+#source-line 111
+			}
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 112
+ #21# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 			java.lang.String :*: ~t17 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 			~t17 :=: "Tom" ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #17# 			:if: ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 			-~> java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 			~t17 , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #34# 			username ) ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #45# 			{
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 113
+ #28# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t18 ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				~t18 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~success~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				org.owasp.webgoat.assignments.AttackResult :*: ~t19 ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				~t19 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				~t18 ) ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				:return: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				~t19 ;
+
+#source-line 114
+			}
+			:else: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			{
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 115
+ #28# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t20 ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				~t20 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~failed~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #50# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #50# 				java.lang.String :*: ~t21 ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #50# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #50# 				~t21 :=: "jwt-final-not-tom" ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t22 ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				~t22 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				~t20 , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #50# 				~t21 ) ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				org.owasp.webgoat.assignments.AttackResult :*: ~t23 ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				~t23 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #28# 				~t22 ) ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				:return: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 				~t23 ;
+
+#source-line 116
+			}
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 87
+ #17# 			:goto: __finally____L__0~eba80d43 ;
+
+#source-line 117
+		}
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #15# 		__catch____L__2~eba80d43 :
+		{
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #22# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #22# 			io.jsonwebtoken.JwtException :*: e ;
+			e :=: ~t~try~1 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 118
+ #24# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t24 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			~t24 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~failed~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ , this~ ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #46# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #46# 			java.lang.String :*: ~t25 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #46# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #46# 			~t25 :=: "jwt-invalid-token" ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t26 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			~t26 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			~t24 , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #46# 			~t25 ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #74# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #74# 			java.lang.String :*: ~t27 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #74# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #74# 			~t27 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #74# 			-~> java~lang~Throwable~~toString~Ljava~lang~Throwable^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #74# 			e ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ~t28 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			~t28 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~output~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			~t26 , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #74# 			~t27 ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #17# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #17# 			org.owasp.webgoat.assignments.AttackResult :*: ~t29 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #17# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #17# 			~t29 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			-~> org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #24# 			~t28 ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #17# 			:return: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #17# 			~t29 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 117
+ #15# 			:goto: __finally____L__0~eba80d43 ;
+
+#source-line 119
+		}
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 87
+ #13# 		__finally____L__0~eba80d43 :
+		{
+
+#source-line 119
+		}
+
+#source-line 120
+	}
+
+#source-line 121
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 67
+ #13# :private: :void: org~owasp~webgoat~jwt~JWTFinalEndpoint~~init^~Lorg~owasp~webgoat~jwt~JWTFinalEndpoint^Lorg~owasp~webgoat~LessonDataSource^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# org.owasp.webgoat.jwt.JWTFinalEndpoint :*: this~ , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# org.owasp.webgoat.LessonDataSource :*: dataSource ) :  "init^" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #13# 	-~> org~owasp~webgoat~assignments~AssignmentEndpoint~~init^~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( this~ ) ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 68
+ #9# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #9# 	[ org.owasp.webgoat.jwt.JWTFinalEndpoint ] ( this~ ) :.: dataSource :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 	dataSource ;
+
+#source-line 67
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 63
+ #14# :public: :static: :void: org~owasp~webgoat~jwt~JWTFinalEndpoint~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #14# {
+}
+#source-line 63
+}
+	
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 89
+ #95# :class: org.owasp.webgoat.jwt.JWTFinalEndpoint$AnonymousClass~eba80d43~1 :extends: io.jsonwebtoken.SigningKeyResolverAdapter :"org.owasp.webgoat.jwt":"JWTFinalEndpoint$AnonymousClass~1"{
+	
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# :private: org.owasp.webgoat.jwt.JWTFinalEndpoint :*: outer~this;
+ :private: :final: java.lang.String :*: [] outer~errorMessage;
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 91
+ #35# :public: :byte: [] org~owasp~webgoat~jwt~JWTFinalEndpoint$AnonymousClass~eba80d43~1~~resolveSigningKeyBytes~Lorg~owasp~webgoat~jwt~JWTFinalEndpoint$AnonymousClass~eba80d43~1^Lio~jsonwebtoken~JwsHeader^Lio~jsonwebtoken~Claims^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #35# org.owasp.webgoat.jwt.JWTFinalEndpoint$AnonymousClass~eba80d43~1 :*: this~ , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #68# io.jsonwebtoken.JwsHeader :*: header , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #83# io.jsonwebtoken.Claims :*: claims ) :  "resolveSigningKeyBytes"
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 90
+ #21# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #21# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 91
+ #91# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 92
+ #38# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #38# 	:final: java.lang.String :*: kid ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 	java.lang.String :*: ~t0 ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 	~t0 :=: "kid" ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #38# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #38# 	kid :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #53# 	< java.lang.String :*: > -~> java~util~Map~~get~Ljava~util~Map^Ljava~lang~Object^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #53# 	header , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 	~t0 ) ;
+	java.lang.Throwable ~t~try~1 ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #30# 	__try____L__8~89992059 :
+	{
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #34# 		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #34# 		var :*: connection ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 		ANYTYPE ~t~j~1 ;
+		__throwingcall_1 :
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 		~t~j~1 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 		-~> org~owasp~webgoat~LessonDataSource~~getConnection~Lorg~owasp~webgoat~LessonDataSource^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 		[ org.owasp.webgoat.jwt.JWTFinalEndpoint ] ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 		[ org.owasp.webgoat.jwt.JWTFinalEndpoint$AnonymousClass~eba80d43~1 ] ( this~ ) :.: outer~this ) :.: dataSource ) ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 		{
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 			:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 			{
+				~t~try~1 :=: [ org.owasp.webgoat.LessonDataSource ] org~owasp~webgoat~LessonDataSource~~getConnection~Lorg~owasp~webgoat~LessonDataSource^~throws ;
+				__caught__throwingcall_1 :
+				:goto: __catch____L__9~89992059 ;
+			}
+		}
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #34# 		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #34# 		connection :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 		~t~j~1 ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #30# 		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #30# 		java.lang.Throwable :*: ~t~try~with~1 ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #30# 		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #30# 		~t~try~with~1 :=: :null: ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 		__try____L__3~89992059 :
+		{
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 94
+ #39# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #39# 			java.sql.ResultSet :*: rs ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #44# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #44# 			~Unknown~Type~ :*: ~t1 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #44# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #44# 			~t1 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #44# 			-~> createStatement ( ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #86# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #86# 			java.lang.String :*: ~t2 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #86# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #86# 			~t2 :=: ( ( "SELECT key FROM jwt_keys WHERE id = '" :+: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #128# 			kid ) :+: "'" ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #39# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #39# 			rs :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #44# 			-~> executeQuery ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #86# 			~t2 ) ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 95
+ #29# 			__L__2~89992059 :
+			{
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #36# 				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #36# 				ANYTYPE ~t~j~2 ;
+				__throwingcall_2 :
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #36# 				~t~j~2 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #36# 				-~> java~sql~ResultSet~~next~Ljava~sql~ResultSet^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #36# 				rs ) ;
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #36# 				{
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #36# 					:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #36# 					{
+						~t~try~1 :=: [ java.sql.ResultSet ] java~sql~ResultSet~~next~Ljava~sql~ResultSet^~throws ;
+						__caught__throwingcall_2 :
+						:goto: __catch____L__~tool~generated~4~89992059 ;
+					}
+				}
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #29# 				__L__2~89992059c :
+				:while: ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #36# 				~t~j~2 ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 				{
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 96
+ #77# 					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #77# 					:int: ~t3 ;
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #77# 					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #77# 					~t3 :=: < :int: >1 ;
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 					java.lang.String :*: ~t4 ;
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 					ANYTYPE ~t~j~3 ;
+					__throwingcall_3 :
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 					~t~j~3 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 					-~> java~sql~ResultSet~~getString~Ljava~sql~ResultSet^I^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 					rs , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #77# 					~t3 ) ;
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 					{
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 						:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 						{
+							~t~try~1 :=: [ java.sql.ResultSet ] java~sql~ResultSet~~getString~Ljava~sql~ResultSet^I^~throws ;
+							__caught__throwingcall_3 :
+							:goto: __catch____L__~tool~generated~4~89992059 ;
+						}
+					}
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 					~t4 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 					~t~j~3 ;
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #33# 					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #33# 					:byte: [] ~t5 ;
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #33# 					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #33# 					~t5 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #40# 					-~> io~jsonwebtoken~impl~TextCodec~~decode~Lio~jsonwebtoken~impl~TextCodec^Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #40# 					[ io.jsonwebtoken.impl.TextCodec ] BASE64 , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #64# 					~t4 ) ;
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 					__inline____finally____L__~tool~generated~1~89992059_1 :
+					{
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						:if: ( ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #30# 						connection :!=: :null: ) ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						{
+							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							:if: ( ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							~t~try~with~1 :!=: :null: ) ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							{
+								
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 								__try____L__6~89992059 :
+								{
+									
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									__throwingcall_4 :
+									
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									-~> java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									connection ) ;
+									
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									{
+										
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 										:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 										{
+											~t~try~1 :=: [ java.lang.AutoCloseable ] java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^~throws ;
+											__caught__throwingcall_4 :
+											:goto: __catch____L__~tool~generated~7~89992059 ;
+
+#source-line 98
+										}
+									}
+									
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 									:goto: __finally____L__~tool~generated~5~89992059 ;
+
+#source-line 98
+								}
+								
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 								__catch____L__~tool~generated~7~89992059 :
+								{
+									
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									java.lang.Throwable :*: ~suppressedException ;
+									~suppressedException :=: ~t~try~1 ;
+									
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									-~> java~lang~Throwable~~addSuppressed~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									~suppressedException , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									~t~try~with~1 ) ;
+									
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									java.lang.Throwable :*: ~t7 ;
+									
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									~t7 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									~suppressedException ;
+									
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									 :throw:  ~t7 ;
+									
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									:goto: __finally____L__~tool~generated~5~89992059 ;
+
+#source-line 98
+								}
+								
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 								__finally____L__~tool~generated~5~89992059 :
+								{
+
+#source-line 98
+								}
+							}
+							:else: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 							{
+								
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 								__throwingcall_5 :
+								
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 								-~> java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 								connection ) ;
+								
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 								:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 								{
+									
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 									__caught__throwingcall_5 :
+									 :throw:  < java.lang.Exception :*: > :null: ;
+
+#source-line 98
+								}
+							}
+						}
+					}
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 96
+ #33# 					:return: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #33# 					~t5 ;
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 95
+ #29# 					__L__2~89992059c :
+					:goto: __L__2~89992059 ;
+
+#source-line 97
+				}
+			}
+			__L__2~89992059b :
+			;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 			:goto: __finally____L__~tool~generated~1~89992059 ;
+
+#source-line 98
+		}
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 		__catch____L__~tool~generated~4~89992059 :
+		{
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 			java.lang.Throwable :*: ~suppressedException ;
+			~suppressedException :=: ~t~try~1 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 			~t~try~with~1 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 			~suppressedException ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 			java.lang.Throwable :*: ~t6 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 			~t6 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 			~suppressedException ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 			__inline____finally____L__~tool~generated~1~89992059_2 :
+			{
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 				:if: ( ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #30# 				connection :!=: :null: ) ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 				{
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 					:if: ( ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 					~t~try~with~1 :!=: :null: ) ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 					{
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						__try____L__6~89992059 :
+						{
+							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							__throwingcall_6 :
+							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							-~> java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							connection ) ;
+							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							{
+								
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 								:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 								{
+									~t~try~1 :=: [ java.lang.AutoCloseable ] java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^~throws ;
+									__caught__throwingcall_6 :
+									:goto: __catch____L__~tool~generated~7~89992059 ;
+
+#source-line 98
+								}
+							}
+							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 							:goto: __finally____L__~tool~generated~5~89992059 ;
+
+#source-line 98
+						}
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 						__catch____L__~tool~generated~7~89992059 :
+						{
+							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							java.lang.Throwable :*: ~suppressedException ;
+							~suppressedException :=: ~t~try~1 ;
+							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							-~> java~lang~Throwable~~addSuppressed~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							~suppressedException , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							~t~try~with~1 ) ;
+							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							java.lang.Throwable :*: ~t7 ;
+							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							~t7 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							~suppressedException ;
+							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							 :throw:  ~t7 ;
+							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							:goto: __finally____L__~tool~generated~5~89992059 ;
+
+#source-line 98
+						}
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 						__finally____L__~tool~generated~5~89992059 :
+						{
+
+#source-line 98
+						}
+					}
+					:else: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 					{
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						__throwingcall_7 :
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						-~> java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						connection ) ;
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						{
+							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							__caught__throwingcall_7 :
+							 :throw:  < java.lang.Exception :*: > :null: ;
+
+#source-line 98
+						}
+					}
+				}
+			}
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 			 :throw:  ~t6 ;
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 			:goto: __finally____L__~tool~generated~1~89992059 ;
+
+#source-line 98
+		}
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 		__finally____L__~tool~generated~1~89992059 :
+		{
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 			:if: ( ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #30# 			connection :!=: :null: ) ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 			{
+				
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 				:if: ( ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 				~t~try~with~1 :!=: :null: ) ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 				{
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 					__try____L__6~89992059 :
+					{
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						__throwingcall_8 :
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						-~> java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						connection ) ;
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						{
+							
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 							{
+								~t~try~1 :=: [ java.lang.AutoCloseable ] java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^~throws ;
+								__caught__throwingcall_8 :
+								:goto: __catch____L__~tool~generated~7~89992059 ;
+
+#source-line 98
+							}
+						}
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 						:goto: __finally____L__~tool~generated~5~89992059 ;
+
+#source-line 98
+					}
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 					__catch____L__~tool~generated~7~89992059 :
+					{
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						java.lang.Throwable :*: ~suppressedException ;
+						~suppressedException :=: ~t~try~1 ;
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						-~> java~lang~Throwable~~addSuppressed~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						~suppressedException , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						~t~try~with~1 ) ;
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						java.lang.Throwable :*: ~t7 ;
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						~t7 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						~suppressedException ;
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						 :throw:  ~t7 ;
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						:goto: __finally____L__~tool~generated~5~89992059 ;
+
+#source-line 98
+					}
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 					__finally____L__~tool~generated~5~89992059 :
+					{
+
+#source-line 98
+					}
+				}
+				:else: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 				{
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 					__throwingcall_9 :
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 					-~> java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 					connection ) ;
+					
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 					:if: ( < :long: > 1 ) 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 					{
+						
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #75# 						__caught__throwingcall_9 :
+						 :throw:  < java.lang.Exception :*: > :null: ;
+
+#source-line 98
+					}
+				}
+			}
+		}
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #75# 		:goto: __finally____L__0~89992059 ;
+
+#source-line 98
+	}
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #27# 	__catch____L__9~89992059 :
+	{
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #34# 		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #34# 		java.sql.SQLException :*: e ;
+		e :=: ~t~try~1 ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 99
+ #29# 		( ( :*: ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #29# 		[ org.owasp.webgoat.jwt.JWTFinalEndpoint$AnonymousClass~eba80d43~1 ] ( this~ ) :.: outer~errorMessage ) ) [ < :int: >0 ] ) :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 		-~> java~lang~Throwable~~getMessage~Ljava~lang~Throwable^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #47# 		e ) ;
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 98
+ #27# 		:goto: __finally____L__0~89992059 ;
+
+#source-line 100
+	}
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 93
+ #25# 	__finally____L__0~89992059 :
+	{
+
+#source-line 100
+	}
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 101
+ #25# 	:return: :null: ;
+
+#source-line 102
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 89
+ #95# :public: :void: org~owasp~webgoat~jwt~JWTFinalEndpoint$AnonymousClass~eba80d43~1~~innerinit^~?Ljava~lang~String^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# org.owasp.webgoat.jwt.JWTFinalEndpoint$AnonymousClass~eba80d43~1 :*: this~ , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# java.lang.String :*: [] errorMessage ) :  "innerinit^" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# 	[ org.owasp.webgoat.jwt.JWTFinalEndpoint$AnonymousClass~eba80d43~1 ] ( this~ ) :.: outer~errorMessage :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# 	errorMessage ;
+
+#source-line 103
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 89
+ #95# :public: :void: org~owasp~webgoat~jwt~JWTFinalEndpoint$AnonymousClass~eba80d43~1~~init^~Lorg~owasp~webgoat~jwt~JWTFinalEndpoint$AnonymousClass~eba80d43~1^Lorg~owasp~webgoat~jwt~JWTFinalEndpoint^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# org.owasp.webgoat.jwt.JWTFinalEndpoint$AnonymousClass~eba80d43~1 :*: this~ , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# org.owasp.webgoat.jwt.JWTFinalEndpoint :*: outer~this ) :  "init^" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# 	-~> io~jsonwebtoken~SigningKeyResolverAdapter~~init^~Lio~jsonwebtoken~SigningKeyResolverAdapter^ ( this~ ) ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# 	[ org.owasp.webgoat.jwt.JWTFinalEndpoint$AnonymousClass~eba80d43~1 ] ( this~ ) :.: outer~this :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# 	outer~this ;
+
+#source-line 103
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+
+#source-line 89
+ #95# :public: :static: :void: org~owasp~webgoat~jwt~JWTFinalEndpoint$AnonymousClass~eba80d43~1~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\JWTFinalEndpoint.java
+ #95# {
+
+#source-line 103
+}
+#source-line 103
+}
+	
+:public::class: org.owasp.webgoat.LessonDataSource :extends: java.lang.Object javax.sql.DataSource :"org.owasp.webgoat":"LessonDataSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~LessonDataSource~~getConnection~Lorg~owasp~webgoat~LessonDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~LessonDataSource~~getConnection~Lorg~owasp~webgoat~LessonDataSource^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~LessonDataSource~~getLogWriter~Lorg~owasp~webgoat~LessonDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~LessonDataSource~~getLoginTimeout~Lorg~owasp~webgoat~LessonDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~LessonDataSource~~getParentLogger~Lorg~owasp~webgoat~LessonDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~LessonDataSource~~isWrapperFor~Lorg~owasp~webgoat~LessonDataSource^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~LessonDataSource~~setLogWriter~Lorg~owasp~webgoat~LessonDataSource^Ljava~io~PrintWriter^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~LessonDataSource~~setLoginTimeout~Lorg~owasp~webgoat~LessonDataSource^I^~throws;
+ :public: :static: java.lang.Throwable :*: org~owasp~webgoat~LessonDataSource~~unwrap~Lorg~owasp~webgoat~LessonDataSource^Ljava~lang~Class^~throws;
+ :public: :void: org~owasp~webgoat~LessonDataSource~~init^~Lorg~owasp~webgoat~LessonDataSource^Ljavax~sql~DataSource^ ( org.owasp.webgoat.LessonDataSource :*: , javax.sql.DataSource :*: ) :  "LessonDataSource" ;
+:public: java.sql.Connection :*: org~owasp~webgoat~LessonDataSource~~getConnection~Lorg~owasp~webgoat~LessonDataSource^ ( org.owasp.webgoat.LessonDataSource :*: ) :  "getConnection"  :exceptions:  java.sql.SQLException :*: ;
+:public: java.sql.Connection :*: org~owasp~webgoat~LessonDataSource~~getConnection~Lorg~owasp~webgoat~LessonDataSource^Ljava~lang~String^Ljava~lang~String^ ( org.owasp.webgoat.LessonDataSource :*: , java.lang.String :*: , java.lang.String :*: ) :  "getConnection"  :exceptions:  java.sql.SQLException :*: ;
+}
+	
+:public: :abstract::class: org.owasp.webgoat.assignments.AssignmentEndpoint :extends: java.lang.Object :"org.owasp.webgoat.assignments":"AssignmentEndpoint"{
+	
+ :public: :void: org~owasp~webgoat~assignments~AssignmentEndpoint~~init^~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "AssignmentEndpoint" ;
+:protected: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AssignmentEndpoint~~failed~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: , org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "failed" ;
+:protected: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AssignmentEndpoint~~success~Lorg~owasp~webgoat~assignments~AssignmentEndpoint^Lorg~owasp~webgoat~assignments~AssignmentEndpoint^ ( org.owasp.webgoat.assignments.AssignmentEndpoint :*: , org.owasp.webgoat.assignments.AssignmentEndpoint :*: ) :  "success" ;
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+:public: :boolean: java~lang~String~~equals~Ljava~lang~String^Ljava~lang~Object^ ( java.lang.String :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :boolean: java~lang~String~~isEmpty~Ljava~lang~String^ ( java.lang.String :*: ) :  "isEmpty" ;
+:public: java.lang.String :*: java~lang~String~~toString~Ljava~lang~String^ ( java.lang.String :*: ) :  "toString" ;
+}
+	
+:public::class: io.jsonwebtoken.SigningKeyResolverAdapter :extends: java.lang.Object io.jsonwebtoken.SigningKeyResolver :"io.jsonwebtoken":"SigningKeyResolverAdapter"{
+	
+ :public: :void: io~jsonwebtoken~SigningKeyResolverAdapter~~init^~Lio~jsonwebtoken~SigningKeyResolverAdapter^ ( io.jsonwebtoken.SigningKeyResolverAdapter :*: ) :  "SigningKeyResolverAdapter" ;
+:public: :byte: [] io~jsonwebtoken~SigningKeyResolverAdapter~~resolveSigningKeyBytes~Lio~jsonwebtoken~SigningKeyResolverAdapter^Lio~jsonwebtoken~JwsHeader^Lio~jsonwebtoken~Claims^ ( io.jsonwebtoken.SigningKeyResolverAdapter :*: , io.jsonwebtoken.JwsHeader :*: , io.jsonwebtoken.Claims :*: ) :  "resolveSigningKeyBytes" ;
+:public: :byte: [] io~jsonwebtoken~SigningKeyResolverAdapter~~resolveSigningKeyBytes~Lio~jsonwebtoken~SigningKeyResolverAdapter^Lio~jsonwebtoken~JwsHeader^Ljava~lang~String^ ( io.jsonwebtoken.SigningKeyResolverAdapter :*: , io.jsonwebtoken.JwsHeader :*: , java.lang.String :*: ) :  "resolveSigningKeyBytes" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.RestController :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"RestController"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~web~bind~annotation~RestController~~value~Lorg~springframework~web~bind~annotation~RestController^ ( org.springframework.web.bind.annotation.RestController :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: org.owasp.webgoat.assignments.AssignmentHints :extends: java.lang.annotation.Annotation :"org.owasp.webgoat.assignments":"AssignmentHints"{
+	
+ :public: :abstract: java.lang.String :*: [] org~owasp~webgoat~assignments~AssignmentHints~~value~Lorg~owasp~webgoat~assignments~AssignmentHints^ ( org.owasp.webgoat.assignments.AssignmentHints :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.PathVariable :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"PathVariable"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~web~bind~annotation~PathVariable~~value~Lorg~springframework~web~bind~annotation~PathVariable^ ( org.springframework.web.bind.annotation.PathVariable :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.PostMapping :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"PostMapping"{
+	
+ :public: :abstract: java.lang.String :*: [] org~springframework~web~bind~annotation~PostMapping~~value~Lorg~springframework~web~bind~annotation~PostMapping^ ( org.springframework.web.bind.annotation.PostMapping :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.ResponseBody :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"ResponseBody"{
+	
+}
+	
+ :public::class: org.owasp.webgoat.assignments.AttackResult :extends: java.lang.Object :"org.owasp.webgoat.assignments":"AttackResult"{
+	
+ :public: :void: org~owasp~webgoat~assignments~AttackResult~~init^~Lorg~owasp~webgoat~assignments~AttackResult^Z^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Z^ ( org.owasp.webgoat.assignments.AttackResult :*: , :boolean: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , :boolean: ) :  "AttackResult" ;
+}
+	
+:public: :annotation::class: org.springframework.web.bind.annotation.RequestParam :extends: java.lang.annotation.Annotation :"org.springframework.web.bind.annotation":"RequestParam"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~web~bind~annotation~RequestParam~~value~Lorg~springframework~web~bind~annotation~RequestParam^ ( org.springframework.web.bind.annotation.RequestParam :*: ) :  "value" ;
+}
+	
+:public::class: org.apache.commons.lang3.StringUtils :extends: java.lang.Object :"org.apache.commons.lang3":"StringUtils"{
+	
+ :public: :static: java.lang.Throwable :*: org~apache~commons~lang3~StringUtils~~toString~S~?B^Ljava~lang~String^~throws;
+ :public: :void: org~apache~commons~lang3~StringUtils~~init^~Lorg~apache~commons~lang3~StringUtils^ ( org.apache.commons.lang3.StringUtils :*: ) :  "StringUtils" ;
+:public: :static: :boolean: org~apache~commons~lang3~StringUtils~~equals~S~Ljava~lang~CharSequence^Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: , java.lang.CharSequence :*: ) :  "equals" ;
+:public: :static: :boolean: org~apache~commons~lang3~StringUtils~~isEmpty~S~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "isEmpty" ;
+:public: :static: java.lang.String :*: org~apache~commons~lang3~StringUtils~~toString~S~?B^Ljava~lang~String^ ( :byte: [] , java.lang.String :*: ) :  "toString"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+}
+	
+:public: :static::class: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :extends: java.lang.Object :"org.owasp.webgoat.assignments":"AttackResult$AttackResultBuilder"{
+	
+ :public: :void: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~init^~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Lorg~owasp~webgoat~i18n~PluginMessages^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: , org.owasp.webgoat.i18n.PluginMessages :*: ) :  "AttackResultBuilder" ;
+:public: org.owasp.webgoat.assignments.AttackResult :*: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~build~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: ) :  "build" ;
+:public: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~feedback~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: , java.lang.String :*: ) :  "feedback" ;
+:public: org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: org~owasp~webgoat~assignments~AttackResult$AttackResultBuilder~~output~Lorg~owasp~webgoat~assignments~AttackResult$AttackResultBuilder^Ljava~lang~String^ ( org.owasp.webgoat.assignments.AttackResult$AttackResultBuilder :*: , java.lang.String :*: ) :  "output" ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.Jwt :extends: java.lang.Object :"io.jsonwebtoken":"Jwt"{
+	
+ :public: :abstract: java.lang.Object :*: io~jsonwebtoken~Jwt~~getBody~Lio~jsonwebtoken~Jwt^ ( io.jsonwebtoken.Jwt :*: ) :  "getBody" ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.JwtParser :extends: java.lang.Object :"io.jsonwebtoken":"JwtParser"{
+	
+ :public: :static: java.lang.Throwable :*: io~jsonwebtoken~JwtParser~~parse~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: io~jsonwebtoken~JwtParser~~parse~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^Lio~jsonwebtoken~JwtHandler^~throws;
+ :public: :static: java.lang.Throwable :*: io~jsonwebtoken~JwtParser~~parseClaimsJws~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: io~jsonwebtoken~JwtParser~~parseClaimsJwt~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: io~jsonwebtoken~JwtParser~~parsePlaintextJws~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: io~jsonwebtoken~JwtParser~~parsePlaintextJwt~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^~throws;
+ :public: :abstract: io.jsonwebtoken.Jws :*: io~jsonwebtoken~JwtParser~~parseClaimsJws~Lio~jsonwebtoken~JwtParser^Ljava~lang~String^ ( io.jsonwebtoken.JwtParser :*: , java.lang.String :*: ) :  "parseClaimsJws"  :exceptions:  io.jsonwebtoken.ExpiredJwtException :*: ,  io.jsonwebtoken.UnsupportedJwtException :*: ,  io.jsonwebtoken.MalformedJwtException :*: ,  io.jsonwebtoken.SignatureException :*: ,  java.lang.IllegalArgumentException :*: ;
+:public: :abstract: io.jsonwebtoken.JwtParser :*: io~jsonwebtoken~JwtParser~~setSigningKeyResolver~Lio~jsonwebtoken~JwtParser^Lio~jsonwebtoken~SigningKeyResolver^ ( io.jsonwebtoken.JwtParser :*: , io.jsonwebtoken.SigningKeyResolver :*: ) :  "setSigningKeyResolver" ;
+}
+	
+:public: :final::class: io.jsonwebtoken.Jwts :extends: java.lang.Object :"io.jsonwebtoken":"Jwts"{
+	
+ :private: :void: io~jsonwebtoken~Jwts~~init^~Lio~jsonwebtoken~Jwts^ ( io.jsonwebtoken.Jwts :*: ) :  "Jwts" ;
+:public: :static: io.jsonwebtoken.JwtParser :*: io~jsonwebtoken~Jwts~~parser~S~ ( ) :  "parser" ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.Claims :extends: java.util.Map io.jsonwebtoken.ClaimsMutator :"io.jsonwebtoken":"Claims"{
+	
+ :public: :abstract: java.lang.Object :*: io~jsonwebtoken~Claims~~get~Lio~jsonwebtoken~Claims^Ljava~lang~String^Ljava~lang~Class^ ( io.jsonwebtoken.Claims :*: , java.lang.String :*: , java.lang.Class :*: ) :  "get" ;
+}
+	
+:public: :interface::class: java.util.Map :extends: java.lang.Object :"java.util":"Map"{
+	
+ :public: :abstract: :boolean: java~util~Map~~equals~Ljava~util~Map^Ljava~lang~Object^ ( java.util.Map :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :abstract: java.lang.Object :*: java~util~Map~~get~Ljava~util~Map^Ljava~lang~Object^ ( java.util.Map :*: , java.lang.Object :*: ) :  "get" ;
+:public: :abstract: :boolean: java~util~Map~~isEmpty~Ljava~util~Map^ ( java.util.Map :*: ) :  "isEmpty" ;
+}
+	
+:public::class: io.jsonwebtoken.JwtException :extends: java.lang.RuntimeException :"io.jsonwebtoken":"JwtException"{
+	
+ :public: :void: io~jsonwebtoken~JwtException~~init^~Lio~jsonwebtoken~JwtException^Ljava~lang~String^ ( io.jsonwebtoken.JwtException :*: , java.lang.String :*: ) :  "JwtException" ;
+:public: :void: io~jsonwebtoken~JwtException~~init^~Lio~jsonwebtoken~JwtException^Ljava~lang~String^Ljava~lang~Throwable^ ( io.jsonwebtoken.JwtException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "JwtException" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+:public: :final: :synchronized: :void: java~lang~Throwable~~addSuppressed~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "addSuppressed" ;
+:public: java.lang.String :*: java~lang~Throwable~~getMessage~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "getMessage" ;
+:public: java.lang.String :*: java~lang~Throwable~~toString~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.JwsHeader :extends: io.jsonwebtoken.Header :"io.jsonwebtoken":"JwsHeader"{
+	
+}
+	
+ :public: :annotation::class: java.lang.Override :extends: java.lang.annotation.Annotation :"java.lang":"Override"{
+	
+}
+	
+:class: var :extends: java.lang.Object :"org.owasp.webgoat.jwt":"var"{
+	
+}
+	
+ :public: :interface::class: java.sql.ResultSet :extends: java.sql.Wrapper java.lang.AutoCloseable :"java.sql":"ResultSet"{
+	
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~absolute~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~afterLast~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~beforeFirst~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~cancelRowUpdates~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~clearWarnings~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~close~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~deleteRow~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~findColumn~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~first~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getArray~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getArray~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getAsciiStream~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getAsciiStream~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getBigDecimal~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getBigDecimal~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getBigDecimal~Ljava~sql~ResultSet^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getBigDecimal~Ljava~sql~ResultSet^Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getBinaryStream~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getBinaryStream~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getBlob~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getBlob~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getBoolean~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getBoolean~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getByte~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getByte~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getBytes~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getBytes~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getCharacterStream~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getCharacterStream~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getClob~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getClob~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getConcurrency~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getCursorName~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getDate~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getDate~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getDate~Ljava~sql~ResultSet^I^Ljava~util~Calendar^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getDate~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~util~Calendar^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getDouble~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getDouble~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getFetchDirection~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getFetchSize~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getFloat~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getFloat~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getHoldability~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getInt~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getInt~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getLong~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getLong~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getMetaData~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getNCharacterStream~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getNCharacterStream~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getNClob~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getNClob~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getNString~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getNString~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getObject~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getObject~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getObject~Ljava~sql~ResultSet^I^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getObject~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~util~Map^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getObject~Ljava~sql~ResultSet^I^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getObject~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getRef~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getRef~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getRow~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getRowId~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getRowId~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getSQLXML~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getSQLXML~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getShort~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getShort~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getStatement~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getString~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getString~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getTime~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getTime~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getTime~Ljava~sql~ResultSet^I^Ljava~util~Calendar^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getTime~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~util~Calendar^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getTimestamp~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getTimestamp~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getTimestamp~Ljava~sql~ResultSet^I^Ljava~util~Calendar^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getTimestamp~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~util~Calendar^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getType~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getURL~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getURL~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getUnicodeStream~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getUnicodeStream~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~getWarnings~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~insertRow~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~isAfterLast~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~isBeforeFirst~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~isClosed~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~isFirst~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~isLast~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~last~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~moveToCurrentRow~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~moveToInsertRow~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~next~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~previous~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~refreshRow~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~relative~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~rowDeleted~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~rowInserted~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~rowUpdated~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~setFetchDirection~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~setFetchSize~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateArray~Ljava~sql~ResultSet^I^Ljava~sql~Array^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateArray~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~sql~Array^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateAsciiStream~Ljava~sql~ResultSet^I^Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateAsciiStream~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateAsciiStream~Ljava~sql~ResultSet^I^Ljava~io~InputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateAsciiStream~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~InputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateAsciiStream~Ljava~sql~ResultSet^I^Ljava~io~InputStream^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateAsciiStream~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~InputStream^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBigDecimal~Ljava~sql~ResultSet^I^Ljava~math~BigDecimal^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBigDecimal~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~math~BigDecimal^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBinaryStream~Ljava~sql~ResultSet^I^Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBinaryStream~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBinaryStream~Ljava~sql~ResultSet^I^Ljava~io~InputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBinaryStream~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~InputStream^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBinaryStream~Ljava~sql~ResultSet^I^Ljava~io~InputStream^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBinaryStream~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~InputStream^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBlob~Ljava~sql~ResultSet^I^Ljava~sql~Blob^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBlob~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~sql~Blob^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBlob~Ljava~sql~ResultSet^I^Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBlob~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~InputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBlob~Ljava~sql~ResultSet^I^Ljava~io~InputStream^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBlob~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~InputStream^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBoolean~Ljava~sql~ResultSet^I^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBoolean~Ljava~sql~ResultSet^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateByte~Ljava~sql~ResultSet^I^B^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateByte~Ljava~sql~ResultSet^Ljava~lang~String^B^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBytes~Ljava~sql~ResultSet^I^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateBytes~Ljava~sql~ResultSet^Ljava~lang~String^?B^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateCharacterStream~Ljava~sql~ResultSet^I^Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateCharacterStream~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateCharacterStream~Ljava~sql~ResultSet^I^Ljava~io~Reader^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateCharacterStream~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~Reader^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateCharacterStream~Ljava~sql~ResultSet^I^Ljava~io~Reader^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateCharacterStream~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~Reader^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateClob~Ljava~sql~ResultSet^I^Ljava~sql~Clob^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateClob~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~sql~Clob^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateClob~Ljava~sql~ResultSet^I^Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateClob~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateClob~Ljava~sql~ResultSet^I^Ljava~io~Reader^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateClob~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~Reader^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateDate~Ljava~sql~ResultSet^I^Ljava~sql~Date^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateDate~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~sql~Date^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateDouble~Ljava~sql~ResultSet^I^D^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateDouble~Ljava~sql~ResultSet^Ljava~lang~String^D^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateFloat~Ljava~sql~ResultSet^I^F^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateFloat~Ljava~sql~ResultSet^Ljava~lang~String^F^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateInt~Ljava~sql~ResultSet^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateInt~Ljava~sql~ResultSet^Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateLong~Ljava~sql~ResultSet^I^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateLong~Ljava~sql~ResultSet^Ljava~lang~String^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateNCharacterStream~Ljava~sql~ResultSet^I^Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateNCharacterStream~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateNCharacterStream~Ljava~sql~ResultSet^I^Ljava~io~Reader^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateNCharacterStream~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~Reader^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateNClob~Ljava~sql~ResultSet^I^Ljava~sql~NClob^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateNClob~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~sql~NClob^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateNClob~Ljava~sql~ResultSet^I^Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateNClob~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~Reader^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateNClob~Ljava~sql~ResultSet^I^Ljava~io~Reader^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateNClob~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~io~Reader^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateNString~Ljava~sql~ResultSet^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateNString~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateNull~Ljava~sql~ResultSet^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateNull~Ljava~sql~ResultSet^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateObject~Ljava~sql~ResultSet^I^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateObject~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateObject~Ljava~sql~ResultSet^I^Ljava~lang~Object^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateObject~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~lang~Object^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateObject~Ljava~sql~ResultSet^I^Ljava~lang~Object^Ljava~sql~SQLType^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateObject~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~lang~Object^Ljava~sql~SQLType^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateObject~Ljava~sql~ResultSet^I^Ljava~lang~Object^Ljava~sql~SQLType^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateObject~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~lang~Object^Ljava~sql~SQLType^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateRef~Ljava~sql~ResultSet^I^Ljava~sql~Ref^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateRef~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~sql~Ref^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateRow~Ljava~sql~ResultSet^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateRowId~Ljava~sql~ResultSet^I^Ljava~sql~RowId^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateRowId~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~sql~RowId^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateSQLXML~Ljava~sql~ResultSet^I^Ljava~sql~SQLXML^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateSQLXML~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~sql~SQLXML^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateShort~Ljava~sql~ResultSet^I^S^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateShort~Ljava~sql~ResultSet^Ljava~lang~String^S^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateString~Ljava~sql~ResultSet^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateString~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateTime~Ljava~sql~ResultSet^I^Ljava~sql~Time^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateTime~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~sql~Time^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateTimestamp~Ljava~sql~ResultSet^I^Ljava~sql~Timestamp^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~updateTimestamp~Ljava~sql~ResultSet^Ljava~lang~String^Ljava~sql~Timestamp^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~ResultSet~~wasNull~Ljava~sql~ResultSet^~throws;
+ :public: :abstract: :void: java~sql~ResultSet~~close~Ljava~sql~ResultSet^ ( java.sql.ResultSet :*: ) :  "close"  :exceptions:  java.sql.SQLException :*: ;
+:public: :abstract: java.lang.String :*: java~sql~ResultSet~~getString~Ljava~sql~ResultSet^I^ ( java.sql.ResultSet :*: , :int: ) :  "getString"  :exceptions:  java.sql.SQLException :*: ;
+:public: :abstract: java.lang.String :*: java~sql~ResultSet~~getString~Ljava~sql~ResultSet^Ljava~lang~String^ ( java.sql.ResultSet :*: , java.lang.String :*: ) :  "getString"  :exceptions:  java.sql.SQLException :*: ;
+:public: :abstract: :boolean: java~sql~ResultSet~~next~Ljava~sql~ResultSet^ ( java.sql.ResultSet :*: ) :  "next"  :exceptions:  java.sql.SQLException :*: ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.impl.TextCodec :extends: java.lang.Object :"io.jsonwebtoken.impl":"TextCodec"{
+	
+ :public: :final: :static: io.jsonwebtoken.impl.TextCodec :*: BASE64;
+ :public: :abstract: :byte: [] io~jsonwebtoken~impl~TextCodec~~decode~Lio~jsonwebtoken~impl~TextCodec^Ljava~lang~String^ ( io.jsonwebtoken.impl.TextCodec :*: , java.lang.String :*: ) :  "decode" ;
+}
+	
+:public: :interface::class: java.lang.AutoCloseable :extends: java.lang.Object :"java.lang":"AutoCloseable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^~throws;
+ :public: :abstract: :void: java~lang~AutoCloseable~~close~Ljava~lang~AutoCloseable^ ( java.lang.AutoCloseable :*: ) :  "close"  :exceptions:  java.lang.Exception :*: ;
+}
+	
+:public::class: java.sql.SQLException :extends: java.lang.Exception java.lang.Iterable :"java.sql":"SQLException"{
+	
+ :public: :void: java~sql~SQLException~~init^~Ljava~sql~SQLException^ ( java.sql.SQLException :*: ) :  "SQLException" ;
+:public: :void: java~sql~SQLException~~init^~Ljava~sql~SQLException^Ljava~lang~String^ ( java.sql.SQLException :*: , java.lang.String :*: ) :  "SQLException" ;
+:public: :void: java~sql~SQLException~~init^~Ljava~sql~SQLException^Ljava~lang~Throwable^ ( java.sql.SQLException :*: , java.lang.Throwable :*: ) :  "SQLException" ;
+:public: :void: java~sql~SQLException~~init^~Ljava~sql~SQLException^Ljava~lang~String^Ljava~lang~String^ ( java.sql.SQLException :*: , java.lang.String :*: , java.lang.String :*: ) :  "SQLException" ;
+:public: :void: java~sql~SQLException~~init^~Ljava~sql~SQLException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.sql.SQLException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "SQLException" ;
+:public: :void: java~sql~SQLException~~init^~Ljava~sql~SQLException^Ljava~lang~String^Ljava~lang~String^I^ ( java.sql.SQLException :*: , java.lang.String :*: , java.lang.String :*: , :int: ) :  "SQLException" ;
+:public: :void: java~sql~SQLException~~init^~Ljava~sql~SQLException^Ljava~lang~String^Ljava~lang~String^Ljava~lang~Throwable^ ( java.sql.SQLException :*: , java.lang.String :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "SQLException" ;
+:public: :void: java~sql~SQLException~~init^~Ljava~sql~SQLException^Ljava~lang~String^Ljava~lang~String^I^Ljava~lang~Throwable^ ( java.sql.SQLException :*: , java.lang.String :*: , java.lang.String :*: , :int: , java.lang.Throwable :*: ) :  "SQLException" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+:public: :boolean: java~lang~Object~~equals~Ljava~lang~Object^Ljava~lang~Object^ ( java.lang.Object :*: , java.lang.Object :*: ) :  "equals" ;
+:public: java.lang.String :*: java~lang~Object~~toString~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: javax.sql.DataSource :extends: javax.sql.CommonDataSource java.sql.Wrapper :"javax.sql":"DataSource"{
+	
+ :public: :static: java.lang.Throwable :*: javax~sql~DataSource~~getConnection~Ljavax~sql~DataSource^~throws;
+ :public: :static: java.lang.Throwable :*: javax~sql~DataSource~~getConnection~Ljavax~sql~DataSource^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :abstract: java.sql.Connection :*: javax~sql~DataSource~~getConnection~Ljavax~sql~DataSource^ ( javax.sql.DataSource :*: ) :  "getConnection"  :exceptions:  java.sql.SQLException :*: ;
+:public: :abstract: java.sql.Connection :*: javax~sql~DataSource~~getConnection~Ljavax~sql~DataSource^Ljava~lang~String^Ljava~lang~String^ ( javax.sql.DataSource :*: , java.lang.String :*: , java.lang.String :*: ) :  "getConnection"  :exceptions:  java.sql.SQLException :*: ;
+}
+	
+:public: :interface::class: java.sql.Connection :extends: java.sql.Wrapper java.lang.AutoCloseable :"java.sql":"Connection"{
+	
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~abort~Ljava~sql~Connection^Ljava~util~concurrent~Executor^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~clearWarnings~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~close~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~commit~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~createArrayOf~Ljava~sql~Connection^Ljava~lang~String^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~createBlob~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~createClob~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~createNClob~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~createSQLXML~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~createStatement~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~createStatement~Ljava~sql~Connection^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~createStatement~Ljava~sql~Connection^I^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~createStruct~Ljava~sql~Connection^Ljava~lang~String^?Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~getAutoCommit~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~getCatalog~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~getClientInfo~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~getClientInfo~Ljava~sql~Connection^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~getHoldability~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~getMetaData~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~getNetworkTimeout~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~getSchema~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~getTransactionIsolation~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~getTypeMap~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~getWarnings~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~isClosed~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~isReadOnly~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~isValid~Ljava~sql~Connection^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~nativeSQL~Ljava~sql~Connection^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~prepareCall~Ljava~sql~Connection^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~prepareCall~Ljava~sql~Connection^Ljava~lang~String^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~prepareCall~Ljava~sql~Connection^Ljava~lang~String^I^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~prepareStatement~Ljava~sql~Connection^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~prepareStatement~Ljava~sql~Connection^Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~prepareStatement~Ljava~sql~Connection^Ljava~lang~String^?I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~prepareStatement~Ljava~sql~Connection^Ljava~lang~String^?Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~prepareStatement~Ljava~sql~Connection^Ljava~lang~String^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~prepareStatement~Ljava~sql~Connection^Ljava~lang~String^I^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~releaseSavepoint~Ljava~sql~Connection^Ljava~sql~Savepoint^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~rollback~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~rollback~Ljava~sql~Connection^Ljava~sql~Savepoint^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~setAutoCommit~Ljava~sql~Connection^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~setCatalog~Ljava~sql~Connection^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~setClientInfo~Ljava~sql~Connection^Ljava~util~Properties^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~setClientInfo~Ljava~sql~Connection^Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~setHoldability~Ljava~sql~Connection^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~setNetworkTimeout~Ljava~sql~Connection^Ljava~util~concurrent~Executor^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~setReadOnly~Ljava~sql~Connection^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~setSavepoint~Ljava~sql~Connection^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~setSavepoint~Ljava~sql~Connection^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~setSchema~Ljava~sql~Connection^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~setTransactionIsolation~Ljava~sql~Connection^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Connection~~setTypeMap~Ljava~sql~Connection^Ljava~util~Map^~throws;
+ :public: :abstract: :void: java~sql~Connection~~close~Ljava~sql~Connection^ ( java.sql.Connection :*: ) :  "close"  :exceptions:  java.sql.SQLException :*: ;
+:public: :abstract: java.sql.Statement :*: java~sql~Connection~~createStatement~Ljava~sql~Connection^ ( java.sql.Connection :*: ) :  "createStatement"  :exceptions:  java.sql.SQLException :*: ;
+:public: :abstract: java.sql.Statement :*: java~sql~Connection~~createStatement~Ljava~sql~Connection^I^I^ ( java.sql.Connection :*: , :int: , :int: ) :  "createStatement"  :exceptions:  java.sql.SQLException :*: ;
+:public: :abstract: java.sql.Statement :*: java~sql~Connection~~createStatement~Ljava~sql~Connection^I^I^I^ ( java.sql.Connection :*: , :int: , :int: , :int: ) :  "createStatement"  :exceptions:  java.sql.SQLException :*: ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+ :public: :abstract: java.lang.String :*: java~lang~CharSequence~~toString~Ljava~lang~CharSequence^ ( java.lang.CharSequence :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+:public: :synchronized: java.lang.String :*: java~lang~StringBuffer~~toString~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+:public: java.lang.String :*: java~lang~StringBuilder~~toString~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+:public: :final: java.nio.CharBuffer :*: java~nio~charset~Charset~~decode~Ljava~nio~charset~Charset^Ljava~nio~ByteBuffer^ ( java.nio.charset.Charset :*: , java.nio.ByteBuffer :*: ) :  "decode" ;
+:public: :final: :boolean: java~nio~charset~Charset~~equals~Ljava~nio~charset~Charset^Ljava~lang~Object^ ( java.nio.charset.Charset :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :final: java.lang.String :*: java~nio~charset~Charset~~toString~Ljava~nio~charset~Charset^ ( java.nio.charset.Charset :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.SigningKeyResolver :extends: java.lang.Object :"io.jsonwebtoken":"SigningKeyResolver"{
+	
+}
+	
+ :public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+ :public: :abstract: :boolean: java~lang~annotation~Annotation~~equals~Ljava~lang~annotation~Annotation^Ljava~lang~Object^ ( java.lang.annotation.Annotation :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :abstract: java.lang.String :*: java~lang~annotation~Annotation~~toString~Ljava~lang~annotation~Annotation^ ( java.lang.annotation.Annotation :*: ) :  "toString" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.PluginMessages :extends: org.springframework.context.support.ReloadableResourceBundleMessageSource :"org.owasp.webgoat.i18n":"PluginMessages"{
+	
+ :public: :void: org~owasp~webgoat~i18n~PluginMessages~~init^~Lorg~owasp~webgoat~i18n~PluginMessages^Lorg~owasp~webgoat~i18n~Messages^Lorg~owasp~webgoat~i18n~Language^ ( org.owasp.webgoat.i18n.PluginMessages :*: , org.owasp.webgoat.i18n.Messages :*: , org.owasp.webgoat.i18n.Language :*: ) :  "PluginMessages" ;
+:public: java.lang.String :*: org~owasp~webgoat~i18n~PluginMessages~~getMessage~Lorg~owasp~webgoat~i18n~PluginMessages^Ljava~lang~String^?Ljava~lang~Object^ ( org.owasp.webgoat.i18n.PluginMessages :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "getMessage" ;
+:public: java.lang.String :*: org~owasp~webgoat~i18n~PluginMessages~~getMessage~Lorg~owasp~webgoat~i18n~PluginMessages^Ljava~lang~String^Ljava~lang~String^?Ljava~lang~Object^ ( org.owasp.webgoat.i18n.PluginMessages :*: , java.lang.String :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "getMessage" ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.Jws :extends: io.jsonwebtoken.Jwt :"io.jsonwebtoken":"Jws"{
+	
+}
+	
+ :public::class: io.jsonwebtoken.ExpiredJwtException :extends: io.jsonwebtoken.ClaimJwtException :"io.jsonwebtoken":"ExpiredJwtException"{
+	
+ :public: :void: io~jsonwebtoken~ExpiredJwtException~~init^~Lio~jsonwebtoken~ExpiredJwtException^Lio~jsonwebtoken~Header^Lio~jsonwebtoken~Claims^Ljava~lang~String^ ( io.jsonwebtoken.ExpiredJwtException :*: , io.jsonwebtoken.Header :*: , io.jsonwebtoken.Claims :*: , java.lang.String :*: ) :  "ExpiredJwtException" ;
+:public: :void: io~jsonwebtoken~ExpiredJwtException~~init^~Lio~jsonwebtoken~ExpiredJwtException^Lio~jsonwebtoken~Header^Lio~jsonwebtoken~Claims^Ljava~lang~String^Ljava~lang~Throwable^ ( io.jsonwebtoken.ExpiredJwtException :*: , io.jsonwebtoken.Header :*: , io.jsonwebtoken.Claims :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "ExpiredJwtException" ;
+}
+	
+:public::class: io.jsonwebtoken.UnsupportedJwtException :extends: io.jsonwebtoken.JwtException :"io.jsonwebtoken":"UnsupportedJwtException"{
+	
+ :public: :void: io~jsonwebtoken~UnsupportedJwtException~~init^~Lio~jsonwebtoken~UnsupportedJwtException^Ljava~lang~String^ ( io.jsonwebtoken.UnsupportedJwtException :*: , java.lang.String :*: ) :  "UnsupportedJwtException" ;
+:public: :void: io~jsonwebtoken~UnsupportedJwtException~~init^~Lio~jsonwebtoken~UnsupportedJwtException^Ljava~lang~String^Ljava~lang~Throwable^ ( io.jsonwebtoken.UnsupportedJwtException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "UnsupportedJwtException" ;
+}
+	
+:public::class: io.jsonwebtoken.MalformedJwtException :extends: io.jsonwebtoken.JwtException :"io.jsonwebtoken":"MalformedJwtException"{
+	
+ :public: :void: io~jsonwebtoken~MalformedJwtException~~init^~Lio~jsonwebtoken~MalformedJwtException^Ljava~lang~String^ ( io.jsonwebtoken.MalformedJwtException :*: , java.lang.String :*: ) :  "MalformedJwtException" ;
+:public: :void: io~jsonwebtoken~MalformedJwtException~~init^~Lio~jsonwebtoken~MalformedJwtException^Ljava~lang~String^Ljava~lang~Throwable^ ( io.jsonwebtoken.MalformedJwtException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "MalformedJwtException" ;
+}
+	
+:public::class: io.jsonwebtoken.SignatureException :extends: io.jsonwebtoken.JwtException :"io.jsonwebtoken":"SignatureException"{
+	
+ :public: :void: io~jsonwebtoken~SignatureException~~init^~Lio~jsonwebtoken~SignatureException^Ljava~lang~String^ ( io.jsonwebtoken.SignatureException :*: , java.lang.String :*: ) :  "SignatureException" ;
+:public: :void: io~jsonwebtoken~SignatureException~~init^~Lio~jsonwebtoken~SignatureException^Ljava~lang~String^Ljava~lang~Throwable^ ( io.jsonwebtoken.SignatureException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "SignatureException" ;
+}
+	
+:public::class: java.lang.IllegalArgumentException :extends: java.lang.RuntimeException :"java.lang":"IllegalArgumentException"{
+	
+ :public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^ ( java.lang.IllegalArgumentException :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+:public: :void: java~lang~IllegalArgumentException~~init^~Ljava~lang~IllegalArgumentException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.IllegalArgumentException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IllegalArgumentException" ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.ClaimsMutator :extends: java.lang.Object :"io.jsonwebtoken":"ClaimsMutator"{
+	
+}
+	
+ :public: :final::class: java.lang.Class :extends: java.lang.Object java.io.Serializable java.lang.reflect.GenericDeclaration java.lang.reflect.Type java.lang.reflect.AnnotatedElement :"java.lang":"Class"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName0~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor0~Ljava~lang~Class^?Ljava~lang~Class^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredClasses~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaringClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingConstructor~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingMethod~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField0~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~newInstance~Ljava~lang~Class^~throws;
+ :private: :void: java~lang~Class~~init^~Ljava~lang~Class^Ljava~lang~ClassLoader^ ( java.lang.Class :*: , java.lang.ClassLoader :*: ) :  "Class" ;
+:public: java.lang.String :*: java~lang~Class~~toString~Ljava~lang~Class^ ( java.lang.Class :*: ) :  "toString" ;
+}
+	
+:public::class: java.lang.RuntimeException :extends: java.lang.Exception :"java.lang":"RuntimeException"{
+	
+ :public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^ ( java.lang.RuntimeException :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^ ( java.lang.RuntimeException :*: , java.lang.String :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:public: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "RuntimeException" ;
+:protected: :void: java~lang~RuntimeException~~init^~Ljava~lang~RuntimeException^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.RuntimeException :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "RuntimeException" ;
+}
+	
+:public: :interface::class: io.jsonwebtoken.Header :extends: java.util.Map :"io.jsonwebtoken":"Header"{
+	
+}
+	
+ :public: :interface::class: java.sql.Wrapper :extends: java.lang.Object :"java.sql":"Wrapper"{
+	
+ :public: :static: java.lang.Throwable :*: java~sql~Wrapper~~isWrapperFor~Ljava~sql~Wrapper^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Wrapper~~unwrap~Ljava~sql~Wrapper^Ljava~lang~Class^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public: :interface::class: java.lang.Iterable :extends: java.lang.Object :"java.lang":"Iterable"{
+	
+}
+	
+ :public: :interface::class: javax.sql.CommonDataSource :extends: java.lang.Object :"javax.sql":"CommonDataSource"{
+	
+ :public: :static: java.lang.Throwable :*: javax~sql~CommonDataSource~~getLogWriter~Ljavax~sql~CommonDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: javax~sql~CommonDataSource~~getLoginTimeout~Ljavax~sql~CommonDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: javax~sql~CommonDataSource~~getParentLogger~Ljavax~sql~CommonDataSource^~throws;
+ :public: :static: java.lang.Throwable :*: javax~sql~CommonDataSource~~setLogWriter~Ljavax~sql~CommonDataSource^Ljava~io~PrintWriter^~throws;
+ :public: :static: java.lang.Throwable :*: javax~sql~CommonDataSource~~setLoginTimeout~Ljavax~sql~CommonDataSource^I^~throws;
+}
+	
+ :public: :interface::class: java.sql.Statement :extends: java.sql.Wrapper java.lang.AutoCloseable :"java.sql":"Statement"{
+	
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~addBatch~Ljava~sql~Statement^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~cancel~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~clearBatch~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~clearWarnings~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~close~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~closeOnCompletion~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~execute~Ljava~sql~Statement^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~execute~Ljava~sql~Statement^Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~execute~Ljava~sql~Statement^Ljava~lang~String^?I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~execute~Ljava~sql~Statement^Ljava~lang~String^?Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~executeBatch~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~executeLargeBatch~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~executeLargeUpdate~Ljava~sql~Statement^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~executeLargeUpdate~Ljava~sql~Statement^Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~executeLargeUpdate~Ljava~sql~Statement^Ljava~lang~String^?I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~executeLargeUpdate~Ljava~sql~Statement^Ljava~lang~String^?Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~executeQuery~Ljava~sql~Statement^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~executeUpdate~Ljava~sql~Statement^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~executeUpdate~Ljava~sql~Statement^Ljava~lang~String^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~executeUpdate~Ljava~sql~Statement^Ljava~lang~String^?I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~executeUpdate~Ljava~sql~Statement^Ljava~lang~String^?Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getConnection~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getFetchDirection~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getFetchSize~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getGeneratedKeys~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getLargeMaxRows~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getLargeUpdateCount~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getMaxFieldSize~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getMaxRows~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getMoreResults~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getMoreResults~Ljava~sql~Statement^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getQueryTimeout~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getResultSet~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getResultSetConcurrency~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getResultSetHoldability~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getResultSetType~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getUpdateCount~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~getWarnings~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~isCloseOnCompletion~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~isClosed~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~isPoolable~Ljava~sql~Statement^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~setCursorName~Ljava~sql~Statement^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~setEscapeProcessing~Ljava~sql~Statement^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~setFetchDirection~Ljava~sql~Statement^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~setFetchSize~Ljava~sql~Statement^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~setLargeMaxRows~Ljava~sql~Statement^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~setMaxFieldSize~Ljava~sql~Statement^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~setMaxRows~Ljava~sql~Statement^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~setPoolable~Ljava~sql~Statement^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~sql~Statement~~setQueryTimeout~Ljava~sql~Statement^I^~throws;
+ :public: :abstract: :void: java~sql~Statement~~close~Ljava~sql~Statement^ ( java.sql.Statement :*: ) :  "close"  :exceptions:  java.sql.SQLException :*: ;
+:public: :abstract: java.sql.ResultSet :*: java~sql~Statement~~executeQuery~Ljava~sql~Statement^Ljava~lang~String^ ( java.sql.Statement :*: , java.lang.String :*: ) :  "executeQuery"  :exceptions:  java.sql.SQLException :*: ;
+:public: :abstract: java.sql.Connection :*: java~sql~Statement~~getConnection~Ljava~sql~Statement^ ( java.sql.Statement :*: ) :  "getConnection"  :exceptions:  java.sql.SQLException :*: ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :char: [] value;
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+:public: :abstract: java.lang.String :*: java~lang~AbstractStringBuilder~~toString~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "toString" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :abstract::class: java.nio.CharBuffer :extends: java.nio.Buffer java.lang.Comparable java.lang.Appendable java.lang.CharSequence java.lang.Readable :"java.nio":"CharBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~nio~CharBuffer~~read~Ljava~nio~CharBuffer^Ljava~nio~CharBuffer^~throws;
+ :void: java~nio~CharBuffer~~init^~Ljava~nio~CharBuffer^I^I^I^I^ ( java.nio.CharBuffer :*: , :int: , :int: , :int: , :int: ) :  "CharBuffer" ;
+:void: java~nio~CharBuffer~~init^~Ljava~nio~CharBuffer^I^I^I^I^?C^I^ ( java.nio.CharBuffer :*: , :int: , :int: , :int: , :int: , :char: [] , :int: ) :  "CharBuffer" ;
+:public: :boolean: java~nio~CharBuffer~~equals~Ljava~nio~CharBuffer^Ljava~lang~Object^ ( java.nio.CharBuffer :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :abstract: :char: java~nio~CharBuffer~~get~Ljava~nio~CharBuffer^ ( java.nio.CharBuffer :*: ) :  "get" ;
+:public: :abstract: :char: java~nio~CharBuffer~~get~Ljava~nio~CharBuffer^I^ ( java.nio.CharBuffer :*: , :int: ) :  "get" ;
+:public: java.nio.CharBuffer :*: java~nio~CharBuffer~~get~Ljava~nio~CharBuffer^?C^ ( java.nio.CharBuffer :*: , :char: [] ) :  "get" ;
+:public: java.nio.CharBuffer :*: java~nio~CharBuffer~~get~Ljava~nio~CharBuffer^?C^I^I^ ( java.nio.CharBuffer :*: , :char: [] , :int: , :int: ) :  "get" ;
+:public: java.lang.String :*: java~nio~CharBuffer~~toString~Ljava~nio~CharBuffer^ ( java.nio.CharBuffer :*: ) :  "toString" ;
+:abstract: java.lang.String :*: java~nio~CharBuffer~~toString~Ljava~nio~CharBuffer^I^I^ ( java.nio.CharBuffer :*: , :int: , :int: ) :  "toString" ;
+}
+	
+:public: :abstract::class: java.nio.ByteBuffer :extends: java.nio.Buffer java.lang.Comparable :"java.nio":"ByteBuffer"{
+	
+ :void: java~nio~ByteBuffer~~init^~Ljava~nio~ByteBuffer^I^I^I^I^ ( java.nio.ByteBuffer :*: , :int: , :int: , :int: , :int: ) :  "ByteBuffer" ;
+:void: java~nio~ByteBuffer~~init^~Ljava~nio~ByteBuffer^I^I^I^I^?B^I^ ( java.nio.ByteBuffer :*: , :int: , :int: , :int: , :int: , :byte: [] , :int: ) :  "ByteBuffer" ;
+:public: :boolean: java~nio~ByteBuffer~~equals~Ljava~nio~ByteBuffer^Ljava~lang~Object^ ( java.nio.ByteBuffer :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :abstract: :byte: java~nio~ByteBuffer~~get~Ljava~nio~ByteBuffer^ ( java.nio.ByteBuffer :*: ) :  "get" ;
+:public: :abstract: :byte: java~nio~ByteBuffer~~get~Ljava~nio~ByteBuffer^I^ ( java.nio.ByteBuffer :*: , :int: ) :  "get" ;
+:public: java.nio.ByteBuffer :*: java~nio~ByteBuffer~~get~Ljava~nio~ByteBuffer^?B^ ( java.nio.ByteBuffer :*: , :byte: [] ) :  "get" ;
+:public: java.nio.ByteBuffer :*: java~nio~ByteBuffer~~get~Ljava~nio~ByteBuffer^?B^I^I^ ( java.nio.ByteBuffer :*: , :byte: [] , :int: , :int: ) :  "get" ;
+:public: java.lang.String :*: java~nio~ByteBuffer~~toString~Ljava~nio~ByteBuffer^ ( java.nio.ByteBuffer :*: ) :  "toString" ;
+}
+	
+:public::class: org.springframework.context.support.ReloadableResourceBundleMessageSource :extends: org.springframework.context.support.AbstractResourceBasedMessageSource org.springframework.context.ResourceLoaderAware :"org.springframework.context.support":"ReloadableResourceBundleMessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~ReloadableResourceBundleMessageSource~~loadProperties~Lorg~springframework~context~support~ReloadableResourceBundleMessageSource^Lorg~springframework~core~io~Resource^Ljava~lang~String^~throws;
+ :public: :void: org~springframework~context~support~ReloadableResourceBundleMessageSource~~init^~Lorg~springframework~context~support~ReloadableResourceBundleMessageSource^ ( org.springframework.context.support.ReloadableResourceBundleMessageSource :*: ) :  "ReloadableResourceBundleMessageSource" ;
+:public: java.lang.String :*: org~springframework~context~support~ReloadableResourceBundleMessageSource~~toString~Lorg~springframework~context~support~ReloadableResourceBundleMessageSource^ ( org.springframework.context.support.ReloadableResourceBundleMessageSource :*: ) :  "toString" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.Messages :extends: org.springframework.context.support.ReloadableResourceBundleMessageSource :"org.owasp.webgoat.i18n":"Messages"{
+	
+ :public: :void: org~owasp~webgoat~i18n~Messages~~init^~Lorg~owasp~webgoat~i18n~Messages^Lorg~owasp~webgoat~i18n~Language^ ( org.owasp.webgoat.i18n.Messages :*: , org.owasp.webgoat.i18n.Language :*: ) :  "Messages" ;
+:public: java.lang.String :*: org~owasp~webgoat~i18n~Messages~~getMessage~Lorg~owasp~webgoat~i18n~Messages^Ljava~lang~String^?Ljava~lang~Object^ ( org.owasp.webgoat.i18n.Messages :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "getMessage" ;
+:public: java.lang.String :*: org~owasp~webgoat~i18n~Messages~~getMessage~Lorg~owasp~webgoat~i18n~Messages^Ljava~lang~String^Ljava~lang~String^?Ljava~lang~Object^ ( org.owasp.webgoat.i18n.Messages :*: , java.lang.String :*: , java.lang.String :*: , java.lang.Object :*: [] , ... ) :  "getMessage" ;
+}
+	
+:public::class: org.owasp.webgoat.i18n.Language :extends: java.lang.Object :"org.owasp.webgoat.i18n":"Language"{
+	
+ :public: :void: org~owasp~webgoat~i18n~Language~~init^~Lorg~owasp~webgoat~i18n~Language^Lorg~springframework~web~servlet~LocaleResolver^ ( org.owasp.webgoat.i18n.Language :*: , org.springframework.web.servlet.LocaleResolver :*: ) :  "Language" ;
+}
+	
+:public: :abstract::class: io.jsonwebtoken.ClaimJwtException :extends: io.jsonwebtoken.JwtException :"io.jsonwebtoken":"ClaimJwtException"{
+	
+ :protected: :void: io~jsonwebtoken~ClaimJwtException~~init^~Lio~jsonwebtoken~ClaimJwtException^Lio~jsonwebtoken~Header^Lio~jsonwebtoken~Claims^Ljava~lang~String^ ( io.jsonwebtoken.ClaimJwtException :*: , io.jsonwebtoken.Header :*: , io.jsonwebtoken.Claims :*: , java.lang.String :*: ) :  "ClaimJwtException" ;
+:protected: :void: io~jsonwebtoken~ClaimJwtException~~init^~Lio~jsonwebtoken~ClaimJwtException^Lio~jsonwebtoken~Header^Lio~jsonwebtoken~Claims^Ljava~lang~String^Ljava~lang~Throwable^ ( io.jsonwebtoken.ClaimJwtException :*: , io.jsonwebtoken.Header :*: , io.jsonwebtoken.Claims :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "ClaimJwtException" ;
+}
+	
+:public: :interface::class: java.lang.reflect.GenericDeclaration :extends: java.lang.reflect.AnnotatedElement :"java.lang.reflect":"GenericDeclaration"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.Type :extends: java.lang.Object :"java.lang.reflect":"Type"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.AnnotatedElement :extends: java.lang.Object :"java.lang.reflect":"AnnotatedElement"{
+	
+}
+	
+ :public: :abstract::class: java.lang.ClassLoader :extends: java.lang.Object :"java.lang":"ClassLoader"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~nio~ByteBuffer^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~definePackage~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findSystemClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getBootstrapResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getSystemResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClassInternal~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:private: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~Void^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.Void :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public: :abstract::class: java.nio.Buffer :extends: java.lang.Object :"java.nio":"Buffer"{
+	
+ :void: java~nio~Buffer~~init^~Ljava~nio~Buffer^I^I^I^I^ ( java.nio.Buffer :*: , :int: , :int: , :int: , :int: ) :  "Buffer" ;
+}
+	
+:public: :interface::class: java.lang.Readable :extends: java.lang.Object :"java.lang":"Readable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Readable~~read~Ljava~lang~Readable^Ljava~nio~CharBuffer^~throws;
+}
+	
+ :public: :abstract::class: org.springframework.context.support.AbstractResourceBasedMessageSource :extends: org.springframework.context.support.AbstractMessageSource :"org.springframework.context.support":"AbstractResourceBasedMessageSource"{
+	
+ :public: :void: org~springframework~context~support~AbstractResourceBasedMessageSource~~init^~Lorg~springframework~context~support~AbstractResourceBasedMessageSource^ ( org.springframework.context.support.AbstractResourceBasedMessageSource :*: ) :  "AbstractResourceBasedMessageSource" ;
+}
+	
+:public: :interface::class: org.springframework.context.ResourceLoaderAware :extends: org.springframework.beans.factory.Aware :"org.springframework.context":"ResourceLoaderAware"{
+	
+}
+	
+ :public: :interface::class: org.springframework.web.servlet.LocaleResolver :extends: java.lang.Object :"org.springframework.web.servlet":"LocaleResolver"{
+	
+}
+	
+ :public: :final::class: java.lang.Void :extends: java.lang.Object :"java.lang":"Void"{
+	
+ :private: :void: java~lang~Void~~init^~Ljava~lang~Void^ ( java.lang.Void :*: ) :  "Void" ;
+}
+	
+:public: :abstract::class: org.springframework.context.support.AbstractMessageSource :extends: org.springframework.context.support.MessageSourceSupport org.springframework.context.HierarchicalMessageSource :"org.springframework.context.support":"AbstractMessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^~throws;
+ :public: :void: org~springframework~context~support~AbstractMessageSource~~init^~Lorg~springframework~context~support~AbstractMessageSource^ ( org.springframework.context.support.AbstractMessageSource :*: ) :  "AbstractMessageSource" ;
+:public: :final: java.lang.String :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^ ( org.springframework.context.support.AbstractMessageSource :*: , org.springframework.context.MessageSourceResolvable :*: , java.util.Locale :*: ) :  "getMessage"  :exceptions:  org.springframework.context.NoSuchMessageException :*: ;
+:public: :final: java.lang.String :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^ ( org.springframework.context.support.AbstractMessageSource :*: , java.lang.String :*: , java.lang.Object :*: [] , java.util.Locale :*: ) :  "getMessage"  :exceptions:  org.springframework.context.NoSuchMessageException :*: ;
+:public: :final: java.lang.String :*: org~springframework~context~support~AbstractMessageSource~~getMessage~Lorg~springframework~context~support~AbstractMessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~lang~String^Ljava~util~Locale^ ( org.springframework.context.support.AbstractMessageSource :*: , java.lang.String :*: , java.lang.Object :*: [] , java.lang.String :*: , java.util.Locale :*: ) :  "getMessage" ;
+}
+	
+:public: :interface::class: org.springframework.beans.factory.Aware :extends: java.lang.Object :"org.springframework.beans.factory":"Aware"{
+	
+}
+	
+ :public: :abstract::class: org.springframework.context.support.MessageSourceSupport :extends: java.lang.Object :"org.springframework.context.support":"MessageSourceSupport"{
+	
+ :public: :void: org~springframework~context~support~MessageSourceSupport~~init^~Lorg~springframework~context~support~MessageSourceSupport^ ( org.springframework.context.support.MessageSourceSupport :*: ) :  "MessageSourceSupport" ;
+}
+	
+:public: :interface::class: org.springframework.context.HierarchicalMessageSource :extends: org.springframework.context.MessageSource :"org.springframework.context":"HierarchicalMessageSource"{
+	
+}
+	
+ :public: :interface::class: org.springframework.context.MessageSourceResolvable :extends: java.lang.Object :"org.springframework.context":"MessageSourceResolvable"{
+	
+}
+	
+ :public: :final::class: java.util.Locale :extends: java.lang.Object java.lang.Cloneable java.io.Serializable :"java.util":"Locale"{
+	
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~getISO3Country~Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~getISO3Language~Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~readObject~Ljava~util~Locale^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~readResolve~Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: java~util~Locale~~writeObject~Ljava~util~Locale^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~util~Locale~~init^~Ljava~util~Locale^Ljava~lang~String^ ( java.util.Locale :*: , java.lang.String :*: ) :  "Locale" ;
+:private: :void: java~util~Locale~~init^~Ljava~util~Locale^Lsun~util~locale~BaseLocale^Lsun~util~locale~LocaleExtensions^ ( java.util.Locale :*: , sun.util.locale.BaseLocale :*: , sun.util.locale.LocaleExtensions :*: ) :  "Locale" ;
+:public: :void: java~util~Locale~~init^~Ljava~util~Locale^Ljava~lang~String^Ljava~lang~String^ ( java.util.Locale :*: , java.lang.String :*: , java.lang.String :*: ) :  "Locale" ;
+:public: :void: java~util~Locale~~init^~Ljava~util~Locale^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( java.util.Locale :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "Locale" ;
+:public: :boolean: java~util~Locale~~equals~Ljava~util~Locale^Ljava~lang~Object^ ( java.util.Locale :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :final: java.lang.String :*: java~util~Locale~~toString~Ljava~util~Locale^ ( java.util.Locale :*: ) :  "toString" ;
+}
+	
+:public::class: org.springframework.context.NoSuchMessageException :extends: java.lang.RuntimeException :"org.springframework.context":"NoSuchMessageException"{
+	
+ :public: :void: org~springframework~context~NoSuchMessageException~~init^~Lorg~springframework~context~NoSuchMessageException^Ljava~lang~String^ ( org.springframework.context.NoSuchMessageException :*: , java.lang.String :*: ) :  "NoSuchMessageException" ;
+:public: :void: org~springframework~context~NoSuchMessageException~~init^~Lorg~springframework~context~NoSuchMessageException^Ljava~lang~String^Ljava~util~Locale^ ( org.springframework.context.NoSuchMessageException :*: , java.lang.String :*: , java.util.Locale :*: ) :  "NoSuchMessageException" ;
+}
+	
+:public: :interface::class: org.springframework.context.MessageSource :extends: java.lang.Object :"org.springframework.context":"MessageSource"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^~throws;
+ :public: :static: java.lang.Throwable :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^~throws;
+ :public: :abstract: java.lang.String :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Lorg~springframework~context~MessageSourceResolvable^Ljava~util~Locale^ ( org.springframework.context.MessageSource :*: , org.springframework.context.MessageSourceResolvable :*: , java.util.Locale :*: ) :  "getMessage"  :exceptions:  org.springframework.context.NoSuchMessageException :*: ;
+:public: :abstract: java.lang.String :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~util~Locale^ ( org.springframework.context.MessageSource :*: , java.lang.String :*: , java.lang.Object :*: [] , java.util.Locale :*: ) :  "getMessage"  :exceptions:  org.springframework.context.NoSuchMessageException :*: ;
+:public: :abstract: java.lang.String :*: org~springframework~context~MessageSource~~getMessage~Lorg~springframework~context~MessageSource^Ljava~lang~String^?Ljava~lang~Object^Ljava~lang~String^Ljava~util~Locale^ ( org.springframework.context.MessageSource :*: , java.lang.String :*: , java.lang.Object :*: [] , java.lang.String :*: , java.util.Locale :*: ) :  "getMessage" ;
+}
+	
+:public: :interface::class: java.lang.Cloneable :extends: java.lang.Object :"java.lang":"Cloneable"{
+	
+}
+	
+ :public: :final::class: sun.util.locale.BaseLocale :extends: java.lang.Object :"sun.util.locale":"BaseLocale"{
+	
+ :private: :void: sun~util~locale~BaseLocale~~init^~Lsun~util~locale~BaseLocale^Ljava~lang~String^Ljava~lang~String^ ( sun.util.locale.BaseLocale :*: , java.lang.String :*: , java.lang.String :*: ) :  "BaseLocale" ;
+:private: :void: sun~util~locale~BaseLocale~~init^~Lsun~util~locale~BaseLocale^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( sun.util.locale.BaseLocale :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "BaseLocale" ;
+:public: :boolean: sun~util~locale~BaseLocale~~equals~Lsun~util~locale~BaseLocale^Ljava~lang~Object^ ( sun.util.locale.BaseLocale :*: , java.lang.Object :*: ) :  "equals" ;
+:public: java.lang.String :*: sun~util~locale~BaseLocale~~toString~Lsun~util~locale~BaseLocale^ ( sun.util.locale.BaseLocale :*: ) :  "toString" ;
+}
+	
+:public::class: sun.util.locale.LocaleExtensions :extends: java.lang.Object :"sun.util.locale":"LocaleExtensions"{
+	
+ :private: :void: sun~util~locale~LocaleExtensions~~init^~Lsun~util~locale~LocaleExtensions^Ljava~lang~String^Ljava~lang~Character^Lsun~util~locale~Extension^ ( sun.util.locale.LocaleExtensions :*: , java.lang.String :*: , java.lang.Character :*: , sun.util.locale.Extension :*: ) :  "LocaleExtensions" ;
+:void: sun~util~locale~LocaleExtensions~~init^~Lsun~util~locale~LocaleExtensions^Ljava~util~Map^Ljava~util~Set^Ljava~util~Map^ ( sun.util.locale.LocaleExtensions :*: , java.util.Map :*: , java.util.Set :*: , java.util.Map :*: ) :  "LocaleExtensions" ;
+:public: :boolean: sun~util~locale~LocaleExtensions~~equals~Lsun~util~locale~LocaleExtensions^Ljava~lang~Object^ ( sun.util.locale.LocaleExtensions :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :boolean: sun~util~locale~LocaleExtensions~~isEmpty~Lsun~util~locale~LocaleExtensions^ ( sun.util.locale.LocaleExtensions :*: ) :  "isEmpty" ;
+:public: java.lang.String :*: sun~util~locale~LocaleExtensions~~toString~Lsun~util~locale~LocaleExtensions^ ( sun.util.locale.LocaleExtensions :*: ) :  "toString" ;
+}
+	
+:public: :final::class: java.lang.Character :extends: java.lang.Object java.io.Serializable java.lang.Comparable :"java.lang":"Character"{
+	
+ :public: :void: java~lang~Character~~init^~Ljava~lang~Character^C^ ( java.lang.Character :*: , :char: ) :  "Character" ;
+:public: :boolean: java~lang~Character~~equals~Ljava~lang~Character^Ljava~lang~Object^ ( java.lang.Character :*: , java.lang.Object :*: ) :  "equals" ;
+:public: java.lang.String :*: java~lang~Character~~toString~Ljava~lang~Character^ ( java.lang.Character :*: ) :  "toString" ;
+:public: :static: java.lang.String :*: java~lang~Character~~toString~S~C^ ( :char: ) :  "toString" ;
+}
+	
+:class: sun.util.locale.Extension :extends: java.lang.Object :"sun.util.locale":"Extension"{
+	
+:protected: :void: sun~util~locale~Extension~~init^~Lsun~util~locale~Extension^C^ ( sun.util.locale.Extension :*: , :char: ) :  "Extension" ;
+:void: sun~util~locale~Extension~~init^~Lsun~util~locale~Extension^C^Ljava~lang~String^ ( sun.util.locale.Extension :*: , :char: , java.lang.String :*: ) :  "Extension" ;
+:public: java.lang.String :*: sun~util~locale~Extension~~toString~Lsun~util~locale~Extension^ ( sun.util.locale.Extension :*: ) :  "toString" ;
+}
+	
+:public: :interface::class: java.util.Set :extends: java.util.Collection :"java.util":"Set"{
+	
+ :public: :abstract: :boolean: java~util~Set~~equals~Ljava~util~Set^Ljava~lang~Object^ ( java.util.Set :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :abstract: :boolean: java~util~Set~~isEmpty~Ljava~util~Set^ ( java.util.Set :*: ) :  "isEmpty" ;
+}
+	
+:public: :interface::class: java.util.Collection :extends: java.lang.Iterable :"java.util":"Collection"{
+	
+ :public: :abstract: :boolean: java~util~Collection~~equals~Ljava~util~Collection^Ljava~lang~Object^ ( java.util.Collection :*: , java.lang.Object :*: ) :  "equals" ;
+:public: :abstract: :boolean: java~util~Collection~~isEmpty~Ljava~util~Collection^ ( java.util.Collection :*: ) :  "isEmpty" ;
+}
+	

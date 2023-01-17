@@ -1,0 +1,737 @@
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+#source-type java
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 33
+ #14# :public::class: org.owasp.webgoat.jwt.votes.Vote :extends: java.lang.Object :"org.owasp.webgoat.jwt.votes":"Vote"
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 32
+ #1# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #1# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #1# < lombok.Getter :*: > -~> ~annotation ( ):]]:
+{
+	
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 47
+ #18# :private: :long: average
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 46
+ #5# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #5# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #5# < com.fasterxml.jackson.annotation.JsonView :*: > -~> ~annotation ( value:  
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #15# < java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.jwt.votes.Views$UserView :*: > :null: ) ):]]:
+;
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 41
+ #26# :private: :final: java.lang.String :*: imageBig
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 40
+ #5# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #5# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #5# < com.fasterxml.jackson.annotation.JsonView :*: > -~> ~annotation ( value:  
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #15# < java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.jwt.votes.Views$GuestView :*: > :null: ) ):]]:
+;
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 39
+ #26# :private: :final: java.lang.String :*: imageSmall
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 38
+ #5# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #5# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #5# < com.fasterxml.jackson.annotation.JsonView :*: > -~> ~annotation ( value:  
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #15# < java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.jwt.votes.Views$GuestView :*: > :null: ) ):]]:
+;
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 37
+ #26# :private: :final: java.lang.String :*: information
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 36
+ #5# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #5# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #5# < com.fasterxml.jackson.annotation.JsonView :*: > -~> ~annotation ( value:  
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #15# < java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.jwt.votes.Views$GuestView :*: > :null: ) ):]]:
+;
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 43
+ #17# :private: :int: numberOfVotes
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 42
+ #5# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #5# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #5# < com.fasterxml.jackson.annotation.JsonView :*: > -~> ~annotation ( value:  
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #15# < java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.jwt.votes.Views$UserView :*: > :null: ) ):]]:
+;
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 35
+ #26# :private: :final: java.lang.String :*: title
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 34
+ #5# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #5# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #5# < com.fasterxml.jackson.annotation.JsonView :*: > -~> ~annotation ( value:  
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #15# < java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.jwt.votes.Views$GuestView :*: > :null: ) ):]]:
+;
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 45
+ #21# :private: :boolean: votingAllowed
+	:[[: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 44
+ #5# {
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #5# 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #5# < com.fasterxml.jackson.annotation.JsonView :*: > -~> ~annotation ( value:  
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #15# < java.lang.Class :*: > -~> ~classliteral ( < org.owasp.webgoat.jwt.votes.Views$UserView :*: > :null: ) ):]]:
+;
+ 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 59
+ #17# :public: :void: org~owasp~webgoat~jwt~votes~Vote~~incrementNumberOfVotes~Lorg~owasp~webgoat~jwt~votes~Vote^I^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #17# org.owasp.webgoat.jwt.votes.Vote :*: this~ , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #44# :int: totalVotes ) :  "incrementNumberOfVotes" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #56# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 60
+ #9# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( this~ ) :.: numberOfVotes :=: ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #30# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( this~ ) :.: numberOfVotes :+: < :int: >1 ) ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 61
+ #9# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( this~ ) :.: average :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #24# 	-~> org~owasp~webgoat~jwt~votes~Vote~~calculateStars~Lorg~owasp~webgoat~jwt~votes~Vote^I^ ( this~ , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #39# 	totalVotes ) ;
+
+#source-line 62
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 64
+ #17# :public: :void: org~owasp~webgoat~jwt~votes~Vote~~reset~Lorg~owasp~webgoat~jwt~votes~Vote^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #17# org.owasp.webgoat.jwt.votes.Vote :*: this~ ) :  "reset" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #25# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 65
+ #9# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( this~ ) :.: numberOfVotes :=: < :int: >1 ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 66
+ #9# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( this~ ) :.: average :=: < :int: >1 ;
+
+#source-line 67
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 69
+ #18# :private: :long: org~owasp~webgoat~jwt~votes~Vote~~calculateStars~Lorg~owasp~webgoat~jwt~votes~Vote^I^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #18# org.owasp.webgoat.jwt.votes.Vote :*: this~ , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #37# :int: totalVotes ) :  "calculateStars" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #49# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 70
+ #27# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #27# 	:double: ~t0 ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #27# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #27# 	~t0 :=: ( ( < :double: > 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #37# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( this~ ) :.: numberOfVotes :/: < :double: > 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #62# 	totalVotes ) :*: < :int: >4 ) ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	:long: ~t1 ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	~t1 :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #16# 	-~> java~lang~Math~~round~S~D^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #27# 	~t0 ) ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	:return: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	~t1 ;
+
+#source-line 71
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 35
+ #26# :public: java.lang.String :*: org~owasp~webgoat~jwt~votes~Vote~~getTitle~Lorg~owasp~webgoat~jwt~votes~Vote^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# org.owasp.webgoat.jwt.votes.Vote :*: this~ ) :  "getTitle" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# 	:return: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# 	this~ ) :.: title ;
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 37
+ #26# :public: java.lang.String :*: org~owasp~webgoat~jwt~votes~Vote~~getInformation~Lorg~owasp~webgoat~jwt~votes~Vote^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# org.owasp.webgoat.jwt.votes.Vote :*: this~ ) :  "getInformation" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# 	:return: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# 	this~ ) :.: information ;
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 39
+ #26# :public: java.lang.String :*: org~owasp~webgoat~jwt~votes~Vote~~getImageSmall~Lorg~owasp~webgoat~jwt~votes~Vote^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# org.owasp.webgoat.jwt.votes.Vote :*: this~ ) :  "getImageSmall" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# 	:return: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# 	this~ ) :.: imageSmall ;
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 41
+ #26# :public: java.lang.String :*: org~owasp~webgoat~jwt~votes~Vote~~getImageBig~Lorg~owasp~webgoat~jwt~votes~Vote^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# org.owasp.webgoat.jwt.votes.Vote :*: this~ ) :  "getImageBig" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# 	:return: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #26# 	this~ ) :.: imageBig ;
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 43
+ #17# :public: :int: org~owasp~webgoat~jwt~votes~Vote~~getNumberOfVotes~Lorg~owasp~webgoat~jwt~votes~Vote^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #17# org.owasp.webgoat.jwt.votes.Vote :*: this~ ) :  "getNumberOfVotes" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #17# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #17# 	:return: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #17# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #17# 	this~ ) :.: numberOfVotes ;
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 45
+ #21# :public: :boolean: org~owasp~webgoat~jwt~votes~Vote~~isVotingAllowed~Lorg~owasp~webgoat~jwt~votes~Vote^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #21# org.owasp.webgoat.jwt.votes.Vote :*: this~ ) :  "isVotingAllowed" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #21# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #21# 	:return: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #21# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #21# 	this~ ) :.: votingAllowed ;
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 47
+ #18# :public: :long: org~owasp~webgoat~jwt~votes~Vote~~getAverage~Lorg~owasp~webgoat~jwt~votes~Vote^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #18# org.owasp.webgoat.jwt.votes.Vote :*: this~ ) :  "getAverage" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #18# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #18# 	:return: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #18# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #18# 	this~ ) :.: average ;
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 50
+ #12# :public: :void: org~owasp~webgoat~jwt~votes~Vote~~init^~Lorg~owasp~webgoat~jwt~votes~Vote^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^I^I^ ( 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #12# org.owasp.webgoat.jwt.votes.Vote :*: this~ , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #24# java.lang.String :*: title , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #38# java.lang.String :*: information , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #58# java.lang.String :*: imageSmall , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #77# java.lang.String :*: imageBig , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #91# :int: numberOfVotes , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #110# :int: totalVotes ) :  "init^" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #12# {
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #12# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #12# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 33
+ #14# 	{
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 45
+ #21# 		{
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #21# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #21# 			[ org.owasp.webgoat.jwt.votes.Vote ] ( this~ ) :.: votingAllowed :=: :true: ;
+		}
+		
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 47
+ #18# 		{
+			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #18# 			
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #18# 			[ org.owasp.webgoat.jwt.votes.Vote ] ( this~ ) :.: average :=: < :int: >0 ;
+		}
+
+#source-line 33
+	}
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 51
+ #9# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( this~ ) :.: title :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #22# 	title ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 52
+ #9# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( this~ ) :.: information :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #28# 	information ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 53
+ #9# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( this~ ) :.: imageSmall :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #27# 	imageSmall ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 54
+ #9# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( this~ ) :.: imageBig :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #25# 	imageBig ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 55
+ #9# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( this~ ) :.: numberOfVotes :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #30# 	numberOfVotes ;
+	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 56
+ #9# 	
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #9# 	[ org.owasp.webgoat.jwt.votes.Vote ] ( this~ ) :.: average :=: 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #24# 	-~> org~owasp~webgoat~jwt~votes~Vote~~calculateStars~Lorg~owasp~webgoat~jwt~votes~Vote^I^ ( this~ , 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #39# 	totalVotes ) ;
+
+#source-line 50
+}
+
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+
+#source-line 33
+ #14# :public: :static: :void: org~owasp~webgoat~jwt~votes~Vote~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-lessons\jwt\src\main\java\org\owasp\webgoat\jwt\votes\Vote.java
+ #14# {
+}
+#source-line 33
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+}
+	
+:public: :annotation::class: lombok.Getter :extends: java.lang.annotation.Annotation :"lombok":"Getter"{
+	
+ :public: :abstract: lombok.AccessLevel :*: lombok~Getter~~value~Llombok~Getter^ ( lombok.Getter :*: ) :  "value" ;
+}
+	
+:public: :annotation::class: com.fasterxml.jackson.annotation.JsonView :extends: java.lang.annotation.Annotation :"com.fasterxml.jackson.annotation":"JsonView"{
+	
+ :public: :abstract: java.lang.Class :*: [] com~fasterxml~jackson~annotation~JsonView~~value~Lcom~fasterxml~jackson~annotation~JsonView^ ( com.fasterxml.jackson.annotation.JsonView :*: ) :  "value" ;
+}
+	
+:public: :final::class: java.lang.Class :extends: java.lang.Object java.io.Serializable java.lang.reflect.GenericDeclaration java.lang.reflect.Type java.lang.reflect.AnnotatedElement :"java.lang":"Class"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~forName0~S~Ljava~lang~String^Z^Ljava~lang~ClassLoader^Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructor0~Ljava~lang~Class^?Ljava~lang~Class^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredClasses~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructor~Ljava~lang~Class^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredConstructors~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaredMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getDeclaringClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingClass~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingConstructor~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getEnclosingMethod~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getField0~Ljava~lang~Class^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getFields~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethod~Ljava~lang~Class^Ljava~lang~String^?Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~getMethods~Ljava~lang~Class^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Class~~newInstance~Ljava~lang~Class^~throws;
+ :private: :void: java~lang~Class~~init^~Ljava~lang~Class^Ljava~lang~ClassLoader^ ( java.lang.Class :*: , java.lang.ClassLoader :*: ) :  "Class" ;
+}
+	
+:public: :static: :interface::class: org.owasp.webgoat.jwt.votes.Views$UserView :extends: org.owasp.webgoat.jwt.votes.Views$GuestView :"org.owasp.webgoat.jwt.votes":"Views$UserView"{
+	
+}
+	
+ :public: :static: :interface::class: org.owasp.webgoat.jwt.votes.Views$GuestView :extends: java.lang.Object :"org.owasp.webgoat.jwt.votes":"Views$GuestView"{
+	
+}
+	
+ :public: :final::class: java.lang.Math :extends: java.lang.Object :"java.lang":"Math"{
+	
+ :private: :void: java~lang~Math~~init^~Ljava~lang~Math^ ( java.lang.Math :*: ) :  "Math" ;
+:public: :static: :int: java~lang~Math~~round~S~F^ ( :float: ) :  "round" ;
+:public: :static: :long: java~lang~Math~~round~S~D^ ( :double: ) :  "round" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+}
+	
+ :public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+}
+	
+ :public: :final: :enum::class: lombok.AccessLevel :extends: java.lang.Enum java.lang.Enum :"lombok":"AccessLevel"{
+	
+ :private: :void: lombok~AccessLevel~~init^~Llombok~AccessLevel^ ( lombok.AccessLevel :*: ) :  "AccessLevel" ;
+}
+	
+:public: :interface::class: java.lang.reflect.GenericDeclaration :extends: java.lang.reflect.AnnotatedElement :"java.lang.reflect":"GenericDeclaration"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.Type :extends: java.lang.Object :"java.lang.reflect":"Type"{
+	
+}
+	
+ :public: :interface::class: java.lang.reflect.AnnotatedElement :extends: java.lang.Object :"java.lang.reflect":"AnnotatedElement"{
+	
+}
+	
+ :public: :abstract::class: java.lang.ClassLoader :extends: java.lang.Object :"java.lang":"ClassLoader"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~nio~ByteBuffer^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~defineClass~Ljava~lang~ClassLoader^Ljava~lang~String^?B^I^I^Ljava~security~ProtectionDomain^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~definePackage~Ljava~lang~ClassLoader^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^Ljava~net~URL^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~findSystemClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getBootstrapResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getResources~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~getSystemResources~S~Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClass~Ljava~lang~ClassLoader^Ljava~lang~String^Z^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~ClassLoader~~loadClassInternal~Ljava~lang~ClassLoader^Ljava~lang~String^~throws;
+ :protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:protected: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+:private: :void: java~lang~ClassLoader~~init^~Ljava~lang~ClassLoader^Ljava~lang~Void^Ljava~lang~ClassLoader^ ( java.lang.ClassLoader :*: , java.lang.Void :*: , java.lang.ClassLoader :*: ) :  "ClassLoader" ;
+}
+	
+:abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :char: [] value;
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :abstract::class: java.lang.Enum :extends: java.lang.Object java.lang.Comparable java.io.Serializable :"java.lang":"Enum"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~clone~Ljava~lang~Enum^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObject~Ljava~lang~Enum^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Enum~~readObjectNoData~Ljava~lang~Enum^~throws;
+ :protected: :void: java~lang~Enum~~init^~Ljava~lang~Enum^Ljava~lang~String^I^ ( java.lang.Enum :*: , java.lang.String :*: , :int: ) :  "Enum" ;
+}
+	
+:public: :final::class: java.lang.Void :extends: java.lang.Object :"java.lang":"Void"{
+	
+ :private: :void: java~lang~Void~~init^~Ljava~lang~Void^ ( java.lang.Void :*: ) :  "Void" ;
+}
+	
+:public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+}
+	

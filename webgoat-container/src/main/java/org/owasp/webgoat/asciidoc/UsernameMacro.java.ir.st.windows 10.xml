@@ -1,0 +1,457 @@
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+#source-type java
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+
+#source-line 10
+ #14# :public::class: org.owasp.webgoat.asciidoc.UsernameMacro :extends: org.asciidoctor.extension.InlineMacroProcessor :"org.owasp.webgoat.asciidoc":"UsernameMacro"{
+	
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+
+#source-line 21
+ #19# :public: java.lang.Object :*: org~owasp~webgoat~asciidoc~UsernameMacro~~process~Lorg~owasp~webgoat~asciidoc~UsernameMacro^Lorg~asciidoctor~ast~ContentNode^Ljava~lang~String^Ljava~util~Map^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #19# org.owasp.webgoat.asciidoc.UsernameMacro :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #39# org.asciidoctor.ast.ContentNode :*: contentNode , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #59# java.lang.String :*: target , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #87# java.util.Map :*: attributes ) :  "process"
+	:[[: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+
+#source-line 20
+ #5# {
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #5# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #5# < java.lang.Override :*: > -~> ~annotation ( ):]]:
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+
+#source-line 21
+ #99# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+
+#source-line 22
+ #13# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #13# 	var :*: auth ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #20# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #20# 	org.springframework.security.core.context.SecurityContext :*: ~t0 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #20# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #20# 	~t0 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #20# 	-~> org~springframework~security~core~context~SecurityContextHolder~~getContext~S~ ( ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #13# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #13# 	auth :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #20# 	-~> org~springframework~security~core~context~SecurityContext~~getAuthentication~Lorg~springframework~security~core~context~SecurityContext^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #20# 	~t0 ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+
+#source-line 23
+ #13# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #13# 	var :*: username ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #13# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #13# 	username :=: "unknown" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+
+#source-line 24
+ #13# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #13# 	:boolean: ~t1 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #13# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #13# 	~t1 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #13# 	-~> __instanceof ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #13# 	-~> getPrincipal ( ) , < org.owasp.webgoat.users.WebGoatUser :*: > :null: ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #9# 	:if: ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #13# 	~t1 ) 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #57# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+
+#source-line 25
+ #39# 		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #39# 		org.owasp.webgoat.users.WebGoatUser :*: ~t2 ;
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #39# 		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #39# 		~t2 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #39# 		< org.owasp.webgoat.users.WebGoatUser :*: > -~> getPrincipal ( ) ;
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #13# 		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #13# 		username :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #24# 		-~> org~owasp~webgoat~users~WebGoatUser~~getUsername~Lorg~owasp~webgoat~users~WebGoatUser^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #39# 		~t2 ) ;
+
+#source-line 26
+	}
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+
+#source-line 29
+ #46# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #46# 	java.lang.String :*: ~t3 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #46# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #46# 	~t3 :=: "quoted" ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #9# 	~Unknown~Type~ :*: ~t4 ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #9# 	~t4 :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #16# 	-~> org~asciidoctor~extension~BaseProcessor~~createPhraseNode~Lorg~asciidoctor~extension~BaseProcessor^Lorg~asciidoctor~ast~ContentNode^Ljava~lang~String^Ljava~util~List^ ( this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #33# 	contentNode , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #46# 	~t3 , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #56# 	username ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #9# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #9# 	~t4 ;
+
+#source-line 30
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+
+#source-line 12
+ #12# :public: :void: org~owasp~webgoat~asciidoc~UsernameMacro~~init^~Lorg~owasp~webgoat~asciidoc~UsernameMacro^Ljava~lang~String^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #12# org.owasp.webgoat.asciidoc.UsernameMacro :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #33# java.lang.String :*: macroName ) :  "init^" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #12# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+
+#source-line 13
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #9# 	-~> org~asciidoctor~extension~InlineMacroProcessor~~init^~Lorg~asciidoctor~extension~InlineMacroProcessor^Ljava~lang~String^ ( this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #15# 	macroName ) ;
+
+#source-line 12
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+
+#source-line 16
+ #12# :public: :void: org~owasp~webgoat~asciidoc~UsernameMacro~~init^~Lorg~owasp~webgoat~asciidoc~UsernameMacro^Ljava~lang~String^Ljava~util~Map^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #12# org.owasp.webgoat.asciidoc.UsernameMacro :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #33# java.lang.String :*: macroName , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #64# java.util.Map :*: config ) :  "init^" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #12# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+
+#source-line 17
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #9# 	-~> org~asciidoctor~extension~InlineMacroProcessor~~init^~Lorg~asciidoctor~extension~InlineMacroProcessor^Ljava~lang~String^Ljava~util~Map^ ( this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #15# 	macroName , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #26# 	config ) ;
+
+#source-line 16
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+
+#source-line 10
+ #14# :public: :static: :void: org~owasp~webgoat~asciidoc~UsernameMacro~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\asciidoc\UsernameMacro.java
+ #14# {
+}
+#source-line 10
+}
+	
+:public: :abstract::class: org.asciidoctor.extension.InlineMacroProcessor :extends: org.asciidoctor.extension.MacroProcessor :"org.asciidoctor.extension":"InlineMacroProcessor"{
+	
+ :public: :void: org~asciidoctor~extension~InlineMacroProcessor~~init^~Lorg~asciidoctor~extension~InlineMacroProcessor^ ( org.asciidoctor.extension.InlineMacroProcessor :*: ) :  "InlineMacroProcessor" ;
+:public: :void: org~asciidoctor~extension~InlineMacroProcessor~~init^~Lorg~asciidoctor~extension~InlineMacroProcessor^Ljava~lang~String^ ( org.asciidoctor.extension.InlineMacroProcessor :*: , java.lang.String :*: ) :  "InlineMacroProcessor" ;
+:public: :void: org~asciidoctor~extension~InlineMacroProcessor~~init^~Lorg~asciidoctor~extension~InlineMacroProcessor^Ljava~lang~String^Ljava~util~Map^ ( org.asciidoctor.extension.InlineMacroProcessor :*: , java.lang.String :*: , java.util.Map :*: ) :  "InlineMacroProcessor" ;
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+}
+	
+:public: :interface::class: org.asciidoctor.ast.ContentNode :extends: java.lang.Object :"org.asciidoctor.ast":"ContentNode"{
+	
+ :public: :abstract: java.lang.String :*: org~asciidoctor~ast~ContentNode~~getContext~Lorg~asciidoctor~ast~ContentNode^ ( org.asciidoctor.ast.ContentNode :*: ) :  "getContext" ;
+}
+	
+:public: :final::class: java.lang.String :extends: java.lang.Object java.io.Serializable java.lang.Comparable java.lang.CharSequence :"java.lang":"String"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~String~~getBytes~Ljava~lang~String^Ljava~lang~String^~throws;
+ :public: :void: java~lang~String~~init^~Ljava~lang~String^ ( java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~String^ ( java.lang.String :*: , java.lang.String :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^ ( java.lang.String :*: , :char: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^ ( java.lang.String :*: , :byte: [] ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuffer^ ( java.lang.String :*: , java.lang.StringBuffer :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^Ljava~lang~StringBuilder^ ( java.lang.String :*: , java.lang.StringBuilder :*: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^ ( java.lang.String :*: , :byte: [] , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , java.nio.charset.Charset :*: ) :  "String" ;
+:void: java~lang~String~~init^~Ljava~lang~String^?C^Z^ ( java.lang.String :*: , :char: [] , :boolean: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?C^I^I^ ( java.lang.String :*: , :char: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?I^I^I^ ( java.lang.String :*: , :int: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^I^ ( java.lang.String :*: , :byte: [] , :int: , :int: , :int: ) :  "String" ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~lang~String^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.lang.String :*: ) :  "String"  :exceptions:  java.io.UnsupportedEncodingException :*: ;
+:public: :void: java~lang~String~~init^~Ljava~lang~String^?B^I^I^Ljava~nio~charset~Charset^ ( java.lang.String :*: , :byte: [] , :int: , :int: , java.nio.charset.Charset :*: ) :  "String" ;
+}
+	
+:public: :interface::class: java.util.Map :extends: java.lang.Object :"java.util":"Map"{
+	
+}
+	
+ :public: :annotation::class: java.lang.Override :extends: java.lang.annotation.Annotation :"java.lang":"Override"{
+	
+}
+	
+ :public::class: var :extends: java.lang.Object :"org.owasp.webgoat.asciidoc":"var"{
+	
+}
+	
+ :public: :interface::class: org.springframework.security.core.context.SecurityContext :extends: java.io.Serializable :"org.springframework.security.core.context":"SecurityContext"{
+	
+ :public: :abstract: org.springframework.security.core.Authentication :*: org~springframework~security~core~context~SecurityContext~~getAuthentication~Lorg~springframework~security~core~context~SecurityContext^ ( org.springframework.security.core.context.SecurityContext :*: ) :  "getAuthentication" ;
+}
+	
+:public::class: org.springframework.security.core.context.SecurityContextHolder :extends: java.lang.Object :"org.springframework.security.core.context":"SecurityContextHolder"{
+	
+ :public: :void: org~springframework~security~core~context~SecurityContextHolder~~init^~Lorg~springframework~security~core~context~SecurityContextHolder^ ( org.springframework.security.core.context.SecurityContextHolder :*: ) :  "SecurityContextHolder" ;
+:public: :static: org.springframework.security.core.context.SecurityContext :*: org~springframework~security~core~context~SecurityContextHolder~~getContext~S~ ( ) :  "getContext" ;
+}
+	
+:public::class: var :extends: java.lang.Object :"org.owasp.webgoat.asciidoc":"var"{
+	
+}
+	
+ :public::class: org.owasp.webgoat.users.WebGoatUser :extends: java.lang.Object org.springframework.security.core.userdetails.UserDetails :"org.owasp.webgoat.users":"WebGoatUser"{
+	
+ :protected: :void: org~owasp~webgoat~users~WebGoatUser~~init^~Lorg~owasp~webgoat~users~WebGoatUser^ ( org.owasp.webgoat.users.WebGoatUser :*: ) :  "WebGoatUser" ;
+:public: :void: org~owasp~webgoat~users~WebGoatUser~~init^~Lorg~owasp~webgoat~users~WebGoatUser^Ljava~lang~String^Ljava~lang~String^ ( org.owasp.webgoat.users.WebGoatUser :*: , java.lang.String :*: , java.lang.String :*: ) :  "WebGoatUser" ;
+:public: :void: org~owasp~webgoat~users~WebGoatUser~~init^~Lorg~owasp~webgoat~users~WebGoatUser^Ljava~lang~String^Ljava~lang~String^Ljava~lang~String^ ( org.owasp.webgoat.users.WebGoatUser :*: , java.lang.String :*: , java.lang.String :*: , java.lang.String :*: ) :  "WebGoatUser" ;
+:public: java.lang.String :*: org~owasp~webgoat~users~WebGoatUser~~getUsername~Lorg~owasp~webgoat~users~WebGoatUser^ ( org.owasp.webgoat.users.WebGoatUser :*: ) :  "getUsername" ;
+}
+	
+:public::class: org.asciidoctor.extension.BaseProcessor :extends: java.lang.Object org.asciidoctor.extension.Processor :"org.asciidoctor.extension":"BaseProcessor"{
+	
+ :public: :void: org~asciidoctor~extension~BaseProcessor~~init^~Lorg~asciidoctor~extension~BaseProcessor^ ( org.asciidoctor.extension.BaseProcessor :*: ) :  "BaseProcessor" ;
+:public: :void: org~asciidoctor~extension~BaseProcessor~~init^~Lorg~asciidoctor~extension~BaseProcessor^Ljava~util~Map^ ( org.asciidoctor.extension.BaseProcessor :*: , java.util.Map :*: ) :  "BaseProcessor" ;
+:public: org.asciidoctor.ast.PhraseNode :*: org~asciidoctor~extension~BaseProcessor~~createPhraseNode~Lorg~asciidoctor~extension~BaseProcessor^Lorg~asciidoctor~ast~ContentNode^Ljava~lang~String^Ljava~util~List^ ( org.asciidoctor.extension.BaseProcessor :*: , org.asciidoctor.ast.ContentNode :*: , java.lang.String :*: , java.util.List :*: ) :  "createPhraseNode" ;
+:public: org.asciidoctor.ast.PhraseNode :*: org~asciidoctor~extension~BaseProcessor~~createPhraseNode~Lorg~asciidoctor~extension~BaseProcessor^Lorg~asciidoctor~ast~ContentNode^Ljava~lang~String^Ljava~lang~String^ ( org.asciidoctor.extension.BaseProcessor :*: , org.asciidoctor.ast.ContentNode :*: , java.lang.String :*: , java.lang.String :*: ) :  "createPhraseNode" ;
+:public: org.asciidoctor.ast.PhraseNode :*: org~asciidoctor~extension~BaseProcessor~~createPhraseNode~Lorg~asciidoctor~extension~BaseProcessor^Lorg~asciidoctor~ast~ContentNode^Ljava~lang~String^Ljava~util~List^Ljava~util~Map^ ( org.asciidoctor.extension.BaseProcessor :*: , org.asciidoctor.ast.ContentNode :*: , java.lang.String :*: , java.util.List :*: , java.util.Map :*: ) :  "createPhraseNode" ;
+:public: org.asciidoctor.ast.PhraseNode :*: org~asciidoctor~extension~BaseProcessor~~createPhraseNode~Lorg~asciidoctor~extension~BaseProcessor^Lorg~asciidoctor~ast~ContentNode^Ljava~lang~String^Ljava~lang~String^Ljava~util~Map^ ( org.asciidoctor.extension.BaseProcessor :*: , org.asciidoctor.ast.ContentNode :*: , java.lang.String :*: , java.lang.String :*: , java.util.Map :*: ) :  "createPhraseNode" ;
+:public: org.asciidoctor.ast.PhraseNode :*: org~asciidoctor~extension~BaseProcessor~~createPhraseNode~Lorg~asciidoctor~extension~BaseProcessor^Lorg~asciidoctor~ast~ContentNode^Ljava~lang~String^Ljava~util~List^Ljava~util~Map^Ljava~util~Map^ ( org.asciidoctor.extension.BaseProcessor :*: , org.asciidoctor.ast.ContentNode :*: , java.lang.String :*: , java.util.List :*: , java.util.Map :*: , java.util.Map :*: ) :  "createPhraseNode" ;
+:public: org.asciidoctor.ast.PhraseNode :*: org~asciidoctor~extension~BaseProcessor~~createPhraseNode~Lorg~asciidoctor~extension~BaseProcessor^Lorg~asciidoctor~ast~ContentNode^Ljava~lang~String^Ljava~lang~String^Ljava~util~Map^Ljava~util~Map^ ( org.asciidoctor.extension.BaseProcessor :*: , org.asciidoctor.ast.ContentNode :*: , java.lang.String :*: , java.lang.String :*: , java.util.Map :*: , java.util.Map :*: ) :  "createPhraseNode" ;
+}
+	
+:public: :abstract::class: org.asciidoctor.extension.MacroProcessor :extends: org.asciidoctor.extension.BaseProcessor :"org.asciidoctor.extension":"MacroProcessor"{
+	
+ :public: :void: org~asciidoctor~extension~MacroProcessor~~init^~Lorg~asciidoctor~extension~MacroProcessor^Ljava~lang~String^ ( org.asciidoctor.extension.MacroProcessor :*: , java.lang.String :*: ) :  "MacroProcessor" ;
+:public: :void: org~asciidoctor~extension~MacroProcessor~~init^~Lorg~asciidoctor~extension~MacroProcessor^Ljava~lang~String^Ljava~util~Map^ ( org.asciidoctor.extension.MacroProcessor :*: , java.lang.String :*: , java.util.Map :*: ) :  "MacroProcessor" ;
+:public: :abstract: java.lang.Object :*: org~asciidoctor~extension~MacroProcessor~~process~Lorg~asciidoctor~extension~MacroProcessor^Lorg~asciidoctor~ast~ContentNode^Ljava~lang~String^Ljava~util~Map^ ( org.asciidoctor.extension.MacroProcessor :*: , org.asciidoctor.ast.ContentNode :*: , java.lang.String :*: , java.util.Map :*: ) :  "process" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
+ :public: :interface::class: java.lang.Comparable :extends: java.lang.Object :"java.lang":"Comparable"{
+	
+}
+	
+ :public: :interface::class: java.lang.CharSequence :extends: java.lang.Object :"java.lang":"CharSequence"{
+	
+}
+	
+ :public: :final::class: java.lang.StringBuffer :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuffer"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~readObject~Ljava~lang~StringBuffer^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuffer~~writeObject~Ljava~lang~StringBuffer^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^ ( java.lang.StringBuffer :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^I^ ( java.lang.StringBuffer :*: , :int: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~String^ ( java.lang.StringBuffer :*: , java.lang.String :*: ) :  "StringBuffer" ;
+:public: :void: java~lang~StringBuffer~~init^~Ljava~lang~StringBuffer^Ljava~lang~CharSequence^ ( java.lang.StringBuffer :*: , java.lang.CharSequence :*: ) :  "StringBuffer" ;
+}
+	
+:public: :final::class: java.lang.StringBuilder :extends: java.lang.AbstractStringBuilder java.io.Serializable java.lang.CharSequence :"java.lang":"StringBuilder"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~readObject~Ljava~lang~StringBuilder^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~StringBuilder~~writeObject~Ljava~lang~StringBuilder^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^ ( java.lang.StringBuilder :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^I^ ( java.lang.StringBuilder :*: , :int: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~String^ ( java.lang.StringBuilder :*: , java.lang.String :*: ) :  "StringBuilder" ;
+:public: :void: java~lang~StringBuilder~~init^~Ljava~lang~StringBuilder^Ljava~lang~CharSequence^ ( java.lang.StringBuilder :*: , java.lang.CharSequence :*: ) :  "StringBuilder" ;
+}
+	
+:public::class: java.io.UnsupportedEncodingException :extends: java.io.IOException :"java.io":"UnsupportedEncodingException"{
+	
+ :public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^ ( java.io.UnsupportedEncodingException :*: ) :  "UnsupportedEncodingException" ;
+:public: :void: java~io~UnsupportedEncodingException~~init^~Ljava~io~UnsupportedEncodingException^Ljava~lang~String^ ( java.io.UnsupportedEncodingException :*: , java.lang.String :*: ) :  "UnsupportedEncodingException" ;
+}
+	
+:public: :abstract::class: java.nio.charset.Charset :extends: java.lang.Object java.lang.Comparable :"java.nio.charset":"Charset"{
+	
+ :protected: :void: java~nio~charset~Charset~~init^~Ljava~nio~charset~Charset^Ljava~lang~String^?Ljava~lang~String^ ( java.nio.charset.Charset :*: , java.lang.String :*: , java.lang.String :*: [] ) :  "Charset" ;
+}
+	
+:public: :interface::class: java.lang.annotation.Annotation :extends: java.lang.Object :"java.lang.annotation":"Annotation"{
+	
+}
+	
+ :public: :interface::class: org.springframework.security.core.Authentication :extends: java.security.Principal java.io.Serializable :"org.springframework.security.core":"Authentication"{
+	
+ :public: :static: java.lang.Throwable :*: org~springframework~security~core~Authentication~~setAuthenticated~Lorg~springframework~security~core~Authentication^Z^~throws;
+ :public: :abstract: java.lang.Object :*: org~springframework~security~core~Authentication~~getPrincipal~Lorg~springframework~security~core~Authentication^ ( org.springframework.security.core.Authentication :*: ) :  "getPrincipal" ;
+}
+	
+:public: :interface::class: org.springframework.security.core.userdetails.UserDetails :extends: java.io.Serializable :"org.springframework.security.core.userdetails":"UserDetails"{
+	
+ :public: :abstract: java.lang.String :*: org~springframework~security~core~userdetails~UserDetails~~getUsername~Lorg~springframework~security~core~userdetails~UserDetails^ ( org.springframework.security.core.userdetails.UserDetails :*: ) :  "getUsername" ;
+}
+	
+:public: :interface::class: org.asciidoctor.extension.Processor :extends: java.lang.Object :"org.asciidoctor.extension":"Processor"{
+	
+ :public: :abstract: org.asciidoctor.ast.PhraseNode :*: org~asciidoctor~extension~Processor~~createPhraseNode~Lorg~asciidoctor~extension~Processor^Lorg~asciidoctor~ast~ContentNode^Ljava~lang~String^Ljava~util~List^ ( org.asciidoctor.extension.Processor :*: , org.asciidoctor.ast.ContentNode :*: , java.lang.String :*: , java.util.List :*: ) :  "createPhraseNode" ;
+:public: :abstract: org.asciidoctor.ast.PhraseNode :*: org~asciidoctor~extension~Processor~~createPhraseNode~Lorg~asciidoctor~extension~Processor^Lorg~asciidoctor~ast~ContentNode^Ljava~lang~String^Ljava~lang~String^ ( org.asciidoctor.extension.Processor :*: , org.asciidoctor.ast.ContentNode :*: , java.lang.String :*: , java.lang.String :*: ) :  "createPhraseNode" ;
+:public: :abstract: org.asciidoctor.ast.PhraseNode :*: org~asciidoctor~extension~Processor~~createPhraseNode~Lorg~asciidoctor~extension~Processor^Lorg~asciidoctor~ast~ContentNode^Ljava~lang~String^Ljava~util~List^Ljava~util~Map^ ( org.asciidoctor.extension.Processor :*: , org.asciidoctor.ast.ContentNode :*: , java.lang.String :*: , java.util.List :*: , java.util.Map :*: ) :  "createPhraseNode" ;
+:public: :abstract: org.asciidoctor.ast.PhraseNode :*: org~asciidoctor~extension~Processor~~createPhraseNode~Lorg~asciidoctor~extension~Processor^Lorg~asciidoctor~ast~ContentNode^Ljava~lang~String^Ljava~lang~String^Ljava~util~Map^ ( org.asciidoctor.extension.Processor :*: , org.asciidoctor.ast.ContentNode :*: , java.lang.String :*: , java.lang.String :*: , java.util.Map :*: ) :  "createPhraseNode" ;
+:public: :abstract: org.asciidoctor.ast.PhraseNode :*: org~asciidoctor~extension~Processor~~createPhraseNode~Lorg~asciidoctor~extension~Processor^Lorg~asciidoctor~ast~ContentNode^Ljava~lang~String^Ljava~util~List^Ljava~util~Map^Ljava~util~Map^ ( org.asciidoctor.extension.Processor :*: , org.asciidoctor.ast.ContentNode :*: , java.lang.String :*: , java.util.List :*: , java.util.Map :*: , java.util.Map :*: ) :  "createPhraseNode" ;
+:public: :abstract: org.asciidoctor.ast.PhraseNode :*: org~asciidoctor~extension~Processor~~createPhraseNode~Lorg~asciidoctor~extension~Processor^Lorg~asciidoctor~ast~ContentNode^Ljava~lang~String^Ljava~lang~String^Ljava~util~Map^Ljava~util~Map^ ( org.asciidoctor.extension.Processor :*: , org.asciidoctor.ast.ContentNode :*: , java.lang.String :*: , java.lang.String :*: , java.util.Map :*: , java.util.Map :*: ) :  "createPhraseNode" ;
+}
+	
+:public: :interface::class: org.asciidoctor.ast.PhraseNode :extends: org.asciidoctor.ast.ContentNode :"org.asciidoctor.ast":"PhraseNode"{
+	
+}
+	
+ :public: :interface::class: java.util.List :extends: java.util.Collection :"java.util":"List"{
+	
+}
+	
+ :abstract::class: java.lang.AbstractStringBuilder :extends: java.lang.Object java.lang.Appendable java.lang.CharSequence :"java.lang":"AbstractStringBuilder"{
+	
+ :void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^ ( java.lang.AbstractStringBuilder :*: ) :  "AbstractStringBuilder" ;
+:void: java~lang~AbstractStringBuilder~~init^~Ljava~lang~AbstractStringBuilder^I^ ( java.lang.AbstractStringBuilder :*: , :int: ) :  "AbstractStringBuilder" ;
+}
+	
+:public::class: java.io.IOException :extends: java.lang.Exception :"java.io":"IOException"{
+	
+ :public: :void: java~io~IOException~~init^~Ljava~io~IOException^ ( java.io.IOException :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^ ( java.io.IOException :*: , java.lang.String :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.Throwable :*: ) :  "IOException" ;
+:public: :void: java~io~IOException~~init^~Ljava~io~IOException^Ljava~lang~String^Ljava~lang~Throwable^ ( java.io.IOException :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "IOException" ;
+}
+	
+:public: :interface::class: java.security.Principal :extends: java.lang.Object :"java.security":"Principal"{
+	
+}
+	
+ :public: :interface::class: java.util.Collection :extends: java.lang.Iterable :"java.util":"Collection"{
+	
+}
+	
+ :public: :interface::class: java.lang.Appendable :extends: java.lang.Object :"java.lang":"Appendable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^C^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Appendable~~append~Ljava~lang~Appendable^Ljava~lang~CharSequence^I^I^~throws;
+}
+	
+ :public::class: java.lang.Exception :extends: java.lang.Throwable :"java.lang":"Exception"{
+	
+ :public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^ ( java.lang.Exception :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^ ( java.lang.Exception :*: , java.lang.String :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:public: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Exception" ;
+:protected: :void: java~lang~Exception~~init^~Ljava~lang~Exception^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Exception :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Exception" ;
+}
+	
+:public::class: java.lang.Throwable :extends: java.lang.Object java.io.Serializable :"java.lang":"Throwable"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~readObject~Ljava~lang~Throwable^Ljava~io~ObjectInputStream^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Throwable~~writeObject~Ljava~lang~Throwable^Ljava~io~ObjectOutputStream^~throws;
+ :public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^ ( java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^ ( java.lang.Throwable :*: , java.lang.String :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:public: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: ) :  "Throwable" ;
+:protected: :void: java~lang~Throwable~~init^~Ljava~lang~Throwable^Ljava~lang~String^Ljava~lang~Throwable^Z^Z^ ( java.lang.Throwable :*: , java.lang.String :*: , java.lang.Throwable :*: , :boolean: , :boolean: ) :  "Throwable" ;
+}
+	
+:public: :interface::class: java.lang.Iterable :extends: java.lang.Object :"java.lang":"Iterable"{
+	
+}
+	

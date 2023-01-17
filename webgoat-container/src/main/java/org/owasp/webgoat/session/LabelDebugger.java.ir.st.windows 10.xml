@@ -1,0 +1,152 @@
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+#source-type java
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+
+#source-line 1
+ #1# 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+
+#source-line 11
+ #14# :public::class: org.owasp.webgoat.session.LabelDebugger :extends: java.io.Serializable java.lang.Object :"org.owasp.webgoat.session":"LabelDebugger"{
+	
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+
+#source-line 13
+ #21# :private: :boolean: enabled;
+ 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+
+#source-line 20
+ #20# :public: :boolean: org~owasp~webgoat~session~LabelDebugger~~isEnabled~Lorg~owasp~webgoat~session~LabelDebugger^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #20# org.owasp.webgoat.session.LabelDebugger :*: this~ ) :  "isEnabled" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #32# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+
+#source-line 21
+ #9# 	:return: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #16# 	[ org.owasp.webgoat.session.LabelDebugger ] ( this~ ) :.: enabled ;
+
+#source-line 22
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+
+#source-line 27
+ #17# :public: :void: org~owasp~webgoat~session~LabelDebugger~~enable~Lorg~owasp~webgoat~session~LabelDebugger^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #17# org.owasp.webgoat.session.LabelDebugger :*: this~ ) :  "enable" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #26# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+
+#source-line 28
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #9# 	[ org.owasp.webgoat.session.LabelDebugger ] ( this~ ) :.: enabled :=: :true: ;
+
+#source-line 29
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+
+#source-line 34
+ #17# :public: :void: org~owasp~webgoat~session~LabelDebugger~~disable~Lorg~owasp~webgoat~session~LabelDebugger^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #17# org.owasp.webgoat.session.LabelDebugger :*: this~ ) :  "disable" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #27# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+
+#source-line 35
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #9# 	[ org.owasp.webgoat.session.LabelDebugger ] ( this~ ) :.: enabled :=: :false: ;
+
+#source-line 36
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+
+#source-line 42
+ #17# :public: :void: org~owasp~webgoat~session~LabelDebugger~~setEnabled~Lorg~owasp~webgoat~session~LabelDebugger^Z^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #17# org.owasp.webgoat.session.LabelDebugger :*: this~ , 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #36# :boolean: enabled ) :  "setEnabled" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #46# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+
+#source-line 43
+ #9# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #9# 	[ org.owasp.webgoat.session.LabelDebugger ] ( this~ ) :.: enabled :=: 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #24# 	enabled ;
+
+#source-line 44
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+
+#source-line 11
+ #14# :public: :void: org~owasp~webgoat~session~LabelDebugger~~init^~Lorg~owasp~webgoat~session~LabelDebugger^ ( 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #14# org.owasp.webgoat.session.LabelDebugger :*: this~ ) :  "init^" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #14# {
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #14# 	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #14# 	-~> java~lang~Object~~init^~Ljava~lang~Object^ ( this~ ) ;
+	
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #14# 	{
+		
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+
+#source-line 13
+ #21# 		{
+			
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #21# 			
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #21# 			[ org.owasp.webgoat.session.LabelDebugger ] ( this~ ) :.: enabled :=: :false: ;
+		}
+
+#source-line 11
+	}
+}
+
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #14# :public: :static: :void: org~owasp~webgoat~session~LabelDebugger~~clinit^~S~ ( ) :  "clinit^" 
+#source-file webgoat-container\src\main\java\org\owasp\webgoat\session\LabelDebugger.java
+ #14# {
+}
+#source-line 11
+}
+	
+:public::class: java.lang.Object:"java.lang":"Object"{
+	
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~clone~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~finalize~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^~throws;
+ :public: :static: java.lang.Throwable :*: java~lang~Object~~wait~Ljava~lang~Object^J^I^~throws;
+ :public: :void: java~lang~Object~~init^~Ljava~lang~Object^ ( java.lang.Object :*: ) :  "Object" ;
+}
+	
+:public: :interface::class: java.io.Serializable :extends: java.lang.Object :"java.io":"Serializable"{
+	
+}
+	
